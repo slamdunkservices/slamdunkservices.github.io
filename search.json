@@ -1,16 +1,23 @@
 [
   {
+    "objectID": "subscribe.html",
+    "href": "subscribe.html",
+    "title": "Subscribe",
+    "section": "",
+    "text": "All of the good stuff is in the DISCORD. Subscribe today to get the best rate! And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Slam Dunk",
+    "title": "Welcome",
     "section": "",
-    "text": "Welcome to Slam Dunk!\nWe have the best data and analysis for first basket NBA props, including:\n\nFirst basket (field goal or points)\nFirst basket by team\nFirst basket exact methods\nPlayer to win the tipoff\nFirst team to score (and exact methods)\nPlayer to NOT score first\n\nSportsbooks are evil and want you to make bad decisions. Slam Dunk arms you with the best tools to make better decisions!"
+    "text": "Welcome to Slam Dunk!\nSportsbooks are evil and want you to make bad decisions. Slam Dunk arms you with the best tools to make better decisions!\nWe have the best data and analysis for first basket NBA props, including:\n\nFirst basket (field goal or points)\nFirst basket by team\nFirst basket exact methods\nPlayer to win the tipoff\nFirst team to score (and exact methods)\nPlayer to NOT score first"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Slam Dunk is a group of data professionals (scientists, engineers, analysts) who were working together in day jobs when sports betting was legalized in Illinois.\nWe built a set of tools to pull data from the NBA and use it to train models to predict the probability of events in NBA games.\nWe also developed tools that check the odds at sportsbooks to identify plays where our models suggest the sportsbooks’ have favorable odds, and that alert us when edges appear."
+    "text": "Slam Dunk is a group of data professionals (scientists, engineers, analysts) who were working together in day jobs when sports betting was legalized in Illinois.\nWe built a set of tools to pull data from the NBA and use it to train models to predict the probability of events in NBA games.\nWe also developed tools that check the odds at sportsbooks to identify plays where our models suggest an edge, and then alert us when edges appear.\nIt turns out, the sportsbooks don’t like it when you win a lot, and so they’ve done their best to limit our accounts. Slam Dunk is our way attempt to make them regret that decision!"
   }
 ]
