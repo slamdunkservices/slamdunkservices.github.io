@@ -1,16 +1,16 @@
 ---
-title: "Slam Dunk"
+title: "Welcome"
 ---
 
 Welcome to Slam Dunk!
 
+Sportsbooks are evil and want you to make bad decisions. Slam Dunk arms you with the best tools to make better decisions!
+
 We have the best data and analysis for first basket NBA props, including:
 
-- First basket (field goal or points)
-- First basket by team
-- First basket exact methods
-- Player to win the tipoff
-- First team to score (and exact methods)
-- Player to NOT score first
-
-Sportsbooks are evil and want you to make bad decisions. Slam Dunk arms you with the best tools to make better decisions!
+-   First basket (field goal or points)
+-   First basket by team
+-   First basket exact methods
+-   Player to win the tipoff
+-   First team to score (and exact methods)
+-   Player to NOT score first

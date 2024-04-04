@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "slamdunkservices.github.io"
+  title: "Slam Dunk"
   navbar:
     left:
       - href: index.qmd
