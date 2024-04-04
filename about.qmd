@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Slam Dunk is a group of data professionals (scientists, engineers, analysts) who were working together in day jobs when sports betting was legalized in Illinois. 
+We built a set of tools to pull data from the NBA and use it to train models to predict the probability of events in NBA games.
+We also developed tools that check the odds at sportsbooks to identify plays where our models suggest the sportsbooks' have favorable odds, and that alert us when edges appear.
