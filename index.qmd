@@ -1,7 +1,3 @@
----
-title: "Welcome"
----
-
 Welcome to Slam Dunk!
 
 Sportsbooks are evil and want you to make bad decisions. Slam Dunk arms you with the best tools to make better decisions!
@@ -14,3 +10,9 @@ We have the best data and analysis for first basket NBA props, including:
 -   Player to win the tipoff
 -   First team to score (and exact methods)
 -   Player to NOT score first
+
+We've been using ML and AI to identify the best picks since sports betting apps were legalized. We're always adding new books and prop markets to our tools and projections.
+
+------------------------------------------------------------------------
+
+*Set limits, and gamble responsibly! Gambling is addictive, including sports betting, and if you or someone you know is suffering from the consequences of problem gambling, don't wait to get help.*

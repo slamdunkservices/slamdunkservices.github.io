@@ -5,8 +5,6 @@ website:
   title: "Slam Dunk"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - about.qmd
       - subscribe.qmd
 
@@ -14,7 +12,6 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
 
 editor: visual
 
