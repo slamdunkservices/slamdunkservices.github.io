@@ -2,6 +2,8 @@ project:
   type: website
 
 website:
+  open-graph: true
+  favicon: images/Basketball_hitting_a_basketball_goal.jpg
   title: "Slam Dunk"
   navbar:
     left:
