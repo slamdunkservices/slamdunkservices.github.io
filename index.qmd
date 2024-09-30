@@ -1,4 +1,4 @@
-Welcome to Slam Dunk!
+## Welcome to Slam Dunk!
 
 Sportsbooks are evil and want you to make bad decisions. Slam Dunk arms you with the best tools to make better decisions!
 
