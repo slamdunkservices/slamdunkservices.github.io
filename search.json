@@ -2,22 +2,22 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About 🤓🧮🤖",
     "section": "",
-    "text": "Slam Dunk is a group of data professionals (scientists, engineers, analysts) who were working together in day jobs when sports betting was legalized in Illinois.\nWe built a set of tools to pull data from the NBA and use it to train models to predict the probability of events in NBA games.\nWe also developed tools that check the odds at sportsbooks to identify plays where our models suggest an edge, and then alert us when edges appear.\nIt turns out, the sportsbooks don’t like it when you win a lot, and so they’ve done their best to limit our accounts. Slam Dunk is our way attempt to make them regret that decision!"
+    "text": "About 🤓🧮🤖\n\nWe’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game.\n\n\nThen we check the odds at the most popular sportsbooks throughout the day, and use artificial intelligence to spot and alert our users on plays with positive expected value (+EV).\n\n\nWe’re always adding new markets and books to our tools. Subscribe today!"
   },
   {
     "objectID": "subscribe.html",
     "href": "subscribe.html",
-    "title": "Subscribe",
+    "title": "Subscribe 🪧🆙",
     "section": "",
-    "text": "All of the good stuff is in the Slam Dunk Discord server which you can subscribe to via WHOP.\n(And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee.)"
+    "text": "Subscribe 🪧🆙\n\nAll of first basket projection data and alerted plays are exclusively found in the Slam Dunk Discord server, via WHOP.\n\n(And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee.)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to Slam Dunk",
+    "title": "Welcome to Slam Dunk Bets 🏀💰",
     "section": "",
-    "text": "Welcome to Slam Dunk\nWe’re a bunch of data scientists and engineers who use machine learning and artificial intelligence project who will score first, and how they’ll do it, for every NBA and WNBA game.\nThen we check odds of the most popular sportsbooks throughout the day, and use artificial intelligence to alert our users on plays with positive expected value (+EV).\nWe’ve been using ML and AI to identify the best picks since sports betting apps were legalized. We’re always adding new books and prop markets to our tools and projections.\n\nSet limits, and gamble responsibly! Gambling is addictive, including sports betting, and if you or someone you know is suffering from the consequences of problem gambling, don’t wait to get help."
+    "text": "Welcome to Slam Dunk Bets 🏀💰\n\nWant to know more than the sports books?\n\n\nWant the best first basket plays and data?\n\n\nWe’ve been using ML and AI to identify the best picks since sports betting apps were legalized. We’re always adding new books and prop markets to our tools and projections.\n\n\nSubscribe today!\n\nSet limits, and gamble responsibly! Gambling is addictive, including sports betting, and if you or someone you know is suffering from the consequences of problem gambling, don’t wait to get help."
   }
 ]
