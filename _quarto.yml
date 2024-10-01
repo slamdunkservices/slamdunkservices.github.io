@@ -7,7 +7,13 @@ website:
     left:
       - subscribe.qmd
       - about.qmd
+      - contact.qmd
     search: false
+    tools:
+      - icon: twitter
+        href: https://x.com/slam_dunk_bets
+      - icon: discord
+        href: https://whop.com/slam-dunk-bets/
   open-graph: true
   page-footer: 
     border: false
