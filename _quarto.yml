@@ -7,9 +7,12 @@ website:
     left:
       - subscribe.qmd
       - about.qmd
-    logo: images/logo_fav.jpg
-    title: false
+    search: false
   open-graph: true
+  page-footer: 
+    border: false
+    center: "Copyright Slam Dunk Betting Services LLC, 2024"
+  search: false
   title: "Slam Dunk"
   twitter-card:
     creator: "@jimtheflash"

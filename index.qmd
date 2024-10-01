@@ -1,10 +1,12 @@
-# **Welcome to Slam Dunk**
+# **Welcome to Slam Dunk Bets 🏀💰**
 
-We're a bunch of data scientists and engineers who use machine learning and artificial intelligence project who will score first, and how they'll do it, for every NBA and WNBA game.
+### Want to know more than the sports books?
 
-Then we check odds of the most popular sportsbooks throughout the day, and use artificial intelligence to alert our users on plays with positive expected value (+EV).
+### Want the best first basket plays and data?
 
-We've been using ML and AI to identify the best picks since sports betting apps were legalized. We're always adding new books and prop markets to our tools and projections.
+### We've been using ML and AI to identify the best picks since sports betting apps were legalized. We're always adding new books and prop markets to our tools and projections.
+
+### Subscribe today!
 
 ------------------------------------------------------------------------
 
