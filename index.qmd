@@ -1,4 +1,4 @@
-# **Welcome to Slam Dunk!**
+# **Welcome to Slam Dunk**
 
 We're a bunch of data scientists and engineers who use machine learning and artificial intelligence project who will score first, and how they'll do it, for every NBA and WNBA game.
 

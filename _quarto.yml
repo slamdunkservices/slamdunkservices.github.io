@@ -2,13 +2,19 @@ project:
   type: website
 
 website:
-  open-graph: true
   favicon: images/logo_fav.jpg
-  title: "Slam Dunk"
   navbar:
     left:
       - subscribe.qmd
       - about.qmd
+    logo: images/logo_fav.jpg
+    title: false
+  open-graph: true
+  title: "Slam Dunk"
+  twitter-card:
+    creator: "@jimtheflash"
+    site: "@slam_dunk_bets"
+
 format:
   html:
     theme: litera
