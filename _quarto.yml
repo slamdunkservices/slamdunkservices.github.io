@@ -7,12 +7,11 @@ website:
   title: "Slam Dunk"
   navbar:
     left:
-      - about.qmd
       - subscribe.qmd
-
+      - about.qmd
 format:
   html:
-    theme: quartz
+    theme: litera
     css: styles.css
 
 editor: visual
