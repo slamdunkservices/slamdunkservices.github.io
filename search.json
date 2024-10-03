@@ -1,58 +1,65 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Slam Dunk",
-    "section": "",
-    "text": "We’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game.\nThen we check the odds at the most popular sportsbooks throughout the day, and use artificial intelligence to spot and alert our users every 30 minutes on plays with positive expected value (+EV).\nWe track every bet we recommend and update our ROI totals by market every day. We’re always adding new markets and books to our tools too!"
-  },
-  {
-    "objectID": "about.html#about",
-    "href": "about.html#about",
-    "title": "Slam Dunk",
-    "section": "",
-    "text": "We’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game.\nThen we check the odds at the most popular sportsbooks throughout the day, and use artificial intelligence to spot and alert our users every 30 minutes on plays with positive expected value (+EV).\nWe track every bet we recommend and update our ROI totals by market every day. We’re always adding new markets and books to our tools too!"
-  },
-  {
-    "objectID": "subscribe.html",
-    "href": "subscribe.html",
-    "title": "Slam Dunk",
-    "section": "",
-    "text": "All of first basket projection data and alerted plays are exclusively found in the Slam Dunk Discord server, administered via WHOP.\n(And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee.)"
-  },
-  {
-    "objectID": "subscribe.html#subscribe",
-    "href": "subscribe.html#subscribe",
-    "title": "Slam Dunk",
-    "section": "",
-    "text": "All of first basket projection data and alerted plays are exclusively found in the Slam Dunk Discord server, administered via WHOP.\n(And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee.)"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Slam Dunk",
-    "section": "",
-    "text": "Please send any inquiries about partnerships or collaborations to: slamdunkbettingservices at gmail dot com\nFor all other questions or support hit us up on twitter/X at @slam_dunk_bets"
-  },
-  {
-    "objectID": "contact.html#contact",
-    "href": "contact.html#contact",
-    "title": "Slam Dunk",
-    "section": "",
-    "text": "Please send any inquiries about partnerships or collaborations to: slamdunkbettingservices at gmail dot com\nFor all other questions or support hit us up on twitter/X at @slam_dunk_bets"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Slam Dunk",
+    "title": "Slam Dunk Bets",
     "section": "",
     "text": "💥 Want to know more than the sports books?\n💥 Want access to plays and data that generate 100s of units of ROI every season?\n💥 Slam Dunk has been smoking the books since 2020. Join the Discord today!\n\nSet limits, and gamble responsibly! Gambling is addictive, including sports betting, and if you or someone you know is suffering from the consequences of problem gambling, don’t wait to get help."
   },
   {
     "objectID": "index.html#welcome-to-slam-dunk-bets",
     "href": "index.html#welcome-to-slam-dunk-bets",
-    "title": "Slam Dunk",
+    "title": "Slam Dunk Bets",
     "section": "",
     "text": "💥 Want to know more than the sports books?\n💥 Want access to plays and data that generate 100s of units of ROI every season?\n💥 Slam Dunk has been smoking the books since 2020. Join the Discord today!\n\nSet limits, and gamble responsibly! Gambling is addictive, including sports betting, and if you or someone you know is suffering from the consequences of problem gambling, don’t wait to get help."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Slam Dunk Bets",
+    "section": "",
+    "text": "Please send any inquiries about partnerships or collaborations to: slamdunkbettingservices at gmail dot com\nFor all other questions or support hit us up on twitter/X at @slam_dunk_bets"
+  },
+  {
+    "objectID": "contact.html#contact",
+    "href": "contact.html#contact",
+    "title": "Slam Dunk Bets",
+    "section": "",
+    "text": "Please send any inquiries about partnerships or collaborations to: slamdunkbettingservices at gmail dot com\nFor all other questions or support hit us up on twitter/X at @slam_dunk_bets"
+  },
+  {
+    "objectID": "posts/2024-10/why-first-baskets.html",
+    "href": "posts/2024-10/why-first-baskets.html",
+    "title": "Why First Baskets?",
+    "section": "",
+    "text": "Hello, thanks for visiting - and if you’re a subscriber, thanks even more!\nSlam Dunk Bets started predicting first baskets in 2020, mostly because sports betting was just becoming legal in Illinois, and one of the sports books was running consistent specials on the market.\nWe discovered that most of the available books were offering first basket props, and that the odds usually varied from book to book.\nThe play-by-play data for NBA games was freely available, and could be parsed effectively using data science tools. This enabled us to develop models using machine learning tools to predict the likelihood of players to score first in a game.\nOnce we refined our models, we learned that first baskets were relatively predictable. “Relatively” is doing a lot of work in that sentence, of course, but by nerdy machine learning model evaluation metrics, we felt pretty good.\nIn addition, we learned that popular players were typically overpriced compared to what our models expected, which we think makes sense: popular players typically get more action from bettors, so books can get away with setting their opening prices high.\nThe inverse was also true - less popular players were often very favorably priced compared to what our models expected, i.e. they were often positive expected value (+EV). And that’s what we wanted to find!\nSo to answer the question we raised rhetorically, we started out focusing on first basket markets because: the data were available to build models; the models we built were useful at predicting the thing we wanted to predict; our model predictions enabled us to find +EV bets to make."
+  },
+  {
+    "objectID": "subscribe.html",
+    "href": "subscribe.html",
+    "title": "Slam Dunk Bets",
+    "section": "",
+    "text": "All of first basket projection data and alerted plays are exclusively found in the Slam Dunk Discord server, administered via WHOP.\n(And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee.)"
+  },
+  {
+    "objectID": "subscribe.html#subscribe",
+    "href": "subscribe.html#subscribe",
+    "title": "Slam Dunk Bets",
+    "section": "",
+    "text": "All of first basket projection data and alerted plays are exclusively found in the Slam Dunk Discord server, administered via WHOP.\n(And don’t do it through iOS if you can avoid it, Apple will charge you an extra fee.)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Slam Dunk Bets",
+    "section": "",
+    "text": "We’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game.\nThen we check the odds at the most popular sportsbooks throughout the day, and use artificial intelligence to spot and alert our users every 30 minutes on plays with positive expected value (+EV).\nWe track every bet we recommend and update our ROI totals by market every day. We’re always adding new markets and books to our tools too!"
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Slam Dunk Bets",
+    "section": "",
+    "text": "We’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game.\nThen we check the odds at the most popular sportsbooks throughout the day, and use artificial intelligence to spot and alert our users every 30 minutes on plays with positive expected value (+EV).\nWe track every bet we recommend and update our ROI totals by market every day. We’re always adding new markets and books to our tools too!"
   }
 ]
