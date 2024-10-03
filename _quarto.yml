@@ -3,23 +3,27 @@ project:
 
 website:
   favicon: images/logo_fav.jpg
+  image: images/logo_fav.jpg
   navbar:
     left:
       - subscribe.qmd
       - about.qmd
+      - blog.qmd
       - contact.qmd
     search: false
     tools:
-      - icon: twitter
-        href: https://x.com/slam_dunk_bets
       - icon: discord
         href: https://whop.com/slam-dunk-bets/
+      - icon: twitter
+        href: https://x.com/slam_dunk_bets
+      - icon: envelope
+        href: "mailto:slamdunkbettingservices@gmail.com"
   open-graph: true
   page-footer: 
     border: false
     center: "Copyright Slam Dunk Betting Services LLC, 2024"
   search: false
-  title: "Slam Dunk"
+  title: "Slam Dunk Bets"
   twitter-card:
     creator: "@jimtheflash"
     site: "@slam_dunk_bets"

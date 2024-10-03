@@ -1,0 +1,13 @@
+---
+title: Blog ✍️ 
+listing: 
+  categories: true
+  contents: posts
+  date-format: iso
+  image-align: left
+  max-description-length: 240
+  sort: "date desc"
+  type: default
+---
+
+## 

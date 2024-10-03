@@ -1,4 +1,4 @@
-## **About 🤓**
+## About 🤓
 
 We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game.
 
