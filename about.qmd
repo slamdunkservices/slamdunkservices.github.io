@@ -1,5 +1,7 @@
 ## About 🤓
 
+![](../../images/logo_fav.jpg){width="300" fig-align="center"}
+
 We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game.
 
 Then we check the odds at the most popular sportsbooks throughout the day, and use artificial intelligence to spot and alert our users every 30 minutes on plays with positive expected value (+EV).

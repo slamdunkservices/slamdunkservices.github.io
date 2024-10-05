@@ -1,0 +1,31 @@
+---
+title: "How Do You Predict First Baskets? Part 2 of ..."
+subtitle: "The Data We Use"
+author: Slam Dunk Bets
+date: 2024-10-04
+categories: [] # self-defined categories
+draft: false
+image-height: 90px
+---
+
+![](../../images/library.jpeg)
+
+First two posts in this series were very high level, now we get into some specifics. What data are we using to predict first basket outcomes?
+
+The vast majority of the information we need comes directly from the NBA's play-by-play and boxscore records. Here's an [example](https://statsdmz.nba.com/pdfs/20231225/20231225_GSWDEN_book.pdf) of what the NBA generates and freely shares for every game. Outside of the play-by-play data, we can also grab some basic player information (height, weight, age, draft position) from the NBA's player information portal.
+
+There are a couple of important data elements we use that we get from outside the NBA's records. The first is starting lineup information - it turns out, everybody and their cousin has a twitter account or website with the projected starting lineups for every game, so we use one of them (for free) for lineup info.
+
+The second is game lines from sportsbooks. The spread, total, and moneyline for NBA games typically have a lot of information in them, because it is influenced by 1) bookmakers, who have models and good info in most cases and 2) bettors, who can move the betting lines by making more and bigger wagers on one side than another. We track game lines from several sportsbooks.
+
+To be clear, we're not manually downloading a bunch of pdf's or clicking into sportsbook apps and recording the odds in a spreadsheet. We use data science tools to programmatically access data from APIs (there are dozens of them! try the [nba_api](https://pypi.org/project/nba_api/) python library if that's your jam), and add them to our data store. Most of the data we care about only update once a day, like play-by-play records from the previous day, but some of it is updated as often as every 30 minutes, like starting lineup information, and sportsbook lines.
+
+Once we get the data, we have to do a bunch of additional work, including: validating that the data are sensible and not buggy or duplicated or other things that happen to data; label when jump balls and first baskets (and first other things) happen, and who does them, and the specific method it happened; engineer common and bespoke metrics, like efficiency, and first-basket-related usage rates, conditioned on specific lineups; aggregate statistics within games, and seasons, and players, and teams, and coaches, and different combinations of those levels, using lots of different operations; create rolling window functions so we can calculate metrics in specific windows of time or stretches of games; and then lots of recoding and normalizing to get things prepped for our modeling pipelines.
+
+Whew! It sounds like a lot when its all written out like this, but most of our data pipelines run in way less than an hour.
+
+Like most curious folks, we're always on the lookout for additional data that can help our models perform better. I suspect that we're getting as much information as we can out of the play-by-play data; we might benefit from adding additional coach-specific information into the models, if we think that there are coach-related patterns that might explain some variance in first basket/early game usage and success; or similar to coaching-related variance, there's possibly some aspect of how a team is doing with respect to making the playoffs that could explain some variance as well. 
+
+The ultimate criteria for whether we use data in our models is, "does it make the model better?" Which at this point is a high bar to cross 😎 
+
+Next up is a deeper dive into the models themselves (not like a SUPER deep dive, but more than what was in the [last post](predict-first-baskets-1.qmd) on this). Thanks for reading, and thanks even more if you subscribe!
