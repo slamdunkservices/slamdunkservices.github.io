@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Slam Dunk Bets">
-<meta name="dcterms.date" content="2024-10-03">
+<meta name="dcterms.date" content="2024-10-06">
 
-<title>How Do You Predict First Baskets? Part 1 of … – Slam Dunk Bets</title>
+<title>How Do You Predict First Baskets? Part 4 of … – Slam Dunk Bets</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,12 +56,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do You Predict First Baskets? Part 1 of … – Slam Dunk Bets">
-<meta property="og:description" content="High Level Overview">
+<meta property="og:title" content="How Do You Predict First Baskets? Part 4 of … – Slam Dunk Bets">
+<meta property="og:description" content="From Predictions To Edges">
 <meta property="og:image" content="https://slamdunk.bet/posts/2024-10/images/logo_fav.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
-<meta name="twitter:title" content="How Do You Predict First Baskets? Part 1 of … – Slam Dunk Bets">
-<meta name="twitter:description" content="High Level Overview">
+<meta name="twitter:title" content="How Do You Predict First Baskets? Part 4 of … – Slam Dunk Bets">
+<meta name="twitter:description" content="From Predictions To Edges">
 <meta name="twitter:image" content="https://slamdunk.bet/posts/2024-10/images/logo_fav.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
 <meta name="twitter:site" content="@slam_dunk_bets">
@@ -120,8 +120,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do You Predict First Baskets? Part 1 of …</h1>
-<p class="subtitle lead">High Level Overview</p>
+<h1 class="title">How Do You Predict First Baskets? Part 4 of …</h1>
+<p class="subtitle lead">From Predictions To Edges</p>
 </div>
 
 
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 3, 2024</p>
+      <p class="date">October 6, 2024</p>
     </div>
   </div>
   
@@ -150,15 +150,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Our first post outlined why we bet on first baskets, but doesn’t say anything at all about how we do it. These next posts will give some more context on our approach for predicting first basket outcomes. This first post will be a super high-level run through the process. Heck, I can even make a little diagram!</p>
-<p><img src="../../images/model_flowchart.jpg" class="img-fluid"></p>
-<p>I’ll walk through the boxes and arrows.</p>
-<p>First, we get a bunch of data from different sources, most importantly play-by-play records from the NBA and WNBA.</p>
-<p>We use those data to flag the winning player for every jump ball, and who they beat, as well as which players and teams score first and how it happened.</p>
-<p>Once the data are labeled, we build models to predict the winner of a jump ball between players A and B. These models enable us to predict which team is going to possess the ball first, and knowing which team will possess the ball first is hugely predictive of which team will score first.</p>
-<p>We could stop here, because “player to win the tipoff” and “team to score first” are popular prop markets in their own rights, but we keep going! Independent of first possession, we can also model which player will score first for their team given a specific lineup; this is also a very popular (and profitable) prop market. Even more, we model out the odds of a player scoring first for their team with a specific method, like a free throw or a three pointer.</p>
-<p>Finally, we can use the outputs of the team to score first and player to score first for their team models, to estimate the odds of a player scoring first for the entire game (and the method they use). Tada!</p>
-<p>Now that you’ve got the high level view, we can start looking more specifically at different parts of the process. We can start with the data!</p>
+<p><img src="../../images/Razor_1_(PSF).png" class="img-fluid"></p>
+<p>Being able to estimate odds for first baskets is a nifty parlor trick that might give you something to talk about at a job interview or the bar or whatever, but unless we can find opportunities where our predictions can give us a betting edge, they’re not especially useful.</p>
+<p>Fortunately, we can - and do - find edges <em>aplenty!</em> Here’s how.</p>
+<p>First, and we’re sure this goes entirely without saying, we don’t EVER violate or advocate that others violate the terms and conditions of service of sportsbook apps or websites. That’d be morally wrong, and would put us at risk of having our accounts limited even further or shut down entirely (or worse!). You should never break those, or any rules. Ever. Got it? Good.</p>
+<p>That out of the way, we built some tools to get semi-realtime odds from the most popular books available in North America. This is a pain in the ass, because sportsbooks don’t want people to be able to shop around easily, and instead of putting in modernized safeguards against bad actors, the books just use the jankiest sets of data models and practices that you might expect out of a dorm room startup, which is like a “security by stupidity” strategy. We have opinions here, but we digress.</p>
+<p>Once we get the odds, we have to reconcile them with our data. Books are intentionally inconsistent with how they list player and team names, and you’d be shocked at how often they misspell things or list players on the wrong teams, so we have to do some lightweight NLP to map everything together.</p>
+<p>After that, we built tools that identify cases where a book is offering odds that are at least 1% longer than what our model predicts. To explain: odds can be translated to probabilities; we compare the probabilities from our model to the odds offered by the books; if our model predicts a player has a 10% chance to score first in the game (translates exactly to +900), but a book offers that player at odds equivalent to 11.11% (+800), we see that 11.11% - 10% = 1.11% which is greater than our threshold.</p>
+<p>We usually observe 1-6 edges <em>per game</em> at or beyond our threshold for first basket plays in both the NBA and WNBA. And that’s just for the first basket overall market - when you factor in the first basket by team and exact methods plays, we’re seeing <em>between one and two dozen</em> plays per game just on first basket markets.</p>
+<p>I know right? Bananas.</p>
+<p>Anyways, the next part of this will be about the alerts themselves, which involves some conversation about AI! Check it out, and also subscribe to the <a href="https://www.whop.com/slam-dunk-bets/">Discord</a> if you haven’t yet, it helps us make tools and content 🙏</p>
 
 
 
