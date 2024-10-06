@@ -21,7 +21,9 @@ website:
   open-graph: true
   page-footer: 
     border: false
-    center: "Copyright Slam Dunk Betting Services LLC, 2024"
+    center: |
+      21+ Only | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
+      © Slam Dunk Betting Services LLC, 2024
   search: false
   title: "Slam Dunk Bets"
   twitter-card:

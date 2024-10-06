@@ -1,0 +1,31 @@
+---
+title: "How Do You Predict First Baskets? Part 4 of ..."
+subtitle: "From Predictions To Edges"
+author: Slam Dunk Bets
+date: 2024-10-06
+categories: [] # self-defined categories
+draft: false
+image-height: 90px
+---
+
+![](../../images/Razor_1_(PSF).png)
+
+Being able to estimate odds for first baskets is a nifty parlor trick that might give you something to talk about at a job interview or the bar or whatever, but unless we can find opportunities where our predictions can give us a betting edge, they're not especially useful.
+
+Fortunately, we can - and do - find edges _aplenty!_ Here's how.
+
+First, and we're sure this goes entirely without saying, we don't EVER violate or advocate that others violate the terms and conditions of service of sportsbook apps or websites. That'd be morally wrong, and would put us at risk of having our accounts limited even further or shut down entirely (or worse!). You should never break those, or any rules. Ever. Got it? Good.
+
+That out of the way, we built some tools to get semi-realtime odds from the most popular books available in North America. This is a pain in the ass, because sportsbooks don't want people to be able to shop around easily, and instead of putting in modernized safeguards against bad actors, the books just use the jankiest sets of data models and practices that you might expect out of a dorm room startup, which is like a "security by stupidity" strategy. We have opinions here, but we digress.
+
+Once we get the odds, we have to reconcile them with our data. Books are intentionally inconsistent with how they list player and team names, and you'd be shocked at how often they misspell things or list players on the wrong teams, so we have to do some lightweight NLP to map everything together.
+
+After that, we built tools that identify cases where a book is offering odds that are at least 1% longer than what our model predicts. To explain: odds can be translated to probabilities; we compare the probabilities from our model to the odds offered by the books; if our model predicts a player has a 10% chance to score first in the game (translates exactly to +900), but a book offers that player at odds equivalent to 11.11% (+800), we see that 11.11% - 10% = 1.11% which is greater than our threshold.
+
+We usually observe 1-6 edges _per game_ at or beyond our threshold for first basket plays in both the NBA and WNBA. And that's just for the first basket overall market - when you factor in the first basket by team and exact methods plays, we're seeing _between one and two dozen_ plays per game just on first basket markets.
+
+I know right? Bananas.
+
+Anyways, the next part of this will be about the alerts themselves, which involves some conversation about AI! Check it out, and also subscribe to the [Discord](https://www.whop.com/slam-dunk-bets/) if you haven't yet, it helps us make tools and content 🙏
+
+
