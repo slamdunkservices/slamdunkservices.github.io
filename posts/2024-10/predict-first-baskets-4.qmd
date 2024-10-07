@@ -12,7 +12,7 @@ image-height: 90px
 
 Being able to estimate odds for first baskets is a nifty parlor trick that might give you something to talk about at a job interview or the bar or whatever, but unless we can find opportunities where our predictions can give us a betting edge, they're not especially useful.
 
-Fortunately, we can - and do - find edges _aplenty!_ Here's how.
+Fortunately, we can - and do - find edges *aplenty!* Here's how.
 
 First, and we're sure this goes entirely without saying, we don't EVER violate or advocate that others violate the terms and conditions of service of sportsbook apps or websites. That'd be morally wrong, and would put us at risk of having our accounts limited even further or shut down entirely (or worse!). You should never break those, or any rules. Ever. Got it? Good.
 
@@ -22,10 +22,10 @@ Once we get the odds, we have to reconcile them with our data. Books are intenti
 
 After that, we built tools that identify cases where a book is offering odds that are at least 1% longer than what our model predicts. To explain: odds can be translated to probabilities; we compare the probabilities from our model to the odds offered by the books; if our model predicts a player has a 10% chance to score first in the game (translates exactly to +900), but a book offers that player at odds equivalent to 11.11% (+800), we see that 11.11% - 10% = 1.11% which is greater than our threshold.
 
-We usually observe 1-6 edges _per game_ at or beyond our threshold for first basket plays in both the NBA and WNBA. And that's just for the first basket overall market - when you factor in the first basket by team and exact methods plays, we're seeing _between one and two dozen_ plays per game just on first basket markets.
+We usually observe 1-6 edges *per game* at or beyond our threshold for first basket plays in both the NBA and WNBA. And that's just for the first basket overall market - when you factor in the first basket by team and exact methods plays, we're seeing *between one and two dozen* plays per game just on first basket markets.
 
 I know right? Bananas.
 
+**Edited to Add:** Dang I forgot about the recommended unit size calculations when I first published this. Our unit recommendations are just [Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criterion) with a twist! We use Fully Kelly, but then we adjust based on the average unit size recommendation within a prop market, so that the average recommended bet within each market is 1 unit. This makes it a lot easier to calibrate your outlay based on a market's ROI, e.g. you can use a bigger unit for more profitable markets. (I bet people will have opinions about this.)
+
 Anyways, the next part of this will be about the alerts themselves, which involves some conversation about AI! Check it out, and also subscribe to the [Discord](https://www.whop.com/slam-dunk-bets/) if you haven't yet, it helps us make tools and content 🙏
-
-

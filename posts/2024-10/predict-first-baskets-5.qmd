@@ -1,0 +1,29 @@
+---
+title: "How Do You Predict First Baskets? Part 5 of ..."
+subtitle: "Alert Alert"
+author: Slam Dunk Bets
+date: 2024-10-07
+categories: [] # self-defined categories
+draft: false
+image-height: 90px
+---
+
+![](../../images/Action-Max-Red-Light.jpg)
+
+I think this is gonna be the last part of the "How Do You Predict First Baskets?" series of posts! Woohoo, we made it! The last post is on the alerts themselves - how do we make the edges we identify actionable for our users?
+
+We run our modeling pipeline every 30 minutes, where we both update our predictions, and update the odds from the sportsbooks. Why 30 minutes? Primarily to avoid pissing off the books and triggering security measures that could break our tools for getting the odds; 30 minutes seemed to capture the important movements that happen within the day; and 30 minute intervals captured the majority of the different tipoff times of NBA games.
+
+So every 30 minutes we have a batch of edges, and we send those to our Discord server, broken down by game, sorted by player from biggest edge to smallest, and sorted within player by books the biggest edge to smallest (we only show the edges for players, nothing that isn't positive expected value).
+
+The alerts also factor in what we've alerted on already: some players we've alrady alerted on earlier in the day, some players we've already alerted on but the edges are bigger or smaller than before, and some players are brand new.
+
+We indicate brand new players in a prop market (or teams for team-level props) with a 🚨 emoji, since these bets always require action from our users, i.e. placing new bets. Similarly, when a player we've already alerted on in the day has a new best edge for that day, we add a 🚀 to their entry; these are also cases where our users will likely want to take action and add more to their original bets.
+
+When a player's best edge is no longer at it's daily peak, we add a ⬇️ to the alert. This doesn't require action by the user, unless they missed the previous alerts or didn't place a wager then. But we include this information so that users can get an idea of how lines are moving around and when they might peak for different props or players.
+
+An engaged reader might ask, "are there peak times when lines are at their softest?" Great question! We'll tackle that one in a followup, but the answer is "Yep". More on that in a later post, so stay tuned.
+
+We're always trying to incrementally improve our alerts, by getting the odds faster (maybe someday the books will actually sell access to their odds APIs! nah jk they're cowards), and calculating predictions in advance when we can.
+
+And there it is. From data to alerts, we've covered the bases. Er, baskets. We've covered the baskets. Thanks for reading, and if you haven't, please [subscribe](https://www.whop.com/slam-dunk-bets)!
