@@ -1,0 +1,17 @@
+---
+title: "Slam Dunk 2024 WNBA Season Performance Timeline"
+subtitle: "Rollercoaster Of Love"
+author: Slam Dunk Bets
+date: 2024-10-07
+categories: [] # self-defined categories
+draft: true
+image-height: 90px
+---
+
+Here's a graph of our ROI in units over the course of the 2024 WNBA season.
+
+The horizontal axis is "bet number", which is just the index of bets we've made - far left is the first bet we made of the season, far right is the last one. The vertical axis is "units returned" which just counts the NET units returned from the bet.
+
+When the line goes up, we're winning, when it goes down, we're losing.
+
+The line ends a LOT higher than when it began.
