@@ -5,10 +5,9 @@ author: Slam Dunk Bets
 date: 2024-10-09
 categories: [] # self-defined categories
 draft: false
-image-height: 90px
 ---
 
-[ ](../../images/Analog_timepiece.jpg)
+![](/images/Analog_timepiece.jpg){width=600}
 
 We mentioned in our series on predicting first baskets that we'd look at how to time your first basket bets. There's not a "perfect" strategy but here's some strategies that sometimes seem to work:
 
