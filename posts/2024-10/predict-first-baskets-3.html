@@ -89,12 +89,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Subscribe ✅</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About 🤓</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog ✍️</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../faq.html"> 
+<span class="menu-text">FAQ 🤓</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../../images/catwalk.jpg" class="img-fluid"></p>
+<p><img src="../../images/catwalk.jpg" class="img-fluid" width="600"></p>
 <p>In the <a href="../../posts/2024-10/predict-first-baskets-2.html">previous post</a> on predicting first baskets, we walked through the data we use for the models. Next we’ll talk through the models themselves. This will get kinda long and nerdy!</p>
 <p>We build a LOT of models. For each modeling problem, we typically build three unique kinds of models (e.g.&nbsp;regression, decision trees, splines) and combine them via a technique called ensembling. Ensemble models build off the idea of the wisdom of the crowds, a phenomena where often times the average estimate of something, like the weight of a cow, from a big crowd of people, is a better predictor of that thing than the estimates of experts. In ensemble models, we replace the crowd of people with a bunch of predictions from models, and try to do some smart weighting of the different input models as we get evidence about which models are most reliable.</p>
 <p>But there’s more! Sometimes, the inputs to a model aren’t always available for every player or team - for instance, we can’t use any statistics that reference a previous season for rookies, or a 20-game average of a metric for a player or team who hasn’t played 20 games. So we build sets of models, called reduced models, to handle these different cases, and then use a process called reconciliation to align the outputs, which is important in cases where we’re using different models for different players in the same games.</p>
