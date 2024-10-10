@@ -5,12 +5,11 @@ author: Slam Dunk Bets
 date: 2024-10-03
 categories: [] # self-defined categories
 draft: false
-image-height: 90px
 ---
 
 Our first post outlined why we bet on first baskets, but doesn't say anything at all about how we do it. These next posts will give some more context on our approach for predicting first basket outcomes. This first post will be a super high-level run through the process. Heck, I can even make a little diagram!
 
-![](../../images/model_flowchart.jpg)
+![](../../images/model_flowchart.jpg){width=600}
 
 I'll walk through the boxes and arrows.
 

@@ -1,0 +1,77 @@
+## FAQ 🤓
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Who are you nerds?
+
+We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game.
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## What props do you project?
+
+Here's the current list, but we're always adding more when new props become available!
+
+For NBA:
+
+-   first basket (points and field goals)
+-   first basket exact method
+-   first basket by team
+-   first basket by team exact method
+-   win tipoff
+-   player to *not* score first basket
+-   team to score first
+-   team to score first exact method
+-   first assist
+-   first block
+-   first rebound
+-   first steal
+
+For WNBA:
+
+-   first basket (points and field goals)
+-   first basket exact method
+-   first basket by team
+-   team to score first
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Any notable first basket props you _don't_ project?
+
+We don't do first basket of second half yet. And we also don't project for games in the future (i.e. games for tomorrow). None of this is set in stone, and we do try to keep up with new props as they become available!
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Do you track your bets?
+
+We track every bet we recommend and update our ROI totals by market every day on our Discord. Our programmatically tracked betting records go back to 2022-23 NBA Season.
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## What kind of ROI are we talking about then?
+
+These are the net unit ROIs (unit sizes vary from bettor to bettor, but common units are \$100, \$10, or \$1)
+
+-   2022-23 NBA regular + playoffs: 1610 units*
+-   2023-24 NBA regular + playoffs: 1692 units
+-   2024 WNBA regular + playoffs: 393 units
+
+_* reflects a different application of kelly criterion than we used moving forward, i.e. a smaller kelly factor._
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Whoa that's a LOT, like an order of magnitude better than other handicappers. You got receipts?
+
+Yep and we update them every day, automatically.
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## Where do you get your data?
+
+We wrote about it in this [blog post](posts/2024-10/predict-first-baskets-2.qmd) where we describe the data we use to predict first baskets.
+:::
+
+::: {.callout-note collapse="true" appearance="minimal"}
+## What kinds of models we talking about here?
+
+Well hey we wrote about our models in this [blog post](posts/2024-10/predict-first-baskets-3.qmd).
+:::

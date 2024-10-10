@@ -5,7 +5,6 @@ author: Slam Dunk Bets
 date: 2024-10-07
 categories: [] # self-defined categories
 draft: true
-image-height: 90px
 ---
 
 Here's a table of the top ROI 2024 WNBA players across all of our bets, which included first basket, first basket exact method, and first basket by team.

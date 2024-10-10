@@ -5,10 +5,9 @@ author: Slam Dunk Bets
 date: 2024-10-04
 categories: [] # self-defined categories
 draft: false
-image-height: 90px
 ---
 
-![](../../images/library.jpeg)
+![](../../images/library.jpeg){width=600}
 
 First two posts in this series were very high level, now we get into some specifics. What data are we using to predict first basket outcomes?
 
@@ -24,8 +23,8 @@ Once we get the data, we have to do a bunch of additional work, including: valid
 
 Whew! It sounds like a lot when its all written out like this, but most of our data pipelines run in way less than an hour.
 
-Like most curious folks, we're always on the lookout for additional data that can help our models perform better. I suspect that we're getting as much information as we can out of the play-by-play data; we might benefit from adding additional coach-specific information into the models, if we think that there are coach-related patterns that might explain some variance in first basket/early game usage and success; or similar to coaching-related variance, there's possibly some aspect of how a team is doing with respect to making the playoffs that could explain some variance as well. 
+Like most curious folks, we're always on the lookout for additional data that can help our models perform better. I suspect that we're getting as much information as we can out of the play-by-play data; we might benefit from adding additional coach-specific information into the models, if we think that there are coach-related patterns that might explain some variance in first basket/early game usage and success; or similar to coaching-related variance, there's possibly some aspect of how a team is doing with respect to making the playoffs that could explain some variance as well.
 
-The ultimate criteria for whether we use data in our models is, "does it make the model better?" Which at this point is a high bar to cross 😎 
+The ultimate criteria for whether we use data in our models is, "does it make the model better?" Which at this point is a high bar to cross 😎
 
 Next up is a deeper dive into the models themselves (not like a SUPER deep dive, but more than what was in the [last post](predict-first-baskets-1.qmd) on this). Thanks for reading, and thanks even more if you subscribe!

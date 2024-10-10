@@ -1,7 +1,9 @@
 /* css styles */
 
 .listing-description { /* updating to make post preview blocks look like regular text */
+
     font-weight: normal;
     font-size: 1em; /* Resets the text size to normal paragraph size */
     font-family: "Times New Roman"; /* Ensures the font matches the rest of the text */
+  
 }

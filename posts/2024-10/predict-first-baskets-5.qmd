@@ -5,10 +5,9 @@ author: Slam Dunk Bets
 date: 2024-10-07
 categories: [] # self-defined categories
 draft: false
-image-height: 90px
 ---
 
-![](../../images/Action-Max-Red-Light.jpg)
+![](../../images/Action-Max-Red-Light.jpg){width=600}
 
 I think this is gonna be the last part of the "How Do You Predict First Baskets?" series of posts! Woohoo, we made it! The last post is on the alerts themselves - how do we make the edges we identify actionable for our users?
 

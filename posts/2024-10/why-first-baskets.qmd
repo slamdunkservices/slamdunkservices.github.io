@@ -4,10 +4,9 @@ author: Slam Dunk Bets
 date: 2024-10-02
 categories: [] # self-defined categories
 draft: false
-image-height: 90px
 ---
 
-![](../../images/logo_fav.jpg)
+![](../../images/logo_fav.jpg){width=600}
 
 Hello, thanks for visiting - and if you're a subscriber, thanks even more!
 

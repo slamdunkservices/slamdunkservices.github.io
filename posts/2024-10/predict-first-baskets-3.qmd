@@ -5,10 +5,9 @@ author: Slam Dunk Bets
 date: 2024-10-05
 categories: [] # self-defined categories
 draft: false
-image-height: 90px
 ---
 
-![](../../images/catwalk.jpg)
+![](../../images/catwalk.jpg){width=600}
 
 In the [previous post](predict-first-baskets-2.qmd) on predicting first baskets, we walked through the data we use for the models. Next we'll talk through the models themselves. This will get kinda long and nerdy!
 

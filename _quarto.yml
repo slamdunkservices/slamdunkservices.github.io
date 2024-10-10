@@ -7,8 +7,8 @@ website:
   navbar:
     left:
       - subscribe.qmd
-      - about.qmd
       - blog.qmd
+      - faq.qmd
       - contact.qmd
     search: false
     tools:

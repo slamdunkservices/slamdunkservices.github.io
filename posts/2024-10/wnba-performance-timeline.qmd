@@ -5,7 +5,6 @@ author: Slam Dunk Bets
 date: 2024-10-07
 categories: [] # self-defined categories
 draft: true
-image-height: 90px
 ---
 
 Here's a graph of our ROI in units over the course of the 2024 WNBA season.
