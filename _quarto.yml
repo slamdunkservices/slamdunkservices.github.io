@@ -3,6 +3,7 @@ project:
 
 website:
   favicon: images/logo_fav.jpg
+  google-analytics: "G-66MCY7L0V7"
   image: images/logo_fav.jpg
   navbar:
     left:
