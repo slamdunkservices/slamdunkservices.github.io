@@ -1,0 +1,34 @@
+---
+title: "2023-24 NBA ROI Recap: Top 5 ROI Players"
+subtitle: "Scoot Tha God"
+author: Slam Dunk Bets
+date: 2024-10-12
+categories: [] # self-defined categories
+draft: false
+---
+
+![](/images/Kick_scooters_parking.jpg)
+
+In prep for the 2024-25 NBA season we're looking back at some of the highlights from the 2023-24 season (where we were up [1692 units](nba-202324-performance.qmd)).
+
+Here were the top 5 players from 2023-24, from a net ROI perspective. We're showing how many bets we made on that player over the year (across all first basket type markets), how many wins we hit, our net ROI in units, as well as an ROI %.
+
+-   Scoot Henderson, Portland Trailblazers
+    -   102 bets, 30 wins, net 150 units, 109% ROI
+    -   He didn't always start at PG, but when he did, he was heavily involved early in the game; he wasn't efficient but could follow up a missed jumper with a tip.
+-   Bradley Beal, Phoenix Suns
+    -   149 bets, 39 wins, net 122 units, 103% ROI
+    -   Our 6th most heavily wagered, Beal was bound to be a consistent value in lineups with KD, Booker, and Nurk drawing a lot of the action.
+-   Josh Giddey, Oklahoma City Thunder
+    -   167 bets, 42 wins, net 118 units, 71% ROI
+    -   Like Beal but less efficient from an ROI perspective, we bet on Giddey to score first for the Thunder basically every game they played, more than all but 3 other players all season, while the rest of the world bet on SGA and Chet (not saying we liked it!).
+-   Andrew Wiggins, Golden State Warriors
+    -   92 bets, 31 wins, net 84 units, 112% ROI
+    -   Another part-time starter who benefited from odds depressed due to playing with superstar shooters, i.e. Steph Curry and Klay Thompson.
+-   Ivica Zubac, Los Angeles Clippers
+    -   107 bets, 23 wins, net 73 units, 59% ROI
+    -   We bet on Zoobs a lot, especially on first basket exact methods two-pointer plays and first basket by team; like most other players on this list, which is why his ROI is markedly lower than others so far.
+
+Most of those players netted us more by themselves than other services are netting in total. Fun fact though - none of the players in this list are represented in any of the top 10 single biggest wins from 2023-24. We'll check those out next.
+
+Thanks as always for reading, and please consider [subscribing](https://www.whop.com/slam-dunk-bets) if you haven't yet!
