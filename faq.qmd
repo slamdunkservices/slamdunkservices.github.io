@@ -35,7 +35,7 @@ For WNBA:
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
-## Any notable first basket props you _don't_ project?
+## Any notable first basket props you *don't* project?
 
 We don't do first basket of second half yet. And we also don't project for games in the future (i.e. games for tomorrow). None of this is set in stone, and we do try to keep up with new props as they become available!
 :::
@@ -51,11 +51,11 @@ We track every bet we recommend and update our ROI totals by market every day on
 
 These are the net unit ROIs (unit sizes vary from bettor to bettor, but common units are \$100, \$10, or \$1)
 
--   2022-23 NBA regular + playoffs: 1610 units*
 -   2023-24 NBA regular + playoffs: 1692 units
--   2024 WNBA regular + playoffs: 393 units
+-   2024 WNBA regular + playoffs: 418 units
+-   2022-23 NBA regular + playoffs: 1610 units\*
 
-_* reflects a different application of kelly criterion than we used moving forward, i.e. a smaller kelly factor._
+*\* reflects a different application of kelly criterion than we used moving forward, i.e. a smaller kelly factor.*
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
