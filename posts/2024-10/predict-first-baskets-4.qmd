@@ -7,7 +7,7 @@ categories: [] # self-defined categories
 draft: false
 ---
 
-![](../../images/Razor_1_(PSF).png){width=600}
+![](../../images/Razor_1_(PSF).png){width="600"}
 
 Being able to estimate odds for first baskets is a nifty parlor trick that might give you something to talk about at a job interview or the bar or whatever, but unless we can find opportunities where our predictions can give us a betting edge, they're not especially useful.
 
@@ -20,6 +20,8 @@ That out of the way, we built some tools to get semi-realtime odds from the most
 Once we get the odds, we have to reconcile them with our data. Books are intentionally inconsistent with how they list player and team names, and you'd be shocked at how often they misspell things or list players on the wrong teams, so we have to do some lightweight NLP to map everything together.
 
 After that, we built tools that identify cases where a book is offering odds that are at least 1% longer than what our model predicts. To explain: odds can be translated to probabilities; we compare the probabilities from our model to the odds offered by the books; if our model predicts a player has a 10% chance to score first in the game (translates exactly to +900), but a book offers that player at odds equivalent to 11.11% (+800), we see that 11.11% - 10% = 1.11% which is greater than our threshold.
+
+*Update 2024-12-10: We now use a 1.5% threshold for determining a playable edge!*
 
 We usually observe 1-6 edges *per game* at or beyond our threshold for first basket plays in both the NBA and WNBA. And that's just for the first basket overall market - when you factor in the first basket by team and exact methods plays, we're seeing *between one and two dozen* plays per game just on first basket markets.
 
