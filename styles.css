@@ -1,3 +1,9 @@
+:root {
+    --bs-font-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-heading-font-family: var(--bs-font-sans-serif);
+}
+
 /* css styles */
 
 html,
