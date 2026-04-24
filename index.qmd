@@ -1,18 +1,69 @@
-::: hero
-# SLAM DUNK BETS
+---
+pagetitle: "Slam Dunk Bets"
+page-layout: full
+---
 
-### NBA & WNBA picks, backed by 4,000+ units of ROI in under 4 years.
-
-[Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+:::: hero
+::: hero-banner
+![Slam Dunk Bets](images/brand/logo-horizontal-light.svg){.banner-light fig-alt="Slam Dunk Bets"} ![Slam Dunk Bets](images/brand/logo-horizontal-dark.svg){.banner-dark fig-alt="Slam Dunk Bets"}
 :::
 
+### NBA & WNBA picks, backed by 4,000+ units of ROI in under 4 years.
+
+[Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+::::
+
+::: feature-list
 ## What you get
 
 - 🗑️ **Best-in-class first basket projections** for every NBA & WNBA game
 - 📊 **NBA & WNBA prop data and picks** across a growing list of markets
 - ⏰ **Automatic updates every 30 minutes** — projections refresh as lines move
 - 💬 **Discord access** with daily ROI receipts, tracked since the 2022–23 NBA season
+:::
 
-::: hero-links
-[See our articles](articles.qmd) · [How we track ROI](faq.qmd)
+::::::: how-it-works
+## How it works
+
+:::::: steps
+::: step
+![](images/model_flowchart.jpg){fig-alt="Model flowchart"}
+
+### 1. Model the slate
+
+Projections for every NBA and WNBA game, built from the same stat foundation we've used since 2022.
+:::
+
+::: step
+![](images/Analog_timepiece.jpg){fig-alt="Clock"}
+
+### 2. Refresh every 30 minutes
+
+Picks update automatically as lines move — no stale numbers, no guesswork.
+:::
+
+::: step
+![](images/jumpball.png){fig-alt="Jump ball"}
+
+### 3. Post picks in Discord
+
+Daily picks and ROI receipts, straight to your phone through the Discord community.
+:::
+::::::
+:::::::
+
+::: track-record
+## 4,000+ units since 2022–23
+
+We've tracked every pick since the 2022–23 NBA season. The ROI receipts live on — [see the Hall of Fame](hof.qmd) for the biggest hits.
+
+![NBA ROI, 2023–24 season](images/nba_roi_202324.png){fig-alt="ROI chart for 2023-24 NBA season"}
+:::
+
+::: final-cta
+## Ready to cash in?
+
+[Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+[Still have questions? See the FAQ](faq.qmd)
 :::

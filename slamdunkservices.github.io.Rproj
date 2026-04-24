@@ -8,7 +8,10 @@ EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
 NumSpacesForTab: 2
 Encoding: UTF-8
-PythonType: r-reticulate
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+PythonType: r-reticulate
+PythonVersion: 
+PythonPath: 

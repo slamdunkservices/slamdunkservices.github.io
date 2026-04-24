@@ -6,7 +6,7 @@ categories: [] # self-defined categories
 draft: false
 ---
 
-![](../../images/logo_fav.jpg){width=600}
+![](../../images/brand/logo-horizontal-dark.svg){width=600}
 
 Hello, thanks for visiting - and if you're a subscriber, thanks even more!
 

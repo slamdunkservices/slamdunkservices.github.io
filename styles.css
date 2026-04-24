@@ -38,42 +38,106 @@ p, li, .hero-links, .listing-description {
 }
 
 .hero {
-    background-color: #0a0a0a;
-    background-image:
-        radial-gradient(ellipse at 15% 20%, rgba(255, 62, 165, 0.28) 0%, transparent 55%),
-        radial-gradient(ellipse at 85% 80%, rgba(0, 229, 255, 0.28) 0%, transparent 55%),
-        linear-gradient(rgba(10, 10, 10, 0.55), rgba(10, 10, 10, 0.7)),
-        url('images/jumpball.png');
-    background-size: cover;
-    background-position: center 35%;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 4.5rem 2rem 4rem;
-    border-radius: 12px;
+    background: transparent;
+    color: inherit;
+    padding: 2rem 1rem 2.5rem;
     text-align: center;
-    margin: 0 0 2rem 0;
-    border: 1px solid #1a1a1a;
-    overflow: hidden;
-    position: relative;
-    min-height: 380px;
+    margin: 0 0 2.5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.hero-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner img {
+    max-width: min(560px, 100%);
+    height: auto;
+    background: #ffffff;
+}
+
+.hero-banner .banner-light { display: block; }
+.hero-banner .banner-dark  { display: none; }
+
+@media (prefers-color-scheme: dark) {
+    .hero-banner .banner-light { display: none; }
+    .hero-banner .banner-dark  { display: block; }
+    .hero-banner img { background: #000000; }
 }
 
 .hero h1,
 .hero h2,
 .hero h3 {
-    color: #fff;
     border-bottom: none;
-    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.85);
+    margin: 0;
 }
 
 .hero h3 {
-    color: #00e5ff;
+    color: var(--bs-body-color) !important;
     font-weight: 500;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+    max-width: 640px;
+    text-wrap: balance;
 }
+
+@media (prefers-color-scheme: dark) {
+    html, body { background: #0a0a0a; color: #f5f5f5; }
+    .hero h3 { color: #f5f5f5 !important; }
+    .navbar, .navbar.navbar-expand-lg, nav.navbar {
+        background: #0a0a0a !important;
+        border-color: #222 !important;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link,
+    .navbar .navbar-toggler {
+        color: #f5f5f5 !important;
+    }
+    .navbar .nav-link:hover,
+    .navbar .nav-link:focus { color: #39ff14 !important; }
+    footer.footer, .nav-footer, .page-footer {
+        background: #0a0a0a !important;
+        color: #f5f5f5 !important;
+        border-color: #222 !important;
+    }
+    footer.footer a, .nav-footer a { color: #00e5ff !important; }
+
+    /* force readable text across litera/quarto components in dark mode */
+    main, section, article, p, li, span, div,
+    h1, h2, h3, h4, h5, h6,
+    .quarto-title, .quarto-title-block, .quarto-title-banner,
+    .quarto-listing, .quarto-post,
+    .listing-title, .listing-subtitle, .listing-description,
+    .listing-date, .listing-author, .listing-categories,
+    .metadata, .quarto-categories, .category,
+    .quarto-listing-category-title,
+    .callout, .callout-body, .callout-title,
+    .tab-content, .content, #quarto-content, #quarto-document-content {
+        color: #f5f5f5 !important;
+    }
+    .text-muted, .listing-subtitle, .metadata,
+    .listing-date, .listing-author { color: #b0b0b0 !important; }
+    .listing-description a, .listing-description { color: #d0d0d0 !important; }
+    a { color: #00e5ff; }
+    a:hover { color: #55ffff; }
+    .listing-title, .listing-title a,
+    h1 a, h2 a, h3 a, h4 a, h5 a,
+    .quarto-post a,
+    .quarto-title a { color: #f5f5f5 !important; }
+    .listing-title a:hover, .quarto-post a:hover { color: #39ff14 !important; }
+    hr, .quarto-post + .quarto-post, .border-top, .border-bottom { border-color: #222 !important; }
+    .callout { background: #141414 !important; border-color: #222 !important; }
+    code, pre { background: #141414 !important; color: #f5f5f5 !important; }
+}
+
+.anchorjs-link,
+a.anchorjs-link { display: none !important; }
+
+h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 
 .hero .btn-primary {
     background: #39ff14;
@@ -81,7 +145,7 @@ p, li, .hero-links, .listing-description {
     border-color: #39ff14;
     font-weight: 700;
     padding: 0.75rem 2rem;
-    margin-top: 1.25rem;
+    margin-top: 0.5rem;
     box-shadow: 0 0 18px rgba(57, 255, 20, 0.5);
 }
 
@@ -141,28 +205,141 @@ p, li, .hero-links, .listing-description {
     border-color: #ff3ea5;
 }
 
+/* ─── Homepage scroll sections ─────────────────────────────────── */
+
+.feature-list,
+.how-it-works,
+.track-record,
+.final-cta {
+    margin: 3rem 0;
+}
+
+.feature-list ul {
+    font-size: 1.05rem;
+    line-height: 1.65;
+}
+
+.how-it-works .steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.75rem;
+    margin-top: 1.5rem;
+}
+
+.how-it-works .step {
+    background: #f7f7f6;
+    border: 1px solid #e6e6e4;
+    border-radius: 12px;
+    padding: 1.25rem 1.25rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.how-it-works .step img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.how-it-works .step h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    border-bottom: none;
+    color: #1a1a1a;
+}
+
+@media (prefers-color-scheme: dark) {
+    .how-it-works .step h3 { color: #f5f5f5; }
+}
+
+.how-it-works .step p {
+    margin: 0;
+    color: #333;
+}
+
+@media (prefers-color-scheme: dark) {
+    .how-it-works .step {
+        background: #141414;
+        border-color: #222;
+    }
+    .how-it-works .step p { color: #ccc; }
+}
+
+.track-record {
+    background: linear-gradient(135deg, rgba(57, 255, 20, 0.08), rgba(0, 229, 255, 0.08));
+    border: 1px solid rgba(57, 255, 20, 0.25);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.track-record img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.final-cta {
+    text-align: center;
+    background: #0a0a0a;
+    color: #fff;
+    padding: 3rem 1.5rem;
+    border-radius: 12px;
+}
+
+.final-cta h2 {
+    color: #fff;
+    border-bottom: none;
+    margin-bottom: 1.25rem;
+}
+
+.final-cta .btn-primary {
+    background: #39ff14;
+    color: #0a0a0a;
+    border-color: #39ff14;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    box-shadow: 0 0 18px rgba(57, 255, 20, 0.5);
+}
+
+.final-cta .btn-primary:hover,
+.final-cta .btn-primary:focus {
+    background: #55ff3a;
+    color: #000;
+    border-color: #55ff3a;
+    box-shadow: 0 0 28px rgba(57, 255, 20, 0.75);
+}
+
+.final-cta p {
+    margin-top: 1rem;
+}
+
+.final-cta a:not(.btn) {
+    color: #00e5ff;
+}
+
 /* ─── Responsive fixes ─────────────────────────────────────────── */
 
-/* Hero: tighter padding + smaller heading on phones */
+/* Hero + sections: tighter padding + smaller heading on phones */
 @media (max-width: 576px) {
 
     .hero {
-        padding: 2.75rem 1.25rem 2.25rem;
-        min-height: 300px;
-        border-radius: 8px;
-    }
-
-    .hero h1 {
-        font-size: 1.55rem;
+        padding: 1.25rem 0.75rem 1.75rem;
     }
 
     .hero h3 {
-        font-size: 0.95rem;
+        font-size: 1rem;
         font-weight: 600;
     }
 
     /* Full-width CTA button on mobile */
-    .hero .btn-primary {
+    .hero .btn-primary,
+    .final-cta .btn-primary {
         width: 100%;
     }
 
@@ -176,12 +353,33 @@ p, li, .hero-links, .listing-description {
         text-align: center;
     }
 
+    /* How it works: stack steps vertically */
+    .how-it-works .steps {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .how-it-works .step img {
+        height: 180px;
+    }
+
+    .track-record {
+        padding: 1.5rem 1rem;
+    }
+
+    .final-cta {
+        padding: 2rem 1.25rem;
+    }
 }
 
 /* Hero: cap width on very wide screens */
 @media (min-width: 1400px) {
-    .hero {
-        max-width: 1400px;
+    .hero,
+    .feature-list,
+    .how-it-works,
+    .track-record,
+    .final-cta {
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }

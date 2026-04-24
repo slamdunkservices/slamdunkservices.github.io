@@ -5,7 +5,7 @@ project:
     - "posts/**/*.qmd"
 
 website:
-  favicon: images/logo_fav.jpg
+  favicon: images/brand/favicon-32.svg
   google-analytics: "G-66MCY7L0V7"
   navbar:
     left:
@@ -38,5 +38,6 @@ format:
   html:
     theme: [litera, custom.scss]
     css: styles.css
+    anchor-sections: false
 
 editor: visual
