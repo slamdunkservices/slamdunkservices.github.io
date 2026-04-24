@@ -1,9 +1,125 @@
 /* css styles */
 
-.listing-description { /* updating to make post preview blocks look like regular text */
+html,
+body,
+p, a, li, ul, ol, span, div,
+h1, h2, h3, h4, h5, h6,
+.navbar, .nav-link, .navbar-brand,
+.btn,
+input, select, textarea, button,
+blockquote,
+.listing-description,
+.quarto-title, .quarto-title-block,
+.quarto-listing, .quarto-post,
+.nav, .tab-content, .footer, .page-footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
 
+*:not(code):not(pre):not(kbd):not(samp):not(tt):not(.sourceCode):not(.sourceCode *) {
+    font-family: inherit !important;
+}
+
+.listing-description { /* post preview blocks look like regular text */
     font-weight: normal;
-    font-size: 1em; /* Resets the text size to normal paragraph size */
-    font-family: "Times New Roman"; /* Ensures the font matches the rest of the text */
-  
+    font-size: 1em;
+}
+
+.hero {
+    background-color: #0a0a0a;
+    background-image:
+        radial-gradient(ellipse at 15% 20%, rgba(255, 62, 165, 0.28) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 80%, rgba(0, 229, 255, 0.28) 0%, transparent 55%),
+        linear-gradient(rgba(10, 10, 10, 0.55), rgba(10, 10, 10, 0.7)),
+        url('images/jumpball.png');
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 4.5rem 2rem 4rem;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    border: 1px solid #1a1a1a;
+    overflow: hidden;
+    position: relative;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1,
+.hero h2,
+.hero h3 {
+    color: #fff;
+    border-bottom: none;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.85);
+}
+
+.hero h3 {
+    color: #00e5ff;
+    font-weight: 500;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.hero .btn-primary {
+    background: #39ff14;
+    color: #0a0a0a;
+    border-color: #39ff14;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    margin-top: 1.25rem;
+    box-shadow: 0 0 18px rgba(57, 255, 20, 0.5);
+}
+
+.hero .btn-primary:hover,
+.hero .btn-primary:focus {
+    background: #55ff3a;
+    color: #000;
+    border-color: #55ff3a;
+    box-shadow: 0 0 28px rgba(57, 255, 20, 0.75);
+}
+
+.hero-links {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.05rem;
+}
+
+.subscribe-ctas {
+    margin: 1.5rem 0 2rem 0;
+}
+
+.subscribe-ctas .btn {
+    margin-right: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.subscribe-ctas .btn-primary {
+    background: #39ff14;
+    color: #0a0a0a;
+    border-color: #39ff14;
+    font-weight: 700;
+    box-shadow: 0 0 14px rgba(57, 255, 20, 0.3);
+}
+
+.subscribe-ctas .btn-primary:hover,
+.subscribe-ctas .btn-primary:focus {
+    background: #55ff3a;
+    color: #000;
+    border-color: #55ff3a;
+    box-shadow: 0 0 22px rgba(57, 255, 20, 0.55);
+}
+
+.subscribe-ctas .btn-outline-primary {
+    color: #ff3ea5;
+    border-color: #ff3ea5;
+    background: transparent;
+}
+
+.subscribe-ctas .btn-outline-primary:hover,
+.subscribe-ctas .btn-outline-primary:focus {
+    color: #0a0a0a;
+    background: #ff3ea5;
+    border-color: #ff3ea5;
 }

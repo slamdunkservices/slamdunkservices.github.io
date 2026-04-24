@@ -1,13 +1,18 @@
-# Welcome to Slam Dunk Betting Services!
+::: hero
+# SLAM DUNK BETS 🙌 🏀 🗑️ 💥 💰
 
-## 🚨 JOIN TODAY FOR A FREE MONTH 🚨
+### NBA & WNBA picks, backed by 4,000+ units of ROI in under 4 years.
 
-------------------------------------------------------------------------
+[Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+:::
 
-### 💰 Over 3,330 units of ROI generated in 3 years!
+## What you get 🏀
 
-### 🏀 NBA & WNBA Prop Data and Picks
+- 🗑️ **Best-in-class first basket projections** for every NBA & WNBA game
+- 📊 **NBA & WNBA prop data and picks** across a growing list of markets
+- ⏰ **Automatic updates every 30 minutes** — projections refresh as lines move
+- 💬 **Discord access** with daily ROI receipts, tracked since the 2022–23 NBA season
 
-### 🗑️ The Best First Basket Projections
-
-### ⏰ Automatic Updates Every 30 Minutes
+::: hero-links
+[See our articles](articles.qmd) · [How we track ROI](faq.qmd)
+:::

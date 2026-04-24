@@ -1,13 +1,13 @@
 ---
-title: Blog ✍️ 
+title: Articles ✍️ 
 listing: 
   categories: true
   contents: posts
   date-format: iso
   image-align: left
-  max-description-length: 240
+  max-description-length: 120
   sort: "date desc"
   type: default
 ---
 
-## 
+Check out the stuff we wrote!

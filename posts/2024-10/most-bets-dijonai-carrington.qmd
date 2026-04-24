@@ -1,8 +1,0 @@
----
-title: "Our Most Frequently Bet 2024 WNBA Players"
-subtitle: ""
-author: Slam Dunk Bets
-date: 2024-10-07
-categories: [] # self-defined categories
-draft: true
----

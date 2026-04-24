@@ -1,35 +1,38 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
 
 website:
   favicon: images/logo_fav.jpg
   google-analytics: "G-66MCY7L0V7"
-  image: images/logo_fav.jpg
   navbar:
     left:
       - subscribe.qmd
-      - blog.qmd
+      - articles.qmd
+      - hof.qmd
       - faq.qmd
       - contact.qmd
     search: false
     tools:
-      - icon: discord
-        href: https://whop.com/slam-dunk-bets/
       - icon: twitter
-        href: https://x.com/slam_dunk_bets
+        href: https://x.com/jimtheflash
       - icon: envelope
         href: "mailto:slamdunkbettingservices@gmail.com"
+      - icon: discord
+        href: https://whop.com/slam-dunk-bets/
   open-graph: true
   page-footer: 
     border: false
     center: |
       21+ Only | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
-      © Slam Dunk Betting Services LLC, 2024
+      © Slam Dunk Betting Services LLC, 2025
   search: false
   title: "Slam Dunk Bets"
   twitter-card:
     creator: "@jimtheflash"
-    site: "@slam_dunk_bets"
+    site: "@jimtheflash"
 
 format:
   html:
