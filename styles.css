@@ -87,12 +87,16 @@ blockquote,
 }
 
 .subscribe-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-start;
     margin: 1.5rem 0 2rem 0;
 }
 
 .subscribe-ctas .btn {
-    margin-right: 0.75rem;
-    margin-bottom: 0.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 .subscribe-ctas .btn-primary {
@@ -122,4 +126,57 @@ blockquote,
     color: #0a0a0a;
     background: #ff3ea5;
     border-color: #ff3ea5;
+}
+
+/* ─── Responsive fixes ─────────────────────────────────────────── */
+
+/* Hero: tighter padding + smaller heading on phones */
+@media (max-width: 576px) {
+
+    .hero {
+        padding: 2.75rem 1.25rem 2.25rem;
+        min-height: 300px;
+        border-radius: 8px;
+    }
+
+    .hero h1 {
+        font-size: 1.55rem;
+    }
+
+    .hero h3 {
+        font-size: 0.95rem;
+        font-weight: 600;
+    }
+
+    /* Full-width CTA button on mobile */
+    .hero .btn-primary {
+        width: 100%;
+    }
+
+    /* Stack subscribe buttons vertically on phones */
+    .subscribe-ctas {
+        flex-direction: column;
+    }
+
+    .subscribe-ctas .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+/* Hero: cap width on very wide screens */
+@media (min-width: 1400px) {
+    .hero {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* FAQ callouts: more breathing room on small screens */
+@media (max-width: 576px) {
+    .callout {
+        padding: 0.75rem 0.875rem;
+    }
 }
