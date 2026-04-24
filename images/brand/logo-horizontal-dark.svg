@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200" viewBox="0 0 520 200">
+  <rect width="520" height="200" fill="#0a0a0a"></rect>
+  <ellipse cx="119.60000000000001" cy="100" rx="119.60000000000001" ry="80" fill="rgba(57,255,20,0.07)"></ellipse>
+  <ellipse cx="400.40000000000003" cy="100" rx="98.8" ry="70" fill="rgba(0,229,255,0.06)"></ellipse>
+  <path d="M 57.2 132 Q 260 32 443.6 132" stroke="#39ff14" stroke-width="2.5" fill="none" stroke-dasharray="6 4" opacity="0.75"></path>
+  
+  <defs><clipPath id="bball"><circle cx="457.6" cy="132" r="14"></circle></clipPath></defs>
+  <circle cx="457.6" cy="132" r="14" fill="none" stroke="#39ff14" stroke-width="1.3"></circle>
+  <g clip-path="url(#bball)">
+    <g transform="translate(457.6,132) scale(0.024390243902439025)" fill="none" stroke="#39ff14" stroke-width="53.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-438 370 C-313 205 -158 43 -3 -104 C146 -246 302 -349 460 -359"></path>
+    <path d="M-574 13 C-485 93 -331 55 -256 -38 C-185 -126 -187 -294 -15 -595"></path>
+    <path d="M-442 -385 C-489 -264 -450 -126 -343 19 C-220 186 -7 366 194 434 C261 457 324 458 383 420"></path>
+    <path d="M569 -17 C450 94 260 125 60 129 C-34 131 -110 153 -155 211 C-208 280 -194 394 -71 573"></path>
+    </g>
+  </g>
+  <text x="260" y="118" text-anchor="middle" font-family="&#39;Barlow Condensed&#39;, sans-serif" font-size="68" font-weight="900" letter-spacing="2" fill="#ffffff">SLAM DUNK</text>
+  <text x="260" y="154" text-anchor="middle" font-family="&#39;Barlow Condensed&#39;, sans-serif" font-size="26" font-weight="700" letter-spacing="14" fill="#39ff14">BETS</text>
+  <line x1="78" y1="164" x2="442" y2="164" stroke="#39ff14" stroke-width="1.5" opacity="0.35"></line>
+</svg>
