@@ -391,3 +391,57 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
         padding: 0.75rem 0.875rem;
     }
 }
+
+/* Hall of Fame carousel */
+.hof-carousel-wrap {
+    max-width: 640px;
+    margin: 1.25rem auto 0;
+    text-align: center;
+}
+
+#hofCarousel {
+    border-radius: 14px;
+    overflow: hidden;
+    background: #050505;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
+}
+
+.hof-carousel-image {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    max-height: min(76vh, 800px);
+    object-fit: contain;
+    background: #050505;
+}
+
+.hof-loading {
+    min-height: min(72vh, 780px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 1rem;
+}
+
+.hof-meta {
+    margin-top: 0.85rem;
+    margin-bottom: 0;
+    color: #495057;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .hof-carousel-wrap {
+        margin-top: 1rem;
+    }
+
+    .hof-carousel-image {
+        max-height: 64vh;
+    }
+
+    .hof-loading {
+        min-height: 56vh;
+    }
+}
