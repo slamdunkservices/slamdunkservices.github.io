@@ -36,8 +36,7 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: [litera, custom.scss]
     css: styles.css
 
 editor: visual
-

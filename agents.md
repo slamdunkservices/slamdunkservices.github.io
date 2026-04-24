@@ -31,7 +31,7 @@ Marketing + blog site for **Slam Dunk Bets**, an NBA/WNBA prop & first-basket pi
 
 ## Branches
 
-- `jk-main` — source/working branch, **edit here**
+- `jk-main` — source/working branch and **main branch**, edit here
 - `gh-pages` — built site, **do not edit directly**
 
 ## Publishing
@@ -40,12 +40,15 @@ Publishing uses the Quarto `publish` command, which renders locally and pushes t
 
 No GitHub Actions workflow — all publishing happens from the author's machine. On first publish, Quarto writes a `_publish.yml` file recording the target; commit it when it appears.
 
+Environment note: this project appears to use `r-reticulate`. Keep that set in the root `slamdunkservices.github.io.Rproj` file.
+
 Typical flow:
 
 1. Edit on `jk-main`
 2. `quarto preview` — live local preview
 3. Commit + push `jk-main`
-4. `quarto publish gh-pages` — run from RStudio's terminal (or any shell where `quarto` is on `PATH`)
+4. Switch to any branch that is **not** `gh-pages`
+5. `quarto publish gh-pages` from the repo root (run from RStudio's terminal, or any shell where `quarto` is on `PATH`)
 
 ## Common tasks
 

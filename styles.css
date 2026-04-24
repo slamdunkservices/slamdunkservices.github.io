@@ -6,23 +6,30 @@
 
 /* css styles */
 
-html,
 body,
+main,
+section,
+article,
 p, a, li, ul, ol, span, div,
 h1, h2, h3, h4, h5, h6,
 .navbar, .nav-link, .navbar-brand,
 .btn,
 input, select, textarea, button,
-blockquote,
+.content, .quarto-container, #quarto-content, #quarto-document-content,
 .listing-description,
 .quarto-title, .quarto-title-block,
+.quarto-title-banner, .quarto-title-meta,
 .quarto-listing, .quarto-post,
 .nav, .tab-content, .footer, .page-footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
 
-*:not(code):not(pre):not(kbd):not(samp):not(tt):not(.sourceCode):not(.sourceCode *) {
-    font-family: inherit !important;
+h1, h2, h3, .quarto-title-banner .title {
+    text-wrap: balance;
+}
+
+p, li, .hero-links, .listing-description {
+    text-wrap: pretty;
 }
 
 .listing-description { /* post preview blocks look like regular text */
