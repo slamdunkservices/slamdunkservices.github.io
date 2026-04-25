@@ -90,6 +90,18 @@ p, li, .hero-links, .listing-description {
 
 @media (max-width: 991.98px) {
     .navbar .navbar-brand-container {
+        flex: 1 1 auto;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+    .navbar .navbar-brand {
+        width: min(52vw, 190px);
+        height: 52px;
+        background-image: url("images/brand/logo-horizontal-light.svg");
+    }
+
+    body.home-page .navbar .navbar-brand-container {
         display: none;
     }
 }
@@ -155,6 +167,12 @@ p, li, .hero-links, .listing-description {
     hr, .quarto-post + .quarto-post, .border-top, .border-bottom { border-color: #222 !important; }
     .callout { background: #141414 !important; border-color: #222 !important; }
     code, pre { background: #141414 !important; color: #f5f5f5 !important; }
+}
+
+@media (max-width: 991.98px) and (prefers-color-scheme: dark) {
+    .navbar .navbar-brand {
+        background-image: url("images/brand/logo-horizontal-dark.svg");
+    }
 }
 
 .anchorjs-link,
@@ -271,11 +289,11 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 }
 
 .how-it-works .step img {
-    width: 100%;
-    height: 160px;
+    width: 66.666%;
+    height: 107px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .how-it-works .step h3 {
@@ -396,7 +414,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     }
 
     .how-it-works .step img {
-        height: 180px;
+        height: 120px;
     }
 
     .track-record {

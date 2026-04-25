@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="820" viewBox="0 0 1000 820" role="img" aria-label="Vector diagram of an ensemble tree classifier without text">
+  <defs>
+    <marker id="arrow-cyan" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#00e5ff"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#39ff14"/>
+    </marker>
+    <marker id="arrow-pink" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#ff3ea5"/>
+    </marker>
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .box { fill: transparent; stroke: #f5f5f5; stroke-width: 4; rx: 8; ry: 8; }
+      .box-dark { fill: #0a0a0a; stroke: #f5f5f5; stroke-width: 4; rx: 8; ry: 8; }
+      .line-cyan { fill:none; stroke:#00e5ff; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; marker-end:url(#arrow-cyan); }
+      .line-green { fill:none; stroke:#39ff14; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; marker-end:url(#arrow-green); }
+      .line-pink { fill:none; stroke:#ff3ea5; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; marker-end:url(#arrow-pink); }
+      .tree-line { fill:none; stroke:#f5f5f5; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; }
+      .tree-arrow { fill:none; stroke:#39ff14; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; marker-end:url(#arrow-green); }
+      .node { fill:#0a0a0a; stroke:#f5f5f5; stroke-width:4; }
+      .leaf { fill:#0a0a0a; stroke:#f5f5f5; stroke-width:4; }
+      .dot { fill:#f5f5f5; }
+    </style>
+  </defs>
+
+  <!-- transparent background intentionally omitted -->
+
+  <!-- source dataset -->
+  <rect class="box-dark" x="430" y="25" width="140" height="70"/>
+
+  <!-- training sets, no text -->
+  <rect class="box" x="60"  y="185" width="150" height="70"/>
+  <rect class="box" x="425" y="185" width="150" height="70"/>
+  <rect class="box" x="790" y="185" width="150" height="70"/>
+
+  <!-- dataset to sets -->
+  <path class="line-cyan" d="M430,70 C330,110 240,145 150,185"/>
+  <path class="line-cyan" d="M500,95 C490,125 480,153 500,185"/>
+  <path class="line-cyan" d="M570,70 C675,112 755,150 865,185"/>
+
+  <!-- set to trees -->
+  <path class="line-green" d="M135,255 L135,330"/>
+  <path class="line-green" d="M500,255 L500,330"/>
+  <path class="line-green" d="M865,255 L865,330"/>
+
+  <!-- ellipsis top and middle -->
+  <circle class="dot" cx="655" cy="220" r="6"/>
+  <circle class="dot" cx="690" cy="220" r="6"/>
+  <circle class="dot" cx="725" cy="220" r="6"/>
+
+  <!-- model containers -->
+  <rect class="box-dark" x="20"  y="330" width="230" height="170"/>
+  <rect class="box-dark" x="385" y="330" width="230" height="170"/>
+  <rect class="box-dark" x="750" y="330" width="230" height="170"/>
+
+  <!-- left dense tree -->
+  <circle class="node" cx="115" cy="365" r="20"/>
+  <path class="tree-arrow" d="M105,383 L78,420"/>
+  <path class="tree-arrow" d="M130,382 L165,420"/>
+  <rect class="leaf" x="48" y="420" width="50" height="28"/>
+  <circle class="node" cx="175" cy="430" r="20"/>
+  <path class="tree-arrow" d="M163,447 L130,480"/>
+  <path class="tree-arrow" d="M188,447 L205,480"/>
+  <rect class="leaf" x="105" y="480" width="50" height="28"/>
+  <rect class="leaf" x="190" y="480" width="50" height="28"/>
+
+  <!-- center dense tree -->
+  <circle class="node" cx="500" cy="365" r="20"/>
+  <path class="tree-arrow" d="M488,382 L450,415"/>
+  <path class="tree-arrow" d="M512,382 L553,415"/>
+  <circle class="node" cx="438" cy="425" r="20"/>
+  <rect class="leaf" x="540" y="420" width="50" height="28"/>
+  <path class="tree-arrow" d="M426,442 L390,480"/>
+  <path class="tree-arrow" d="M448,442 L485,480"/>
+  <rect class="leaf" x="365" y="480" width="50" height="28"/>
+  <rect class="leaf" x="470" y="480" width="50" height="28"/>
+
+  <!-- middle ellipsis -->
+  <circle class="dot" cx="655" cy="420" r="6"/>
+  <circle class="dot" cx="690" cy="420" r="6"/>
+  <circle class="dot" cx="725" cy="420" r="6"/>
+
+  <!-- right compact tree -->
+  <circle class="node" cx="865" cy="390" r="20"/>
+  <path class="tree-arrow" d="M852,407 L815,445"/>
+  <path class="tree-arrow" d="M878,407 L915,445"/>
+  <rect class="leaf" x="790" y="445" width="50" height="28"/>
+  <rect class="leaf" x="900" y="445" width="50" height="28"/>
+
+  <!-- model outputs to panel -->
+  <rect class="box-dark" x="365" y="585" width="270" height="70"/>
+  <path class="line-pink" d="M135,500 C240,535 300,560 385,585"/>
+  <path class="line-pink" d="M500,500 C505,535 508,560 510,585"/>
+  <path class="line-pink" d="M865,500 C760,535 700,560 615,585"/>
+
+  <!-- panel to final -->
+  <rect class="box-dark" x="385" y="735" width="230" height="65"/>
+  <path class="line-green" d="M500,655 L500,735"/>
+</svg>
