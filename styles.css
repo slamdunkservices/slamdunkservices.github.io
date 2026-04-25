@@ -71,6 +71,29 @@ p, li, .hero-links, .listing-description {
     .hero-banner img { background: #000000; }
 }
 
+.navbar .navbar-brand {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    background: url("images/brand/favicon-128.svg") center / contain no-repeat;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.navbar .navbar-brand .navbar-title {
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-brand-container {
+        display: none;
+    }
+}
+
 .hero h1,
 .hero h2,
 .hero h3 {
@@ -217,6 +240,17 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 .feature-list ul {
     font-size: 1.05rem;
     line-height: 1.65;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.feature-list h2,
+.how-it-works h2 {
+    text-align: center;
 }
 
 .how-it-works .steps {
@@ -249,6 +283,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     font-size: 1.15rem;
     border-bottom: none;
     color: #1a1a1a;
+    text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -258,6 +293,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 .how-it-works .step p {
     margin: 0;
     color: #333;
+    text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -272,7 +308,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     background: linear-gradient(135deg, rgba(57, 255, 20, 0.08), rgba(0, 229, 255, 0.08));
     border: 1px solid rgba(57, 255, 20, 0.25);
     border-radius: 12px;
-    padding: 2rem;
+    padding: 1.15rem;
     text-align: center;
 }
 
@@ -280,7 +316,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
 }
 
@@ -364,7 +400,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     }
 
     .track-record {
-        padding: 1.5rem 1rem;
+        padding: 1rem 0.875rem;
     }
 
     .final-cta {
@@ -393,17 +429,53 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 }
 
 /* Hall of Fame carousel */
+#hall-of-fame > p {
+    margin-bottom: 0.35rem;
+}
+
 .hof-carousel-wrap {
     max-width: 640px;
-    margin: 1.25rem auto 0;
+    margin: 0.45rem auto 0;
     text-align: center;
 }
 
 #hofCarousel {
+    position: relative;
+    overflow: visible;
+}
+
+#hofCarousel .carousel-inner {
     border-radius: 14px;
     overflow: hidden;
     background: #050505;
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
+}
+
+#hofCarousel .carousel-control-prev,
+#hofCarousel .carousel-control-next {
+    width: 3rem;
+    height: 3rem;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    border-radius: 999px;
+    background: rgba(5, 5, 5, 0.7);
+    opacity: 0.9;
+}
+
+#hofCarousel .carousel-control-prev {
+    left: -4rem;
+}
+
+#hofCarousel .carousel-control-next {
+    right: -4rem;
+}
+
+#hofCarousel .carousel-control-prev:hover,
+#hofCarousel .carousel-control-prev:focus,
+#hofCarousel .carousel-control-next:hover,
+#hofCarousel .carousel-control-next:focus {
+    opacity: 1;
 }
 
 .hof-carousel-image {
@@ -434,11 +506,26 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 
 @media (max-width: 576px) {
     .hof-carousel-wrap {
-        margin-top: 1rem;
+        max-width: calc(100% - 4.5rem);
+        margin-top: 0.35rem;
     }
 
     .hof-carousel-image {
         max-height: 64vh;
+    }
+
+    #hofCarousel .carousel-control-prev,
+    #hofCarousel .carousel-control-next {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #hofCarousel .carousel-control-prev {
+        left: -2.9rem;
+    }
+
+    #hofCarousel .carousel-control-next {
+        right: -2.9rem;
     }
 
     .hof-loading {
