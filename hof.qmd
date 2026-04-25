@@ -1,6 +1,8 @@
 ## Hall Of Fame 🏆
 
-Big hits. Real receipts. Straight from the slip archive.
+::: {.text-center}
+Real green tickets from our users! Updated daily on the discord.
+:::
 
 ```{=html}
 <div class="hof-carousel-wrap">

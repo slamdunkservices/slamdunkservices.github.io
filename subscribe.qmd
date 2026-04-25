@@ -14,10 +14,11 @@ Daily NBA and WNBA first-basket and prop picks, delivered on Discord — updated
 
 ::: {.subscribe-ctas}
 [Subscribe via Sharpduel (preferred)](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
-[Subscribe via Whop](https://whop.com/slam-dunk-bets){.btn .btn-outline-primary role="button"}
 :::
 
 Sharpduel is our preferred partner — they help us out by sharing our content. Whop works too if you already have an account&nbsp;there.
+
+[Subscribe via Whop](https://whop.com/slam-dunk-bets){.btn .btn-outline-primary role="button"}
 
 ---
 

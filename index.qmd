@@ -1,6 +1,7 @@
 ---
 pagetitle: "Slam Dunk Bets"
 page-layout: full
+body-classes: home-page
 ---
 
 :::: hero
@@ -8,7 +9,7 @@ page-layout: full
 ![Slam Dunk Bets](images/brand/logo-horizontal-light.svg){.banner-light fig-alt="Slam Dunk Bets"} ![Slam Dunk Bets](images/brand/logo-horizontal-dark.svg){.banner-dark fig-alt="Slam Dunk Bets"}
 :::
 
-### NBA & WNBA picks, backed by 4,000+ units of ROI in under 4 years.
+### NBA & WNBA picks, backed by 7,000+ units of ROI since 2022–23.
 
 ------------------------------------------------------------------------
 
@@ -29,7 +30,7 @@ page-layout: full
 
 :::::: steps
 ::: step
-![](images/model_flowchart.jpg){fig-alt="Model flowchart"}
+![](images/ensemble_tree_no_text.svg){fig-alt="Ensemble tree classifier diagram"}
 
 ### 1. Model the slate
 
@@ -49,7 +50,7 @@ Picks update automatically as lines move — no stale numbers, no guesswork.
 :::
 
 ::: step
-![](images/jumpball.png){fig-alt="Jump ball"}
+![](images/brand/discord-mark.svg){fig-alt="Discord logo"}
 
 ### 3. Post picks in Discord
 
@@ -61,11 +62,11 @@ Daily picks and ROI receipts, straight to your phone through the Discord communi
 :::::::
 
 ::: track-record
-## 4,000+ units since 2022–23
+## 7,000+ units of ROI since 2022–23
 
-We've tracked every pick since the 2022–23 NBA season. The ROI receipts live on — [see the Hall of Fame](hof.qmd) for the biggest hits.
+We've tracked every pick since the 2022–23 NBA season, and the full cumulative chart is still climbing. The receipts live on — [see the Hall of Fame](hof.qmd) for the biggest hits.
 
-![NBA ROI, 2023–24 season](images/nba_roi_202324.png){fig-alt="ROI chart for 2023-24 NBA season"}
+![Cumulative Slam Dunk Bets ROI since 2022–23](images/cumulative_total.png){fig-alt="Cumulative ROI chart for Slam Dunk Bets picks since 2022-23"}
 :::
 
 ::: final-cta
