@@ -1,6 +1,6 @@
 ---
 title: "2023-24 NBA ROI Recap: 1692 Units Net Profit"
-subtitle: "👆 Not A Typo"
+subtitle: "Not A Typo"
 author: Slam Dunk Bets
 date: 2024-10-11
 categories: [] # self-defined categories

@@ -250,6 +250,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 
 .feature-list,
 .how-it-works,
+.hall-of-fame,
 .track-record,
 .final-cta {
     margin: 3rem 0;
@@ -267,7 +268,12 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 }
 
 .feature-list h2,
-.how-it-works h2 {
+.how-it-works h2,
+.hall-of-fame h2 {
+    text-align: center;
+}
+
+.hall-of-fame {
     text-align: center;
 }
 
@@ -294,6 +300,21 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     object-fit: cover;
     border-radius: 8px;
     margin: 0 auto;
+}
+
+.how-it-works .step img.model-image {
+    width: 52%;
+    object-fit: contain;
+}
+
+.how-it-works .step img.clock-image,
+.how-it-works .step img.discord-image {
+    width: 48%;
+    object-fit: contain;
+}
+
+.how-it-works .step img.discord-image {
+    padding: 0.6rem;
 }
 
 .how-it-works .step h3 {
@@ -417,6 +438,13 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
         height: 120px;
     }
 
+    .how-it-works .step img.model-image,
+    .how-it-works .step img.clock-image,
+    .how-it-works .step img.discord-image {
+        width: 42%;
+    }
+
+    .hall-of-fame,
     .track-record {
         padding: 1rem 0.875rem;
     }
@@ -431,6 +459,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     .hero,
     .feature-list,
     .how-it-works,
+    .hall-of-fame,
     .track-record,
     .final-cta {
         max-width: 1200px;

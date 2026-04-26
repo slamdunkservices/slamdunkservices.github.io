@@ -11,11 +11,14 @@ website:
   google-analytics: "G-66MCY7L0V7"
   navbar:
     left:
-      - subscribe.qmd
-      - articles.qmd
-      - hof.qmd
-      - faq.qmd
-      - contact.qmd
+      - text: "Subscribe"
+        href: subscribe.qmd
+      - text: "Articles"
+        href: articles.qmd
+      - text: "FAQ"
+        href: faq.qmd
+      - text: "Contact"
+        href: contact.qmd
     search: false
     tools:
       - icon: twitter

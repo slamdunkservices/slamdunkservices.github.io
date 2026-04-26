@@ -22,7 +22,6 @@ Marketing + blog site for **Slam Dunk Bets**, an NBA/WNBA prop & first-basket pi
 | `articles.qmd` | Blog listing page (reads `posts/`) |
 | `faq.qmd` | FAQ page |
 | `contact.qmd` | Contact info |
-| `hof.qmd` | Hall of Fame |
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
 | `images/` | All assets — hero, favicon, post images |
 | `styles.css` | Site-wide CSS overrides |
@@ -72,7 +71,7 @@ The post appears automatically on `articles.qmd` (a Quarto listing page).
 
 ## Brand voice
 
-Casual, confident, emoji-forward. See `index.qmd` for tone. Prefer **Sharpduel** over Whop for subscription CTAs.
+Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. Prefer **Sharpduel** over Whop for subscription CTAs.
 
 ## Do not render
 

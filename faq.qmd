@@ -1,4 +1,4 @@
-## FAQ 🤓
+## FAQ
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 ## Who are you nerds?
@@ -43,13 +43,13 @@ We don't do first basket of second half yet. And we also don't project for games
 ::: {.callout-note collapse="true" appearance="minimal"}
 ## Do you track your bets?
 
-We track every bet we recommend and update our ROI totals by market every day on our Discord. Our programmatically tracked betting records go back to 2022-23 NBA Season.
+We track every bet we recommend and update our ROI totals by market every day on our Discord. Our programmatically tracked betting records go back to the 2021-22 NBA season.
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
 ## What kind of ROI are we talking about then?
 
-We've cleared 7,000+ net units of ROI across our tracked NBA and WNBA picks since 2022-23. Unit sizes vary from bettor to bettor, but common units are \$100, \$10, or \$1.
+We've cleared 7,000+ net units of ROI across our tracked NBA and WNBA picks since 2021-22. Unit sizes vary from bettor to bettor, but common units are \$100, \$10, or \$1.
 
 -   2025 WNBA regular + playoffs: ongoing
 -   2023-24 NBA regular + playoffs: 1692 units
