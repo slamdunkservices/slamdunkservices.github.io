@@ -17,20 +17,21 @@ body-classes: home-page
 ::::
 
 ::: feature-list
-## What you get
+## What you get 🧐
 
 - **Best-in-class first basket projections** for every NBA & WNBA game
 - **NBA & WNBA prop data and picks** across a growing list of markets
-- **Automatic updates every 30 minutes** — projections refresh as lines move
+- **Automatic updates every 30 minutes** — projections refresh all day
 - **Discord access** with daily ROI receipts, tracked since the 2021–22 NBA season
+- **Dashboards & data** to dive deeper for more edges and plays
 :::
 
 ::::::: how-it-works
-## How it works
+## How it works 🛠️
 
 :::::: steps
 ::: step
-![](images/ensemble_tree_no_text.svg){.model-image fig-alt="Ensemble tree classifier diagram"}
+![](images/robot_emoji_transparent.png){.model-image fig-alt="Robot"}
 
 ### 1. Model the slate
 
@@ -40,7 +41,7 @@ Projections for every NBA and WNBA game, built from the same stat foundation we'
 :::
 
 ::: step
-![](images/Analog_timepiece.jpg){.clock-image fig-alt="Clock"}
+![](images/alarm_clock_emoji_transparent.png){.clock-image fig-alt="Alarm clock"}
 
 ### 2. Refresh every 30 minutes
 
@@ -50,7 +51,7 @@ Picks update automatically as lines move — no stale numbers, no guesswork.
 :::
 
 ::: step
-![](images/brand/discord-mark.png){.discord-image fig-alt="Discord logo"}
+![](images/check_mark_transparent.png){.discord-image fig-alt="Check mark"}
 
 ### 3. Post picks in Discord
 
@@ -62,7 +63,7 @@ Daily picks and ROI receipts, straight to your phone through the Discord communi
 :::::::
 
 ::: track-record
-## 7,000+ units of ROI since 2021–22
+## 7,000+ units of ROI since 2021–22 💰
 
 We've tracked every pick since the 2021–22 NBA season, and the full cumulative chart is still climbing.
 
@@ -70,7 +71,7 @@ We've tracked every pick since the 2021–22 NBA season, and the full cumulative
 :::
 
 ::: hall-of-fame
-## Hall of Fame
+## Hall of Fame 🏆
 
 Real green tickets from our users, updated daily on Discord.
 
