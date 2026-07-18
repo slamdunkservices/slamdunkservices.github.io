@@ -20,6 +20,10 @@ Sharpduel is our preferred partner — they help us out by sharing our content. 
 
 [Subscribe via Whop](https://whop.com/slam-dunk-bets){.btn .btn-outline-primary role="button"}
 
+### Data access
+
+Looking for projections, market data, or tools instead of daily picks? Data subscriptions and data tools are coming soon. See the [Data page](data.qmd) for what we're building.
+
 ---
 
 Questions? Hit the [contact&nbsp;page](contact.qmd).

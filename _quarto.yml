@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - images/hof-carousel/**
+    - scripts/hof-carousel.js
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
@@ -13,6 +14,8 @@ website:
     left:
       - text: "Subscribe"
         href: subscribe.qmd
+      - text: "Data"
+        href: data.qmd
       - text: "Articles"
         href: articles.qmd
       - text: "FAQ"
