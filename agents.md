@@ -6,32 +6,40 @@ Marketing + blog site for **Slam Dunk Bets**, an NBA/WNBA prop & first-basket pi
 
 ## Tech
 
-- **Quarto website** — see `_quarto.yml`
-- **Theme:** `litera` (Bootstrap 5-based)
-- **Authoring:** RStudio with the visual editor (see `slamdunkservices.github.io.Rproj`)
-- **R:** system-installed R — no `renv`, no virtualenv, no lockfile
-- **Quarto binary:** bundled with RStudio at `/Applications/RStudio.app`. `quarto` is not on the default shell `PATH`; run Quarto commands from RStudio's Build pane or its embedded terminal.
+- **Quarto website** — see `_quarto.yml`. Theme: `litera` (Bootstrap 5-based) with `custom.scss` and `styles.css` overrides.
+- **Content is plain markdown** — no R or Python code chunks in any `.qmd`, so rendering needs only Quarto itself.
+- **Quarto binary:** standalone install, on `PATH` at `/usr/local/bin/quarto` (symlink to `/Applications/quarto`). Run Quarto commands from any shell.
+- **Authoring:** RStudio with the visual editor (`slamdunkservices.github.io.Rproj`). Keep `PythonType: r-reticulate` set in the `.Rproj`.
+
+## Commands
+
+- `quarto preview` — live local preview with hot reload
+- `quarto render` — build the site into `_site/` (gitignored)
+- `quarto publish gh-pages` — render and push the built site to `gh-pages` (see Publishing)
+
+There are no tests or linters.
 
 ## Repo tour
 
 | Path | Purpose |
 |---|---|
-| `_quarto.yml` | Site config — navbar, theme, render whitelist |
-| `index.qmd` | Homepage |
+| `_quarto.yml` | Site config — navbar, theme, render whitelist, extra `resources` |
+| `index.qmd` | Homepage — hero, feature list, "Hall of Fame" carousel |
 | `subscribe.qmd` | Subscription landing page |
+| `data.qmd` | Data products teaser page |
 | `articles.qmd` | Blog listing page (reads `posts/`) |
-| `faq.qmd` | FAQ page |
-| `contact.qmd` | Contact info |
+| `faq.qmd`, `contact.qmd` | FAQ and contact pages |
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
-| `images/` | All assets — hero, favicon, post images |
-| `styles.css` | Site-wide CSS overrides |
+| `images/` | All assets — brand, hero, post images, carousel receipts |
+| `scripts/hof-carousel.js` | Homepage carousel; loads images from a JSON manifest |
+| `styles.css`, `custom.scss` | Site-wide styling overrides |
 | `CNAME` | `slamdunk.bet` — GitHub Pages custom domain |
 | `_site/`, `.quarto/` | Build output (gitignored) |
 
 ## Branches
 
-- `jk-main` — source/working branch and **main branch**, edit here
-- `gh-pages` — built site, **do not edit directly**
+- `main` — source/working branch, edit here
+- `gh-pages` — built site, and the repo's default branch on GitHub — **do not edit directly**
 
 ## Publishing
 
@@ -39,15 +47,12 @@ Publishing uses the Quarto `publish` command, which renders locally and pushes t
 
 No GitHub Actions workflow — all publishing happens from the author's machine. On first publish, Quarto writes a `_publish.yml` file recording the target; commit it when it appears.
 
-Environment note: this project appears to use `r-reticulate`. Keep that set in the root `slamdunkservices.github.io.Rproj` file.
-
 Typical flow:
 
-1. Edit on `jk-main`
-2. `quarto preview` — live local preview
-3. Commit + push `jk-main`
-4. Switch to any branch that is **not** `gh-pages`
-5. `quarto publish gh-pages` from the repo root (run from RStudio's terminal, or any shell where `quarto` is on `PATH`)
+1. Edit on `main`
+2. `quarto preview` — check locally
+3. Commit + push `main`
+4. `quarto publish gh-pages` from the repo root (must be on a branch that is **not** `gh-pages`)
 
 ## Common tasks
 
@@ -63,16 +68,18 @@ draft: false
 ---
 ```
 
-The post appears automatically on `articles.qmd` (a Quarto listing page).
+The post appears automatically on `articles.qmd` (a Quarto listing page). `draft: true` keeps it off the listing.
 
 **Edit a page.** Edit the `.qmd` at repo root, preview, commit, publish.
 
-**Images.** Drop into `/images/`. Reference as `images/foo.jpg` from root-level pages or `../../images/foo.jpg` from `posts/YYYY-MM/`.
+**Images.** Drop into `images/`. Reference as `images/foo.jpg` from root-level pages or `../../images/foo.jpg` from `posts/YYYY-MM/`.
+
+**Homepage carousel.** `scripts/hof-carousel.js` reads `images/hof-carousel/manifest.json` — adding an image to `images/hof-carousel/` does nothing until its filename is added to the manifest. Both paths are shipped via the `resources` list in `_quarto.yml`.
 
 ## Brand voice
 
-Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. Prefer **Sharpduel** over Whop for subscription CTAs.
+Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. Prefer **Sharpduel** over Whop for subscription CTAs (Sharpduel is the primary button; Whop is the secondary option).
 
 ## Do not render
 
-`agents.md` and `claude.md` are excluded from the site via the `project.render` whitelist in `_quarto.yml`. If you add more agent/doc markdown at the repo root, they'll stay out automatically since the whitelist only renders `.qmd`. Keep it that way.
+`agents.md` and `CLAUDE.md` are excluded from the site because the `project.render` whitelist in `_quarto.yml` only renders `.qmd`. Any agent/doc markdown added at the repo root stays out automatically. Keep it that way.

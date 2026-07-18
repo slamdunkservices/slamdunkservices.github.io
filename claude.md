@@ -1,1 +1,5 @@
-See [agents.md](agents.md) for repo info and conventions.
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+@agents.md

@@ -579,3 +579,52 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
         min-height: 56vh;
     }
 }
+
+/* ─── Apps / Dashboard page ────────────────────────────────────── */
+
+.app-shots {
+    display: grid;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.app-shots figure,
+.app-shots p {
+    margin: 0;
+}
+
+.app-shots img,
+.app-login-shot img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #e6e6e4;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
+}
+
+.app-shots figcaption,
+.app-shots .figure-caption {
+    margin-top: 0.65rem;
+    text-align: center;
+    color: #495057;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.app-login-shot {
+    max-width: 460px;
+    margin: 1.5rem auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    .app-shots img,
+    .app-login-shot img {
+        border-color: #222;
+    }
+
+    .app-shots figcaption,
+    .app-shots .figure-caption {
+        color: #b0b0b0;
+    }
+}
