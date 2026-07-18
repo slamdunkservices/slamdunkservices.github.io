@@ -1,29 +1,21 @@
 ## Slam Dunk Dashboard
 
-Every projection we run, in your browser. The **Slam Dunk Dashboard** takes the same NBA & WNBA model that powers our Discord picks and puts it in a live, sortable board — with per-book line movement, a bet calculator, and our full graded track&nbsp;record.
+Every projection we run, in your browser. The **Slam Dunk Dashboard** takes the same NBA & WNBA model that powers our Discord picks and puts it in a live, sortable board — with per-book line movement, a bet calculator, and our full graded track record.
 
-::: {.subscribe-ctas}
+::: subscribe-ctas
 [Open the Dashboard](https://app.slamdunk.bet){.btn .btn-primary .btn-lg role="button"}
-:::
-
-### Getting in
-
-Head to [app.slamdunk.bet](https://app.slamdunk.bet) and you'll be asked to sign in with **Discord** or **Google** right away. Active subscribers land straight on the board. Not subscribed yet? We'll send you to sign up first — subscribe once and you're&nbsp;in.
-
-::: {.app-login-shot}
-![](images/app/login.png){fig-alt="Slam Dunk Dashboard login screen with Sign in with Discord and Sign in with Google buttons"}
 :::
 
 ### What you can do
 
-- **Read the markets board** — every prop, ranked by edge. Best available book line and implied %, our model's fair line, the edge, and recommended units. Sort any column, then expand a game to see every book and how its line has&nbsp;moved.
-- **Scan the game cards** — one card per game. Win tip, first team to score, first basket type, and our most likely first scorer for the WNBA; NRFI/YRFI, weather, projected lineups, and per-batter home-run odds for&nbsp;MLB.
-- **Check the receipts** — season-to-date model tracking with net units and ROI by prop, plotted as a running total. The whole record is right there to scroll&nbsp;through.
-- **Run the numbers** — a built-in bet calculator: enter a projected fair value and the book's price, get your edge and recommended unit size on any&nbsp;bet.
-- **Cover both leagues** — WNBA first-basket and first-event markets, plus MLB home runs and first-inning&nbsp;runs.
-- **Make it yours** — save your go-to sportsbooks, flip odds between percent and American, and switch light or dark, all tuned for desktop or phone. Lines and projections refresh on a schedule tied to&nbsp;tip-off.
+- **Read the markets board** — every prop, ranked by edge. Best available book line and implied %, our model's fair line, the edge, and recommended units. Sort any column, then expand a game to see every book and how its line has moved.
+- **Scan the game cards** — one card per game. Win tip, first team to score, first basket type, and our most likely first scorer for the WNBA; NRFI/YRFI, weather, projected lineups, and per-batter home-run odds for MLB.
+- **Check the receipts** — season-to-date model tracking with net units and ROI by prop, plotted as a running total. The whole record is right there to scroll through.
+- **Run the numbers** — a built-in bet calculator: enter a projected fair value and the book's price, get your edge and recommended unit size on any bet.
+- **Cover both leagues** — WNBA first-basket and first-event markets, plus MLB home runs and first-inning runs.
+- **Make it yours** — save your go-to sportsbooks, flip odds between percent and American, and switch light or dark, all tuned for desktop or phone. Lines and projections refresh on a schedule tied to tip-off.
 
-::: {.app-shots}
+::: app-shots
 ![The markets board — every prop, ranked by edge, with the best book line, our model's fair line, and recommended units.](images/app/markets.png){fig-alt="Slam Dunk Dashboard markets board listing WNBA first-basket props with book lines, model lines, edges, and units"}
 
 ![Expand any play to see every book's price next to our model line, plus a live line-movement chart for each.](images/app/markets-detail.png){fig-alt="Expanded Slam Dunk Dashboard play showing a per-book breakdown with line-movement sparklines"}
@@ -37,8 +29,8 @@ Head to [app.slamdunk.bet](https://app.slamdunk.bet) and you'll be asked to sign
 
 ### Ready to dig in?
 
-::: {.subscribe-ctas}
+::: subscribe-ctas
 [Open the Dashboard](https://app.slamdunk.bet){.btn .btn-primary .btn-lg role="button"}
 :::
 
-New here? [Start with a subscription](subscribe.qmd) — your first month is free. Questions? Hit the [contact&nbsp;page](contact.qmd).
+New here? [Start with a subscription](subscribe.qmd) — your first month is free. Questions? Hit the [contact page](contact.qmd).
