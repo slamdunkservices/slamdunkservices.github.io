@@ -9,7 +9,7 @@ body-classes: home-page
 ![Slam Dunk Bets](images/brand/logo-horizontal-light.svg){.banner-light fig-alt="Slam Dunk Bets"} ![Slam Dunk Bets](images/brand/logo-horizontal-dark.svg){.banner-dark fig-alt="Slam Dunk Bets"}
 :::
 
-### NBA & WNBA picks, backed by 7,000+ units of ROI since 2021–22.
+### NBA, WNBA & MLB picks, backed by 7,000+ units of ROI since 2021–22.
 
 ------------------------------------------------------------------------
 
@@ -19,8 +19,8 @@ body-classes: home-page
 ::: feature-list
 ## What you get 🧐
 
-- **Best-in-class first basket projections** for every NBA & WNBA game
-- **NBA & WNBA prop data and picks** across a growing list of markets
+- **Best-in-class projections** for every NBA, WNBA & MLB game — first baskets, home runs, and more
+- **NBA, WNBA & MLB prop data and picks** across a growing list of markets
 - **Automatic updates every 30 minutes** — projections refresh all day
 - **Discord access** with daily ROI receipts, tracked since the 2021–22 NBA season
 - **Dashboards & data** to dive deeper for more edges and plays
@@ -37,7 +37,7 @@ body-classes: home-page
 
 ------------------------------------------------------------------------
 
-Projections for every NBA and WNBA game, built from the same stat foundation we've used since 2022.
+Projections for every NBA, WNBA, and MLB game, built from the same stat foundation we've used since 2022.
 :::
 
 ::: step

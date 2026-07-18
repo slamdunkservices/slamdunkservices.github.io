@@ -1,36 +1,67 @@
 ## Slam Dunk Dashboard
 
-Every projection we run, in your browser. The **Slam Dunk Dashboard** takes the same NBA & WNBA model that powers our Discord picks and puts it in a live, sortable board — with per-book line movement, a bet calculator, and our full graded track record.
+Every projection we run, in your browser. The **Slam Dunk Dashboard** takes the same NBA, WNBA & MLB model that powers our Discord picks and puts it in a live, sortable board — with per-book line movement, a built-in bet calculator, and our full graded track record. Save your go-to sportsbooks, flip odds between percent and American, and switch light or dark, on desktop or phone.
 
-::: subscribe-ctas
+::: {.app-layout .column-page}
+
+::: {.app-login}
+### Getting in
+
+Head to [app.slamdunk.bet](https://app.slamdunk.bet) and you'll be asked to sign in with **Discord** or **Google** right away. Active subscribers land straight on the board. Not subscribed yet? We'll send you to sign up first — subscribe once and you're in.
+
+::: {.subscribe-ctas}
 [Open the Dashboard](https://app.slamdunk.bet){.btn .btn-primary .btn-lg role="button"}
 :::
 
-### What you can do
-
-- **Read the markets board** — every prop, ranked by edge. Best available book line and implied %, our model's fair line, the edge, and recommended units. Sort any column, then expand a game to see every book and how its line has moved.
-- **Scan the game cards** — one card per game. Win tip, first team to score, first basket type, and our most likely first scorer for the WNBA; NRFI/YRFI, weather, projected lineups, and per-batter home-run odds for MLB.
-- **Check the receipts** — season-to-date model tracking with net units and ROI by prop, plotted as a running total. The whole record is right there to scroll through.
-- **Run the numbers** — a built-in bet calculator: enter a projected fair value and the book's price, get your edge and recommended unit size on any bet.
-- **Cover both leagues** — WNBA first-basket and first-event markets, plus MLB home runs and first-inning runs.
-- **Make it yours** — save your go-to sportsbooks, flip odds between percent and American, and switch light or dark, all tuned for desktop or phone. Lines and projections refresh on a schedule tied to tip-off.
-
-::: app-shots
-![The markets board — every prop, ranked by edge, with the best book line, our model's fair line, and recommended units.](images/app/markets.png){fig-alt="Slam Dunk Dashboard markets board listing WNBA first-basket props with book lines, model lines, edges, and units"}
-
-![Expand any play to see every book's price next to our model line, plus a live line-movement chart for each.](images/app/markets-detail.png){fig-alt="Expanded Slam Dunk Dashboard play showing a per-book breakdown with line-movement sparklines"}
-
-![Game cards: win tip, first team to score, first basket type, and our most likely first scorer — one card per game.](images/app/game-cards.png){fig-alt="Slam Dunk Dashboard WNBA game cards for a three-game slate"}
-
-![Model tracking — every graded bet by prop, net units and ROI, with the cumulative-units chart underneath.](images/app/tracking.png){fig-alt="Slam Dunk Dashboard model tracking table and cumulative net units chart"}
-
-![Both leagues: MLB home-run and first-inning markets sit right alongside the WNBA board.](images/app/home-runs.png){fig-alt="Slam Dunk Dashboard MLB home runs markets board"}
+::: {.app-login-shot}
+![](images/app/login.png){fig-alt="Slam Dunk Dashboard login screen with Sign in with Discord and Sign in with Google buttons"}
 :::
 
-### Ready to dig in?
-
-::: subscribe-ctas
-[Open the Dashboard](https://app.slamdunk.bet){.btn .btn-primary .btn-lg role="button"}
+New here? [Start with a subscription](subscribe.qmd) — your first month is free. Questions? Hit the [contact page](contact.qmd).
 :::
 
-New here? [Start with a subscription](subscribe.qmd) — your first month is free. Questions? Hit the [contact page](contact.qmd).
+::: {.app-carousel-col}
+
+```{=html}
+<div id="appCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Markets board"></button>
+    <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="1" aria-label="Per-book detail"></button>
+    <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="2" aria-label="Game cards"></button>
+    <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="3" aria-label="Model tracking"></button>
+    <button type="button" data-bs-target="#appCarousel" data-bs-slide-to="4" aria-label="MLB markets"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="app-carousel-image" src="images/app/markets.png" alt="Slam Dunk Dashboard markets board listing props with book lines, model lines, edges, and units">
+      <p class="app-carousel-desc"><strong>The markets board</strong> — every prop, ranked by edge. Best available book line and implied %, our model's fair line, the edge, and recommended units. Sort any column, then expand a game for more.</p>
+    </div>
+    <div class="carousel-item">
+      <img class="app-carousel-image" src="images/app/markets-detail.png" alt="Expanded Slam Dunk Dashboard play showing a per-book breakdown with line-movement charts">
+      <p class="app-carousel-desc"><strong>Per-book detail</strong> — expand any play to see every book's price next to our model line, plus a live line-movement chart for each.</p>
+    </div>
+    <div class="carousel-item">
+      <img class="app-carousel-image" src="images/app/game-cards.png" alt="Slam Dunk Dashboard game cards for a slate">
+      <p class="app-carousel-desc"><strong>Game cards</strong> — one card per game. Win tip, first team to score, first-basket type and likely first scorer for NBA &amp; WNBA; NRFI/YRFI, weather, projected lineups and per-batter home-run odds for MLB.</p>
+    </div>
+    <div class="carousel-item">
+      <img class="app-carousel-image" src="images/app/tracking.png" alt="Slam Dunk Dashboard model tracking table and cumulative net units chart">
+      <p class="app-carousel-desc"><strong>The receipts</strong> — season-to-date model tracking with net units and ROI by prop, plotted as a running total. The whole graded record, right there to scroll.</p>
+    </div>
+    <div class="carousel-item">
+      <img class="app-carousel-image" src="images/app/home-runs.png" alt="Slam Dunk Dashboard MLB home runs markets board">
+      <p class="app-carousel-desc"><strong>All three leagues</strong> — MLB home-run and first-inning (NRFI/YRFI) markets sit right alongside the NBA and WNBA boards.</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#appCarousel" data-bs-slide="prev" aria-label="Previous screenshot">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#appCarousel" data-bs-slide="next" aria-label="Next screenshot">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+```
+
+:::
+
+:::

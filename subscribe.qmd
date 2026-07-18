@@ -1,12 +1,12 @@
 ## Subscribe
 
-Daily NBA and WNBA first-basket and prop picks, delivered on Discord — updated every 30 minutes during game&nbsp;days.
+Daily NBA, WNBA, and MLB picks — first baskets, props, home runs, and NRFI/YRFI — delivered on Discord, updated every 30 minutes during game&nbsp;days.
 
 ### What's included
 
 - **Discord server access** with all picks, updates, and community chat
-- **First basket projections** for every game (NBA + WNBA)
-- **Full prop markets** — team to score first, tipoff, first assist / rebound / block / steal, and&nbsp;more
+- **First-basket projections** for every NBA & WNBA game, plus **home-run and NRFI/YRFI projections** for MLB
+- **Full prop markets** — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; and&nbsp;more
 - **Auto-updates every 30 minutes** as lines move
 - **Daily ROI tracking** — every bet logged, receipts on-server
 

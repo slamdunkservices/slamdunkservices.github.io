@@ -2,7 +2,7 @@
 
 ## What this is
 
-Marketing + blog site for **Slam Dunk Bets**, an NBA/WNBA prop & first-basket picks service. Quarto website published to GitHub Pages at <https://slamdunk.bet> (custom domain set via the `CNAME` file).
+Marketing + blog site for **Slam Dunk Bets**, an NBA, WNBA & MLB prop picks service — first baskets for basketball, home runs and NRFI/YRFI for baseball. Quarto website published to GitHub Pages at <https://slamdunk.bet> (custom domain set via the `CNAME` file).
 
 ## Tech
 
@@ -63,7 +63,7 @@ Typical flow:
 title: "Post Title"
 author: Slam Dunk Bets
 date: YYYY-MM-DD
-categories: [nba, wnba]
+categories: [nba, wnba, mlb]
 draft: false
 ---
 ```

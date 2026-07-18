@@ -3,7 +3,7 @@
 ::: {.callout-note collapse="true" appearance="minimal"}
 ## Who are you nerds?
 
-We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game.
+We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game — plus who'll go deep and whether the first inning scores for every MLB game.
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
@@ -32,6 +32,11 @@ For WNBA:
 -   first basket exact method
 -   first basket by team
 -   team to score first
+
+For MLB:
+
+-   home runs (by batter)
+-   no runs first inning (NRFI) / yes runs first inning (YRFI)
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal"}
