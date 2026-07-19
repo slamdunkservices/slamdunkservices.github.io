@@ -1,27 +1,10 @@
-## Slam Dunk Dashboard
+## Slam Dunk Dashboard: All our plays and data, plus historical tracking and unit sizing calculator!
 
-Every projection we run, in your browser. The **Slam Dunk Dashboard** takes the same NBA, WNBA & MLB model that powers our Discord picks and puts it in a live, sortable board — with per-book line movement, a built-in bet calculator, and our full graded track record. Save your go-to sportsbooks, flip odds between percent and American, and switch light or dark, on desktop or phone.
-
-::: {.app-layout .column-page}
-
-::: {.app-login}
-### Getting in
-
-Head to [app.slamdunk.bet](https://app.slamdunk.bet) and you'll be asked to sign in with **Discord** or **Google** right away. Active subscribers land straight on the board. Not subscribed yet? We'll send you to sign up first — subscribe once and you're in.
-
-::: {.subscribe-ctas}
+::: subscribe-ctas
 [Open the Dashboard](https://app.slamdunk.bet){.btn .btn-primary .btn-lg role="button"}
 :::
 
-::: {.app-login-shot}
-![](images/app/login.png){fig-alt="Slam Dunk Dashboard login screen with Sign in with Discord and Sign in with Google buttons"}
-:::
-
-New here? [Start with a subscription](subscribe.qmd) — your first month is free. Questions? Hit the [contact page](contact.qmd).
-:::
-
-::: {.app-carousel-col}
-
+::: app-carousel-col
 ```{=html}
 <div id="appCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
   <div class="carousel-indicators">
@@ -61,7 +44,10 @@ New here? [Start with a subscription](subscribe.qmd) — your first month is fre
   </button>
 </div>
 ```
-
 :::
 
-:::
+### Getting in
+
+Head to [app.slamdunk.bet](https://app.slamdunk.bet) and you'll be asked to sign in with **Discord** or **Google** right away. Active subscribers land straight on the board. Not subscribed yet? We'll send you to sign up first — subscribe once and you're in.
+
+New here? [Start with a subscription](subscribe.qmd) — your first month is free. Questions? Hit the [contact page](contact.qmd).
