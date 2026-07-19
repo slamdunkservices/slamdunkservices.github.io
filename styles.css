@@ -579,3 +579,206 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
         min-height: 56vh;
     }
 }
+
+/* ─── Apps / Dashboard page ────────────────────────────────────── */
+
+.app-shots {
+    display: grid;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.app-shots figure,
+.app-shots p {
+    margin: 0;
+}
+
+.app-shots img,
+.app-login-shot img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #e6e6e4;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
+}
+
+.app-shots figcaption,
+.app-shots .figure-caption {
+    margin-top: 0.65rem;
+    text-align: center;
+    color: #495057;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.app-login-shot {
+    max-width: 460px;
+    margin: 1.5rem auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    .app-shots img,
+    .app-login-shot img {
+        border-color: #222;
+    }
+
+    .app-shots figcaption,
+    .app-shots .figure-caption {
+        color: #b0b0b0;
+    }
+}
+
+/* ─── Apps page: two-column layout + screenshot carousel ───────── */
+
+.app-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 2rem auto;
+}
+
+.app-login {
+    flex: 1 1 300px;
+    min-width: 0;
+}
+
+.app-login .subscribe-ctas {
+    margin: 1.25rem 0;
+}
+
+.app-login-shot {
+    max-width: 340px;
+    margin: 1.25rem 0 0;
+}
+
+.app-carousel-col {
+    flex: 1.6 1 500px;
+    min-width: 0;
+}
+
+#appCarousel {
+    position: relative;
+}
+
+#appCarousel .carousel-inner {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #e6e6e4;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
+}
+
+.app-carousel-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 66vh;
+    object-fit: contain;
+    background: #fff;
+}
+
+.app-carousel-desc {
+    margin: 0.85rem auto 2.5rem;
+    max-width: 40rem;
+    padding: 0 1rem;
+    text-align: center;
+    color: #495057;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+#appCarousel .carousel-control-prev,
+#appCarousel .carousel-control-next {
+    width: 2.75rem;
+    height: 2.75rem;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    border-radius: 999px;
+    background: rgba(5, 5, 5, 0.72);
+    opacity: 0.9;
+}
+
+#appCarousel .carousel-control-prev {
+    left: 0.6rem;
+}
+
+#appCarousel .carousel-control-next {
+    right: 0.6rem;
+}
+
+#appCarousel .carousel-control-prev:hover,
+#appCarousel .carousel-control-prev:focus,
+#appCarousel .carousel-control-next:hover,
+#appCarousel .carousel-control-next:focus {
+    opacity: 1;
+}
+
+#appCarousel .carousel-indicators {
+    bottom: 0;
+    margin-bottom: 0.5rem;
+}
+
+#appCarousel .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    border: 0;
+    background-color: #adb5bd;
+    opacity: 0.7;
+}
+
+#appCarousel .carousel-indicators .active {
+    background-color: #212529;
+    opacity: 1;
+}
+
+@media (max-width: 575.98px) {
+    .app-carousel-image {
+        max-height: 56vh;
+    }
+
+    /* On phones the description wraps tall, so vertically-centered overlay
+       arrows would land on top of the text. Hide them and rely on the
+       indicator dots plus native swipe. */
+    #appCarousel .carousel-control-prev,
+    #appCarousel .carousel-control-next {
+        display: none;
+    }
+
+    #appCarousel .carousel-indicators {
+        margin-bottom: 0.75rem;
+    }
+
+    #appCarousel .carousel-indicators [data-bs-target] {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #appCarousel .carousel-inner {
+        border-color: #222;
+        background: #0d0d0d;
+    }
+
+    .app-carousel-image {
+        background: #0d0d0d;
+    }
+
+    .app-carousel-desc {
+        color: #b0b0b0;
+    }
+
+    #appCarousel .carousel-indicators [data-bs-target] {
+        background-color: #555;
+    }
+
+    #appCarousel .carousel-indicators .active {
+        background-color: #eee;
+    }
+}
