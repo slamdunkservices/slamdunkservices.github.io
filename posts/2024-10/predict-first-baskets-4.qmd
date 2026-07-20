@@ -7,7 +7,7 @@ categories: [] # self-defined categories
 draft: false
 ---
 
-![](../../images/Razor_1_(PSF).png){width="600"}
+![](../../images/posts/Razor_1_(PSF).png){width="600"}
 
 Being able to estimate odds for first baskets is a nifty parlor trick that might give you something to talk about at a job interview or the bar or whatever, but unless we can find opportunities where our predictions can give us a betting edge, they're not especially useful.
 

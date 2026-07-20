@@ -31,7 +31,7 @@ body-classes: home-page
 
 :::::: steps
 ::: step
-![](images/robot_emoji_transparent.png){.model-image fig-alt="Robot"}
+![](images/home/robot_emoji_transparent.png){.model-image fig-alt="Robot"}
 
 ### 1. Model the slate
 
@@ -41,7 +41,7 @@ Projections for every NBA, WNBA, and MLB game, built from the same stat foundati
 :::
 
 ::: step
-![](images/alarm_clock_emoji_transparent.png){.clock-image fig-alt="Alarm clock"}
+![](images/home/alarm_clock_emoji_transparent.png){.clock-image fig-alt="Alarm clock"}
 
 ### 2. Refresh every 30 minutes
 
@@ -51,7 +51,7 @@ Picks update automatically as lines move — no stale numbers, no guesswork.
 :::
 
 ::: step
-![](images/check_mark_transparent.png){.discord-image fig-alt="Check mark"}
+![](images/home/check_mark_transparent.png){.discord-image fig-alt="Check mark"}
 
 ### 3. Post picks in Discord
 
@@ -67,7 +67,7 @@ Daily picks and ROI receipts, straight to your phone through the Discord communi
 
 We've tracked every pick since the 2021–22 NBA season, and the full cumulative chart is still climbing.
 
-![Cumulative Slam Dunk Bets ROI since 2021–22](images/cumulative_total.png){fig-alt="Cumulative ROI chart for Slam Dunk Bets picks since 2021-22"}
+![Cumulative Slam Dunk Bets ROI since 2021–22](images/home/cumulative_total.png){fig-alt="Cumulative ROI chart for Slam Dunk Bets picks since 2021-22"}
 :::
 
 ::: hall-of-fame

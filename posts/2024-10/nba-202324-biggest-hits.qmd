@@ -4,11 +4,11 @@ subtitle: "No Clowning Around Here"
 author: Slam Dunk Bets
 date: 2024-10-18
 categories: [] # self-defined categories
-image: /images/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg
+image: /images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg
 draft: false
 ---
 
-![](/images/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg)
+![](/images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg)
 
 As we get ready for the next NBA season, we're taking a look back at our 2023-24 NBA betting performance. Here were the top 10 biggest hits (by units returned):
 

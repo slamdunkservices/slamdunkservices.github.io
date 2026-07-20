@@ -7,7 +7,7 @@ categories: [] # self-defined categories
 draft: false
 ---
 
-![](../../images/catwalk.jpg){width=600}
+![](../../images/posts/catwalk.jpg){width=600}
 
 In the [previous post](predict-first-baskets-2.qmd) on predicting first baskets, we walked through the data we use for the models. Next we'll talk through the models themselves. This will get kinda long and nerdy!
 
@@ -17,7 +17,7 @@ But there's more! Sometimes, the inputs to a model aren't always available for e
 
 Supporting all these models present a challenge for orchestration, i.e. figuring out which models to use in different situations, but has so far given us far stronger results than other approaches to the problem of predictors not always being available for every case that needs a prediction (like imputation).
 
-So, to the models! Here's that diagram again: ![](../../images/model_flowchart.jpg)
+So, to the models! Here's that diagram again: ![](../../images/posts/model_flowchart.jpg)
 
 The first are the jump ball models, which predict the likelihood of a specific jumper to win the tip against another specific jumper, e.g. Anthony Davis to win the tip against Bam Adebayo or vice versa. A player's win rate against a specific opponent is almost always the best predictor of the outcome here, but a number of other factors, like a player's height, reach, vertical, and overall jump ball win rate are also useful pieces of information.
 

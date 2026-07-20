@@ -7,7 +7,7 @@ categories: [] # self-defined categories
 draft: false
 ---
 
-![](../../images/Action-Max-Red-Light.jpg){width=600}
+![](../../images/posts/Action-Max-Red-Light.jpg){width=600}
 
 I think this is gonna be the last part of the "How Do You Predict First Baskets?" series of posts! Woohoo, we made it! The last post is on the alerts themselves - how do we make the edges we identify actionable for our users?
 

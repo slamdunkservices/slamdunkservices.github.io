@@ -7,7 +7,7 @@ categories: [] # self-defined categories
 draft: false
 ---
 
-![](/images/Kick_scooters_parking.jpg)
+![](/images/posts/Kick_scooters_parking.jpg)
 
 In prep for the 2024-25 NBA season we're looking back at some of the highlights from the 2023-24 season (where we were up [1692 units](nba-202324-performance.qmd)).
 

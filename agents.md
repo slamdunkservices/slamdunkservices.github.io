@@ -30,7 +30,7 @@ There are no tests or linters.
 | `articles.qmd` | Blog listing page (reads `posts/`) |
 | `faq.qmd`, `contact.qmd` | FAQ and contact pages |
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
-| `images/` | All assets — brand, hero, post images, carousel receipts |
+| `images/` | All assets, organized by the page that uses them (see Images below) |
 | `scripts/hof-carousel.js` | Homepage carousel; loads images from a JSON manifest |
 | `styles.css`, `custom.scss` | Site-wide styling overrides |
 | `CNAME` | `slamdunk.bet` — GitHub Pages custom domain |
@@ -72,7 +72,20 @@ The post appears automatically on `articles.qmd` (a Quarto listing page). `draft
 
 **Edit a page.** Edit the `.qmd` at repo root, preview, commit, publish.
 
-**Images.** Drop into `images/`. Reference as `images/foo.jpg` from root-level pages or `../../images/foo.jpg` from `posts/YYYY-MM/`.
+**Images.** `images/` is organized by the page that consumes each asset:
+
+| Folder | Used by |
+|---|---|
+| `images/brand/` | Site-wide — favicon (`_quarto.yml`), logos (`styles.css`, `index.qmd`) |
+| `images/home/` | `index.qmd` |
+| `images/apps/` | `apps.qmd` |
+| `images/posts/` | `posts/**/*.qmd` |
+| `images/hof-carousel/` | Homepage carousel (see below) |
+| `images/_unused/` | Not referenced anywhere on the site — staging area for review, not published |
+
+Drop new assets into the folder for the page that uses them. Reference as `images/<folder>/foo.jpg` from root-level pages, or `../../images/<folder>/foo.jpg` from `posts/YYYY-MM/`. Posts may also use root-absolute `/images/<folder>/foo.jpg`; both forms are in use.
+
+Quarto only copies images that are actually referenced into `_site/`, so an unreferenced file costs nothing at publish time — but keep `images/_unused/` for anything not on the site so the page folders stay a true inventory. The leading underscore also keeps the folder out of Quarto's input scan.
 
 **Homepage carousel.** `scripts/hof-carousel.js` reads `images/hof-carousel/manifest.json` — adding an image to `images/hof-carousel/` does nothing until its filename is added to the manifest. Both paths are shipped via the `resources` list in `_quarto.yml`.
 

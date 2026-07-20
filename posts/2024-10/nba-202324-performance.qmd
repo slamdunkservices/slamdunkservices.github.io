@@ -9,7 +9,7 @@ draft: false
 
 With the 2024-25 NBA season about to kickoff, we thought it would be prudent to remind everybody about our performance last year. Here's a graph tracking our 1692 units of ROI over the course of the 2023-24 NBA season. This graph includes all of our prop markets, which you can check out in the FAQ.
 
-![](/images/nba_roi_202324.png)
+![](/images/posts/nba_roi_202324.png)
 
 The horizontal axis is "bet number", which is just the index of bets we've made - far left is the first bet we made of the season, far right is the last one. The vertical axis is "units returned" which just counts the NET units returned from the bet. When the line goes up, we're winning, when it goes down, we're losing.
 
