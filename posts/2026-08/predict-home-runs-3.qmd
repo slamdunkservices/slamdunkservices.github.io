@@ -1,0 +1,30 @@
+---
+title: "How Do We Predict Home Runs? Part 3 of ..."
+subtitle: "From Projections to Edges"
+author: Slam Dunk Bets
+date: 2026-08-03
+categories: [mlb]
+draft: false
+---
+
+![](../../images/posts/hr-edges-ticker.jpg){width=600}
+
+Being able to put a fair price on every potential dinger in baseball is a nifty parlor trick, and it might win you an argument at the bar. But unless those prices find us spots where the books disagree with us, they're just trivia. Fortunately, they do. Here's how.
+
+Twice an hour, we collect home run odds from 13 sportsbooks: bet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock, Kalshi, Novig, ProphetX, and theScore. Every American price converts to an implied probability, and then the comparison is almost embarrassingly simple:
+
+**edge = our probability − the book's implied probability**
+
+Say our calibrated projection has a batter at 14% to go deep — a fair price of +614 — and a book is dangling +900, which implies 10%. That's a 4-point edge. Play.
+
+Two details we're picky about. First, we compare against the book's price exactly as posted — no de-vigging, no theoretical "true" line. The number we beat is the number you can actually bet, juice included. Second, not every positive edge is playable. The bar right now: 2 points of probability for 1+ home run plays, 1.5 points for the multi-homer and first-inning markets. It used to be lower. We started this season at 1 point and raised it twice, because our own tracking data was blunt with us: thin edges on 1+ homers were about a third of our volume and returned roughly nothing. We'd rather alert fewer, better plays. The thresholds will keep evolving, and the tracking data — not vibes — decides.
+
+(For the 2+ and 3+ homer markets, we take the sim's expected homers for each batter and run it through a little Poisson math to get the tail probabilities. Longshot city, priced with the same machinery.)
+
+Then there's sizing. Recommendations are half-Kelly, where 1 unit = 1% of a bankroll, scaled so the average alerted play lands right around 1u. Bigger edges and longer odds earn bigger recommendations, and nothing ever earns a "max bet!!". Why HALF Kelly? Because full Kelly assumes your probabilities are perfect, and ours are merely good 😎
+
+And finally, line shopping — the closest thing this industry has to free money. The same homer can be +600 at one book and +900 at another, and that's the difference between implied 14.3% and implied 10% on the same swing of the same bat. Our alerts list every book clearing the bar, best value first, so you can grab the top of the market. (One exception: exchange-style books like Novig and Kalshi show up in our tables but not our official plays. Prices there move too fast, and the resting liquidity is too thin to promise the posted number is actually gettable.)
+
+A word about variance, because we'd rather say it up front than have you learn it the hard way: a 3-point edge on a +700 prop still loses most of the time. That is the shape of this business — many small positions on longshots, graded over months, not nights. We track every alerted play publicly, wins and losses both, and those tracked results are exactly what moved the thresholds above. No cherry-picking, no memory-holing the bad weeks.
+
+Of course, an edge you hear about after first pitch is worth exactly nothing. [Part 4 of ...](predict-home-runs-4.qmd) covers the last mile: alerts, and the app. Thanks for reading!
