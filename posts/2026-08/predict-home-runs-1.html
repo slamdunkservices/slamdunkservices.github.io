@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Slam Dunk Bets">
-<meta name="dcterms.date" content="2024-10-04">
+<meta name="dcterms.date" content="2026-08-01">
 
-<title>How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets</title>
+<title>How Do We Predict Home Runs? Part 1 of … – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -68,13 +68,13 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets">
-<meta property="og:description" content="The Data We Use">
-<meta property="og:image" content="https://slamdunk.bet/images/posts/library.jpeg">
+<meta property="og:title" content="How Do We Predict Home Runs? Part 1 of … – Slam Dunk Bets">
+<meta property="og:description" content="Pitch Data">
+<meta property="og:image" content="https://slamdunk.bet/images/posts/hr-pitch-data.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
-<meta name="twitter:title" content="How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets">
-<meta name="twitter:description" content="The Data We Use">
-<meta name="twitter:image" content="https://slamdunk.bet/images/posts/library.jpeg">
+<meta name="twitter:title" content="How Do We Predict Home Runs? Part 1 of … – Slam Dunk Bets">
+<meta name="twitter:description" content="Pitch Data">
+<meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-pitch-data.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
 <meta name="twitter:site" content="@jimtheflash">
 <meta name="twitter:card" content="summary_large_image">
@@ -140,9 +140,12 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do You Predict First Baskets? Part 2 of …</h1>
-<p class="subtitle lead">The Data We Use</p>
-</div>
+<h1 class="title">How Do We Predict Home Runs? Part 1 of …</h1>
+<p class="subtitle lead">Pitch Data</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">mlb</div>
+  </div>
+  </div>
 
 
 
@@ -158,7 +161,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 4, 2024</p>
+      <p class="date">August 1, 2026</p>
     </div>
   </div>
   
@@ -170,17 +173,27 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/library.jpeg" class="img-fluid" width="600"></p>
-<p>First two posts in this series were very high level, now we get into some specifics. What data are we using to predict first basket outcomes?</p>
-<p>The vast majority of the information we need comes directly from the NBA’s play-by-play and boxscore records. Here’s an <a href="https://statsdmz.nba.com/pdfs/20231225/20231225_GSWDEN_book.pdf">example</a> of what the NBA generates and freely shares for every game. Outside of the play-by-play data, we can also grab some basic player information (height, weight, age, draft position) from the NBA’s player information portal.</p>
-<p>There are a couple of important data elements we use that we get from outside the NBA’s records. The first is starting lineup information - it turns out, everybody and their cousin has a twitter account or website with the projected starting lineups for every game, so we use one of them (for free) for lineup info.</p>
-<p>The second is game lines from sportsbooks. The spread, total, and moneyline for NBA games typically have a lot of information in them, because it is influenced by 1) bookmakers, who have models and good info in most cases and 2) bettors, who can move the betting lines by making more and bigger wagers on one side than another. We track game lines from several sportsbooks.</p>
-<p>To be clear, we’re not manually downloading a bunch of pdf’s or clicking into sportsbook apps and recording the odds in a spreadsheet. We use data science tools to programmatically access data from APIs (there are dozens of them! try the <a href="https://pypi.org/project/nba_api/">nba_api</a> python library if that’s your jam), and add them to our data store. Most of the data we care about only update once a day, like play-by-play records from the previous day, but some of it is updated as often as every 30 minutes, like starting lineup information, and sportsbook lines.</p>
-<p>Once we get the data, we have to do a bunch of additional work, including: validating that the data are sensible and not buggy or duplicated or other things that happen to data; label when jump balls and first baskets (and first other things) happen, and who does them, and the specific method it happened; engineer common and bespoke metrics, like efficiency, and first-basket-related usage rates, conditioned on specific lineups; aggregate statistics within games, and seasons, and players, and teams, and coaches, and different combinations of those levels, using lots of different operations; create rolling window functions so we can calculate metrics in specific windows of time or stretches of games; and then lots of recoding and normalizing to get things prepped for our modeling pipelines.</p>
-<p>Whew! It sounds like a lot when its all written out like this, but most of our data pipelines run in way less than an hour.</p>
-<p>Like most curious folks, we’re always on the lookout for additional data that can help our models perform better. I suspect that we’re getting as much information as we can out of the play-by-play data; we might benefit from adding additional coach-specific information into the models, if we think that there are coach-related patterns that might explain some variance in first basket/early game usage and success; or similar to coaching-related variance, there’s possibly some aspect of how a team is doing with respect to making the playoffs that could explain some variance as well.</p>
-<p>The ultimate criteria for whether we use data in our models is, “does it make the model better?” Which at this point is a high bar to cross 😎</p>
-<p>Next up is a deeper dive into the models themselves (not like a SUPER deep dive, but more than what was in the <a href="../../posts/2024-10/predict-first-baskets-1.html">last post</a> on this). Thanks for reading, and thanks even more if you subscribe!</p>
+<p><img src="../../images/posts/hr-pitch-data.jpg" class="img-fluid" width="600"></p>
+<p>Home runs are the most exciting part of baseball, imho, and they don’t happen very often — right around 3% of plate appearances. They’re a pretty rare event, so figuring out whether a player is going to hit one is a little bit like finding that one lego brick you need in your bin of unsorted bricks.</p>
+<p>We know home runs are at least a teensy bit predictable. Some players are going to hit a lot more home runs than others, year in and year out, and some players are hardly going to hit any. Same story on the mound: some pitchers give up way more homers than others. We know homers are more common at higher elevations (thanks Colorado!), on warmer days, in parks with shorter fences, and when the wind blows out from home plate.</p>
+<p>But…how do you actually turn any of that into a prediction?</p>
+<p>(That question is this whole series — the data, the models, the edges, the alerts, and the app. It will get long and nerdy. That’s the fun part.)</p>
+<p>It starts with data! Statcast publishes 119 columns about every single MLB pitch — velocity, spin, release point, exit velocity, launch angle, all the way down to the tilt of the batter’s swing path. We mirror all of it, roughly 750,000 pitches per season going back to 2017, and then build our own layers on top: batter profiles (career numbers AND the trailing 40 games, with platoon splits and performance against different pitch types), pitcher profiles (arsenal, velocity, workload, recent form), park factors, fence distances in every direction (including the batter’s pull side), elevation, roofs, temperature, wind. Plus team tendencies, like how quickly each club goes to its bench. Plus game-state stuff — score, outs, count, runners — which we’ll get into in Part 2.</p>
+<p>Rookies get seeded with minor-league data, and the translation is not gentle: MiLB power gets marked DOWN on the way up (a AAA dinger is worth about 80% of an MLB one in our priors), strikeout rates get marked up, and lower levels count for less than AAA. Sorry, rooks. And every rate in every profile gets empirical-Bayes shrinkage, which is a fancy way of saying small samples get dragged toward league average until they earn their distance. One hot week does not make you Aaron Judge. Yet.</p>
+<p>All told, our models use around 145 features per pitch (145 to 154, depending on the model), which is way more information than I can juggle in my brain at any point in time, let alone for every pitch of every game on a full slate. Fortunately, that’s where the ML models come in.</p>
+<p>We use a chain of models — boosted decision trees, trained on about six million pitches — to predict what happens on each pitch, one question at a time:</p>
+<ol type="1">
+<li><strong>What’s he throwing?</strong> Statcast tags pitches with 18 different type codes; we collapse them into six classes (fastball, sinker, cutter, breaking, offspeed, other) because for our purposes the coarse distinctions are the ones that matter. And they DO matter: in 2024, balls in play against four-seamers became homers about 5.3% of the time, versus 3.2% against sinkers.</li>
+<li><strong>Does he swing?</strong> Given the pitch class, the count, and everything else about the matchup.</li>
+<li><strong>What happens on the swing?</strong> Whiff, foul, or fair contact — with a sibling model handling the takes: ball, called strike, or the occasional plunking.</li>
+<li><strong>What happens on contact?</strong> Single, double, triple, home run, or out, priced off the batter’s power, the pitcher, the park, and the weather.</li>
+</ol>
+<p>(Fun aside: none of these models ever sees pitch <em>location</em>, on purpose. Our simulator only decides WHAT gets thrown, not where, and if you hand location-hungry models a filled-in average location, every simulated pitch becomes a down-the-middle meatball. Ask us how we know.)</p>
+<p>Sharp-eyed readers might notice there’s no ball-physics step in that list. There used to be! We had models that predicted exit velocity and launch angle off the bat, then turned the physics into outcomes, and they were beautiful. Then we tested them head-to-head against the boring direct approach over a full season, and the boring approach was a hair more accurate and literally twice as fast. So the physics models got benched — they still hang around as diagnostics, but they don’t touch the predictions anymore. The number of models drifts between five and seven as we experiment (RIP to the physics arm), and the current starting five is the list above.</p>
+<p>Accuracy is what everybody wants to talk about with models, and ours do pretty well for predicting the outcomes of hundreds of interactions between groups of human beings. On the question that matters — does this batter homer in this game — our AUC runs in the .6 to .7 range across backtests and live seasons (this season: .61 through late July, across about 7,000 player-games), with Brier scores around .10 and calibration error around a single point of probability. Translated from nerd: the model is meaningfully better than naive guessing at separating homer games from no-homer games, and when it says 12%, homers happen about 12% of the time. In this business, that second part is the superpower.</p>
+<p>Chains of models can be REALLY useful (it’s the same trick behind our <a href="../../posts/2024-10/predict-first-baskets-1.html">first-basket models</a>), but they undeniably add complexity, and they add the risk of compounding errors: mess something up in the first model and it flows downstream through everything else, because each model takes the previous outputs as inputs. Are they worth it?</p>
+<p>Our research says yes. You can absolutely estimate a batter’s probability of homering with the simplest possible method: count his games, count his homer games, divide. If Jim played 100 games and homered in 10 of them, call it 10% (+900 in American odds). Totally intuitive, easy to update, and genuinely a lot better than flipping a coin. But the chained approach beats that baseline by roughly +.02 to +.04 of AUC, season after season, in leak-free backtests. That sounds modest, so here’s the honest version: home runs are HARD, nobody’s model sees the future, and a couple points of AUC is the difference between finding real edges and donating vig to the books. The complexity earns its keep. (One of our favorite findings along the way: home runs are overwhelmingly a <em>batter</em> skill. A pitcher’s homer-allowed history carries almost no predictive weight — that’s not a bug in our models, it’s a fact about baseball.)</p>
+<p>So that’s cool — we can price individual pitches. But the bets are on games, and games have STATE. That’s <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2 of …</a>, where we get into score effects, lineups, and the simulations that hold this whole thing together. Thanks for reading!</p>
 
 
 

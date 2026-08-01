@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Slam Dunk Bets">
-<meta name="dcterms.date" content="2024-10-04">
+<meta name="dcterms.date" content="2026-08-04">
 
-<title>How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets</title>
+<title>How Do We Predict Home Runs? Part 4 of … – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -68,13 +68,13 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets">
-<meta property="og:description" content="The Data We Use">
-<meta property="og:image" content="https://slamdunk.bet/images/posts/library.jpeg">
+<meta property="og:title" content="How Do We Predict Home Runs? Part 4 of … – Slam Dunk Bets">
+<meta property="og:description" content="Alert Alert, Home Run Edition">
+<meta property="og:image" content="https://slamdunk.bet/images/posts/hr-alerts-press.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
-<meta name="twitter:title" content="How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets">
-<meta name="twitter:description" content="The Data We Use">
-<meta name="twitter:image" content="https://slamdunk.bet/images/posts/library.jpeg">
+<meta name="twitter:title" content="How Do We Predict Home Runs? Part 4 of … – Slam Dunk Bets">
+<meta name="twitter:description" content="Alert Alert, Home Run Edition">
+<meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-alerts-press.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
 <meta name="twitter:site" content="@jimtheflash">
 <meta name="twitter:card" content="summary_large_image">
@@ -140,9 +140,12 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do You Predict First Baskets? Part 2 of …</h1>
-<p class="subtitle lead">The Data We Use</p>
-</div>
+<h1 class="title">How Do We Predict Home Runs? Part 4 of …</h1>
+<p class="subtitle lead">Alert Alert, Home Run Edition</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">mlb</div>
+  </div>
+  </div>
 
 
 
@@ -158,7 +161,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 4, 2024</p>
+      <p class="date">August 4, 2026</p>
     </div>
   </div>
   
@@ -170,17 +173,30 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/library.jpeg" class="img-fluid" width="600"></p>
-<p>First two posts in this series were very high level, now we get into some specifics. What data are we using to predict first basket outcomes?</p>
-<p>The vast majority of the information we need comes directly from the NBA’s play-by-play and boxscore records. Here’s an <a href="https://statsdmz.nba.com/pdfs/20231225/20231225_GSWDEN_book.pdf">example</a> of what the NBA generates and freely shares for every game. Outside of the play-by-play data, we can also grab some basic player information (height, weight, age, draft position) from the NBA’s player information portal.</p>
-<p>There are a couple of important data elements we use that we get from outside the NBA’s records. The first is starting lineup information - it turns out, everybody and their cousin has a twitter account or website with the projected starting lineups for every game, so we use one of them (for free) for lineup info.</p>
-<p>The second is game lines from sportsbooks. The spread, total, and moneyline for NBA games typically have a lot of information in them, because it is influenced by 1) bookmakers, who have models and good info in most cases and 2) bettors, who can move the betting lines by making more and bigger wagers on one side than another. We track game lines from several sportsbooks.</p>
-<p>To be clear, we’re not manually downloading a bunch of pdf’s or clicking into sportsbook apps and recording the odds in a spreadsheet. We use data science tools to programmatically access data from APIs (there are dozens of them! try the <a href="https://pypi.org/project/nba_api/">nba_api</a> python library if that’s your jam), and add them to our data store. Most of the data we care about only update once a day, like play-by-play records from the previous day, but some of it is updated as often as every 30 minutes, like starting lineup information, and sportsbook lines.</p>
-<p>Once we get the data, we have to do a bunch of additional work, including: validating that the data are sensible and not buggy or duplicated or other things that happen to data; label when jump balls and first baskets (and first other things) happen, and who does them, and the specific method it happened; engineer common and bespoke metrics, like efficiency, and first-basket-related usage rates, conditioned on specific lineups; aggregate statistics within games, and seasons, and players, and teams, and coaches, and different combinations of those levels, using lots of different operations; create rolling window functions so we can calculate metrics in specific windows of time or stretches of games; and then lots of recoding and normalizing to get things prepped for our modeling pipelines.</p>
-<p>Whew! It sounds like a lot when its all written out like this, but most of our data pipelines run in way less than an hour.</p>
-<p>Like most curious folks, we’re always on the lookout for additional data that can help our models perform better. I suspect that we’re getting as much information as we can out of the play-by-play data; we might benefit from adding additional coach-specific information into the models, if we think that there are coach-related patterns that might explain some variance in first basket/early game usage and success; or similar to coaching-related variance, there’s possibly some aspect of how a team is doing with respect to making the playoffs that could explain some variance as well.</p>
-<p>The ultimate criteria for whether we use data in our models is, “does it make the model better?” Which at this point is a high bar to cross 😎</p>
-<p>Next up is a deeper dive into the models themselves (not like a SUPER deep dive, but more than what was in the <a href="../../posts/2024-10/predict-first-baskets-1.html">last post</a> on this). Thanks for reading, and thanks even more if you subscribe!</p>
+<p><img src="../../images/posts/hr-alerts-press.jpg" class="img-fluid" width="600"></p>
+<p>If you read our <a href="../../posts/2024-10/predict-first-baskets-1.html">first-baskets series</a>, you already know we’re obsessive about the last mile. A projection that never reaches you, or reaches you stale, might as well not exist. So the whole system runs like a tiny newspaper with an extremely niche beat.</p>
+<p>Every Monday at 2am, the models retrain on everything through the day before. Every morning at 6am, a full refresh: schedules, rosters, park factors, yesterday’s plays graded and logged. And then every 30 minutes from 7am to 10pm ET, a tick: pull the newest pitch data, check for posted lineups and probable starters, grab a fresh hourly forecast for every ballpark, re-simulate every game whose inputs actually changed (the fingerprint trick from <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2</a>), re-price 13 books, and push alerts.</p>
+<p>Weather gets the full nerd treatment, by the way. Wind “blowing out” isn’t a vibe — every forecast is resolved against the actual compass bearing from home plate to center field in that specific park, so a gust that’s blowing out in one stadium is a crosswind in another. Domes are a permanent 72°F and windless, which is boring, but boring is easy to model. Retractable roofs get a per-game open-or-closed call.</p>
+<p>Alerts land in Discord looking like this:</p>
+<blockquote class="blockquote">
+<p><strong>LAA @ TEX (8:05 pm ET)</strong></p>
+<ul>
+<li>Josh Lowe 1+ (proj +519): +750 br (2.5u), +720 dk (2.3u), …</li>
+<li>Jorge Soler 2+ (proj +545): +600 br (0.7u)</li>
+</ul>
+</blockquote>
+<p>Games in start-time order, plays sorted by edge, every qualifying book listed with its price and recommended units, best value first. And the emoji do actual work:</p>
+<ul>
+<li>🚨 first time a play qualifies today</li>
+<li>🚀 new day-high in value — the market moved further from us</li>
+<li>⬇️ still playable, but off its peak</li>
+<li>📖 a new book just joined the party</li>
+</ul>
+<p>The high-water marks reset at midnight ET, so a 🚀 is always a genuinely new best — a play that faded and crawled back to a price it already hit today gets a ⬇️, never a fresh rocket.</p>
+<p>And when a game goes live, we stop. Projections freeze at first pitch — no in-game re-pricing, no chasing. Pregame edges are our lane, and we stay in it.</p>
+<p>If Discord isn’t your speed, the same numbers live in the Slam Dunk Dashboard at <a href="https://app.slamdunk.bet">app.slamdunk.bet</a>: one card per game, with the weather, projected lineups, first-inning odds, and per-batter home run odds. And because we archive the full edge table on every single odds refresh, the app can show you how prices moved through the day — when the books adjusted, which direction, and whether the value is growing or already got eaten.</p>
+<p>And that’s the machine: 119 columns on every pitch, six million pitches of training data, a chain of models, an exact little 72-cell plate-appearance solve, 20,000 simulations per game, a calibration layer, 13 books twice an hour, half-Kelly sizing, and a rocket emoji when it matters. From data to dingers, we’ve covered the bases. For real this time — it’s baseball. The bases are literal.</p>
+<p>Thanks as always for reading, holler if you have questions (<a href="https://x.com/jimtheflash">@jimtheflash</a> is the best way to find us), and if you want these alerts in your pocket, please consider <a href="https://sharpduel.com/slam_dunk_bets">subscribing</a> — first month’s free — or come hang out in the <a href="https://whop.com/slam-dunk-bets">Discord</a> 🙏</p>
 
 
 

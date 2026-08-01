@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Slam Dunk Bets">
-<meta name="dcterms.date" content="2024-10-04">
+<meta name="dcterms.date" content="2026-08-02">
 
-<title>How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets</title>
+<title>How Do We Predict Home Runs? Part 2 of … – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -68,13 +68,13 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets">
-<meta property="og:description" content="The Data We Use">
-<meta property="og:image" content="https://slamdunk.bet/images/posts/library.jpeg">
+<meta property="og:title" content="How Do We Predict Home Runs? Part 2 of … – Slam Dunk Bets">
+<meta property="og:description" content="Game-State Data">
+<meta property="og:image" content="https://slamdunk.bet/images/posts/hr-game-state.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
-<meta name="twitter:title" content="How Do You Predict First Baskets? Part 2 of … – Slam Dunk Bets">
-<meta name="twitter:description" content="The Data We Use">
-<meta name="twitter:image" content="https://slamdunk.bet/images/posts/library.jpeg">
+<meta name="twitter:title" content="How Do We Predict Home Runs? Part 2 of … – Slam Dunk Bets">
+<meta name="twitter:description" content="Game-State Data">
+<meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-game-state.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
 <meta name="twitter:site" content="@jimtheflash">
 <meta name="twitter:card" content="summary_large_image">
@@ -140,9 +140,12 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do You Predict First Baskets? Part 2 of …</h1>
-<p class="subtitle lead">The Data We Use</p>
-</div>
+<h1 class="title">How Do We Predict Home Runs? Part 2 of …</h1>
+<p class="subtitle lead">Game-State Data</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">mlb</div>
+  </div>
+  </div>
 
 
 
@@ -158,7 +161,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 4, 2024</p>
+      <p class="date">August 2, 2026</p>
     </div>
   </div>
   
@@ -170,17 +173,22 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/library.jpeg" class="img-fluid" width="600"></p>
-<p>First two posts in this series were very high level, now we get into some specifics. What data are we using to predict first basket outcomes?</p>
-<p>The vast majority of the information we need comes directly from the NBA’s play-by-play and boxscore records. Here’s an <a href="https://statsdmz.nba.com/pdfs/20231225/20231225_GSWDEN_book.pdf">example</a> of what the NBA generates and freely shares for every game. Outside of the play-by-play data, we can also grab some basic player information (height, weight, age, draft position) from the NBA’s player information portal.</p>
-<p>There are a couple of important data elements we use that we get from outside the NBA’s records. The first is starting lineup information - it turns out, everybody and their cousin has a twitter account or website with the projected starting lineups for every game, so we use one of them (for free) for lineup info.</p>
-<p>The second is game lines from sportsbooks. The spread, total, and moneyline for NBA games typically have a lot of information in them, because it is influenced by 1) bookmakers, who have models and good info in most cases and 2) bettors, who can move the betting lines by making more and bigger wagers on one side than another. We track game lines from several sportsbooks.</p>
-<p>To be clear, we’re not manually downloading a bunch of pdf’s or clicking into sportsbook apps and recording the odds in a spreadsheet. We use data science tools to programmatically access data from APIs (there are dozens of them! try the <a href="https://pypi.org/project/nba_api/">nba_api</a> python library if that’s your jam), and add them to our data store. Most of the data we care about only update once a day, like play-by-play records from the previous day, but some of it is updated as often as every 30 minutes, like starting lineup information, and sportsbook lines.</p>
-<p>Once we get the data, we have to do a bunch of additional work, including: validating that the data are sensible and not buggy or duplicated or other things that happen to data; label when jump balls and first baskets (and first other things) happen, and who does them, and the specific method it happened; engineer common and bespoke metrics, like efficiency, and first-basket-related usage rates, conditioned on specific lineups; aggregate statistics within games, and seasons, and players, and teams, and coaches, and different combinations of those levels, using lots of different operations; create rolling window functions so we can calculate metrics in specific windows of time or stretches of games; and then lots of recoding and normalizing to get things prepped for our modeling pipelines.</p>
-<p>Whew! It sounds like a lot when its all written out like this, but most of our data pipelines run in way less than an hour.</p>
-<p>Like most curious folks, we’re always on the lookout for additional data that can help our models perform better. I suspect that we’re getting as much information as we can out of the play-by-play data; we might benefit from adding additional coach-specific information into the models, if we think that there are coach-related patterns that might explain some variance in first basket/early game usage and success; or similar to coaching-related variance, there’s possibly some aspect of how a team is doing with respect to making the playoffs that could explain some variance as well.</p>
-<p>The ultimate criteria for whether we use data in our models is, “does it make the model better?” Which at this point is a high bar to cross 😎</p>
-<p>Next up is a deeper dive into the models themselves (not like a SUPER deep dive, but more than what was in the <a href="../../posts/2024-10/predict-first-baskets-1.html">last post</a> on this). Thanks for reading, and thanks even more if you subscribe!</p>
+<p><img src="../../images/posts/hr-game-state.jpg" class="img-fluid" width="600"></p>
+<p>Everything in <a href="../../posts/2026-08/predict-home-runs-1.html">Part 1</a> is stuff we know before first pitch, and you could stop there: throw the pregame features into a model and get a decent baseline probability that a player goes deep. But pitches don’t happen in a vacuum, they happen inside games. Pitchers change their approach when they’re protecting a big lead or chasing from behind, when they’re ahead or behind in the count, when there are runners in scoring position. Batters do the same! With two strikes, the pitch mix tilts hard toward breaking and offspeed stuff - and as we covered in Part 1, breaking balls become dingers a lot less often than heaters do. Our models see all of it: balls, strikes, outs, all 24 combinations of runners and outs, the inning, the score difference, times through the order, home/away, and the handedness matchup.</p>
+<p>And then there’s the obvious one: a player’s chances of homering in a game rise and fall with his plate appearances. So how a team moves through its lineup - and how it handles substitutions, for defense or pinch-hitting or pinch-running - matters a LOT. By the time the lineup turns over a third time, the 9-hole hitter is about three times as likely as the leadoff man to have been lifted, and some clubs go to their bench much faster than others. Our sim tracks per-slot survival odds and per-team pinch-hit tendencies for exactly this reason.</p>
+<p>Given all that, it should be pretty clear: the state of the game is a real predictor of whether an at-bat produces a homer, and the state changes on every pitch. So how do you account for game states before the game even starts? Simulations.</p>
+<p>But first, a confession: we don’t actually roll dice pitch by pitch. For every batter-pitcher matchup, in every context, we solve the plate appearance exactly. There are only 12 possible counts and six pitch classes, so a plate appearance is really a little 72-cell grid: push probability through every path - every pitch choice, every swing and take, every foul - until all of it has been absorbed into an outcome. Foul balls with two strikes just loop the count back on itself, and the math is perfectly happy to price the at-bat that takes a dozen foul balls to resolve. Out the other side comes an exact distribution for that matchup: strikeout, walk, hit-by-pitch, single, double, triple, homer, out.</p>
+<p>Then we roll dice. We simulate each game 20,000 times, plate appearance by plate appearance, through a full game-state machine: lineups turning over, starters running out of gas, bullpens, pinch hitters, baserunners doing baserunner things (the sim knows a runner on second scores on a single about 60% of the time). The endings are score-aware, too: a home team that’s leading skips the bottom of the ninth, walk-offs end innings mid-stream, and ties go to extras with the free runner on second (yes, the Manfred runner lives in our simulator; no, he cannot be traded). Getting the endings right isn’t just cosmetic - it fixed a systematic ~5% inflation in home hitters’ projections, since home teams bat in the ninth a lot less often than a lazy sim assumes.</p>
+<p>After 20,000 sims we can answer questions like, “in what percentage of sims for the Phillies-Dodgers game did Ohtani go yard?” That proportion is our probability - the number that eventually becomes a projection, an edge, and maybe an alert. Why 20,000? Because at a 10% homer probability, that’s enough sims to shrink the random noise to about ±0.2 points. In our testing, backtest accuracy is flat whether we run 2,000 or 20,000 sims, but the extra sims give us more precise prices. (Also: everything is seeded, so every run is perfectly reproducible. The seed is 2026. Because of course it is.)</p>
+<p>Now, simulating every game 20,000 times, then re-simulating all day as lineups post and weather shifts, sounds computationally expensive. Three tricks keep it manageable:</p>
+<ol type="1">
+<li><strong>Solve once, sample cheap.</strong> The expensive part is the exact plate-appearance math - about three seconds of thinking per game. After that, each additional simulated game costs six <em>hundredths</em> of a millisecond.</li>
+<li><strong>Simulate wide.</strong> Instead of looping through 20,000 games one at a time, we advance all 20,000 together, one plate appearance per step, as big numpy arrays. The slow part of the code scales with the length of a game, not the number of sims.</li>
+<li><strong>Fingerprints.</strong> Every game’s projection carries a signature of its inputs: lineups, starters, weather (bucketed into 3°F and 2 mph steps, so ordinary forecast wobble doesn’t count as news). New update, same signature? Skip the re-run. And once a game goes live, its pregame projection freezes for good.</li>
+</ol>
+<p>Add it up and a full slate re-scores in about the time it takes to microwave a burrito, on an old i7 with 16GB of RAM. Still just a couple of guys on laptops over here. V nifty.</p>
+<p>One last step before the numbers are ready for prime time: calibration. An assembled simulator carries small compounding biases - ours ran a touch hot on balls in play, and its generic bullpens were a touch friendlier to hitters than real ones - so a final calibration layer, fit on held-out data, trues everything up. It stretches the tiniest probabilities upward (a raw 2% becomes about 4%) and trims the biggest ones (a raw 20% becomes about 17%). The goal is simple: when we publish 12%, we mean 12%.</p>
+<p>So now we’ve got a calibrated probability that any batter in baseball goes deep tonight. A probability is not a bet, though. In <a href="../../posts/2026-08/predict-home-runs-3.html">Part 3 of …</a> we turn projections into edges. Thanks for reading!</p>
 
 
 

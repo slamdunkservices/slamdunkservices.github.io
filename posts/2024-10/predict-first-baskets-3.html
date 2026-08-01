@@ -70,11 +70,11 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="How Do You Predict First Baskets? Part 3 of … – Slam Dunk Bets">
 <meta property="og:description" content="So Many Models">
-<meta property="og:image" content="https://slamdunk.bet/images/catwalk.jpg">
+<meta property="og:image" content="https://slamdunk.bet/images/posts/catwalk.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
 <meta name="twitter:title" content="How Do You Predict First Baskets? Part 3 of … – Slam Dunk Bets">
 <meta name="twitter:description" content="So Many Models">
-<meta name="twitter:image" content="https://slamdunk.bet/images/catwalk.jpg">
+<meta name="twitter:image" content="https://slamdunk.bet/images/posts/catwalk.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
 <meta name="twitter:site" content="@jimtheflash">
 <meta name="twitter:card" content="summary_large_image">
@@ -125,7 +125,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
             <div class="quarto-navbar-tools tools-wide">
     <a href="https://x.com/jimtheflash" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
     <a href="mailto:slamdunkbettingservices@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://whop.com/slam-dunk-bets/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-discord"></i></a>
+    <a href="https://sharpduel.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-discord"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -170,12 +170,12 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/catwalk.jpg" class="img-fluid" width="600"></p>
+<p><img src="../../images/posts/catwalk.jpg" class="img-fluid" width="600"></p>
 <p>In the <a href="../../posts/2024-10/predict-first-baskets-2.html">previous post</a> on predicting first baskets, we walked through the data we use for the models. Next we’ll talk through the models themselves. This will get kinda long and nerdy!</p>
 <p>We build a LOT of models. For each modeling problem, we typically build three unique kinds of models (e.g.&nbsp;regression, decision trees, splines) and combine them via a technique called ensembling. Ensemble models build off the idea of the wisdom of the crowds, a phenomena where often times the average estimate of something, like the weight of a cow, from a big crowd of people, is a better predictor of that thing than the estimates of experts. In ensemble models, we replace the crowd of people with a bunch of predictions from models, and try to do some smart weighting of the different input models as we get evidence about which models are most reliable.</p>
 <p>But there’s more! Sometimes, the inputs to a model aren’t always available for every player or team - for instance, we can’t use any statistics that reference a previous season for rookies, or a 20-game average of a metric for a player or team who hasn’t played 20 games. So we build sets of models, called reduced models, to handle these different cases, and then use a process called reconciliation to align the outputs, which is important in cases where we’re using different models for different players in the same games.</p>
 <p>Supporting all these models present a challenge for orchestration, i.e.&nbsp;figuring out which models to use in different situations, but has so far given us far stronger results than other approaches to the problem of predictors not always being available for every case that needs a prediction (like imputation).</p>
-<p>So, to the models! Here’s that diagram again: <img src="../../images/model_flowchart.jpg" class="img-fluid"></p>
+<p>So, to the models! Here’s that diagram again: <img src="../../images/posts/model_flowchart.jpg" class="img-fluid"></p>
 <p>The first are the jump ball models, which predict the likelihood of a specific jumper to win the tip against another specific jumper, e.g.&nbsp;Anthony Davis to win the tip against Bam Adebayo or vice versa. A player’s win rate against a specific opponent is almost always the best predictor of the outcome here, but a number of other factors, like a player’s height, reach, vertical, and overall jump ball win rate are also useful pieces of information.</p>
 <p>Once we’ve predicted the tipoff winner, we can predict which team will score first. These models use the output of the jump ball models, along with game lines and other team-level stats like offensive efficiency (adjusted for the expected lineup). One note, is that defensive factors rarely explain much variance in first team to score outcomes - there might be some lockdown defensive teams out there, but the majority of the time a team’s offensive production is most important. These are also the only models in our stack that use odds data from the books, because frankly the models are a lot better performing when we include them; in the future we’d prefer to remove the dependency on external odds estimates, but for now they work.</p>
 <p>Independent from the jump ball and first team to score processes, we also model which player will score first for their team. This doesn’t require any knowledge of who will win the tipoff or which team scores first (we tested that). The most important features in our first team scorer models are focused on usage: players who have a lot of offensive touches early in the game tend to be more likely to score first, but this depends a great deal on who else is in the starting lineup that day and their expected usage.</p>
@@ -588,7 +588,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>21+ Only | <a href="https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/">National Problem Gambling Helpline</a> <br> © Slam Dunk Betting Services LLC, 2025</p>
+<p>21+ Only | <a href="https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/">National Problem Gambling Helpline</a> <br> © Slam Dunk Betting Services LLC, 2026</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
