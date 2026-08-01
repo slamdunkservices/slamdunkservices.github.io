@@ -28,7 +28,7 @@ h1, h2, h3, .quarto-title-banner .title {
     text-wrap: balance;
 }
 
-p, li, .hero-links, .listing-description {
+p, li, .listing-description {
     text-wrap: pretty;
 }
 
@@ -196,12 +196,6 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     color: #000;
     border-color: #55ff3a;
     box-shadow: 0 0 28px rgba(57, 255, 20, 0.75);
-}
-
-.hero-links {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 1.05rem;
 }
 
 .subscribe-ctas {
@@ -544,13 +538,6 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     padding: 1rem;
 }
 
-.hof-meta {
-    margin-top: 0.85rem;
-    margin-bottom: 0;
-    color: #495057;
-    font-weight: 600;
-}
-
 @media (max-width: 576px) {
     .hof-carousel-wrap {
         max-width: calc(100% - 4.5rem);
@@ -580,79 +567,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     }
 }
 
-/* ─── Apps / Dashboard page ────────────────────────────────────── */
-
-.app-shots {
-    display: grid;
-    gap: 2rem;
-    max-width: 900px;
-    margin: 2rem auto;
-}
-
-.app-shots figure,
-.app-shots p {
-    margin: 0;
-}
-
-.app-shots img,
-.app-login-shot img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    border: 1px solid #e6e6e4;
-    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.14);
-}
-
-.app-shots figcaption,
-.app-shots .figure-caption {
-    margin-top: 0.65rem;
-    text-align: center;
-    color: #495057;
-    font-weight: 600;
-    font-size: 0.95rem;
-}
-
-.app-login-shot {
-    max-width: 460px;
-    margin: 1.5rem auto;
-}
-
-@media (prefers-color-scheme: dark) {
-    .app-shots img,
-    .app-login-shot img {
-        border-color: #222;
-    }
-
-    .app-shots figcaption,
-    .app-shots .figure-caption {
-        color: #b0b0b0;
-    }
-}
-
-/* ─── Apps page: two-column layout + screenshot carousel ───────── */
-
-.app-layout {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    align-items: flex-start;
-    max-width: 1100px;
-    margin: 2rem auto;
-}
-
-.app-login {
-    flex: 1 1 300px;
-    min-width: 0;
-}
-
-.app-login .subscribe-ctas {
-    margin: 1.25rem 0;
-}
-
-.app-login-shot {
-    max-width: 340px;
-    margin: 1.25rem 0 0;
-}
+/* ─── Apps page: screenshot carousel ───────────────────────────── */
 
 .app-carousel-col {
     flex: 1.6 1 500px;
