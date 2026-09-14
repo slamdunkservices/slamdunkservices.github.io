@@ -108,12 +108,12 @@ p, li, .listing-description {
 
 .hero h1,
 .hero h2,
-.hero h3 {
+.hero h1 {
     border-bottom: none;
     margin: 0;
 }
 
-.hero h3 {
+.hero h1 {
     color: var(--bs-body-color) !important;
     font-weight: 500;
     max-width: 640px;
@@ -122,7 +122,7 @@ p, li, .listing-description {
 
 @media (prefers-color-scheme: dark) {
     html, body { background: #0a0a0a; color: #f5f5f5; }
-    .hero h3 { color: #f5f5f5 !important; }
+    .hero h1 { color: #f5f5f5 !important; }
     .navbar, .navbar.navbar-expand-lg, nav.navbar {
         background: #0a0a0a !important;
         border-color: #222 !important;
@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
         padding: 1.25rem 0.75rem 1.75rem;
     }
 
-    .hero h3 {
+    .hero h1 {
         font-size: 1rem;
         font-weight: 600;
     }
@@ -697,3 +697,63 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
         background-color: #eee;
     }
 }
+
+/* Hero tagline is now the page H1; keep the size it had as an h3 */
+.hero h1 {
+    font-size: clamp(1.35rem, calc(1.3rem + 0.6vw), 1.75rem);
+    line-height: 1.3;
+}
+
+.hero .hero-lede {
+    max-width: 720px;
+    margin: 0 auto;
+    text-wrap: pretty;
+}
+
+.hero .hero-lede p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* FAQ: open sections instead of collapsed callouts */
+.faq-item {
+    border-top: 1px solid #e6e6e4;
+    padding: 1.25rem 0 1rem;
+}
+
+.faq-item:last-of-type {
+    border-bottom: 1px solid #e6e6e4;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.6rem;
+}
+
+.faq-item p:last-child,
+.faq-item ul:last-child {
+    margin-bottom: 0;
+}
+
+/* Subscribe: pricing table */
+.pricing table {
+    width: auto;
+    min-width: min(100%, 420px);
+    margin: 0.5rem 0 1rem;
+}
+
+.pricing th,
+.pricing td {
+    padding: 0.5rem 1.25rem 0.5rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    .faq-item,
+    .faq-item:last-of-type { border-color: #222; }
+    .pricing th, .pricing td { border-color: #222 !important; }
+}
+
+/* Root pages open with their own lede, so hide Quarto's title-block description there.
+   Posts (body.post via posts/_metadata.yml) keep it as a standfirst under the subtitle. */
+body:not(.post) #title-block-header .description { display: none; }

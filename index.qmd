@@ -1,5 +1,8 @@
 ---
-pagetitle: "Slam Dunk Bets"
+pagetitle: "NBA, WNBA & MLB Prop Picks Backed by Data"
+image: images/brand/og-default.png
+image-alt: "Slam Dunk Bets: NBA, WNBA and MLB prop picks backed by 8,000+ units of tracked ROI"
+description: "Model-driven NBA, WNBA and MLB prop picks, posted to Discord and refreshed every 30 minutes: first baskets, home runs, NRFI/YRFI and more. 8,000+ net units tracked since 2021-22. First 30 days free."
 page-layout: full
 body-classes: home-page
 ---
@@ -9,7 +12,11 @@ body-classes: home-page
 ![Slam Dunk Bets](images/brand/logo-horizontal-light.svg){.banner-light fig-alt="Slam Dunk Bets"} ![Slam Dunk Bets](images/brand/logo-horizontal-dark.svg){.banner-dark fig-alt="Slam Dunk Bets"}
 :::
 
-### NBA, WNBA & MLB picks, backed by 7,000+ units of ROI since 2021–22.
+# NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.
+
+::: hero-lede
+Slam Dunk Bets is a subscription picks service run by data scientists and engineers. Our machine learning models project first-basket props for every NBA and WNBA game and home runs and NRFI/YRFI for every MLB game, compare them to sportsbook prices every 30 minutes, and post the edges to Discord with unit sizes. Every bet is tracked and graded in public.
+:::
 
 ------------------------------------------------------------------------
 
@@ -63,7 +70,7 @@ Daily picks and ROI receipts, straight to your phone through the Discord communi
 :::::::
 
 ::: track-record
-## 7,000+ units of ROI since 2021–22 💰
+## 8,000+ units of ROI since 2021–22 💰
 
 We've tracked every pick since the 2021–22 NBA season, and the full cumulative chart is still climbing.
 

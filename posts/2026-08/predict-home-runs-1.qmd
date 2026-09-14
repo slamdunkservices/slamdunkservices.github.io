@@ -3,11 +3,14 @@ title: "How Do We Predict Home Runs? Part 1 of ..."
 subtitle: "Pitch Data"
 author: Slam Dunk Bets
 date: 2026-08-01
-categories: [mlb]
+categories: [mlb, home-runs, methodology]
 draft: false
+description: "How we predict MLB home runs, part 1: Statcast's 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type, swing, contact and outcome, with minor-league priors for new hitters."
+image: "/images/posts/hr-pitch-data.jpg"
+image-alt: "A baseball pitcher mid-delivery with the batter waiting in the foreground"
 ---
 
-![](../../images/posts/hr-pitch-data.jpg){width=600}
+![](../../images/posts/hr-pitch-data.jpg){fig-alt="A baseball pitcher mid-delivery with the batter and umpire in the foreground" width=600}
 
 Home runs are the most exciting part of baseball, imho, and they don't happen very often — right around 3% of plate appearances. They're a pretty rare event, so figuring out whether a player is going to hit one is a little bit like finding that one lego brick you need in your bin of unsorted bricks.
 

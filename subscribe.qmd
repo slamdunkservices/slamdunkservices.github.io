@@ -1,4 +1,18 @@
-## Subscribe
+---
+title: "Subscribe"
+pagetitle: "Subscribe: NBA, WNBA & MLB Prop Picks, First Month Free"
+description: "Daily NBA, WNBA and MLB prop picks on Discord: first baskets, home runs, NRFI/YRFI and more, refreshed every 30 minutes with every bet tracked. $19.99 a week, $49.99 a month, or $499.99 a year, each with a 30-day free trial on Sharpduel or Whop."
+schema-offers:
+  - name: "Weekly"
+    price: "19.99"
+    billing: P1W
+  - name: "Monthly"
+    price: "49.99"
+    billing: P1M
+  - name: "Annual"
+    price: "499.99"
+    billing: P1Y
+---
 
 Daily NBA, WNBA, and MLB picks — first baskets, props, home runs, and NRFI/YRFI — delivered on Discord, updated every 30 minutes during game&nbsp;days.
 
@@ -9,6 +23,19 @@ Daily NBA, WNBA, and MLB picks — first baskets, props, home runs, and NRFI/YRF
 - **Full prop markets** — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; and&nbsp;more
 - **Auto-updates every 30 minutes** as lines move
 - **Daily ROI tracking** — every bet logged, receipts on-server
+- **The Slam Dunk Dashboard** at [app.slamdunk.bet](https://app.slamdunk.bet): every edge, every book's price, line movement, and the full graded record
+
+### Pricing
+
+::: {.pricing}
+| Plan | Price | Free trial |
+|---|---|---|
+| Weekly | $19.99 / week | 30 days |
+| Monthly | $49.99 / month | 30 days |
+| Annual | $499.99 / year | 30 days |
+:::
+
+Prices and the 30-day trial are the same on Sharpduel and Whop. Sharpduel charges a $1 card verification at signup. Cancel anytime from whichever platform you subscribed&nbsp;on.
 
 ### First month is free
 
@@ -26,4 +53,4 @@ Looking for projections, market data, or tools instead of daily picks? Data subs
 
 ---
 
-Questions? Hit the [contact&nbsp;page](contact.qmd).
+Questions? Check the [FAQ](faq.qmd) or hit the [contact&nbsp;page](contact.qmd).

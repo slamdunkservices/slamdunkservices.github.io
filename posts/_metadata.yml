@@ -1,0 +1,2 @@
+# Shared defaults for every post. Individual posts override by setting the same key.
+body-classes: post

@@ -2,11 +2,14 @@
 title: "Why First Baskets?"
 author: Slam Dunk Bets
 date: 2024-10-02
-categories: [] # self-defined categories
+categories: [nba, first-basket, methodology]
 draft: false
+description: "How Slam Dunk Bets started in 2020 modeling NBA first-basket props as betting went legal in Illinois, and why inconsistently priced, less-popular players made the market worth betting."
+image: "/images/brand/og-default.png"
+image-alt: "Slam Dunk Bets logo"
 ---
 
-![](../../images/brand/logo-horizontal-dark.svg){width=600}
+![](../../images/brand/logo-horizontal-dark.svg){fig-alt="Slam Dunk Bets logo" width=600}
 
 Hello, thanks for visiting - and if you're a subscriber, thanks even more!
 

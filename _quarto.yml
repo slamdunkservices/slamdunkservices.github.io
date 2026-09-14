@@ -3,11 +3,20 @@ project:
   resources:
     - images/hof-carousel/**
     - scripts/hof-carousel.js
+    - scripts/site-analytics.js
+    - llms.txt
+    - images/brand/logo-square.png
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
 
+lang: en
+
 website:
+  title: "Slam Dunk Bets"
+  site-url: https://slamdunk.bet
+  description: "Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22."
+  image: images/brand/og-default.png
   favicon: images/brand/favicon-32.svg
   google-analytics: "G-66MCY7L0V7"
   navbar:
@@ -22,32 +31,49 @@ website:
         href: articles.qmd
       - text: "FAQ"
         href: faq.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Contact"
         href: contact.qmd
     search: false
     tools:
-      - icon: twitter
-        href: https://x.com/jimtheflash
+      - icon: twitter-x
+        href: https://x.com/slam_dunk_bets
+        aria-label: Slam Dunk Bets on X
       - icon: envelope
         href: "mailto:slamdunkbettingservices@gmail.com"
+        aria-label: Email Slam Dunk Bets
       - icon: discord
         href: https://sharpduel.com/slam_dunk_bets
-  open-graph: true
-  page-footer: 
+        aria-label: Join the Discord via Sharpduel
+  open-graph:
+    locale: en_US
+    site-name: Slam Dunk Bets
+  twitter-card:
+    creator: "@jimtheflash"
+    site: "@slam_dunk_bets"
+    card-style: summary_large_image
+  page-footer:
     border: false
+    left: "[About](/about.html) · [Privacy](/privacy.html) · [Terms](/terms.html)"
     center: |
       21+ Only | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
       © Slam Dunk Betting Services LLC, 2026
+    right: "[@slam_dunk_bets](https://x.com/slam_dunk_bets)"
   search: false
-  title: "Slam Dunk Bets"
-  twitter-card:
-    creator: "@jimtheflash"
-    site: "@jimtheflash"
 
 format:
   html:
     theme: [litera, custom.scss]
     css: styles.css
     anchor-sections: false
+    canonical-url: true
+    include-in-header:
+      - file: _includes/head.html
+    include-after-body:
+      - file: _includes/after-body.html
+
+filters:
+  - _filters/seo-schema.lua
 
 editor: visual

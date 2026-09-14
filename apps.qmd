@@ -1,4 +1,13 @@
-## Slam Dunk Dashboard: All our plays and data, plus historical tracking and unit sizing calculator!
+---
+title: "Slam Dunk Dashboard"
+subtitle: "All our plays and data, plus historical tracking and a unit-sizing calculator"
+pagetitle: "Slam Dunk Dashboard: Live Prop Edges, Book Lines & Model Tracking"
+description: "The Slam Dunk Dashboard shows every NBA, WNBA and MLB prop we project, ranked by edge, with each book's line, our fair line, recommended units, line-movement charts and the full graded record. Included with every subscription."
+image: images/apps/markets.png
+image-alt: "Slam Dunk Dashboard markets board listing props with book lines, model lines, edges, and units"
+---
+
+The Slam Dunk Dashboard is the web app that comes with every subscription. It shows the same plays that post to Discord, plus the data behind them: every book's price next to our model line, how each line has moved through the day, and the season-to-date record for every market.
 
 ::: subscribe-ctas
 [Open the Dashboard](https://app.slamdunk.bet){.btn .btn-primary .btn-lg role="button"}

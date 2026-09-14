@@ -1,0 +1,12 @@
+---
+title: "Page not found"
+description: "That page isn't on slamdunk.bet. Try the articles, the FAQ, or subscribe."
+schema-type: none
+---
+
+Well, that shot didn't fall. The page you're looking for doesn't exist, or it moved.
+
+- [Home](/index.html)
+- [Articles](/articles.html): how we predict first baskets and home runs, plus ROI recaps
+- [FAQ](/faq.html): pricing, markets, track record
+- [Subscribe](/subscribe.html): first month free

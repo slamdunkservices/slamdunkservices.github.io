@@ -3,11 +3,14 @@ title: "How Do We Predict Home Runs? Part 2 of ..."
 subtitle: "Game-State Data"
 author: Slam Dunk Bets
 date: 2026-08-02
-categories: [mlb]
+categories: [mlb, home-runs, methodology]
 draft: false
+description: "Part 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors to get a calibrated home-run probability per batter."
+image: "/images/posts/hr-game-state.jpg"
+image-alt: "Black-and-white photo of a large crowd in hats gathered outside a newspaper office to follow a baseball game on a scoreboard"
 ---
 
-![](../../images/posts/hr-game-state.jpg){width=600}
+![](../../images/posts/hr-game-state.jpg){fig-alt="Black-and-white photo of a large crowd in hats gathered outside a newspaper office to follow a baseball game on a scoreboard" width=600}
 
 Everything in [Part 1](predict-home-runs-1.qmd) is stuff we know before first pitch, and you could stop there: throw the pregame features into a model and get a decent baseline probability that a player goes deep. But pitches don't happen in a vacuum, they happen inside games. Pitchers change their approach when they're protecting a big lead or chasing from behind, when they're ahead or behind in the count, when there are runners in scoring position. Batters do the same! With two strikes, the pitch mix tilts hard toward breaking and offspeed stuff — and as we covered in Part 1, breaking balls become dingers a lot less often than heaters do. Our models see all of it: balls, strikes, outs, all 24 combinations of runners and outs, the inning, the score difference, times through the order, home/away, and the handedness matchup.
 

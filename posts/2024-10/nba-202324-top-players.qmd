@@ -3,11 +3,14 @@ title: "2023-24 NBA ROI Recap: Top 5 ROI Players"
 subtitle: "Scoot Tha God"
 author: Slam Dunk Bets
 date: 2024-10-12
-categories: [] # self-defined categories
+categories: [nba, first-basket, roi-recap]
 draft: false
+description: "The five most profitable players in our 2023-24 NBA first-basket record, led by Scoot Henderson and Bradley Beal, with bets, wins, net units and ROI for each and why the books kept mispricing them."
+image: "/images/posts/Kick_scooters_parking.jpg"
+image-alt: "Kick scooters lined up in a parking area"
 ---
 
-![](/images/posts/Kick_scooters_parking.jpg)
+![](/images/posts/Kick_scooters_parking.jpg){fig-alt="Kick scooters lined up in a parking area"}
 
 In prep for the 2024-25 NBA season we're looking back at some of the highlights from the 2023-24 season (where we were up [1692 units](nba-202324-performance.qmd)).
 
@@ -31,4 +34,4 @@ Here were the top 5 players from 2023-24, from a net ROI perspective. We're show
 
 Most of those players netted us more by themselves than other services are netting in total. Fun fact though - none of the players in this list are represented in any of the top 10 single biggest wins from 2023-24. We'll check those out next.
 
-Thanks as always for reading, and please consider [subscribing](https://www.whop.com/slam-dunk-bets) if you haven't yet!
+Thanks as always for reading, and please consider [subscribing](https://whop.com/slam-dunk-bets) if you haven't yet!

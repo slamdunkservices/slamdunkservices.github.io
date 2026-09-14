@@ -1,13 +1,22 @@
 ---
 title: Articles
-listing: 
+pagetitle: "Articles: How We Predict First Baskets & Home Runs"
+description: "Writing from Slam Dunk Bets on how we predict first baskets and home runs, season ROI recaps, and prop betting strategy for NBA, WNBA and MLB."
+listing:
   categories: true
   contents: posts
   date-format: iso
   image-align: left
-  max-description-length: 120
+  max-description-length: 160
   sort: "date desc"
   type: default
+  feed:
+    items: 20
+    type: full
+    title: "Slam Dunk Bets Articles"
+    description: "How we predict first baskets and home runs, season ROI recaps, and prop betting strategy for NBA, WNBA and MLB."
+    image: /images/brand/og-default.png
+    language: en-US
 ---
 
-Check out the stuff we wrote!
+How the models work, how the seasons went, and how to bet what we project. Subscribe to the [RSS feed](articles.xml) to get new posts.

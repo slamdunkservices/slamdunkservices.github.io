@@ -3,11 +3,14 @@ title: "How Do You Predict First Baskets? Part 3 of ..."
 subtitle: "So Many Models"
 author: Slam Dunk Bets
 date: 2024-10-05
-categories: [] # self-defined categories
+categories: [nba, wnba, first-basket, methodology]
 draft: false
+description: "Inside the models: ensembles of model families for the tipoff, team to score first, player to score first for their team, and exact scoring method, plus reduced models that fill in when inputs are missing."
+image: "/images/posts/catwalk.jpg"
+image-alt: "Models walking a fashion runway"
 ---
 
-![](../../images/posts/catwalk.jpg){width=600}
+![](../../images/posts/catwalk.jpg){fig-alt="Models walking a fashion runway" width=600}
 
 In the [previous post](predict-first-baskets-2.qmd) on predicting first baskets, we walked through the data we use for the models. Next we'll talk through the models themselves. This will get kinda long and nerdy!
 
@@ -17,7 +20,7 @@ But there's more! Sometimes, the inputs to a model aren't always available for e
 
 Supporting all these models present a challenge for orchestration, i.e. figuring out which models to use in different situations, but has so far given us far stronger results than other approaches to the problem of predictors not always being available for every case that needs a prediction (like imputation).
 
-So, to the models! Here's that diagram again: ![](../../images/posts/model_flowchart.jpg)
+So, to the models! Here's that diagram again: ![](../../images/posts/model_flowchart.jpg){fig-alt="Flowchart of the first-basket model pipeline, repeated from part 1"}
 
 The first are the jump ball models, which predict the likelihood of a specific jumper to win the tip against another specific jumper, e.g. Anthony Davis to win the tip against Bam Adebayo or vice versa. A player's win rate against a specific opponent is almost always the best predictor of the outcome here, but a number of other factors, like a player's height, reach, vertical, and overall jump ball win rate are also useful pieces of information.
 
@@ -33,4 +36,4 @@ The last pieces to the modeling puzzle are the exact methods for first team to s
 
 And there it is! We might do some more technical writeups on modeling tools and techniques later down the line, as well as some pieces about how we predict other first events in basketball games (like rebounds or steals). But the next post I'll do is about how we find and quantify our edges to make play recommendations.
 
-Thanks for reading all this, and if you haven't yet, please subscribe to our [discord server](https://whop.com/slam-dunk-bets/)!
+Thanks for reading all this, and if you haven't yet, please subscribe to our [discord server](https://whop.com/slam-dunk-bets)!

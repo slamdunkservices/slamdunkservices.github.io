@@ -3,11 +3,14 @@ title: "How Do You Predict First Baskets? Part 5 of ..."
 subtitle: "Alert Alert"
 author: Slam Dunk Bets
 date: 2024-10-07
-categories: [] # self-defined categories
+categories: [nba, wnba, first-basket, methodology]
 draft: false
+description: "How our Discord alerts work: the pipeline re-runs every 30 minutes, edges are grouped by game and player, and emoji flags mark new plays, new daily-best edges, and lines that have moved off their peak."
+image: "/images/posts/Action-Max-Red-Light.jpg"
+image-alt: "A red light on a black background"
 ---
 
-![](../../images/posts/Action-Max-Red-Light.jpg){width=600}
+![](../../images/posts/Action-Max-Red-Light.jpg){fig-alt="A red light on a black background" width=600}
 
 I think this is gonna be the last part of the "How Do You Predict First Baskets?" series of posts! Woohoo, we made it! The last post is on the alerts themselves - how do we make the edges we identify actionable for our users?
 
@@ -25,4 +28,4 @@ An engaged reader might ask, "are there peak times when lines are at their softe
 
 We're always trying to incrementally improve our alerts, by getting the odds faster (maybe someday the books will actually sell access to their odds APIs! nah jk they're cowards), and calculating predictions in advance when we can.
 
-And there it is. From data to alerts, we've covered the bases. Er, baskets. We've covered the baskets. Thanks for reading, and if you haven't, please [subscribe](https://www.whop.com/slam-dunk-bets)!
+And there it is. From data to alerts, we've covered the bases. Er, baskets. We've covered the baskets. Thanks for reading, and if you haven't, please [subscribe](https://whop.com/slam-dunk-bets)!

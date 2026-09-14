@@ -3,12 +3,14 @@ title: "2023-24 NBA ROI Recap: Biggest Hits"
 subtitle: "No Clowning Around Here"
 author: Slam Dunk Bets
 date: 2024-10-18
-categories: [] # self-defined categories
-image: /images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg
+categories: [nba, first-basket, roi-recap]
 draft: false
+description: "Our ten biggest single-bet wins of the 2023-24 NBA season, from Dean Wade at +8000 on down, with the book, odds, stake and return for each, mostly in exact-method first-basket markets."
+image: "/images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg"
+image-alt: "A toy clown balancing on a ball inside a dollar-sign coin tray full of quarters"
 ---
 
-![](/images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg)
+![](/images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg){fig-alt="A toy clown balancing on a ball inside a dollar-sign coin tray full of quarters"}
 
 As we get ready for the next NBA season, we're taking a look back at our 2023-24 NBA betting performance. Here were the top 10 biggest hits (by units returned):
 
@@ -43,4 +45,4 @@ As we get ready for the next NBA season, we're taking a look back at our 2023-24
     -   +500 at Fanduel, 8.1u wager, 40.5u ROI
     -   our second biggest wager of the year (yeah January 2nd was a big day of betting) and the second leg of a massive ROI on TJD for the day
 
-Thanks as always for reading, and please consider [subscribing](https://www.whop.com/slam-dunk-bets) if you haven't yet!
+Thanks as always for reading, and please consider [subscribing](https://whop.com/slam-dunk-bets) if you haven't yet!

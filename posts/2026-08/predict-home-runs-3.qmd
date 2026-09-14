@@ -3,11 +3,14 @@ title: "How Do We Predict Home Runs? Part 3 of ..."
 subtitle: "From Projections to Edges"
 author: Slam Dunk Bets
 date: 2026-08-03
-categories: [mlb]
+categories: [mlb, home-runs, methodology]
 draft: false
+description: "Part 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line shopping matters on longshots."
+image: "/images/posts/hr-edges-ticker.jpg"
+image-alt: "Vintage stock ticker machines under glass domes on a long desk in a marble room"
 ---
 
-![](../../images/posts/hr-edges-ticker.jpg){width=600}
+![](../../images/posts/hr-edges-ticker.jpg){fig-alt="Vintage stock ticker machines under glass domes on a long desk in a marble room" width=600}
 
 Being able to put a fair price on every potential dinger in baseball is a nifty parlor trick, and it might win you an argument at the bar. But unless those prices find us spots where the books disagree with us, they're just trivia. Fortunately, they do. Here's how.
 

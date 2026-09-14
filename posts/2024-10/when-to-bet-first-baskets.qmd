@@ -3,10 +3,14 @@ title: "Is There A Best Time Of Day To Bet First Baskets?"
 subtitle: "Late Alert Gold"
 author: Slam Dunk Bets
 date: 2024-10-09
-categories: [] # self-defined categories
+categories: [nba, wnba, first-basket, strategy]
+draft: false
+description: "Early lines or pre-tip lineup news? What we've learned about timing first-basket bets in the NBA and WNBA: grab soft early prices, top off when odds improve, and watch the alerts around tipoff."
+image: "/images/posts/Analog_timepiece.jpg"
+image-alt: "Close-up of an analog wristwatch face"
 ---
 
-![](/images/posts/Analog_timepiece.jpg){width=600}
+![](/images/posts/Analog_timepiece.jpg){fig-alt="Close-up of an analog wristwatch face" width=600}
 
 We mentioned in our series on predicting first baskets that we'd look at how to time your first basket bets. There's not a "perfect" strategy but here's some strategies that sometimes seem to work:
 
@@ -16,4 +20,4 @@ We mentioned in our series on predicting first baskets that we'd look at how to 
 
 -   Because odds shift through the day, it is definitely important to keep an eye out on alerts and update your wagers through the day if necessary This almost always means "add more to a bet you've wagered on" (there haven't been any clear "cash this out" cases yet) because a player's odds improved. We still recommend trying to get the early lines, but maximize your ROI by adding when odds improve.
 
-So to summarize: get early lines if you can, top 'em off if odds improve, and pay close attention to alerts around tipoff. Good luck! And if you haven't yet, why not [subscribe](https://www.whop.com/slam-dunk-bets)?
+So to summarize: get early lines if you can, top 'em off if odds improve, and pay close attention to alerts around tipoff. Good luck! And if you haven't yet, why not [subscribe](https://whop.com/slam-dunk-bets)?

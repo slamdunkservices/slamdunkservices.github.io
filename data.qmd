@@ -1,4 +1,8 @@
-## Data
+---
+title: "Data"
+pagetitle: "Sports Betting Data & Projections, Coming Soon"
+description: "Direct access to the NBA, WNBA and MLB projections, market data and tool-ready outputs behind Slam Dunk Bets. Data subscriptions and tools are coming soon; tell us what you need."
+---
 
 Data subscriptions and data tools are coming soon.
 

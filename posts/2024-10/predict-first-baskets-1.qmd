@@ -3,13 +3,16 @@ title: "How Do You Predict First Baskets? Part 1 of ..."
 subtitle: "High Level Overview"
 author: Slam Dunk Bets
 date: 2024-10-03
-categories: [] # self-defined categories
+categories: [nba, wnba, first-basket, methodology]
 draft: false
+description: "A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds."
+image: "/images/posts/model_flowchart.jpg"
+image-alt: "Flowchart of the Slam Dunk Bets first-basket model pipeline from raw data to first player exact method model"
 ---
 
 Our first post outlined why we bet on first baskets, but doesn't say anything at all about how we do it. These next posts will give some more context on our approach for predicting first basket outcomes. This first post will be a super high-level run through the process. Heck, I can even make a little diagram!
 
-![](../../images/posts/model_flowchart.jpg){width=600}
+![](../../images/posts/model_flowchart.jpg){fig-alt="Flowchart of the first-basket model pipeline: raw data is cleaned into tidy data, which feeds win tipoff, first team to score, first team scorer and first player to score models, ending in exact method models" width=600}
 
 I'll walk through the boxes and arrows.
 

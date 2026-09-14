@@ -1,0 +1,30 @@
+---
+title: "About"
+pagetitle: "About: Data Scientists Modeling NBA, WNBA & MLB Props"
+description: "Slam Dunk Bets is a sports betting picks and data service founded in 2020 by data scientists and engineers. We model first-basket props for every NBA and WNBA game and home runs and NRFI/YRFI for every MLB game, and we publish every graded bet."
+---
+
+Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game and home runs and first-inning scoring for every MLB game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes.
+
+### How it started
+
+We started predicting first baskets in 2020, right as sports betting went legal in Illinois. First-basket props were offered everywhere, priced inconsistently from book to book, and popular players were routinely overpriced. That looked like a market a model could beat, so we built one. The full story is in [Why First Baskets?](posts/2024-10/why-first-baskets.qmd)
+
+### What we model
+
+- **NBA and WNBA**: first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist, rebound, block and steal, and more, for every regular season and playoff game.
+- **MLB**: home runs by batter and NRFI/YRFI (no or yes runs in the first inning), for every game, since July 2026.
+
+The models are ensembles trained on play-by-play, Statcast, lineup and odds data. We flag a play when a sportsbook's price is meaningfully better than our projected probability and size it with a Kelly-based formula. We wrote the whole pipeline up in two series: [How Do You Predict First Baskets?](posts/2024-10/predict-first-baskets-1.qmd) and [How Do We Predict Home Runs?](posts/2026-08/predict-home-runs-1.qmd)
+
+### How we keep score
+
+Every recommended bet is logged and graded programmatically, and the running totals post to Discord every day. Our tracked record goes back to the 2021-22 NBA season and stands at 8,000+ net units. Season recaps live in the [Articles](articles.qmd); the live record for every market is in the [Slam Dunk Dashboard](apps.qmd).
+
+### Who's behind it
+
+Slam Dunk Bets is operated by Slam Dunk Betting Services LLC. The team is a couple of data scientists and engineers who'd rather show you the receipts than the résumés. Find us on X at [\@slam_dunk_bets](https://x.com/slam_dunk_bets) and [\@jimtheflash](https://x.com/jimtheflash), or email [slamdunkbettingservices@gmail.com](mailto:slamdunkbettingservices@gmail.com) about partnerships and data.
+
+### The fine print
+
+We're an information service, not a sportsbook: we never take bets or hold your money. You must be 21 or older (or the legal betting age where you live) to use our picks, and past results don't guarantee future ones. See the [Terms](terms.qmd) and [Privacy](privacy.qmd) pages, and if gambling stops being fun, call 1-800-GAMBLER.

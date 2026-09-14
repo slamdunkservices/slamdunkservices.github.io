@@ -3,11 +3,14 @@ title: "How Do We Predict Home Runs? Part 4 of ..."
 subtitle: "Alert Alert, Home Run Edition"
 author: Slam Dunk Bets
 date: 2026-08-04
-categories: [mlb]
+categories: [mlb, home-runs, methodology]
 draft: false
+description: "Part 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park's compass bearing, and what a Slam Dunk Bets home-run alert looks like in Discord."
+image: "/images/posts/hr-alerts-press.jpg"
+image-alt: "Engraving of a large early-1900s rotary newspaper printing press"
 ---
 
-![](../../images/posts/hr-alerts-press.jpg){width=600}
+![](../../images/posts/hr-alerts-press.jpg){fig-alt="Engraving of a large early-1900s rotary newspaper printing press" width=600}
 
 If you read our [first-baskets series](../2024-10/predict-first-baskets-1.qmd), you already know we're obsessive about the last mile. A projection that never reaches you, or reaches you stale, might as well not exist. So the whole system runs like a tiny newspaper with an extremely niche beat.
 
