@@ -1,87 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://slamdunk.bet/subscribe.html</loc>
-    <lastmod>2026-07-18T22:29:53.493Z</lastmod>
+    <loc>https://slamdunk.bet/terms.html</loc>
+    <lastmod>2026-09-14T20:42:06.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/privacy.html</loc>
+    <lastmod>2026-09-14T19:57:40.706Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html</loc>
-    <lastmod>2026-08-01T14:01:28.657Z</lastmod>
+    <lastmod>2026-09-14T20:01:29.724Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html</loc>
-    <lastmod>2026-08-01T13:55:00.343Z</lastmod>
+    <lastmod>2026-09-14T20:01:29.722Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2024-10/when-to-bet-first-baskets.html</loc>
-    <lastmod>2026-07-20T19:44:41.392Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-5.html</loc>
-    <lastmod>2026-07-20T19:44:41.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-3.html</loc>
-    <lastmod>2026-07-20T19:44:41.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html</loc>
-    <lastmod>2026-07-20T19:44:41.388Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/nba-202324-performance.html</loc>
-    <lastmod>2026-07-20T19:44:41.386Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/index.html</loc>
-    <lastmod>2026-07-20T19:44:32.229Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/data.html</loc>
-    <lastmod>2026-07-18T22:29:53.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/articles.html</loc>
-    <lastmod>2026-04-26T19:44:11.825Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/apps.html</loc>
-    <lastmod>2026-07-20T19:44:32.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/contact.html</loc>
-    <lastmod>2026-04-26T19:43:57.450Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/faq.html</loc>
-    <lastmod>2026-07-18T22:29:53.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/nba-202324-biggest-hits.html</loc>
-    <lastmod>2026-07-20T19:44:41.385Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/nba-202324-top-players.html</loc>
-    <lastmod>2026-07-20T19:44:41.387Z</lastmod>
-  </url>
-  <url>
-    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-2.html</loc>
-    <lastmod>2026-07-20T19:44:41.389Z</lastmod>
+    <lastmod>2026-09-14T20:01:29.721Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html</loc>
-    <lastmod>2026-07-20T19:44:41.390Z</lastmod>
+    <lastmod>2026-09-14T20:03:17.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-2.html</loc>
+    <lastmod>2026-09-14T20:01:29.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/nba-202324-top-players.html</loc>
+    <lastmod>2026-09-14T20:01:29.718Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/nba-202324-biggest-hits.html</loc>
+    <lastmod>2026-09-14T20:03:17.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/faq.html</loc>
+    <lastmod>2026-09-14T21:16:47.689Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/contact.html</loc>
+    <lastmod>2026-09-14T19:57:40.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/apps.html</loc>
+    <lastmod>2026-09-14T19:47:30.500Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/about.html</loc>
+    <lastmod>2026-09-14T21:16:47.694Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/articles.html</loc>
+    <lastmod>2026-09-14T19:57:40.663Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/data.html</loc>
+    <lastmod>2026-09-14T19:57:40.705Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/index.html</loc>
+    <lastmod>2026-09-14T21:16:47.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/nba-202324-performance.html</loc>
+    <lastmod>2026-09-14T20:01:29.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html</loc>
+    <lastmod>2026-09-14T20:01:29.718Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-3.html</loc>
+    <lastmod>2026-09-14T20:01:29.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/posts/2024-10/predict-first-baskets-5.html</loc>
+    <lastmod>2026-09-14T20:01:29.721Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2024-10/why-first-baskets.html</loc>
-    <lastmod>2026-07-20T19:44:41.393Z</lastmod>
+    <lastmod>2026-09-14T20:01:29.722Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html</loc>
-    <lastmod>2026-08-01T14:01:40.907Z</lastmod>
+    <lastmod>2026-09-14T20:01:29.723Z</lastmod>
   </url>
   <url>
     <loc>https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html</loc>
-    <lastmod>2026-08-01T13:55:00.343Z</lastmod>
+    <lastmod>2026-09-14T20:01:29.724Z</lastmod>
+  </url>
+  <url>
+    <loc>https://slamdunk.bet/subscribe.html</loc>
+    <lastmod>2026-09-14T20:42:16.852Z</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,51 @@
+# Slam Dunk Bets
+
+> Slam Dunk Bets (Slam Dunk Betting Services LLC, founded 2020) is a subscription sports betting picks and data service run by data scientists and engineers. We build machine learning models that project NBA and WNBA first-basket and other first-event props (about 15 markets) and MLB home runs and NRFI/YRFI (no/yes runs in the first inning). Projections and sportsbook odds refresh every 30 minutes, plays post automatically to a Discord server with recommended unit sizes, and every recommended bet is tracked and graded publicly: 8,000+ net units since the 2021-22 NBA season.
+
+Key facts:
+- Markets: NBA and WNBA first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist/rebound/block/steal, and more; MLB home runs by batter and NRFI/YRFI.
+- Method: ensembles of machine learning models on play-by-play, Statcast, lineup and odds data; a play is flagged when a sportsbook price is at least 1.5 percentage points better than our projected probability (2 points for MLB home runs); unit sizes are Kelly-based (half-Kelly for MLB), normalized so the average play is about 1 unit.
+- Odds compared across 13 sportsbooks and prediction exchanges (DraftKings, FanDuel, BetMGM, Caesars, bet365, Fanatics, BetRivers, Hard Rock, Circa, theScore, Kalshi, Novig, ProphetX).
+- Delivery: Discord server (picks, alerts, daily ROI receipts) plus the Slam Dunk Dashboard web app at https://app.slamdunk.bet (sign in with Discord or Google).
+- Pricing (same on Sharpduel and Whop): $19.99/week, $49.99/month, $499.99/year, each with a 30-day free trial.
+- Subscribe: https://sharpduel.com/slam_dunk_bets (preferred) or https://whop.com/slam-dunk-bets
+- Contact: slamdunkbettingservices@gmail.com; X: https://x.com/slam_dunk_bets (brand) and https://x.com/jimtheflash (founder)
+- 21+ only. Slam Dunk Bets is an information service and does not accept wagers. Problem gambling help: 1-800-GAMBLER.
+
+## Core pages
+- [Home](https://slamdunk.bet/): what the service is, how it works, cumulative ROI chart, Hall of Fame
+- [Subscribe](https://slamdunk.bet/subscribe.html): what's included, pricing, free trial, Sharpduel and Whop links
+- [Slam Dunk Dashboard](https://slamdunk.bet/apps.html): the web app with every prop ranked by edge, book lines, model lines, line movement and the graded record
+- [FAQ](https://slamdunk.bet/faq.html): who we are, pricing, markets covered, ROI by season, legality, data and models
+- [About](https://slamdunk.bet/about.html): the team, the origin story, how we track results
+- [Data](https://slamdunk.bet/data.html): upcoming data subscriptions and tools
+- [Contact](https://slamdunk.bet/contact.html)
+
+## Methodology: first baskets (NBA and WNBA)
+- [Why First Baskets?](https://slamdunk.bet/posts/2024-10/why-first-baskets.html): origin story and why the market is mispriced
+- [How Do You Predict First Baskets? Part 1: High Level Overview](https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html)
+- [Part 2: The Data We Use](https://slamdunk.bet/posts/2024-10/predict-first-baskets-2.html)
+- [Part 3: So Many Models](https://slamdunk.bet/posts/2024-10/predict-first-baskets-3.html)
+- [Part 4: From Predictions To Edges](https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html): edge threshold and Kelly sizing
+- [Part 5: Alert Alert](https://slamdunk.bet/posts/2024-10/predict-first-baskets-5.html): how the Discord alerts work
+- [Is There A Best Time Of Day To Bet First Baskets?](https://slamdunk.bet/posts/2024-10/when-to-bet-first-baskets.html)
+
+## Methodology: home runs and NRFI/YRFI (MLB)
+- [How Do We Predict Home Runs? Part 1: Pitch Data](https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html)
+- [Part 2: Game-State Data](https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html): 20,000 simulations per game
+- [Part 3: From Projections to Edges](https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html): 13 sportsbooks, edge thresholds, half-Kelly
+- [Part 4: Alert Alert, Home Run Edition](https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html): the daily pipeline and alert format
+
+## Track record
+Season totals (net units, ROI on units staked, from our graded ledgers as of 2026-09-14): 2025-26 NBA +2,135 (16.4%); 2024-25 NBA +1,018 (8.2%); 2023-24 NBA +1,692 (11.8%); 2022-23 NBA +1,610; 2026 WNBA +365 (11.6%) through Aug 30; 2025 WNBA +529 (17.0%); 2024 WNBA +418 (21.6%); 2026 MLB since July 16: home runs +126 (6.0%), NRFI/YRFI +3 (0.7%).
+- [2023-24 NBA ROI Recap: 1692 Units Net Profit](https://slamdunk.bet/posts/2024-10/nba-202324-performance.html): 17,558 tracked bets
+- [2023-24 NBA ROI Recap: Top 5 ROI Players](https://slamdunk.bet/posts/2024-10/nba-202324-top-players.html)
+- [2023-24 NBA ROI Recap: Biggest Hits](https://slamdunk.bet/posts/2024-10/nba-202324-biggest-hits.html)
+
+## Feeds and machine-readable
+- [RSS feed of articles](https://slamdunk.bet/articles.xml)
+- [Sitemap](https://slamdunk.bet/sitemap.xml)
+
+## Optional
+- [Privacy](https://slamdunk.bet/privacy.html)
+- [Terms](https://slamdunk.bet/terms.html)

@@ -2,22 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Slam Dunk Bets">
 <meta name="dcterms.date" content="2026-08-03">
+<meta name="description" content="Part 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line shopping matters on longshots.">
 
 <title>How Do We Predict Home Runs? Part 3 of … – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-2be6b52bd0438bcb6b2e1dfe38b92c33.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f0fea7da9d331d21bc429b830e72bbc9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -65,22 +69,32 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </script>
+<!-- Search engine ownership verification. Paste the tokens here, or verify via a DNS TXT record instead (preferred: covers app.slamdunk.bet too). -->
+<!-- <meta name="google-site-verification" content="PASTE_GOOGLE_TOKEN"> -->
+<!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
+<link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html#article","@type":"BlogPosting","alternativeHeadline":"From Projections to Edges","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2026-08-03","datePublished":"2026-08-03","description":"Part 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line shopping matters on longshots.","headline":"How Do We Predict Home Runs? Part 3 of …","image":"https://slamdunk.bet/images/posts/hr-edges-ticker.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"mlb, home-runs, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html","name":"How Do We Predict Home Runs? Part 3 of …","position":3}]}]}</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="How Do We Predict Home Runs? Part 3 of … – Slam Dunk Bets">
-<meta property="og:description" content="From Projections to Edges">
+<meta property="og:description" content="Part 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line shopping matters on longshots.">
 <meta property="og:image" content="https://slamdunk.bet/images/posts/hr-edges-ticker.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:alt" content="Vintage stock ticker machines under glass domes on a long desk in a marble room">
 <meta name="twitter:title" content="How Do We Predict Home Runs? Part 3 of … – Slam Dunk Bets">
-<meta name="twitter:description" content="From Projections to Edges">
+<meta name="twitter:description" content="Part 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line shopping matters on longshots.">
 <meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-edges-ticker.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
-<meta name="twitter:site" content="@jimtheflash">
+<meta name="twitter:site" content="@slam_dunk_bets">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Vintage stock ticker machines under glass domes on a long desk in a marble room">
+<link rel="canonical" href="https://slamdunk.bet/posts/2026-08/predict-home-runs-3.html">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed post fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -117,15 +131,19 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <span class="menu-text">FAQ</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
-    <a href="https://x.com/jimtheflash" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="mailto:slamdunkbettingservices@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://sharpduel.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-discord"></i></a>
+    <a href="https://x.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label="Slam Dunk Bets on X"><i class="bi bi-twitter-x"></i></a>
+    <a href="mailto:slamdunkbettingservices@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label="Email Slam Dunk Bets"><i class="bi bi-envelope"></i></a>
+    <a href="https://sharpduel.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label="Join the Discord via Sharpduel"><i class="bi bi-discord"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -144,9 +162,16 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <p class="subtitle lead">From Projections to Edges</p>
   <div class="quarto-categories">
     <div class="quarto-category">mlb</div>
+    <div class="quarto-category">home-runs</div>
+    <div class="quarto-category">methodology</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Part 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line shopping matters on longshots.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -173,16 +198,16 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/hr-edges-ticker.jpg" class="img-fluid" width="600"></p>
-<p>Being able to put a fair price on every potential dinger in baseball is useful, but unless those prices find us spots where the books disagree with us, they’re just trivia. Fortunately, they do. Here’s how.</p>
+<p><img src="../../images/posts/hr-edges-ticker.jpg" class="img-fluid" alt="Vintage stock ticker machines under glass domes on a long desk in a marble room" width="600"></p>
+<p>Being able to put a fair price on every potential dinger in baseball is a nifty parlor trick, and it might win you an argument at the bar. But unless those prices find us spots where the books disagree with us, they’re just trivia. Fortunately, they do. Here’s how.</p>
 <p>Twice an hour, we collect home run odds from 13 sportsbooks: bet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock, Kalshi, Novig, ProphetX, and theScore. Every American price converts to an implied probability, and then the comparison is almost embarrassingly simple:</p>
 <p><strong>edge = our probability − the book’s implied probability</strong></p>
-<p>Say our calibrated projection has a batter at 14% to go deep - a fair price of +614 - and a book is dangling +900, which implies 10%. That’s a 4-point edge. Play.</p>
-<p>Two details we’re picky about. First, we compare against the book’s price exactly as posted - no de-vigging, no theoretical “true” line. The number we beat is the number you can actually bet, juice included. Second, not every positive edge is playable. The bar right now: 2 points of probability for 1+ home run plays, 1.5 points for the multi-homer and first-inning markets. It used to be lower. We started this season at 1 point and raised it twice, because our own tracking data was blunt with us: thin edges on 1+ homers were about a third of our volume and returned roughly nothing. We’d rather alert fewer, better plays. The thresholds will keep evolving based on that tracking data.</p>
+<p>Say our calibrated projection has a batter at 14% to go deep — a fair price of +614 — and a book is dangling +900, which implies 10%. That’s a 4-point edge. Play.</p>
+<p>Two details we’re picky about. First, we compare against the book’s price exactly as posted — no de-vigging, no theoretical “true” line. The number we beat is the number you can actually bet, juice included. Second, not every positive edge is playable. The bar right now: 2 points of probability for 1+ home run plays, 1.5 points for the multi-homer and first-inning markets. It used to be lower. We started this season at 1 point and raised it twice, because our own tracking data was blunt with us: thin edges on 1+ homers were about a third of our volume and returned roughly nothing. We’d rather alert fewer, better plays. The thresholds will keep evolving, and the tracking data — not vibes — decides.</p>
 <p>(For the 2+ and 3+ homer markets, we take the sim’s expected homers for each batter and run it through a little Poisson math to get the tail probabilities. Longshot city, priced with the same machinery.)</p>
 <p>Then there’s sizing. Recommendations are half-Kelly, where 1 unit = 1% of a bankroll, scaled so the average alerted play lands right around 1u. Bigger edges and longer odds earn bigger recommendations, and nothing ever earns a “max bet!!”. Why HALF Kelly? Because full Kelly assumes your probabilities are perfect, and ours are merely good 😎</p>
-<p>And finally, line shopping - the closest thing this industry has to free money. The same homer can be +600 at one book and +900 at another, and that’s the difference between implied 14.3% and implied 10% on the same swing of the same bat. Our alerts list every book clearing the bar, best value first, so you can grab the top of the market. (One exception: exchange-style books like Novig and Kalshi show up in our tables but not our official plays. Prices there move too fast, and the resting liquidity is too thin to promise the posted number is actually gettable.)</p>
-<p>A word about variance, because we’d rather say it up front than have you learn it the hard way: a 3-point edge on a +700 prop still loses most of the time. That means many small positions on longshots, with results evaluated over months instead of nights. We track every alerted play publicly, wins and losses both, and those tracked results are exactly what moved the thresholds above. No cherry-picking, no memory-holing the bad weeks.</p>
+<p>And finally, line shopping — the closest thing this industry has to free money. The same homer can be +600 at one book and +900 at another, and that’s the difference between implied 14.3% and implied 10% on the same swing of the same bat. Our alerts list every book clearing the bar, best value first, so you can grab the top of the market. (One exception: exchange-style books like Novig and Kalshi show up in our tables but not our official plays. Prices there move too fast, and the resting liquidity is too thin to promise the posted number is actually gettable.)</p>
+<p>A word about variance, because we’d rather say it up front than have you learn it the hard way: a 3-point edge on a +700 prop still loses most of the time. That is the shape of this business — many small positions on longshots, graded over months, not nights. We track every alerted play publicly, wins and losses both, and those tracked results are exactly what moved the thresholds above. No cherry-picking, no memory-holing the bad weeks.</p>
 <p>Of course, an edge you hear about after first pitch is worth exactly nothing. <a href="../../posts/2026-08/predict-home-runs-4.html">Part 4 of …</a> covers the last mile: alerts, and the app. Thanks for reading!</p>
 
 
@@ -585,16 +610,17 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p><a href="../../about.html">About</a> · <a href="../../privacy.html">Privacy</a> · <a href="../../terms.html">Terms</a></p>
+</div>   
     <div class="nav-footer-center">
 <p>21+ Only | <a href="https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/">National Problem Gambling Helpline</a> <br> © Slam Dunk Betting Services LLC, 2026</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><a href="https://x.com/slam_dunk_bets"><span class="citation" data-cites="slam_dunk_bets">@slam_dunk_bets</span></a></p>
+</div>
   </div>
 </footer>
+<script src="../../scripts/site-analytics.js" defer=""></script>
 
 
 

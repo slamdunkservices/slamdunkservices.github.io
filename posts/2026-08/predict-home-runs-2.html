@@ -2,22 +2,26 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Slam Dunk Bets">
 <meta name="dcterms.date" content="2026-08-02">
+<meta name="description" content="Part 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors to get a calibrated home-run probability per batter.">
 
 <title>How Do We Predict Home Runs? Part 2 of … – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-2be6b52bd0438bcb6b2e1dfe38b92c33.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f0fea7da9d331d21bc429b830e72bbc9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -65,22 +69,32 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </script>
+<!-- Search engine ownership verification. Paste the tokens here, or verify via a DNS TXT record instead (preferred: covers app.slamdunk.bet too). -->
+<!-- <meta name="google-site-verification" content="PASTE_GOOGLE_TOKEN"> -->
+<!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
+<link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html#article","@type":"BlogPosting","alternativeHeadline":"Game-State Data","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2026-08-02","datePublished":"2026-08-02","description":"Part 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors to get a calibrated home-run probability per batter.","headline":"How Do We Predict Home Runs? Part 2 of …","image":"https://slamdunk.bet/images/posts/hr-game-state.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"mlb, home-runs, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html","name":"How Do We Predict Home Runs? Part 2 of …","position":3}]}]}</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="How Do We Predict Home Runs? Part 2 of … – Slam Dunk Bets">
-<meta property="og:description" content="Game-State Data">
+<meta property="og:description" content="Part 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors to get a calibrated home-run probability per batter.">
 <meta property="og:image" content="https://slamdunk.bet/images/posts/hr-game-state.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:alt" content="Black-and-white photo of a large crowd in hats gathered outside a newspaper office to follow a baseball game on a scoreboard">
 <meta name="twitter:title" content="How Do We Predict Home Runs? Part 2 of … – Slam Dunk Bets">
-<meta name="twitter:description" content="Game-State Data">
+<meta name="twitter:description" content="Part 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors to get a calibrated home-run probability per batter.">
 <meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-game-state.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
-<meta name="twitter:site" content="@jimtheflash">
+<meta name="twitter:site" content="@slam_dunk_bets">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Black-and-white photo of a large crowd in hats gathered outside a newspaper office to follow a baseball game on a scoreboard">
+<link rel="canonical" href="https://slamdunk.bet/posts/2026-08/predict-home-runs-2.html">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed post fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -117,15 +131,19 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <span class="menu-text">FAQ</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
-    <a href="https://x.com/jimtheflash" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="mailto:slamdunkbettingservices@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://sharpduel.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-discord"></i></a>
+    <a href="https://x.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label="Slam Dunk Bets on X"><i class="bi bi-twitter-x"></i></a>
+    <a href="mailto:slamdunkbettingservices@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label="Email Slam Dunk Bets"><i class="bi bi-envelope"></i></a>
+    <a href="https://sharpduel.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label="Join the Discord via Sharpduel"><i class="bi bi-discord"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -144,9 +162,16 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <p class="subtitle lead">Game-State Data</p>
   <div class="quarto-categories">
     <div class="quarto-category">mlb</div>
+    <div class="quarto-category">home-runs</div>
+    <div class="quarto-category">methodology</div>
   </div>
   </div>
 
+<div>
+  <div class="description">
+    Part 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors to get a calibrated home-run probability per batter.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -173,21 +198,21 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/hr-game-state.jpg" class="img-fluid" width="600"></p>
-<p>Everything in <a href="../../posts/2026-08/predict-home-runs-1.html">Part 1</a> is stuff we know before first pitch, and you could stop there: throw the pregame features into a model and get a decent baseline probability that a player goes deep. But pitches don’t happen in a vacuum, they happen inside games. Pitchers change their approach when they’re protecting a big lead or chasing from behind, when they’re ahead or behind in the count, when there are runners in scoring position. Batters do the same! With two strikes, the pitch mix tilts hard toward breaking and offspeed stuff - and as we covered in Part 1, breaking balls become dingers a lot less often than heaters do. Our models see all of it: balls, strikes, outs, all 24 combinations of runners and outs, the inning, the score difference, times through the order, home/away, and the handedness matchup.</p>
-<p>And then there’s the obvious one: a player’s chances of homering in a game rise and fall with his plate appearances. So how a team moves through its lineup - and how it handles substitutions, for defense or pinch-hitting or pinch-running - matters a LOT. By the time the lineup turns over a third time, the 9-hole hitter is about three times as likely as the leadoff man to have been lifted, and some clubs go to their bench much faster than others. Our sim tracks per-slot survival odds and per-team pinch-hit tendencies for exactly this reason.</p>
-<p>Given all that, it should be pretty clear: the state of the game is a real predictor of whether an at-bat produces a homer, and the state changes on every pitch. So how do you account for game states before the game even starts? Simulations.</p>
-<p>But first, a confession: we don’t actually roll dice pitch by pitch. For every batter-pitcher matchup, in every context, we solve the plate appearance exactly. There are only 12 possible counts and six pitch classes, so a plate appearance is really a little 72-cell grid: push probability through every path - every pitch choice, every swing and take, every foul - until all of it has been absorbed into an outcome. Foul balls with two strikes just loop the count back on itself, and the math is perfectly happy to price the at-bat that takes a dozen foul balls to resolve. Out the other side comes an exact distribution for that matchup: strikeout, walk, hit-by-pitch, single, double, triple, homer, out.</p>
-<p>Then we roll dice. We simulate each game 20,000 times, plate appearance by plate appearance, through a full game-state machine: lineups turning over, starters running out of gas, bullpens, pinch hitters, baserunners doing baserunner things (the sim knows a runner on second scores on a single about 60% of the time). The endings are score-aware, too: a home team that’s leading skips the bottom of the ninth, walk-offs end innings mid-stream, and ties go to extras with the free runner on second (yes, the Manfred runner lives in our simulator; no, he cannot be traded). Getting the endings right isn’t just cosmetic - it fixed a systematic ~5% inflation in home hitters’ projections, since home teams bat in the ninth a lot less often than a lazy sim assumes.</p>
-<p>After 20,000 sims we can answer questions like, “in what percentage of sims for the Phillies-Dodgers game did Ohtani go yard?” That proportion is our probability - the number that eventually becomes a projection, an edge, and maybe an alert. Why 20,000? Because at a 10% homer probability, that’s enough sims to shrink the random noise to about ±0.2 points. In our testing, backtest accuracy is flat whether we run 2,000 or 20,000 sims, but the extra sims give us more precise prices. (Also: everything is seeded, so every run is perfectly reproducible. The seed is 2026. Because of course it is.)</p>
+<p><img src="../../images/posts/hr-game-state.jpg" class="img-fluid" alt="Black-and-white photo of a large crowd in hats gathered outside a newspaper office to follow a baseball game on a scoreboard" width="600"></p>
+<p>Everything in <a href="../../posts/2026-08/predict-home-runs-1.html">Part 1</a> is stuff we know before first pitch, and you could stop there: throw the pregame features into a model and get a decent baseline probability that a player goes deep. But pitches don’t happen in a vacuum, they happen inside games. Pitchers change their approach when they’re protecting a big lead or chasing from behind, when they’re ahead or behind in the count, when there are runners in scoring position. Batters do the same! With two strikes, the pitch mix tilts hard toward breaking and offspeed stuff — and as we covered in Part 1, breaking balls become dingers a lot less often than heaters do. Our models see all of it: balls, strikes, outs, all 24 combinations of runners and outs, the inning, the score difference, times through the order, home/away, and the handedness matchup.</p>
+<p>And then there’s the obvious one: a player’s chances of homering in a game rise and fall with his plate appearances. So how a team moves through its lineup — and how it handles substitutions, for defense or pinch-hitting or pinch-running — matters a LOT. By the time the lineup turns over a third time, the 9-hole hitter is about three times as likely as the leadoff man to have been lifted, and some clubs go to their bench much faster than others. Our sim tracks per-slot survival odds and per-team pinch-hit tendencies for exactly this reason.</p>
+<p>Given all that, it should be pretty clear: the state of the game is a real predictor of whether an at-bat produces a homer, and the state changes on every pitch. So how do you account for game states before the game even starts? SIMULATIONS.</p>
+<p>But first, a confession: we don’t actually roll dice pitch by pitch. For every batter-pitcher matchup, in every context, we solve the plate appearance EXACTLY. There are only 12 possible counts and six pitch classes, so a plate appearance is really a little 72-cell grid: push probability through every path — every pitch choice, every swing and take, every foul — until all of it has been absorbed into an outcome. Foul balls with two strikes just loop the count back on itself, and the math is perfectly happy to price the at-bat that takes a dozen foul balls to resolve. Out the other side comes an exact distribution for that matchup: strikeout, walk, hit-by-pitch, single, double, triple, homer, out. No randomness, no simulation noise, just probability doing its job.</p>
+<p>THEN we roll dice. We simulate each game 20,000 times, plate appearance by plate appearance, through a full game-state machine: lineups turning over, starters running out of gas, bullpens, pinch hitters, baserunners doing baserunner things (the sim knows a runner on second scores on a single about 60% of the time). The endings are score-aware, too: a home team that’s leading skips the bottom of the ninth, walk-offs end innings mid-stream, and ties go to extras with the free runner on second (yes, the Manfred runner lives in our simulator; no, he cannot be traded). Getting the endings right isn’t just cosmetic — it fixed a systematic ~5% inflation in home hitters’ projections, since home teams bat in the ninth a lot less often than a lazy sim assumes.</p>
+<p>After 20,000 sims we can answer questions like, “in what percentage of sims for the Phillies-Dodgers game did Ohtani go yard?” That proportion is our probability — the number that eventually becomes a projection, an edge, and maybe an alert. Why 20,000? Because at a 10% homer probability, that’s enough sims to shrink the random noise to about ±0.2 points — and in our testing, extra sims sharpen the PRICES, not the model. Backtest accuracy is flat whether we run 2,000 or 20,000. Precision is for the odds; accuracy was decided back in Part 1. (Also: everything is seeded, so every run is perfectly reproducible. The seed is 2026. Because of course it is.)</p>
 <p>Now, simulating every game 20,000 times, then re-simulating all day as lineups post and weather shifts, sounds computationally expensive. Three tricks keep it manageable:</p>
 <ol type="1">
-<li><strong>Solve once, sample cheap.</strong> The expensive part is the exact plate-appearance math - about three seconds of thinking per game. After that, each additional simulated game costs six <em>hundredths</em> of a millisecond.</li>
+<li><strong>Solve once, sample cheap.</strong> The expensive part is the exact plate-appearance math — about three seconds of thinking per game. After that, each additional simulated game costs six <em>hundredths</em> of a millisecond.</li>
 <li><strong>Simulate wide.</strong> Instead of looping through 20,000 games one at a time, we advance all 20,000 together, one plate appearance per step, as big numpy arrays. The slow part of the code scales with the length of a game, not the number of sims.</li>
 <li><strong>Fingerprints.</strong> Every game’s projection carries a signature of its inputs: lineups, starters, weather (bucketed into 3°F and 2 mph steps, so ordinary forecast wobble doesn’t count as news). New update, same signature? Skip the re-run. And once a game goes live, its pregame projection freezes for good.</li>
 </ol>
 <p>Add it up and a full slate re-scores in about the time it takes to microwave a burrito, on an old i7 with 16GB of RAM. Still just a couple of guys on laptops over here. V nifty.</p>
-<p>One last step before the numbers are ready for prime time: calibration. An assembled simulator carries small compounding biases - ours ran a touch hot on balls in play, and its generic bullpens were a touch friendlier to hitters than real ones - so a final calibration layer, fit on held-out data, trues everything up. It stretches the tiniest probabilities upward (a raw 2% becomes about 4%) and trims the biggest ones (a raw 20% becomes about 17%). The goal is simple: when we publish 12%, we mean 12%.</p>
+<p>One last step before the numbers are ready for prime time: calibration. An assembled simulator carries small compounding biases — ours ran a touch hot on balls in play, and its generic bullpens were a touch friendlier to hitters than real ones — so a final calibration layer, fit on held-out data, trues everything up. It stretches the tiniest probabilities upward (a raw 2% becomes about 4%) and trims the biggest ones (a raw 20% becomes about 17%). The goal is simple: when we publish 12%, we mean 12%.</p>
 <p>So now we’ve got a calibrated probability that any batter in baseball goes deep tonight. A probability is not a bet, though. In <a href="../../posts/2026-08/predict-home-runs-3.html">Part 3 of …</a> we turn projections into edges. Thanks for reading!</p>
 
 
@@ -590,16 +615,17 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p><a href="../../about.html">About</a> · <a href="../../privacy.html">Privacy</a> · <a href="../../terms.html">Terms</a></p>
+</div>   
     <div class="nav-footer-center">
 <p>21+ Only | <a href="https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/">National Problem Gambling Helpline</a> <br> © Slam Dunk Betting Services LLC, 2026</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><a href="https://x.com/slam_dunk_bets"><span class="citation" data-cites="slam_dunk_bets">@slam_dunk_bets</span></a></p>
+</div>
   </div>
 </footer>
+<script src="../../scripts/site-analytics.js" defer=""></script>
 
 
 
