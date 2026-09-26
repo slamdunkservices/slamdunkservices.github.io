@@ -272,7 +272,8 @@ local function product_node(m, url, desc)
     description = desc,
     url = url,
     image = DEFAULT_IMAGE,
-    brand = { ["@id"] = ORG_ID },
+    -- Google's validator does not resolve @id refs here; it wants a typed Brand inline.
+    brand = { ["@type"] = "Brand", name = SITE_NAME },
     offers = offers,
   }
 end
