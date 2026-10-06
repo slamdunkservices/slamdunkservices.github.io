@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Who we are, what Slam Dunk Bets costs, which NBA, WNBA and MLB props we project, how we track ROI (8,000+ net units since 2021-22), whether it’s legal where you live, where the data comes from, and how the models work.">
+<meta name="description" content="NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI.">
 
-<title>FAQ: Props, Pricing, ROI and Methods – Slam Dunk Bets</title>
+<title>NBA First Basket Picks: Model-Driven First Scorer Props – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -30,19 +30,19 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./images/brand/favicon-32.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f0fea7da9d331d21bc429b830e72bbc9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../images/brand/favicon-32.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f0fea7da9d331d21bc429b830e72bbc9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -72,28 +72,24 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
 <link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/faq.html","@type":"FAQPage","description":"Who we are, what Slam Dunk Bets costs, which NBA, WNBA and MLB props we project, how we track ROI (8,000+ net units since 2021-22), whether it’s legal where you live, where the data comes from, and how the models work.","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/#website"},"mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>We’re a bunch of data scientists and engineers who use machine\nlearning and artificial intelligence to project who will score first,\nand how they’ll do it, for every NBA and WNBA regular season and playoff\ngame — plus who’ll go deep and whether the first inning scores for every\nMLB game. Slam Dunk Bets has been at this since 2020; more on the <a\nhref=\"https://slamdunk.bet/about.html\">About page<\/a>.<\/p>"},"name":"Who are you nerds?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>$19.99 a week, $49.99 a month, or $499.99 a year, and every plan\nstarts with a 30-day free trial. Prices are the same whether you\nsubscribe through <a\nhref=\"https://sharpduel.com/slam_dunk_bets\">Sharpduel<\/a>, our preferred\npartner, or <a href=\"https://whop.com/slam-dunk-bets\">Whop<\/a>. Details\non the <a href=\"https://slamdunk.bet/subscribe.html\">Subscribe page<\/a>.<\/p>"},"name":"How much does it cost?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Subscribe through Sharpduel or Whop and you get access to our Discord\nserver, where plays post automatically all day with recommended unit\nsizes, plus the <a href=\"https://slamdunk.bet/apps.html\">Slam Dunk Dashboard<\/a> at <a\nhref=\"https://app.slamdunk.bet\">app.slamdunk.bet<\/a>, where you sign in\nwith Discord or Google and see every edge, every book’s price, and the\nfull graded record.<\/p>"},"name":"How do I get the picks?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Here’s the current list, but we’re always adding more when new props\nbecome available! Each market has its own page with the track record by\nseason: <a href=\"https://slamdunk.bet/nba/index.html\">NBA picks<\/a>, <a\nhref=\"https://slamdunk.bet/wnba/index.html\">WNBA picks<\/a> and <a href=\"https://slamdunk.bet/mlb/index.html\">MLB\npicks<\/a>.<\/p>\n<p>For NBA:<\/p>\n<ul>\n<li>first basket (points and field goals)<\/li>\n<li>first basket exact method<\/li>\n<li>first basket by team<\/li>\n<li>first basket by team exact method<\/li>\n<li>win tipoff<\/li>\n<li>player to <em>not<\/em> score first basket<\/li>\n<li>team to score first<\/li>\n<li>team to score first exact method<\/li>\n<li>first assist<\/li>\n<li>first block<\/li>\n<li>first rebound<\/li>\n<li>first steal<\/li>\n<\/ul>\n<p>For WNBA:<\/p>\n<ul>\n<li>first basket (points and field goals)<\/li>\n<li>first basket exact method<\/li>\n<li>first basket by team<\/li>\n<li>team to score first<\/li>\n<\/ul>\n<p>For MLB:<\/p>\n<ul>\n<li>home runs (by batter)<\/li>\n<li>no runs first inning (NRFI) / yes runs first inning (YRFI)<\/li>\n<\/ul>"},"name":"What props do you project?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>We don’t do first basket of second half yet. And we also don’t\nproject for games in the future (i.e. games for tomorrow). None of this\nis set in stone, and we do try to keep up with new props as they become\navailable!<\/p>"},"name":"Any notable first basket props you don’t project?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>We track every bet we recommend and update our ROI totals by market\nevery day on our Discord. Our programmatically tracked betting records\ngo back to the 2021-22 NBA season, and the season-to-date record for\nevery market is always visible in the <a\nhref=\"https://slamdunk.bet/apps.html\">Dashboard<\/a>.<\/p>"},"name":"Do you track your bets?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>We’ve cleared 8,000+ net units across our tracked NBA, WNBA and MLB\npicks since 2021-22. Unit sizes vary from bettor to bettor, but common\nunits are $100, $10, or $1. Season by season, regular season plus\nplayoffs, with ROI measured on units staked:<\/p>\n<ul>\n<li>2025-26 NBA: +2,135 units (16.3% ROI)<\/li>\n<li>2024-25 NBA: +1,018 units (8.2% ROI)<\/li>\n<li>2023-24 NBA: +1,692 units (11.8% ROI)<\/li>\n<li>2022-23 NBA: +1,610 units*<\/li>\n<li>2021-22 NBA: +572 units (17.1% ROI)**<\/li>\n<li>2026 WNBA: +443 units (12.2% ROI), regular season and playoffs\nthrough October 4<\/li>\n<li>2025 WNBA: +529 units (17.0% ROI)<\/li>\n<li>2024 WNBA: +418 units (21.6% ROI)<\/li>\n<li>2026 MLB, since baseball launched on July 16: home runs +142 units\n(5.3% ROI) and NRFI/YRFI +20 units (3.3% ROI). Stolen bases and batter\nprops started in September and are too new to read anything into.<\/li>\n<\/ul>\n<p>These are the standardized-unit totals from our graded ledgers as of\nOctober 5, 2026. The live record for every market is in the <a\nhref=\"https://slamdunk.bet/apps.html\">Dashboard<\/a>.<\/p>\n<p><em>* reflects a different application of kelly criterion than we\nused moving forward, i.e. a smaller kelly factor.<\/em><\/p>\n<p><em>** our first tracked season, bet at flat stakes before we\nintroduced Kelly sizing.<\/em><\/p>"},"name":"What kind of ROI are we talking about then?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Yep and we update them every day, automatically. Season recaps with\nthe full charts are in the <a href=\"https://slamdunk.bet/articles.html\">Articles<\/a>, most\nrecently the <a href=\"https://slamdunk.bet/posts/2026-10/nba-2025-26-recap.html\">2025-26 NBA\nrecap<\/a> and the <a href=\"https://slamdunk.bet/posts/2026-10/wnba-2026-recap.html\">2026 WNBA\nrecap<\/a>.<\/p>"},"name":"Whoa that’s a LOT, like an order of magnitude better than other handicappers. You got receipts?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Slam Dunk Bets is an information service: we publish projections and\npicks, we don’t take bets or hold anyone’s money. You have to be 21 or\nolder (or the legal betting age where you live), and it’s on you to\nfollow the laws of your state or country when you place a bet. If\ngambling stops being fun, the National Problem Gambling Helpline is\n1-800-GAMBLER.<\/p>"},"name":"Is this legal where I live?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>We wrote about it in this <a\nhref=\"https://slamdunk.bet/posts/2024-10/predict-first-baskets-2.html\">blog post<\/a> where we\ndescribe the data we use to predict first baskets, and in the <a\nhref=\"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html\">home run series<\/a> for\nMLB.<\/p>"},"name":"Where do you get your data?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Well hey we wrote about our models in this <a\nhref=\"https://slamdunk.bet/posts/2024-10/predict-first-baskets-3.html\">blog post<\/a> for first\nbaskets and <a href=\"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html\">this one<\/a>\nfor home runs.<\/p>"},"name":"What kinds of models we talking about here?"}],"name":"FAQ","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/faq.html"}]}</script>
-<meta property="og:url" content="https://slamdunk.bet/faq.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/nba/first-basket-picks.html","@type":"WebPage","description":"NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI.","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/#website"},"name":"NBA First Basket Picks","primaryImageOfPage":{"@type":"ImageObject","url":"https://slamdunk.bet/images/brand/og-default.png"},"publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/nba/first-basket-picks.html"},{"@id":"https://slamdunk.bet/nba/first-basket-picks.html#faq","@type":"FAQPage","description":"NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI.","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/#website"},"mainEntity":[{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>It depends on the book. Some markets are “first basket” (any points,\nincluding free throws) and some are “first field goal” (free throws\nexcluded). Our models project both, and each alert names the market it\napplies to.<\/p>"},"name":"Do free throws count as a first basket?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>In 2025-26 our alerts covered DraftKings, FanDuel, BetRivers, Hard\nRock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and\nFanDuel carry the most markets and most of our volume. Prices for the\nsame player often differ by hundreds of points between books, so the\nalerts list every book where the play qualifies.<\/p>"},"name":"Which sportsbooks offer first basket props?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Because there are many markets per game: first basket, exact method,\nby team and by team exact, each at several books. In 2025-26 we alerted\nabout 35 first-basket plays per game day. The unit sizes show which\nedges are largest, and you can filter to the markets and books you use\nin the <a href=\"https://slamdunk.bet/../apps.html\">Dashboard<\/a>.<\/p>"},"name":"Why are there so many first basket picks per game?"},{"@type":"Question","acceptedAnswer":{"@type":"Answer","text":"<p>Not yet. We project first-event props for the start of the game only,\nand only for games on the day they are played.<\/p>"},"name":"Do you project first basket of the second half?"}],"name":"NBA First Basket Picks","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/nba/first-basket-picks.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/nba/","name":"NBA Picks","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/nba/first-basket-picks.html","name":"NBA First Basket Picks","position":3}]}]}</script>
+<meta property="og:url" content="https://slamdunk.bet/nba/first-basket-picks.html">
 <meta property="og:type" content="website">
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="FAQ: Props, Pricing, ROI and Methods">
-<meta property="og:description" content="Who we are, what Slam Dunk Bets costs, which NBA, WNBA and MLB props we project, how we track ROI (8,000+ net units since 2021-22), whether it’s legal where you live, where the data comes from, and how the models work.">
-<meta property="og:image" content="https://slamdunk.bet/images/brand/og-default.png">
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="NBA First Basket Picks: Model-Driven First Scorer Props">
+<meta property="og:description" content="NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI.">
+<meta property="og:image" content="https://slamdunk.bet/nba/images/brand/og-default.png">
 <meta property="og:site_name" content="Slam Dunk Bets">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="FAQ: Props, Pricing, ROI and Methods">
-<meta name="twitter:description" content="Who we are, what Slam Dunk Bets costs, which NBA, WNBA and MLB props we project, how we track ROI (8,000+ net units since 2021-22), whether it’s legal where you live, where the data comes from, and how the models work.">
-<meta name="twitter:image" content="https://slamdunk.bet/images/brand/og-default.png">
+<meta name="twitter:title" content="NBA First Basket Picks: Model-Driven First Scorer Props">
+<meta name="twitter:description" content="NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI.">
+<meta name="twitter:image" content="https://slamdunk.bet/nba/images/brand/og-default.png">
 <meta name="twitter:creator" content="@jimtheflash">
 <meta name="twitter:site" content="@slam_dunk_bets">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
-<link rel="canonical" href="https://slamdunk.bet/faq.html">
+<link rel="canonical" href="https://slamdunk.bet/nba/first-basket-picks.html">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -103,7 +99,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Slam Dunk Bets</span>
     </a>
   </div>
@@ -118,71 +114,71 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-markets">    
         <li>
-    <a class="dropdown-item" href="./nba/index.html">
+    <a class="dropdown-item" href="../nba/index.html">
  <span class="dropdown-text">NBA picks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./nba/first-basket-picks.html">
+    <a class="dropdown-item" href="../nba/first-basket-picks.html">
  <span class="dropdown-text">NBA first basket picks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./nba/team-to-score-first-picks.html">
+    <a class="dropdown-item" href="../nba/team-to-score-first-picks.html">
  <span class="dropdown-text">NBA team to score first &amp; tipoff picks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./nba/first-assist-rebound-three-picks.html">
+    <a class="dropdown-item" href="../nba/first-assist-rebound-three-picks.html">
  <span class="dropdown-text">NBA first assist, rebound &amp; three picks</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./wnba/index.html">
+    <a class="dropdown-item" href="../wnba/index.html">
  <span class="dropdown-text">WNBA picks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./wnba/first-basket-picks.html">
+    <a class="dropdown-item" href="../wnba/first-basket-picks.html">
  <span class="dropdown-text">WNBA first basket picks</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="./mlb/index.html">
+    <a class="dropdown-item" href="../mlb/index.html">
  <span class="dropdown-text">MLB picks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mlb/home-run-picks.html">
+    <a class="dropdown-item" href="../mlb/home-run-picks.html">
  <span class="dropdown-text">MLB home run picks</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./mlb/nrfi-yrfi-picks.html">
+    <a class="dropdown-item" href="../mlb/nrfi-yrfi-picks.html">
  <span class="dropdown-text">MLB NRFI / YRFI picks</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./subscribe.html"> 
+    <a class="nav-link" href="../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apps.html"> 
+    <a class="nav-link" href="../apps.html"> 
 <span class="menu-text">Apps</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./data.html"> 
+    <a class="nav-link" href="../data.html"> 
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles.html"> 
+    <a class="nav-link" href="../articles.html"> 
 <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./faq.html" aria-current="page"> 
+    <a class="nav-link" href="../faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -205,12 +201,12 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FAQ</h1>
+<h1 class="title">NBA First Basket Picks</h1>
 </div>
 
 <div>
   <div class="description">
-    Who we are, what Slam Dunk Bets costs, which NBA, WNBA and MLB props we project, how we track ROI (8,000+ net units since 2021-22), whether it’s legal where you live, where the data comes from, and how the models work.
+    NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI.
   </div>
 </div>
 
@@ -227,94 +223,114 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p>Straight answers about the service. Still stuck? Hit the <a href="./contact.html">contact page</a>.</p>
-<section id="who-are-you-nerds" class="level3 faq-item">
-<h3 data-anchor-id="who-are-you-nerds">Who are you nerds?</h3>
-<p>We’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game — plus who’ll go deep and whether the first inning scores for every MLB game. Slam Dunk Bets has been at this since 2020; more on the <a href="./about.html">About page</a>.</p>
-</section>
-<section id="how-much-does-it-cost" class="level3 faq-item">
-<h3 data-anchor-id="how-much-does-it-cost">How much does it cost?</h3>
-<p>$19.99 a week, $49.99 a month, or $499.99 a year, and every plan starts with a 30-day free trial. Prices are the same whether you subscribe through <a href="https://sharpduel.com/slam_dunk_bets">Sharpduel</a>, our preferred partner, or <a href="https://whop.com/slam-dunk-bets">Whop</a>. Details on the <a href="./subscribe.html">Subscribe page</a>.</p>
-</section>
-<section id="how-do-i-get-the-picks" class="level3 faq-item">
-<h3 data-anchor-id="how-do-i-get-the-picks">How do I get the picks?</h3>
-<p>Subscribe through Sharpduel or Whop and you get access to our Discord server, where plays post automatically all day with recommended unit sizes, plus the <a href="./apps.html">Slam Dunk Dashboard</a> at <a href="https://app.slamdunk.bet">app.slamdunk.bet</a>, where you sign in with Discord or Google and see every edge, every book’s price, and the full graded record.</p>
-</section>
-<section id="what-props-do-you-project" class="level3 faq-item">
-<h3 data-anchor-id="what-props-do-you-project">What props do you project?</h3>
-<p>Here’s the current list, but we’re always adding more when new props become available! Each market has its own page with the track record by season: <a href="./nba/index.html">NBA picks</a>, <a href="./wnba/index.html">WNBA picks</a> and <a href="./mlb/index.html">MLB picks</a>.</p>
-<p>For NBA:</p>
+<p>First basket props were the first market we modeled, in 2020, and they are still our largest. Our models project the first scorer for every NBA game and every scoring method, compare those projections to the prices at nine sportsbooks every 30 minutes, and post the edges to Discord. Over the last three seasons, 37,374 tracked first-basket wagers returned +3,546 net units, a 12.9% return on units staked.</p>
+<section id="what-a-first-basket-bet-is" class="level2">
+<h2 data-anchor-id="what-a-first-basket-bet-is">What a first basket bet is</h2>
+<p>A first basket bet is a wager on which player scores the first points of the game. Books offer several versions of it:</p>
 <ul>
-<li>first basket (points and field goals)</li>
-<li>first basket exact method</li>
-<li>first basket by team</li>
-<li>first basket by team exact method</li>
-<li>win tipoff</li>
-<li>player to <em>not</em> score first basket</li>
-<li>team to score first</li>
-<li>team to score first exact method</li>
-<li>first assist</li>
-<li>first block</li>
-<li>first rebound</li>
-<li>first steal</li>
-</ul>
-<p>For WNBA:</p>
-<ul>
-<li>first basket (points and field goals)</li>
-<li>first basket exact method</li>
-<li>first basket by team</li>
-<li>team to score first</li>
-</ul>
-<p>For MLB:</p>
-<ul>
-<li>home runs (by batter)</li>
-<li>no runs first inning (NRFI) / yes runs first inning (YRFI)</li>
+<li><strong>First basket</strong> (also called first field goal or first points): the first player to score. Some books count free throws, some do not. Our alerts say which.</li>
+<li><strong>First basket exact method</strong>: the first scorer and how they score, for example a three-pointer or a dunk. Longer prices, bigger payouts.</li>
+<li><strong>First basket by team</strong>: the first player to score for one team, regardless of who scores first in the game. Two winners per game, so shorter prices.</li>
+<li><strong>First basket by team exact method</strong>: the team version with the scoring method added.</li>
+<li><strong>First basket type</strong>: how the game’s first points are scored, regardless of player.</li>
 </ul>
 </section>
-<section id="any-notable-first-basket-props-you-dont-project" class="level3 faq-item">
-<h3 data-anchor-id="any-notable-first-basket-props-you-dont-project">Any notable first basket props you <em>don’t</em> project?</h3>
-<p>We don’t do first basket of second half yet. And we also don’t project for games in the future (i.e.&nbsp;games for tomorrow). None of this is set in stone, and we do try to keep up with new props as they become available!</p>
+<section id="why-first-baskets-can-be-beaten" class="level2">
+<h2 data-anchor-id="why-first-baskets-can-be-beaten">Why first baskets can be beaten</h2>
+<p>Books price first-basket props inconsistently, and the prices move a lot during the day. Popular players tend to be overpriced because they draw the most betting action. Less popular players, including role players who move into a starting lineup when someone sits, are often underpriced relative to how often they take the first shot. Our models are built around exactly that: a player’s expected early usage in that night’s specific lineup. The full story is in <a href="../posts/2024-10/why-first-baskets.html">Why First Baskets?</a></p>
 </section>
-<section id="do-you-track-your-bets" class="level3 faq-item">
-<h3 data-anchor-id="do-you-track-your-bets">Do you track your bets?</h3>
-<p>We track every bet we recommend and update our ROI totals by market every day on our Discord. Our programmatically tracked betting records go back to the 2021-22 NBA season, and the season-to-date record for every market is always visible in the <a href="./apps.html">Dashboard</a>.</p>
+<section id="how-we-project-first-baskets" class="level2">
+<h2 data-anchor-id="how-we-project-first-baskets">How we project first baskets</h2>
+<p>We label every jump ball and first basket in the NBA’s play-by-play data, then build models for each step: who wins the tipoff, which team scores first, which player scores first for their team, and how. Combining them gives a probability for every player and method in the game. The models are ensembles, retrained as the season goes, and reduced versions fill in when a player has too little history, such as a rookie. The five-part series starts with <a href="../posts/2024-10/predict-first-baskets-1.html">a high-level overview</a> and ends with <a href="../posts/2024-10/predict-first-baskets-5.html">how the alerts work</a>.</p>
+<p>A play is alerted when a book’s price is at least 1.5 percentage points better than our projected probability. Unit sizes follow the Kelly criterion, scaled so the average play is about one unit.</p>
 </section>
-<section id="what-kind-of-roi-are-we-talking-about-then" class="level3 faq-item">
-<h3 data-anchor-id="what-kind-of-roi-are-we-talking-about-then">What kind of ROI are we talking about then?</h3>
-<p>We’ve cleared 8,000+ net units across our tracked NBA, WNBA and MLB picks since 2021-22. Unit sizes vary from bettor to bettor, but common units are $100, $10, or $1. Season by season, regular season plus playoffs, with ROI measured on units staked:</p>
+<section id="track-record-by-season" class="level2">
+<h2 data-anchor-id="track-record-by-season">Track record by season</h2>
+<p>Net units and ROI on units staked, regular season plus playoffs.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Market</th>
+<th style="text-align: right;">2023-24</th>
+<th style="text-align: right;">2024-25</th>
+<th style="text-align: right;">2025-26</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>First basket</td>
+<td style="text-align: right;">+417 (14.8%)</td>
+<td style="text-align: right;">+226 (8.5%)</td>
+<td style="text-align: right;">+313 (17.0%)</td>
+</tr>
+<tr class="even">
+<td>First basket exact method</td>
+<td style="text-align: right;">+243 (16.4%)</td>
+<td style="text-align: right;">+195 (29.8%)</td>
+<td style="text-align: right;">+409 (40.3%)</td>
+</tr>
+<tr class="odd">
+<td>First basket by team</td>
+<td style="text-align: right;">+611 (13.8%)</td>
+<td style="text-align: right;">+345 (8.9%)</td>
+<td style="text-align: right;">+404 (14.2%)</td>
+</tr>
+<tr class="even">
+<td>First basket by team exact method</td>
+<td style="text-align: right;">+192 (10.8%)</td>
+<td style="text-align: right;">-92 (-5.8%)</td>
+<td style="text-align: right;">+253 (19.3%)</td>
+</tr>
+<tr class="odd">
+<td><strong>All first-basket markets</strong></td>
+<td style="text-align: right;"><strong>+1,452 (13.3%)</strong></td>
+<td style="text-align: right;"><strong>+677 (7.7%)</strong></td>
+<td style="text-align: right;"><strong>+1,417 (18.4%)</strong></td>
+</tr>
+<tr class="even">
+<td>Wagers</td>
+<td style="text-align: right;">13,574</td>
+<td style="text-align: right;">13,087</td>
+<td style="text-align: right;">10,713</td>
+</tr>
+</tbody>
+</table>
+<p>The totals include a few smaller markets, such as first basket type in 2025-26. The exact-method markets have the longest prices, so they lose most often and produce the largest single wins. In 2025-26, 90 of 1,239 exact-method wagers won, and the market still returned 40%. The <a href="../posts/2026-10/nba-2025-26-recap.html">2025-26 recap</a> lists the biggest hits and the most profitable players.</p>
+</section>
+<section id="what-an-alert-looks-like" class="level2">
+<h2 data-anchor-id="what-an-alert-looks-like">What an alert looks like</h2>
+<blockquote class="blockquote">
+<p><strong>GSW @ LAL</strong></p>
 <ul>
-<li>2025-26 NBA: +2,135 units (16.3% ROI)</li>
-<li>2024-25 NBA: +1,018 units (8.2% ROI)</li>
-<li>2023-24 NBA: +1,692 units (11.8% ROI)</li>
-<li>2022-23 NBA: +1,610 units*</li>
-<li>2021-22 NBA: +572 units (17.1% ROI)**</li>
-<li>2026 WNBA: +443 units (12.2% ROI), regular season and playoffs through October 4</li>
-<li>2025 WNBA: +529 units (17.0% ROI)</li>
-<li>2024 WNBA: +418 units (21.6% ROI)</li>
-<li>2026 MLB, since baseball launched on July 16: home runs +142 units (5.3% ROI) and NRFI/YRFI +20 units (3.3% ROI). Stolen bases and batter props started in September and are too new to read anything into.</li>
+<li>🚨 Draymond Green, first basket (proj +1001): +1460 DraftKings (1.4u)</li>
 </ul>
-<p>These are the standardized-unit totals from our graded ledgers as of October 5, 2026. The live record for every market is in the <a href="./apps.html">Dashboard</a>.</p>
-<p><em>* reflects a different application of kelly criterion than we used moving forward, i.e.&nbsp;a smaller kelly factor.</em></p>
-<p><em>** our first tracked season, bet at flat stakes before we introduced Kelly sizing.</em></p>
+</blockquote>
+<p>“Proj +1001” is our projection as a price; the book is offering +1460, so the edge is about 2.7 percentage points. Every book where the play qualifies is listed, best price first. 🚨 is a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak.</p>
 </section>
-<section id="whoa-thats-a-lot-like-an-order-of-magnitude-better-than-other-handicappers.-you-got-receipts" class="level3 faq-item">
-<h3 data-anchor-id="whoa-thats-a-lot-like-an-order-of-magnitude-better-than-other-handicappers.-you-got-receipts">Whoa that’s a LOT, like an order of magnitude better than other handicappers. You got receipts?</h3>
-<p>Yep and we update them every day, automatically. Season recaps with the full charts are in the <a href="./articles.html">Articles</a>, most recently the <a href="./posts/2026-10/nba-2025-26-recap.html">2025-26 NBA recap</a> and the <a href="./posts/2026-10/wnba-2026-recap.html">2026 WNBA recap</a>.</p>
+<section id="when-to-bet-first-baskets" class="level2">
+<h2 data-anchor-id="when-to-bet-first-baskets">When to bet first baskets</h2>
+<p>Early prices are often the softest, because books open before injury reports and lineups are set. Prices also jump right before tipoff when a starter is ruled out and a replacement enters the lineup. The practical approach is to take early edges when you see them and add to a play when a later alert shows a better price. More in <a href="../posts/2024-10/when-to-bet-first-baskets.html">Is There A Best Time Of Day To Bet First Baskets?</a></p>
+<section id="do-free-throws-count-as-a-first-basket" class="level3 faq-item">
+<h3 data-anchor-id="do-free-throws-count-as-a-first-basket">Do free throws count as a first basket?</h3>
+<p>It depends on the book. Some markets are “first basket” (any points, including free throws) and some are “first field goal” (free throws excluded). Our models project both, and each alert names the market it applies to.</p>
 </section>
-<section id="is-this-legal-where-i-live" class="level3 faq-item">
-<h3 data-anchor-id="is-this-legal-where-i-live">Is this legal where I live?</h3>
-<p>Slam Dunk Bets is an information service: we publish projections and picks, we don’t take bets or hold anyone’s money. You have to be 21 or older (or the legal betting age where you live), and it’s on you to follow the laws of your state or country when you place a bet. If gambling stops being fun, the National Problem Gambling Helpline is 1-800-GAMBLER.</p>
+<section id="which-sportsbooks-offer-first-basket-props" class="level3 faq-item">
+<h3 data-anchor-id="which-sportsbooks-offer-first-basket-props">Which sportsbooks offer first basket props?</h3>
+<p>In 2025-26 our alerts covered DraftKings, FanDuel, BetRivers, Hard Rock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and FanDuel carry the most markets and most of our volume. Prices for the same player often differ by hundreds of points between books, so the alerts list every book where the play qualifies.</p>
 </section>
-<section id="where-do-you-get-your-data" class="level3 faq-item">
-<h3 data-anchor-id="where-do-you-get-your-data">Where do you get your data?</h3>
-<p>We wrote about it in this <a href="./posts/2024-10/predict-first-baskets-2.html">blog post</a> where we describe the data we use to predict first baskets, and in the <a href="./posts/2026-08/predict-home-runs-1.html">home run series</a> for MLB.</p>
+<section id="why-are-there-so-many-first-basket-picks-per-game" class="level3 faq-item">
+<h3 data-anchor-id="why-are-there-so-many-first-basket-picks-per-game">Why are there so many first basket picks per game?</h3>
+<p>Because there are many markets per game: first basket, exact method, by team and by team exact, each at several books. In 2025-26 we alerted about 35 first-basket plays per game day. The unit sizes show which edges are largest, and you can filter to the markets and books you use in the <a href="../apps.html">Dashboard</a>.</p>
 </section>
-<section id="what-kinds-of-models-we-talking-about-here" class="level3 faq-item">
-<h3 data-anchor-id="what-kinds-of-models-we-talking-about-here">What kinds of models we talking about here?</h3>
-<p>Well hey we wrote about our models in this <a href="./posts/2024-10/predict-first-baskets-3.html">blog post</a> for first baskets and <a href="./posts/2026-08/predict-home-runs-1.html">this one</a> for home runs.</p>
+<section id="do-you-project-first-basket-of-the-second-half" class="level3 faq-item">
+<h3 data-anchor-id="do-you-project-first-basket-of-the-second-half">Do you project first basket of the second half?</h3>
+<p>Not yet. We project first-event props for the start of the game only, and only for games on the day they are played.</p>
 </section>
+<p><a href="https://sharpduel.com/slam_dunk_bets" class="btn btn-primary btn-lg" role="button">Subscribe — first month free</a></p>
+<p>Part of our <a href="../nba/index.html">NBA picks</a>. We also project <a href="../wnba/first-basket-picks.html">first baskets for every WNBA game</a>. You must be 21 or older. Past results do not guarantee future results.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -714,7 +730,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="./about.html">About</a> · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a></p>
+<p><a href="../about.html">About</a> · <a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a></p>
 </div>   
     <div class="nav-footer-center">
 <p>21+ Only | <a href="https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/">National Problem Gambling Helpline</a> <br> © Slam Dunk Betting Services LLC, 2026</p>
@@ -724,7 +740,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </div>
   </div>
 </footer>
-<script src="./scripts/site-analytics.js" defer=""></script>
+<script src="../scripts/site-analytics.js" defer=""></script>
 
 
 

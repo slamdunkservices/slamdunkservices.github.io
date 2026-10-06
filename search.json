@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "wnba/index.html",
+    "href": "wnba/index.html",
+    "title": "WNBA Prop Picks: First Basket, Team to Score First & More",
+    "section": "",
+    "text": "Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,390 net units on 13,668 wagers, a 16.0% return on units staked."
+  },
+  {
+    "objectID": "wnba/index.html#markets-we-cover",
+    "href": "wnba/index.html#markets-we-cover",
+    "title": "WNBA Prop Picks: First Basket, Team to Score First & More",
+    "section": "Markets we cover",
+    "text": "Markets we cover\n\nWNBA first basket picks: first basket, first basket by team, exact method, first basket type, team to score first and first three by team. All WNBA markets are on one page because the first-basket markets carry nearly all of the volume."
+  },
+  {
+    "objectID": "wnba/index.html#track-record-by-season",
+    "href": "wnba/index.html#track-record-by-season",
+    "title": "WNBA Prop Picks: First Basket, Team to Score First & More",
+    "section": "Track record by season",
+    "text": "Track record by season\n\n\n\nSeason\nWagers\nNet units\nROI\n\n\n\n\n2026\n6,556\n+443\n12.2%\n\n\n2025\n4,577\n+529\n17.0%\n\n\n2024\n2,535\n+418\n21.6%\n\n\n\nRegular season plus playoffs, with ROI on units staked; 2026 covers games through October 4, with the playoffs in progress. Wager sizes are standardized so the average recommended bet is about one unit. The 2026 recap breaks the season down by market, month and player."
+  },
+  {
+    "objectID": "wnba/index.html#how-the-picks-work",
+    "href": "wnba/index.html#how-the-picks-work",
+    "title": "WNBA Prop Picks: First Basket, Team to Score First & More",
+    "section": "How the picks work",
+    "text": "How the picks work\nThe models are the same ones that produce our NBA picks, trained on WNBA play-by-play data: who wins the tipoff, which team scores first, which player scores first for their team, and how. A play is alerted when a book’s price is at least 1.5 percentage points better than our projected probability, with Kelly-based unit sizes scaled so the average play is about one unit. How Do You Predict First Baskets? covers the pipeline.\nWNBA slates are smaller than NBA slates, two to six games on most days, and books post fewer markets per game. In 2026 we alerted about 33 plays per game day. Starting lineups are usually confirmed close to tipoff, and that is when the largest edges appear."
+  },
+  {
+    "objectID": "wnba/index.html#what-an-alert-looks-like",
+    "href": "wnba/index.html#what-an-alert-looks-like",
+    "title": "WNBA Prop Picks: First Basket, Team to Score First & More",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nAlerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book’s price and line movement, are in the Slam Dunk Dashboard.\n\nWhich sportsbooks do the WNBA picks cover?\nFanDuel, DraftKings, Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars. FanDuel and DraftKings carried about 86% of our 2026 volume. Each alert lists every book where the play qualifies.\n\n\nDo WNBA picks run all season?\nYes: from opening night through the Finals, including the Commissioner’s Cup. There are no picks on days with no games, and WNBA picks and NBA picks run at the same time when the seasons overlap in May and June.\n\n\nIs one subscription for both the NBA and the WNBA?\nYes. One subscription covers every league we project: NBA, WNBA and MLB.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
     "objectID": "terms.html",
     "href": "terms.html",
     "title": "Terms of Use",
@@ -74,7 +109,7 @@
     "href": "posts/2026-10/nba-2025-26-recap.html#how-we-counted",
     "title": "2025-26 NBA Recap: +2,135 Units at 16.3% ROI",
     "section": "How we counted",
-    "text": "How we counted\n\nWagers and plays. A play is one recommendation: a player or team, in one market, in one game. When a price improves after the first alert, we recommend adding to the play, and each addition is logged as a separate wager. The same play at a different sportsbook is also a separate wager.\nUnits. Wager sizes are standardized so that the average recommended wager is about one unit. Net units are winnings minus losses. ROI is net units divided by units staked.\nCompleteness. The figures include every wager we alerted during the season, at the price that was posted when we alerted it. No wagers were removed. The season had no voided wagers.\nSportsbooks. DraftKings accounted for 48% of units staked, at a 17.2% ROI. FanDuel accounted for 19%, at 19.7%. The rest was spread across BetRivers, Hard Rock, Bet365, BetMGM, Fanatics, Caesars, theScore and ESPN.\n\nThese are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.\nThe live record for every market is in the Slam Dunk Dashboard. Results for every season are in the FAQ, and the 2026 WNBA recap covers our basketball results from this summer. To get the alerts as they post, subscribe."
+    "text": "How we counted\n\nWagers and plays. A play is one recommendation: a player or team, in one market, in one game. When a price improves after the first alert, we recommend adding to the play, and each addition is logged as a separate wager. The same play at a different sportsbook is also a separate wager.\nUnits. Wager sizes are standardized so that the average recommended wager is about one unit. Net units are winnings minus losses. ROI is net units divided by units staked.\nCompleteness. The figures include every wager we alerted during the season, at the price that was posted when we alerted it. No wagers were removed. The season had no voided wagers.\nSportsbooks. DraftKings accounted for 48% of units staked, at a 17.2% ROI. FanDuel accounted for 19%, at 19.7%. The rest was spread across BetRivers, Hard Rock, Bet365, BetMGM, Fanatics, Caesars, theScore and ESPN.\n\nThese are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.\nThe live record for every market is in the Slam Dunk Dashboard, and each market’s track record by season is on our NBA picks pages. Results for every season are in the FAQ, and the 2026 WNBA recap covers our basketball results from this summer. To get the alerts as they post, subscribe."
   },
   {
     "objectID": "posts/2026-08/predict-home-runs-3.html",
@@ -315,46 +350,123 @@
     "text": "What the list has in common\nEight of the ten came from exact-method markets, where a book has to price not just who scores first but how. That’s where our exact-method models earn their keep, and it’s why the unit sizes are small: these are longshots, sized by Kelly, and most of them lose. The ones that hit pay for a lot of the ones that don’t.\nThanks as always for reading, and please consider subscribing if you haven’t yet!\n\n2023-24 NBA ROI Recap: 1692 Units Net Profit · Top 5 ROI Players · Biggest Hits"
   },
   {
-    "objectID": "faq.html",
-    "href": "faq.html",
-    "title": "FAQ",
+    "objectID": "nba/index.html",
+    "href": "nba/index.html",
+    "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
     "section": "",
-    "text": "Straight answers about the service. Still stuck? Hit the contact page.\n\nWho are you nerds?\nWe’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game — plus who’ll go deep and whether the first inning scores for every MLB game. Slam Dunk Bets has been at this since 2020; more on the About page.\n\n\nHow much does it cost?\n$19.99 a week, $49.99 a month, or $499.99 a year, and every plan starts with a 30-day free trial. Prices are the same whether you subscribe through Sharpduel, our preferred partner, or Whop. Details on the Subscribe page.\n\n\nHow do I get the picks?\nSubscribe through Sharpduel or Whop and you get access to our Discord server, where plays post automatically all day with recommended unit sizes, plus the Slam Dunk Dashboard at app.slamdunk.bet, where you sign in with Discord or Google and see every edge, every book’s price, and the full graded record.\n\n\nWhat props do you project?\nHere’s the current list, but we’re always adding more when new props become available!\nFor NBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nfirst basket by team exact method\nwin tipoff\nplayer to not score first basket\nteam to score first\nteam to score first exact method\nfirst assist\nfirst block\nfirst rebound\nfirst steal\n\nFor WNBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nteam to score first\n\nFor MLB:\n\nhome runs (by batter)\nno runs first inning (NRFI) / yes runs first inning (YRFI)\n\n\n\nAny notable first basket props you don’t project?\nWe don’t do first basket of second half yet. And we also don’t project for games in the future (i.e. games for tomorrow). None of this is set in stone, and we do try to keep up with new props as they become available!\n\n\nDo you track your bets?\nWe track every bet we recommend and update our ROI totals by market every day on our Discord. Our programmatically tracked betting records go back to the 2021-22 NBA season, and the season-to-date record for every market is always visible in the Dashboard.\n\n\nWhat kind of ROI are we talking about then?\nWe’ve cleared 8,000+ net units across our tracked NBA, WNBA and MLB picks since 2021-22. Unit sizes vary from bettor to bettor, but common units are $100, $10, or $1. Season by season, regular season plus playoffs, with ROI measured on units staked:\n\n2025-26 NBA: +2,135 units (16.3% ROI)\n2024-25 NBA: +1,018 units (8.2% ROI)\n2023-24 NBA: +1,692 units (11.8% ROI)\n2022-23 NBA: +1,610 units*\n2021-22 NBA: +572 units (17.1% ROI)**\n2026 WNBA: +443 units (12.2% ROI), regular season and playoffs through October 4\n2025 WNBA: +529 units (17.0% ROI)\n2024 WNBA: +418 units (21.6% ROI)\n2026 MLB, since baseball launched on July 16: home runs +142 units (5.3% ROI) and NRFI/YRFI +20 units (3.3% ROI). Stolen bases and batter props started in September and are too new to read anything into.\n\nThese are the standardized-unit totals from our graded ledgers as of October 5, 2026. The live record for every market is in the Dashboard.\n* reflects a different application of kelly criterion than we used moving forward, i.e. a smaller kelly factor.\n** our first tracked season, bet at flat stakes before we introduced Kelly sizing.\n\n\nWhoa that’s a LOT, like an order of magnitude better than other handicappers. You got receipts?\nYep and we update them every day, automatically. Season recaps with the full charts are in the Articles, most recently the 2025-26 NBA recap and the 2026 WNBA recap.\n\n\nIs this legal where I live?\nSlam Dunk Bets is an information service: we publish projections and picks, we don’t take bets or hold anyone’s money. You have to be 21 or older (or the legal betting age where you live), and it’s on you to follow the laws of your state or country when you place a bet. If gambling stops being fun, the National Problem Gambling Helpline is 1-800-GAMBLER.\n\n\nWhere do you get your data?\nWe wrote about it in this blog post where we describe the data we use to predict first baskets, and in the home run series for MLB.\n\n\nWhat kinds of models we talking about here?\nWell hey we wrote about our models in this blog post for first baskets and this one for home runs."
+    "text": "Slam Dunk Bets projects first-event props for every NBA game, regular season and playoffs. Our models compare their projections to the prices at nine sportsbooks every 30 minutes and post the edges to Discord with recommended unit sizes. Every recommended bet is graded and published. In 2025-26 that record was +2,135 net units on 16,949 wagers, a 16.3% return on units staked."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Please send any inquiries about partnerships, data, or collaborations to: slamdunkbettingservices@gmail.com\nFor all other questions or support, hit us up on X at @slam_dunk_bets or @jimtheflash for the fastest response time. Subscribers can also ask in the Discord.\nFor questions about payment processing, please first reach out to our payment processing partners, either Sharpduel or Whop, before reaching out to our customer support (our first course of action is to try the payment processor)."
+    "objectID": "nba/index.html#markets-we-cover",
+    "href": "nba/index.html#markets-we-cover",
+    "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
+    "section": "Markets we cover",
+    "text": "Markets we cover\n\nNBA first basket picks: first basket, first basket exact method, first basket by team, and first basket type. Our largest market by far: +1,417 net units (18.4% ROI) in 2025-26.\nNBA team to score first and win tipoff picks: the team that scores first, the exact method, and the jump ball. Shorter prices and thinner margins: +142 net units (7.2% ROI) in 2025-26.\nNBA first assist, first rebound and first three picks: the other first-event props, including first block and first three by team. +576 net units (17.0% ROI) in 2025-26."
   },
   {
-    "objectID": "apps.html",
-    "href": "apps.html",
-    "title": "Slam Dunk Dashboard",
-    "section": "",
-    "text": "The Slam Dunk Dashboard is the web app that comes with every subscription. It shows the same plays that post to Discord, plus the data behind them: every book’s price next to our model line, how each line has moved through the day, and the season-to-date record for every market.\n\nOpen the Dashboard\n\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    \n      \n      The markets board — every prop, ranked by edge. Best available book line and implied %, our model's fair line, the edge, and recommended units. Sort any column, then expand a game for more.\n    \n    \n      \n      Per-book detail — expand any play to see every book's price next to our model line, plus a live line-movement chart for each.\n    \n    \n      \n      Game cards — one card per game. Win tip, first team to score, first-basket type and likely first scorer for NBA & WNBA; NRFI/YRFI, weather, projected lineups and per-batter home-run odds for MLB.\n    \n    \n      \n      The receipts — season-to-date model tracking with net units and ROI by prop, plotted as a running total. The whole graded record, right there to scroll.\n    \n    \n      \n      All three leagues — MLB home-run and first-inning (NRFI/YRFI) markets sit right alongside the NBA and WNBA boards.\n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\nGetting in\nHead to app.slamdunk.bet and you’ll be asked to sign in with Discord or Google right away. Active subscribers land straight on the board. Not subscribed yet? We’ll send you to sign up first — subscribe once and you’re in.\nNew here? Start with a subscription — your first month is free. Questions? Hit the contact page."
+    "objectID": "nba/index.html#track-record-by-season",
+    "href": "nba/index.html#track-record-by-season",
+    "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
+    "section": "Track record by season",
+    "text": "Track record by season\n\n\n\nSeason\nWagers\nNet units\nROI\n\n\n\n\n2025-26\n16,949\n+2,135\n16.3%\n\n\n2024-25\n18,140\n+1,018\n8.2%\n\n\n2023-24\n17,558\n+1,692\n11.8%\n\n\n2022-23\n\n+1,610*\n\n\n\n2021-22\n3,779\n+572\n17.1%\n\n\n\nRegular season plus playoffs, with ROI measured on units staked. Wager sizes are standardized so the average recommended bet is about one unit. The 2021-22 season was bet at flat stakes. *2022-23 reflects a smaller Kelly factor than we use now. The 2025-26 recap breaks last season down by market, month and player; the FAQ has every season for every league."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game and home runs and first-inning scoring for every MLB game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes.\n\nHow it started\nWe started predicting first baskets in 2020, right as sports betting went legal in Illinois. First-basket props were offered everywhere, priced inconsistently from book to book, and popular players were routinely overpriced. That looked like a market a model could beat, so we built one. The full story is in Why First Baskets?\n\n\nWhat we model\n\nNBA and WNBA: first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist, rebound, block and steal, and more, for every regular season and playoff game.\nMLB: home runs by batter and NRFI/YRFI (no or yes runs in the first inning), for every game, since July 2026.\n\nThe models are ensembles trained on play-by-play, Statcast, lineup and odds data. We flag a play when a sportsbook’s price is meaningfully better than our projected probability and size it with a Kelly-based formula. We wrote the whole pipeline up in two series: How Do You Predict First Baskets? and How Do We Predict Home Runs?\n\n\nHow we keep score\nEvery recommended bet is logged and graded programmatically, and the running totals post to Discord every day. Our tracked record goes back to the 2021-22 NBA season and stands at 8,000+ net units. Season recaps live in the Articles; the live record for every market is in the Slam Dunk Dashboard.\n\n\nWho’s behind it\nSlam Dunk Bets is operated by Slam Dunk Betting Services LLC. The team is a couple of data scientists and engineers who’d rather show you the receipts than the résumés. Find us on X at @slam_dunk_bets and @jimtheflash, or email slamdunkbettingservices@gmail.com about partnerships and data.\n\n\nThe fine print\nWe’re an information service, not a sportsbook: we never take bets or hold your money. You must be 21 or older (or the legal betting age where you live) to use our picks, and past results don’t guarantee future ones. See the Terms and Privacy pages, and if gambling stops being fun, call 1-800-GAMBLER."
+    "objectID": "nba/index.html#how-the-picks-work",
+    "href": "nba/index.html#how-the-picks-work",
+    "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
+    "section": "How the picks work",
+    "text": "How the picks work\nWe build ensembles of machine learning models on NBA play-by-play data, player bios, projected starting lineups and game lines. One set of models predicts the jump ball, one predicts which team scores first, one predicts which player scores first for their team, and one predicts how. Combined, they give a probability for every player, market and method in every game. The whole pipeline is written up in How Do You Predict First Baskets?\nEvery 30 minutes we pull the current prices from the books and convert them to probabilities. When a book’s price is at least 1.5 percentage points better than our projection, it is a play. Unit sizes come from the Kelly criterion, scaled so the average play is about one unit, so a 3-unit recommendation means a bigger edge than a 1-unit one."
   },
   {
-    "objectID": "articles.html",
-    "href": "articles.html",
-    "title": "Articles",
-    "section": "",
-    "text": "How the models work, how the seasons went, and how to bet what we project. Subscribe to the RSS feed to get new posts.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025-26 NBA Recap: +2,135 Units at 16.3% ROI\n\n\n\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nOur 2025-26 NBA results: 16,949 tracked wagers returned +2,135 net units, a 16.3% return on units staked. Results by market, month and player, the largest…\n\n\n\n\n\n2026-10-06\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2026 WNBA Recap: +443 Units at 12.2% ROI\n\n\n\n\n\n\nwnba\n\nfirst-basket\n\nroi-recap\n\n\n\nOur 2026 WNBA results through October 4: 6,556 tracked wagers returned +443 net units, a 12.2% return on units staked. Results by market, month and player…\n\n\n\n\n\n2026-10-06\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nPart 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a…\n\n\n\n\n\n2026-08-04\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 3: From Projections to Edges\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nPart 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line…\n\n\n\n\n\n2026-08-03\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 2: Game-State Data\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nPart 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors…\n\n\n\n\n\n2026-08-02\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 1: Pitch Data\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nHow we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type…\n\n\n\n\n\n2026-08-01\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 NBA ROI Recap: Biggest Hits\n\n\nNo Clowning Around Here\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nOur ten biggest single-bet wins of the 2023-24 NBA season, from Dean Wade at +8000 on down, with the book, odds, stake and return for each, mostly in…\n\n\n\n\n\n2024-10-18\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 NBA ROI Recap: Top 5 ROI Players\n\n\nScoot Tha God\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nThe five most profitable players in our 2023-24 NBA first-basket record, led by Scoot Henderson and Bradley Beal, with bets, wins, net units and ROI for each…\n\n\n\n\n\n2024-10-12\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 NBA ROI Recap: 1692 Units Net Profit\n\n\nNot A Typo\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nThe 2023-24 NBA season in one chart: 17,558 tracked prop bets and 1,692 net units of profit across first-basket and related markets, plotted bet by bet.\n\n\n\n\n\n2024-10-11\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nIs There A Best Time Of Day To Bet First Baskets?\n\n\nLate Alert Gold\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nstrategy\n\n\n\nEarly lines or pre-tip lineup news? What we’ve learned about timing first-basket bets in the NBA and WNBA: grab soft early prices, top off when odds improve…\n\n\n\n\n\n2024-10-09\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 5: Alert Alert\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nHow our Discord alerts work: the pipeline re-runs every 30 minutes, edges are grouped by game and player, and emoji flags mark new plays, new daily-best…\n\n\n\n\n\n2024-10-07\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 4: From Predictions To Edges\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nTurning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and…\n\n\n\n\n\n2024-10-06\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 3: So Many Models\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nInside the models: ensembles of model families for the tipoff, team to score first, player to score first for their team, and exact scoring method, plus…\n\n\n\n\n\n2024-10-05\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 2: The Data We Use\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nThe data behind our first-basket models: NBA and WNBA play-by-play and box scores, player bios, projected starting lineups, sportsbook game lines, and the…\n\n\n\n\n\n2024-10-04\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 1: High Level Overview\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nA map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into…\n\n\n\n\n\n2024-10-03\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nWhy First Baskets?\n\n\n\n\n\n\nnba\n\nfirst-basket\n\nmethodology\n\n\n\nHow Slam Dunk Bets started in 2020 modeling NBA first-basket props as betting went legal in Illinois, and why inconsistently priced, less-popular players made…\n\n\n\n\n\n2024-10-02\n\n\nSlam Dunk Bets\n\n\n\n\n\nNo matching items"
+    "objectID": "nba/index.html#what-an-alert-looks-like",
+    "href": "nba/index.html#what-an-alert-looks-like",
+    "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nAlerts post to Discord grouped by game, with plays sorted from largest edge to smallest and every qualifying book listed with its price and recommended units. A simplified example from opening night 2025:\n\nGSW @ LAL\n\n🚨 Draymond Green, first basket (proj +1001): +1460 DraftKings (1.4u)\n\n\nThe emoji do work: 🚨 marks a play that just qualified, 🚀 a play whose price has moved to a new daily best, and ⬇️ a play that is still live but off its peak. Part 5 of the series explains the alerts in full. The same plays, with every book’s price and a line-movement chart, are in the Slam Dunk Dashboard."
   },
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
+    "objectID": "nba/index.html#when-nba-picks-post",
+    "href": "nba/index.html#when-nba-picks-post",
+    "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
+    "section": "When NBA picks post",
+    "text": "When NBA picks post\nThe first alerts for a slate post in the morning, when books open their first-basket markets. Prices move all day as bettors get involved and injury news lands, and the biggest moves come when starting lineups are confirmed, usually 30 to 60 minutes before tipoff. We keep alerting until the game starts. Our advice on timing is in Is There A Best Time Of Day To Bet First Baskets?\n\nHow many NBA picks are there per night?\nIn 2025-26 we alerted 12,507 plays over 212 game days, about 60 per day across all markets, or roughly ten per game. Most are first-basket plays. You do not need to bet all of them; the unit sizes tell you which edges are largest.\n\n\nWhich sportsbooks do the NBA picks cover?\nDraftKings, FanDuel, BetRivers, Hard Rock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and FanDuel carried about two thirds of our 2025-26 volume. Every alert lists each book where the play qualifies, so you can take the best price available to you.\n\n\nIs this a daily picks service or a model subscription?\nBoth. The picks post automatically whenever the models find an edge, and subscribers also get the Dashboard with every projection, every book’s price and the full graded record. There is no manual tout; everything comes from the models.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
+    "objectID": "nba/first-assist-rebound-three-picks.html",
+    "href": "nba/first-assist-rebound-three-picks.html",
+    "title": "NBA First Assist, First Rebound & First Three-Pointer Picks",
     "section": "",
-    "text": "Data subscriptions and data tools are coming soon.\nWe’re building options for customers who want direct access to the same NBA, WNBA, and MLB betting data that powers Slam Dunk Bets, including projections, market tracking, and tool-ready outputs.\nIf you want to be first in line, reach out through the contact page and tell us what kind of data access would help you most."
+    "text": "Books have expanded first-event props well beyond the first basket. We project the first assist, first rebound, first block and first three-pointer for every NBA game, using the same labeled play-by-play data and lineup-driven usage models as our first basket picks. In 2025-26 these markets returned +576 net units on 3,843 wagers, a 17.0% return on units staked."
+  },
+  {
+    "objectID": "nba/first-assist-rebound-three-picks.html#the-markets",
+    "href": "nba/first-assist-rebound-three-picks.html#the-markets",
+    "title": "NBA First Assist, First Rebound & First Three-Pointer Picks",
+    "section": "The markets",
+    "text": "The markets\n\nFirst assist: the first player credited with an assist. Point guards dominate the prices, which can leave value on secondary playmakers.\nFirst rebound: the first player to grab a rebound, offensive or defensive. Depends heavily on who takes, and misses, the first shots.\nFirst block and first steal: offered less often and at long prices. We alert them when a book posts a market and our edge clears the bar.\nFirst three-pointer and first three by team: the first player to make a three, in the game or for one team."
+  },
+  {
+    "objectID": "nba/first-assist-rebound-three-picks.html#track-record-by-season",
+    "href": "nba/first-assist-rebound-three-picks.html#track-record-by-season",
+    "title": "NBA First Assist, First Rebound & First Three-Pointer Picks",
+    "section": "Track record by season",
+    "text": "Track record by season\nNet units and ROI on units staked, regular season plus playoffs. Books only began offering some of these markets widely in 2024-25, so the earlier samples are small.\n\n\n\nMarket\n2023-24\n2024-25\n2025-26\n\n\n\n\nFirst assist\n-1 (49 wagers)\n+136 (44.3%)\n+305 (27.5%)\n\n\nFirst rebound\n-22 (37 wagers)\n-17 (-28.9%)\n+285 (52.0%)\n\n\nFirst three-pointer\n+176 (24.9%)\n+94 (14.2%)\n+146 (20.2%)\n\n\nFirst three by team\n0 (0.1%)\n+32 (3.2%)\n-209 (-21.8%)\n\n\nFirst block, steal and two-pointer\n-2 (4 wagers)\n+76 (24 wagers)\n+48 (75 wagers)\n\n\nAll markets\n+152 (10.2%)\n+322 (15.6%)\n+576 (17.0%)\n\n\nWagers\n2,003\n3,211\n3,843\n\n\n\nFirst assist and first three-pointer have been the steady performers. First rebound had its first full season in 2025-26 and was the best market of the group. First three by team lost 209 units in 2025-26 after two roughly break-even seasons; we are reviewing that model, and it stays in the alerts only where the edge clears our threshold. Blocks, steals and the first two-pointer market are too rare to read much into."
+  },
+  {
+    "objectID": "nba/first-assist-rebound-three-picks.html#how-we-project-them",
+    "href": "nba/first-assist-rebound-three-picks.html#how-we-project-them",
+    "title": "NBA First Assist, First Rebound & First Three-Pointer Picks",
+    "section": "How we project them",
+    "text": "How we project them\nEvery first event in a game is labeled from play-by-play data: who got the first assist, rebound, block, steal and three, and in what lineup. The models then estimate each player’s chance of being first from their early-game usage, their role in that night’s starting lineup, and matchup factors such as the opponent’s shot profile. As with first baskets, the biggest edges tend to appear when a lineup changes and a book is slow to reprice. Part 2 and Part 3 of the series describe the data and the models."
+  },
+  {
+    "objectID": "nba/first-assist-rebound-three-picks.html#what-an-alert-looks-like",
+    "href": "nba/first-assist-rebound-three-picks.html#what-an-alert-looks-like",
+    "title": "NBA First Assist, First Rebound & First Three-Pointer Picks",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nThese plays post in the same Discord alerts as everything else, grouped by game and sorted by edge, with the market named on each line, for example “first assist” or “first three”. The Dashboard lets you filter the board to a single market.\n\nWhich books offer first assist and first rebound props?\nIn 2025-26 most of our first assist and first rebound volume was at DraftKings and bet365, with FanDuel and others adding markets during the season. Availability changes often; alerts list every book where a play qualifies that day.\n\n\nAre these picks riskier than first basket picks?\nThe prices are similar, typically +1200 to +2000 on a first assist or first rebound, so the win rate is similar too: around one in ten. The samples are smaller than for first baskets, so season results swing more. Unit sizes already account for the price.\n\n\nWhy did first three by team lose money in 2025-26?\nWe do not have a confirmed answer yet. The market lost 209 units on 1,244 wagers after returning about zero in 2023-24 and +32 in 2024-25. We are checking whether the books repriced the market, whether our projections drifted, or whether it was a bad run. We publish the result either way.\n\nSubscribe — first month free\nPart of our NBA picks, alongside first basket picks and team to score first and tipoff picks. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
+    "objectID": "mlb/index.html",
+    "href": "mlb/index.html",
+    "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
+    "section": "",
+    "text": "Slam Dunk Bets added baseball on July 16, 2026. Our models price every pitch from Statcast data, simulate every game 20,000 times, and turn the results into a home run probability for every batter and a first-inning run probability for every game. Those projections are compared to the prices at 13 sportsbooks and exchanges twice an hour, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published."
+  },
+  {
+    "objectID": "mlb/index.html#markets-we-cover",
+    "href": "mlb/index.html#markets-we-cover",
+    "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
+    "section": "Markets we cover",
+    "text": "Markets we cover\n\nMLB home run picks: one or more home runs by a batter, plus the 2+ and 3+ markets. +142 net units (5.3% ROI) since launch.\nMLB NRFI and YRFI picks: no runs or yes runs in the first inning. +20 net units (3.3% ROI) since launch.\nNewer markets: stolen bases, RBI, runs scored and total bases started in September 2026. They post to the same alerts, and we will report on them once the samples are large enough to mean something."
+  },
+  {
+    "objectID": "mlb/index.html#track-record-since-launch",
+    "href": "mlb/index.html#track-record-since-launch",
+    "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
+    "section": "Track record since launch",
+    "text": "Track record since launch\n\n\n\nMarket\nPlays\nNet units\nROI\n\n\n\n\nHome runs\n2,912\n+142\n5.3%\n\n\nNRFI / YRFI\n553\n+20\n3.3%\n\n\n\nJuly 16 through October 5, 2026, regular season and postseason, with ROI on units staked. Plays are counted per batter or game per day, with voided plays excluded. Baseball margins are thinner than our basketball margins, and the samples are one partial season. We publish them anyway, and the season totals for every league are in the FAQ."
+  },
+  {
+    "objectID": "mlb/index.html#how-the-picks-work",
+    "href": "mlb/index.html#how-the-picks-work",
+    "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
+    "section": "How the picks work",
+    "text": "How the picks work\nStatcast publishes about 119 columns on every pitch. We mirror all of it back to 2017 and build batter, pitcher, park and weather profiles on top. A chain of boosted-tree models predicts each pitch: what is thrown, whether the batter swings, what happens on the swing and what happens on contact. For every matchup we solve the plate appearance exactly, then simulate the game 20,000 times with lineups, bullpens, pinch hitters and score effects. A calibration layer trues the output up so that a published 12% means 12%. The four-part series starts with Part 1: Pitch Data.\nA home run play is alerted when a book’s price is at least 2 percentage points better than our projection (1.5 points for multi-homer and first-inning markets). Unit sizes are half-Kelly, scaled so the average play is about one unit."
+  },
+  {
+    "objectID": "mlb/index.html#what-an-alert-looks-like",
+    "href": "mlb/index.html#what-an-alert-looks-like",
+    "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\n\nLAA @ TEX (8:05 pm ET)\n\nJosh Lowe 1+ (proj +519): +750 BetRivers (2.5u), +720 DraftKings (2.3u), …\nJorge Soler 2+ (proj +545): +600 BetRivers (0.7u)\n\n\nGames in start-time order, plays sorted by edge, every qualifying book listed with its price and recommended units, best value first. 🚨 marks a play that just qualified, 🚀 a new daily-best price, ⬇️ a play off its peak, 📖 a book that just joined. Part 4 of the series explains the alerts in full. The Slam Dunk Dashboard shows one card per game with the weather, projected lineups, first-inning odds and per-batter home run odds."
+  },
+  {
+    "objectID": "mlb/index.html#when-mlb-picks-post",
+    "href": "mlb/index.html#when-mlb-picks-post",
+    "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
+    "section": "When MLB picks post",
+    "text": "When MLB picks post\nModels retrain every Monday. Every morning at 6am ET there is a full refresh, then a tick every 30 minutes from 7am to 10pm ET: new pitch data, posted lineups and probable starters, an hourly forecast for every park, and a re-simulation of every game whose inputs changed. Projections freeze at first pitch; there is no in-game repricing.\n\nWhich sportsbooks do the MLB picks cover?\nbet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock and theScore, plus the Kalshi, Novig and ProphetX exchanges. Exchange prices appear in the tables for reference but are not counted as official plays, because the posted price is often not available in size.\n\n\nDoes weather really matter for home run picks?\nYes. Every forecast is resolved against the compass bearing from home plate to center field in that park, so “wind blowing out” means blowing out in that stadium specifically. Temperature, elevation and roof status are inputs too. Domes are modeled as 72°F and windless.\n\n\nIs baseball included in the regular subscription?\nYes. One subscription covers MLB, NBA and WNBA picks, the Discord and the Dashboard.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
   },
   {
     "objectID": "index.html",
@@ -368,7 +480,7 @@
     "href": "index.html#what-you-get",
     "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "What you get 🧐",
-    "text": "What you get 🧐\n\nBest-in-class projections for every NBA, WNBA & MLB game — first baskets, home runs, and more\nNBA, WNBA & MLB prop data and picks across a growing list of markets\nAutomatic updates every 30 minutes — projections refresh all day\nDiscord access with daily ROI receipts, tracked since the 2021–22 NBA season\nDashboards & data to dive deeper for more edges and plays"
+    "text": "What you get 🧐\n\nBest-in-class projections for every NBA, WNBA & MLB game — first baskets, home runs, and more\nNBA, WNBA & MLB prop data and picks across a growing list of markets\nAutomatic updates every 30 minutes — projections refresh all day\nDiscord access with daily ROI receipts, tracked since the 2021–22 NBA season\nDashboards & data to dive deeper for more edges and plays\n\nBrowse the picks by sport: NBA · WNBA · MLB"
   },
   {
     "objectID": "index.html#how-it-works",
@@ -397,6 +509,209 @@
     "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "Ready to cash in?",
     "text": "Ready to cash in?\nSubscribe — Free First Month\nStill have questions? See the FAQ"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "Data subscriptions and data tools are coming soon.\nWe’re building options for customers who want direct access to the same NBA, WNBA, and MLB betting data that powers Slam Dunk Bets, including projections, market tracking, and tool-ready outputs.\nIf you want to be first in line, reach out through the contact page and tell us what kind of data access would help you most."
+  },
+  {
+    "objectID": "articles.html",
+    "href": "articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "How the models work, how the seasons went, and how to bet what we project. Subscribe to the RSS feed to get new posts.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025-26 NBA Recap: +2,135 Units at 16.3% ROI\n\n\n\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nOur 2025-26 NBA results: 16,949 tracked wagers returned +2,135 net units, a 16.3% return on units staked. Results by market, month and player, the largest…\n\n\n\n\n\n2026-10-06\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2026 WNBA Recap: +443 Units at 12.2% ROI\n\n\n\n\n\n\nwnba\n\nfirst-basket\n\nroi-recap\n\n\n\nOur 2026 WNBA results through October 4: 6,556 tracked wagers returned +443 net units, a 12.2% return on units staked. Results by market, month and player…\n\n\n\n\n\n2026-10-06\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nPart 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a…\n\n\n\n\n\n2026-08-04\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 3: From Projections to Edges\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nPart 3: comparing our home-run probabilities to prices from 13 sportsbooks twice an hour, what counts as a playable edge, half-Kelly unit sizing, and why line…\n\n\n\n\n\n2026-08-03\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 2: Game-State Data\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nPart 2: solving every plate appearance exactly across base-out states, then simulating each game 20,000 times with lineups, bullpens, weather and park factors…\n\n\n\n\n\n2026-08-02\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do We Predict Home Runs? Part 1: Pitch Data\n\n\n\n\n\n\nmlb\n\nhome-runs\n\nmethodology\n\n\n\nHow we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type…\n\n\n\n\n\n2026-08-01\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 NBA ROI Recap: Biggest Hits\n\n\nNo Clowning Around Here\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nOur ten biggest single-bet wins of the 2023-24 NBA season, from Dean Wade at +8000 on down, with the book, odds, stake and return for each, mostly in…\n\n\n\n\n\n2024-10-18\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 NBA ROI Recap: Top 5 ROI Players\n\n\nScoot Tha God\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nThe five most profitable players in our 2023-24 NBA first-basket record, led by Scoot Henderson and Bradley Beal, with bets, wins, net units and ROI for each…\n\n\n\n\n\n2024-10-12\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\n2023-24 NBA ROI Recap: 1692 Units Net Profit\n\n\nNot A Typo\n\n\n\nnba\n\nfirst-basket\n\nroi-recap\n\n\n\nThe 2023-24 NBA season in one chart: 17,558 tracked prop bets and 1,692 net units of profit across first-basket and related markets, plotted bet by bet.\n\n\n\n\n\n2024-10-11\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nIs There A Best Time Of Day To Bet First Baskets?\n\n\nLate Alert Gold\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nstrategy\n\n\n\nEarly lines or pre-tip lineup news? What we’ve learned about timing first-basket bets in the NBA and WNBA: grab soft early prices, top off when odds improve…\n\n\n\n\n\n2024-10-09\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 5: Alert Alert\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nHow our Discord alerts work: the pipeline re-runs every 30 minutes, edges are grouped by game and player, and emoji flags mark new plays, new daily-best…\n\n\n\n\n\n2024-10-07\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 4: From Predictions To Edges\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nTurning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and…\n\n\n\n\n\n2024-10-06\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 3: So Many Models\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nInside the models: ensembles of model families for the tipoff, team to score first, player to score first for their team, and exact scoring method, plus…\n\n\n\n\n\n2024-10-05\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 2: The Data We Use\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nThe data behind our first-basket models: NBA and WNBA play-by-play and box scores, player bios, projected starting lineups, sportsbook game lines, and the…\n\n\n\n\n\n2024-10-04\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nHow Do You Predict First Baskets? Part 1: High Level Overview\n\n\n\n\n\n\nnba\n\nwnba\n\nfirst-basket\n\nmethodology\n\n\n\nA map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into…\n\n\n\n\n\n2024-10-03\n\n\nSlam Dunk Bets\n\n\n\n\n\n\n\n\n\n\n\n\nWhy First Baskets?\n\n\n\n\n\n\nnba\n\nfirst-basket\n\nmethodology\n\n\n\nHow Slam Dunk Bets started in 2020 modeling NBA first-basket props as betting went legal in Illinois, and why inconsistently priced, less-popular players made…\n\n\n\n\n\n2024-10-02\n\n\nSlam Dunk Bets\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game and home runs and first-inning scoring for every MLB game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes.\n\nHow it started\nWe started predicting first baskets in 2020, right as sports betting went legal in Illinois. First-basket props were offered everywhere, priced inconsistently from book to book, and popular players were routinely overpriced. That looked like a market a model could beat, so we built one. The full story is in Why First Baskets?\n\n\nWhat we model\n\nNBA and WNBA: first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist, rebound, block and steal, and more, for every regular season and playoff game.\nMLB: home runs by batter and NRFI/YRFI (no or yes runs in the first inning), for every game, since July 2026.\n\nThe models are ensembles trained on play-by-play, Statcast, lineup and odds data. We flag a play when a sportsbook’s price is meaningfully better than our projected probability and size it with a Kelly-based formula. We wrote the whole pipeline up in two series: How Do You Predict First Baskets? and How Do We Predict Home Runs?\n\n\nHow we keep score\nEvery recommended bet is logged and graded programmatically, and the running totals post to Discord every day. Our tracked record goes back to the 2021-22 NBA season and stands at 8,000+ net units. Season recaps live in the Articles; the live record for every market is in the Slam Dunk Dashboard.\n\n\nWho’s behind it\nSlam Dunk Bets is operated by Slam Dunk Betting Services LLC. The team is a couple of data scientists and engineers who’d rather show you the receipts than the résumés. Find us on X at @slam_dunk_bets and @jimtheflash, or email slamdunkbettingservices@gmail.com about partnerships and data.\n\n\nThe fine print\nWe’re an information service, not a sportsbook: we never take bets or hold your money. You must be 21 or older (or the legal betting age where you live) to use our picks, and past results don’t guarantee future ones. See the Terms and Privacy pages, and if gambling stops being fun, call 1-800-GAMBLER."
+  },
+  {
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "Slam Dunk Dashboard",
+    "section": "",
+    "text": "The Slam Dunk Dashboard is the web app that comes with every subscription. It shows the same plays that post to Discord, plus the data behind them: every book’s price next to our model line, how each line has moved through the day, and the season-to-date record for every market.\n\nOpen the Dashboard\n\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    \n      \n      The markets board — every prop, ranked by edge. Best available book line and implied %, our model's fair line, the edge, and recommended units. Sort any column, then expand a game for more.\n    \n    \n      \n      Per-book detail — expand any play to see every book's price next to our model line, plus a live line-movement chart for each.\n    \n    \n      \n      Game cards — one card per game. Win tip, first team to score, first-basket type and likely first scorer for NBA & WNBA; NRFI/YRFI, weather, projected lineups and per-batter home-run odds for MLB.\n    \n    \n      \n      The receipts — season-to-date model tracking with net units and ROI by prop, plotted as a running total. The whole graded record, right there to scroll.\n    \n    \n      \n      All three leagues — MLB home-run and first-inning (NRFI/YRFI) markets sit right alongside the NBA and WNBA boards.\n    \n  \n  \n    \n  \n  \n    \n  \n\n\n\nGetting in\nHead to app.slamdunk.bet and you’ll be asked to sign in with Discord or Google right away. Active subscribers land straight on the board. Not subscribed yet? We’ll send you to sign up first — subscribe once and you’re in.\nNew here? Start with a subscription — your first month is free. Questions? Hit the contact page."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Please send any inquiries about partnerships, data, or collaborations to: slamdunkbettingservices@gmail.com\nFor all other questions or support, hit us up on X at @slam_dunk_bets or @jimtheflash for the fastest response time. Subscribers can also ask in the Discord.\nFor questions about payment processing, please first reach out to our payment processing partners, either Sharpduel or Whop, before reaching out to our customer support (our first course of action is to try the payment processor)."
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "Straight answers about the service. Still stuck? Hit the contact page.\n\nWho are you nerds?\nWe’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game — plus who’ll go deep and whether the first inning scores for every MLB game. Slam Dunk Bets has been at this since 2020; more on the About page.\n\n\nHow much does it cost?\n$19.99 a week, $49.99 a month, or $499.99 a year, and every plan starts with a 30-day free trial. Prices are the same whether you subscribe through Sharpduel, our preferred partner, or Whop. Details on the Subscribe page.\n\n\nHow do I get the picks?\nSubscribe through Sharpduel or Whop and you get access to our Discord server, where plays post automatically all day with recommended unit sizes, plus the Slam Dunk Dashboard at app.slamdunk.bet, where you sign in with Discord or Google and see every edge, every book’s price, and the full graded record.\n\n\nWhat props do you project?\nHere’s the current list, but we’re always adding more when new props become available! Each market has its own page with the track record by season: NBA picks, WNBA picks and MLB picks.\nFor NBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nfirst basket by team exact method\nwin tipoff\nplayer to not score first basket\nteam to score first\nteam to score first exact method\nfirst assist\nfirst block\nfirst rebound\nfirst steal\n\nFor WNBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nteam to score first\n\nFor MLB:\n\nhome runs (by batter)\nno runs first inning (NRFI) / yes runs first inning (YRFI)\n\n\n\nAny notable first basket props you don’t project?\nWe don’t do first basket of second half yet. And we also don’t project for games in the future (i.e. games for tomorrow). None of this is set in stone, and we do try to keep up with new props as they become available!\n\n\nDo you track your bets?\nWe track every bet we recommend and update our ROI totals by market every day on our Discord. Our programmatically tracked betting records go back to the 2021-22 NBA season, and the season-to-date record for every market is always visible in the Dashboard.\n\n\nWhat kind of ROI are we talking about then?\nWe’ve cleared 8,000+ net units across our tracked NBA, WNBA and MLB picks since 2021-22. Unit sizes vary from bettor to bettor, but common units are $100, $10, or $1. Season by season, regular season plus playoffs, with ROI measured on units staked:\n\n2025-26 NBA: +2,135 units (16.3% ROI)\n2024-25 NBA: +1,018 units (8.2% ROI)\n2023-24 NBA: +1,692 units (11.8% ROI)\n2022-23 NBA: +1,610 units*\n2021-22 NBA: +572 units (17.1% ROI)**\n2026 WNBA: +443 units (12.2% ROI), regular season and playoffs through October 4\n2025 WNBA: +529 units (17.0% ROI)\n2024 WNBA: +418 units (21.6% ROI)\n2026 MLB, since baseball launched on July 16: home runs +142 units (5.3% ROI) and NRFI/YRFI +20 units (3.3% ROI). Stolen bases and batter props started in September and are too new to read anything into.\n\nThese are the standardized-unit totals from our graded ledgers as of October 5, 2026. The live record for every market is in the Dashboard.\n* reflects a different application of kelly criterion than we used moving forward, i.e. a smaller kelly factor.\n** our first tracked season, bet at flat stakes before we introduced Kelly sizing.\n\n\nWhoa that’s a LOT, like an order of magnitude better than other handicappers. You got receipts?\nYep and we update them every day, automatically. Season recaps with the full charts are in the Articles, most recently the 2025-26 NBA recap and the 2026 WNBA recap.\n\n\nIs this legal where I live?\nSlam Dunk Bets is an information service: we publish projections and picks, we don’t take bets or hold anyone’s money. You have to be 21 or older (or the legal betting age where you live), and it’s on you to follow the laws of your state or country when you place a bet. If gambling stops being fun, the National Problem Gambling Helpline is 1-800-GAMBLER.\n\n\nWhere do you get your data?\nWe wrote about it in this blog post where we describe the data we use to predict first baskets, and in the home run series for MLB.\n\n\nWhat kinds of models we talking about here?\nWell hey we wrote about our models in this blog post for first baskets and this one for home runs."
+  },
+  {
+    "objectID": "mlb/home-run-picks.html",
+    "href": "mlb/home-run-picks.html",
+    "title": "MLB Home Run Picks",
+    "section": "",
+    "text": "We price every batter’s chance of a home run in every MLB game, then compare that price to what 13 sportsbooks and exchanges are offering, twice an hour, all day. When a book’s price is at least 2 percentage points better than our projection, it is a play. Since launch on July 16, 2026, 2,912 alerted home run plays returned +142 net units, a 5.3% return on units staked."
+  },
+  {
+    "objectID": "mlb/home-run-picks.html#what-a-home-run-bet-is",
+    "href": "mlb/home-run-picks.html#what-a-home-run-bet-is",
+    "title": "MLB Home Run Picks",
+    "section": "What a home run bet is",
+    "text": "What a home run bet is\nA home run prop is a wager that a batter hits at least one home run in the game, usually priced between +250 and +900. Books also offer 2+ home runs and 3+ home runs at much longer prices. A batter who does not play, or is lifted before a plate appearance in some books’ rules, has the wager voided. Home runs happen in about 3% of plate appearances, so the win rate on these plays is low and the results depend on long-run edge, not on any one night."
+  },
+  {
+    "objectID": "mlb/home-run-picks.html#how-we-project-home-runs",
+    "href": "mlb/home-run-picks.html#how-we-project-home-runs",
+    "title": "MLB Home Run Picks",
+    "section": "How we project home runs",
+    "text": "How we project home runs\nThe projection starts with the pitch. A chain of boosted-tree models, trained on about six million pitches of Statcast data, predicts what each pitcher throws to each batter, whether the batter swings, what happens on the swing, and what happens on contact, using about 145 inputs per pitch: batter and pitcher profiles, platoon splits, park dimensions in every direction, elevation, temperature and wind. For every matchup we solve the plate appearance exactly, then simulate the game 20,000 times, with lineups turning over, starters tiring, bullpens, pinch hitters and score effects. The share of simulations in which a batter homers is his probability, after a calibration step that corrects the simulator’s small biases.\nHome runs are overwhelmingly a batter skill in the data. A pitcher’s home-run history carries almost no predictive weight on its own; what matters is what he throws and where the game is played. The four-part series starts with Part 1: Pitch Data; Part 3 covers edges and sizing."
+  },
+  {
+    "objectID": "mlb/home-run-picks.html#track-record-since-launch",
+    "href": "mlb/home-run-picks.html#track-record-since-launch",
+    "title": "MLB Home Run Picks",
+    "section": "Track record since launch",
+    "text": "Track record since launch\nJuly 16 through October 5, 2026, with ROI on units staked.\n\n\n\nMarket\nPlays\nNet units\nROI\n\n\n\n\n1+ home run\n2,851\n+38\n1.4%\n\n\n2+ home runs\n59\n+107\n259.6%\n\n\n3+ home runs\n2\n-2\n\n\n\nAll home run markets\n2,912\n+142\n5.3%\n\n\n\nThe 1+ market is where almost all the volume is, and its margin was thin. We started the season with a 1-point edge threshold and raised it twice, to 2 points, after our own tracking showed that the thinnest edges were about a third of volume and returned roughly nothing. The 2+ market is a small sample of long prices, and one good stretch can produce a number like 259%; do not expect that to continue. We will keep adjusting the thresholds based on the tracked results, and we publish the results either way."
+  },
+  {
+    "objectID": "mlb/home-run-picks.html#what-an-alert-looks-like",
+    "href": "mlb/home-run-picks.html#what-an-alert-looks-like",
+    "title": "MLB Home Run Picks",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\n\nLAA @ TEX (8:05 pm ET)\n\nJosh Lowe 1+ (proj +519): +750 BetRivers (2.5u), +720 DraftKings (2.3u), …\nJorge Soler 2+ (proj +545): +600 BetRivers (0.7u)\n\n\n“Proj +519” is our probability as a price, about 16%; BetRivers is offering +750, about 12%, so the edge is 4 points. Every book where the play qualifies is listed, best value first. Unit sizes are half-Kelly, scaled so the average play is about one unit; a 2.5-unit recommendation is a large edge, and nothing is ever a “max bet”."
+  },
+  {
+    "objectID": "mlb/home-run-picks.html#line-shopping-matters-most-here",
+    "href": "mlb/home-run-picks.html#line-shopping-matters-most-here",
+    "title": "MLB Home Run Picks",
+    "section": "Line shopping matters most here",
+    "text": "Line shopping matters most here\nThe same batter can be +600 at one book and +900 at another on the same day, which is the difference between an implied 14.3% and 10%. On longshots, taking the best available price is worth more than almost anything else you can do. The alerts rank the books for you, and the Dashboard shows how each book’s price has moved through the day.\n\nWhen do home run picks post?\nThe first alerts post after the 6am ET refresh, and new or improved plays post every 30 minutes until first pitch. The largest changes come when lineups are posted, usually three to five hours before the game, and when the hourly forecast shifts. Projections freeze when the game starts.\n\n\nWhy half-Kelly instead of full Kelly?\nFull Kelly assumes the probabilities are exactly right. Ours are calibrated but not perfect, and half-Kelly cuts the size of the drawdowns when a projection is off while keeping most of the growth. Our basketball picks use a full-Kelly formula with a different normalization; the home run markets are longer-priced and more volatile.\n\n\nDo the picks include Kalshi, Novig and ProphetX?\nTheir prices appear in the tables, and they are sometimes the best number on the board, but they are not counted as official plays. Exchange prices move fast and the resting liquidity is often too thin to guarantee the posted price is actually available. Our tracked record uses sportsbook prices only.\n\nSubscribe — first month free\nPart of our MLB picks, alongside NRFI and YRFI picks. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
+    "objectID": "mlb/nrfi-yrfi-picks.html",
+    "href": "mlb/nrfi-yrfi-picks.html",
+    "title": "MLB NRFI & YRFI Picks",
+    "section": "",
+    "text": "NRFI and YRFI are bets on whether either team scores in the first inning. We project the first-inning run probability for every MLB game with the same simulation that prices our home run picks, compare it to the prices at 13 sportsbooks and exchanges twice an hour, and alert the games where a book is at least 1.5 percentage points off our number. Since launch on July 16, 2026, 553 alerted first-inning plays returned +20 net units, a 3.3% return on units staked."
+  },
+  {
+    "objectID": "mlb/nrfi-yrfi-picks.html#what-nrfi-and-yrfi-are",
+    "href": "mlb/nrfi-yrfi-picks.html#what-nrfi-and-yrfi-are",
+    "title": "MLB NRFI & YRFI Picks",
+    "section": "What NRFI and YRFI are",
+    "text": "What NRFI and YRFI are\n\nNRFI (no run first inning): neither team scores in the first inning. Wins about half the time in a typical season, so prices sit near even money.\nYRFI (yes run first inning): at least one run is scored by either team in the first inning.\n\nBoth depend on the two starting pitchers, the top of each lineup, the park and the weather. A wager is usually settled by the end of the first inning, which makes these the fastest-resolving props in baseball."
+  },
+  {
+    "objectID": "mlb/nrfi-yrfi-picks.html#how-we-project-the-first-inning",
+    "href": "mlb/nrfi-yrfi-picks.html#how-we-project-the-first-inning",
+    "title": "MLB NRFI & YRFI Picks",
+    "section": "How we project the first inning",
+    "text": "How we project the first inning\nThe simulation plays every game 20,000 times, plate appearance by plate appearance. For the first inning that means the actual projected top three or four hitters on each side against the actual starter, in that park, in that day’s forecast, with the exact plate-appearance solve described in Part 2 of our home run series. The share of simulations with a first-inning run is our YRFI probability, and NRFI is the rest. Because the same simulation produces the home run odds, the two markets are priced consistently with each other."
+  },
+  {
+    "objectID": "mlb/nrfi-yrfi-picks.html#track-record-since-launch",
+    "href": "mlb/nrfi-yrfi-picks.html#track-record-since-launch",
+    "title": "MLB NRFI & YRFI Picks",
+    "section": "Track record since launch",
+    "text": "Track record since launch\nJuly 16 through October 5, 2026, with ROI on units staked.\n\n\n\nMarket\nPlays\nNet units\nROI\n\n\n\n\nNRFI\n144\n-1\n-1.0%\n\n\nYRFI\n409\n+22\n4.5%\n\n\nAll first-inning markets\n553\n+20\n3.3%\n\n\n\nThis is a thin margin on a small sample, and we say so. Most of the plays were YRFI, which suggests books have leaned toward pricing NRFI a little high this season, but 553 plays is not enough to be sure. These are near-even-money prices, so unit sizes are larger than on a home run play with the same edge, and the results are steadier: no long losing streaks, no large single wins."
+  },
+  {
+    "objectID": "mlb/nrfi-yrfi-picks.html#what-an-alert-looks-like",
+    "href": "mlb/nrfi-yrfi-picks.html#what-an-alert-looks-like",
+    "title": "MLB NRFI & YRFI Picks",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nFirst-inning plays post in the same Discord alerts as the home run plays, grouped by game in start-time order, with every qualifying book, its price and the recommended units. The Dashboard game cards show the first-inning odds next to the projected lineups, the starters and the weather.\n\nWhen do NRFI and YRFI picks post?\nAfter the 6am ET refresh, then every 30 minutes until first pitch. The projection changes most when a starting pitcher is scratched or a lineup is posted with a different top of the order. Projections freeze at first pitch.\n\n\nDoes the NRFI model use pitcher first-inning stats?\nThe first inning is simulated the same way as every other inning: from the pitch-level models and each starter’s full profile (arsenal, velocity, recent form, workload and platoon splits) against the specific hitters due up. That uses far more information than a pitcher’s first-inning ERA, which is a small and noisy sample.\n\n\nWhich sportsbooks offer NRFI and YRFI?\nMost major books: bet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock and theScore. Prices on the same game often differ between books, and on an even-money market a small difference is a meaningful share of the edge. Alerts list every book where a play qualifies.\n\nSubscribe — first month free\nPart of our MLB picks, alongside home run picks. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
+    "objectID": "nba/first-basket-picks.html",
+    "href": "nba/first-basket-picks.html",
+    "title": "NBA First Basket Picks",
+    "section": "",
+    "text": "First basket props were the first market we modeled, in 2020, and they are still our largest. Our models project the first scorer for every NBA game and every scoring method, compare those projections to the prices at nine sportsbooks every 30 minutes, and post the edges to Discord. Over the last three seasons, 37,374 tracked first-basket wagers returned +3,546 net units, a 12.9% return on units staked."
+  },
+  {
+    "objectID": "nba/first-basket-picks.html#what-a-first-basket-bet-is",
+    "href": "nba/first-basket-picks.html#what-a-first-basket-bet-is",
+    "title": "NBA First Basket Picks",
+    "section": "What a first basket bet is",
+    "text": "What a first basket bet is\nA first basket bet is a wager on which player scores the first points of the game. Books offer several versions of it:\n\nFirst basket (also called first field goal or first points): the first player to score. Some books count free throws, some do not. Our alerts say which.\nFirst basket exact method: the first scorer and how they score, for example a three-pointer or a dunk. Longer prices, bigger payouts.\nFirst basket by team: the first player to score for one team, regardless of who scores first in the game. Two winners per game, so shorter prices.\nFirst basket by team exact method: the team version with the scoring method added.\nFirst basket type: how the game’s first points are scored, regardless of player."
+  },
+  {
+    "objectID": "nba/first-basket-picks.html#why-first-baskets-can-be-beaten",
+    "href": "nba/first-basket-picks.html#why-first-baskets-can-be-beaten",
+    "title": "NBA First Basket Picks",
+    "section": "Why first baskets can be beaten",
+    "text": "Why first baskets can be beaten\nBooks price first-basket props inconsistently, and the prices move a lot during the day. Popular players tend to be overpriced because they draw the most betting action. Less popular players, including role players who move into a starting lineup when someone sits, are often underpriced relative to how often they take the first shot. Our models are built around exactly that: a player’s expected early usage in that night’s specific lineup. The full story is in Why First Baskets?"
+  },
+  {
+    "objectID": "nba/first-basket-picks.html#how-we-project-first-baskets",
+    "href": "nba/first-basket-picks.html#how-we-project-first-baskets",
+    "title": "NBA First Basket Picks",
+    "section": "How we project first baskets",
+    "text": "How we project first baskets\nWe label every jump ball and first basket in the NBA’s play-by-play data, then build models for each step: who wins the tipoff, which team scores first, which player scores first for their team, and how. Combining them gives a probability for every player and method in the game. The models are ensembles, retrained as the season goes, and reduced versions fill in when a player has too little history, such as a rookie. The five-part series starts with a high-level overview and ends with how the alerts work.\nA play is alerted when a book’s price is at least 1.5 percentage points better than our projected probability. Unit sizes follow the Kelly criterion, scaled so the average play is about one unit."
+  },
+  {
+    "objectID": "nba/first-basket-picks.html#track-record-by-season",
+    "href": "nba/first-basket-picks.html#track-record-by-season",
+    "title": "NBA First Basket Picks",
+    "section": "Track record by season",
+    "text": "Track record by season\nNet units and ROI on units staked, regular season plus playoffs.\n\n\n\nMarket\n2023-24\n2024-25\n2025-26\n\n\n\n\nFirst basket\n+417 (14.8%)\n+226 (8.5%)\n+313 (17.0%)\n\n\nFirst basket exact method\n+243 (16.4%)\n+195 (29.8%)\n+409 (40.3%)\n\n\nFirst basket by team\n+611 (13.8%)\n+345 (8.9%)\n+404 (14.2%)\n\n\nFirst basket by team exact method\n+192 (10.8%)\n-92 (-5.8%)\n+253 (19.3%)\n\n\nAll first-basket markets\n+1,452 (13.3%)\n+677 (7.7%)\n+1,417 (18.4%)\n\n\nWagers\n13,574\n13,087\n10,713\n\n\n\nThe totals include a few smaller markets, such as first basket type in 2025-26. The exact-method markets have the longest prices, so they lose most often and produce the largest single wins. In 2025-26, 90 of 1,239 exact-method wagers won, and the market still returned 40%. The 2025-26 recap lists the biggest hits and the most profitable players."
+  },
+  {
+    "objectID": "nba/first-basket-picks.html#what-an-alert-looks-like",
+    "href": "nba/first-basket-picks.html#what-an-alert-looks-like",
+    "title": "NBA First Basket Picks",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\n\nGSW @ LAL\n\n🚨 Draymond Green, first basket (proj +1001): +1460 DraftKings (1.4u)\n\n\n“Proj +1001” is our projection as a price; the book is offering +1460, so the edge is about 2.7 percentage points. Every book where the play qualifies is listed, best price first. 🚨 is a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak."
+  },
+  {
+    "objectID": "nba/first-basket-picks.html#when-to-bet-first-baskets",
+    "href": "nba/first-basket-picks.html#when-to-bet-first-baskets",
+    "title": "NBA First Basket Picks",
+    "section": "When to bet first baskets",
+    "text": "When to bet first baskets\nEarly prices are often the softest, because books open before injury reports and lineups are set. Prices also jump right before tipoff when a starter is ruled out and a replacement enters the lineup. The practical approach is to take early edges when you see them and add to a play when a later alert shows a better price. More in Is There A Best Time Of Day To Bet First Baskets?\n\nDo free throws count as a first basket?\nIt depends on the book. Some markets are “first basket” (any points, including free throws) and some are “first field goal” (free throws excluded). Our models project both, and each alert names the market it applies to.\n\n\nWhich sportsbooks offer first basket props?\nIn 2025-26 our alerts covered DraftKings, FanDuel, BetRivers, Hard Rock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and FanDuel carry the most markets and most of our volume. Prices for the same player often differ by hundreds of points between books, so the alerts list every book where the play qualifies.\n\n\nWhy are there so many first basket picks per game?\nBecause there are many markets per game: first basket, exact method, by team and by team exact, each at several books. In 2025-26 we alerted about 35 first-basket plays per game day. The unit sizes show which edges are largest, and you can filter to the markets and books you use in the Dashboard.\n\n\nDo you project first basket of the second half?\nNot yet. We project first-event props for the start of the game only, and only for games on the day they are played.\n\nSubscribe — first month free\nPart of our NBA picks. We also project first baskets for every WNBA game. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
+    "objectID": "nba/team-to-score-first-picks.html",
+    "href": "nba/team-to-score-first-picks.html",
+    "title": "NBA Team to Score First & Win Tipoff Picks",
+    "section": "",
+    "text": "Team to score first and win tipoff are the simplest first-event props: two outcomes, prices near even money. They are also the first two steps in our first-basket pipeline, so we project them for every NBA game. These are our thinnest-margin markets, and we say so. Over the last three seasons they returned +248 net units on 6,216 wagers, a 4.6% return on units staked."
+  },
+  {
+    "objectID": "nba/team-to-score-first-picks.html#the-markets",
+    "href": "nba/team-to-score-first-picks.html#the-markets",
+    "title": "NBA Team to Score First & Win Tipoff Picks",
+    "section": "The markets",
+    "text": "The markets\n\nWin tipoff: which player wins the opening jump ball. Usually priced between -130 and +130.\nTeam to score first: which team scores the game’s first points.\nTeam to score first exact method: the team and how it scores, for example a two-pointer. Longer prices, more ways to lose."
+  },
+  {
+    "objectID": "nba/team-to-score-first-picks.html#how-we-project-them",
+    "href": "nba/team-to-score-first-picks.html#how-we-project-them",
+    "title": "NBA Team to Score First & Win Tipoff Picks",
+    "section": "How we project them",
+    "text": "How we project them\nThe tipoff model predicts the chance that one specific jumper beats another. A player’s record against that specific opponent is the strongest input, with height, reach, vertical and overall jump-ball win rate behind it. The team-to-score-first model takes the tipoff projection and adds team-level inputs such as lineup-adjusted offensive efficiency and the game line. Defense matters surprisingly little here. These are the only models in our stack that use sportsbook odds as an input, because they perform better with them. Part 3 of the series has the details."
+  },
+  {
+    "objectID": "nba/team-to-score-first-picks.html#track-record-by-season",
+    "href": "nba/team-to-score-first-picks.html#track-record-by-season",
+    "title": "NBA Team to Score First & Win Tipoff Picks",
+    "section": "Track record by season",
+    "text": "Track record by season\nNet units and ROI on units staked, regular season plus playoffs.\n\n\n\nMarket\n2023-24\n2024-25\n2025-26\n\n\n\n\nWin tipoff\n+16 (5.1%)\n+54 (18.3%)\n+137 (13.7%)\n\n\nTeam to score first\n+61 (10.3%)\n-14 (-8.2%)\n+1 (0.3%)\n\n\nTeam to score first exact method\n+11 (1.1%)\n-21 (-2.0%)\n+4 (0.8%)\n\n\nAll three markets\n+87 (4.7%)\n+19 (1.3%)\n+142 (7.2%)\n\n\nWagers\n1,981\n1,842\n2,393\n\n\n\nWin tipoff has been profitable in all three seasons and carried most of the group’s return. Team to score first has been close to break-even for two seasons. These markets have short prices, so edges are small in percentage terms and the results are steadier than first-basket props, with far fewer long losing streaks and no huge single wins."
+  },
+  {
+    "objectID": "nba/team-to-score-first-picks.html#what-an-alert-looks-like",
+    "href": "nba/team-to-score-first-picks.html#what-an-alert-looks-like",
+    "title": "NBA Team to Score First & Win Tipoff Picks",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nTeam-level plays post in the same Discord alerts as the first-basket plays, grouped by game, with the book, the price and the recommended units. Because prices are short, recommended unit sizes here are often larger than on a first-basket play with the same edge.\n\nDoes the team that wins the tipoff always score first?\nNo, but first possession is the strongest single predictor of which team scores first, which is why we model the jump ball before anything else. A team can win the tip and turn it over or miss, and the other team scores.\n\n\nWhy is the ROI lower than on first basket picks?\nPrices near even money leave less room for a book to be wrong. A 1.5-point edge on a +110 price is a small share of the payout, while the same edge on a +1200 first-basket price is a large one. We alert these plays because they are positive expected value, but the returns per unit staked are smaller.\n\n\nWhich books offer win tipoff and team to score first?\nMost major books offer team to score first. Win tipoff is less common; in 2025-26 our tipoff volume was almost all at DraftKings, BetMGM and Caesars, and most of our team-to-score-first volume was at FanDuel. Alerts list every book where a play qualifies.\n\nSubscribe — first month free\nPart of our NBA picks, alongside first basket picks and first assist, rebound and three picks. You must be 21 or older. Past results do not guarantee future results."
   },
   {
     "objectID": "posts/2024-10/nba-202324-performance.html",
@@ -732,13 +1047,55 @@
     "href": "posts/2026-10/wnba-2026-recap.html#how-we-counted",
     "title": "2026 WNBA Recap: +443 Units at 12.2% ROI",
     "section": "How we counted",
-    "text": "How we counted\n\nWagers and plays. A play is one recommendation: a player or team, in one market, in one game. When a price improves after the first alert, we recommend adding to the play, and each addition is logged as a separate wager. The same play at a different sportsbook is also a separate wager.\nUnits. Wager sizes are standardized so that the average recommended wager is about one unit. Net units are winnings minus losses. ROI is net units divided by units staked.\nVoided wagers. 427 wagers were voided by the sportsbook, for example when a player did not play. They are excluded from every figure above.\nCompleteness. The figures include every other wager we alerted through October 4, at the price posted when we alerted it. Prediction exchanges are not included.\nSportsbooks. FanDuel accounted for 45% of units staked, at an 11.8% ROI. DraftKings accounted for 41%, at a 1.0% ROI. The rest was spread across Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars.\n\nThese are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.\nThe live record for every market is in the Slam Dunk Dashboard, and results for every season are in the FAQ. How the first-basket models work is covered in our five-part series. To get the alerts as they post, subscribe."
+    "text": "How we counted\n\nWagers and plays. A play is one recommendation: a player or team, in one market, in one game. When a price improves after the first alert, we recommend adding to the play, and each addition is logged as a separate wager. The same play at a different sportsbook is also a separate wager.\nUnits. Wager sizes are standardized so that the average recommended wager is about one unit. Net units are winnings minus losses. ROI is net units divided by units staked.\nVoided wagers. 427 wagers were voided by the sportsbook, for example when a player did not play. They are excluded from every figure above.\nCompleteness. The figures include every other wager we alerted through October 4, at the price posted when we alerted it. Prediction exchanges are not included.\nSportsbooks. FanDuel accounted for 45% of units staked, at an 11.8% ROI. DraftKings accounted for 41%, at a 1.0% ROI. The rest was spread across Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars.\n\nThese are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.\nThe live record for every market is in the Slam Dunk Dashboard, results for every season are in the FAQ, and the market-by-market record is on our WNBA picks pages. How the first-basket models work is covered in our five-part series. To get the alerts as they post, subscribe."
   },
   {
     "objectID": "subscribe.html",
     "href": "subscribe.html",
     "title": "Subscribe",
     "section": "",
-    "text": "Daily NBA, WNBA, and MLB picks — first baskets, props, home runs, and NRFI/YRFI — delivered on Discord, updated every 30 minutes during game days.\n\nWhat’s included\n\nDiscord server access with all picks, updates, and community chat\nFirst-basket projections for every NBA & WNBA game, plus home-run and NRFI/YRFI projections for MLB\nFull prop markets — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; and more\nAuto-updates every 30 minutes as lines move\nDaily ROI tracking — every bet logged, receipts on-server\nThe Slam Dunk Dashboard at app.slamdunk.bet: every edge, every book’s price, line movement, and the full graded record\n\n\n\nPricing\n\n\n\n\nPlan\nPrice\nFree trial\n\n\n\n\nWeekly\n$19.99 / week\n30 days\n\n\nMonthly\n$49.99 / month\n30 days\n\n\nAnnual\n$499.99 / year\n30 days\n\n\n\n\nPrices and the 30-day trial are the same on Sharpduel and Whop. Sharpduel charges a $1 card verification at signup. Cancel anytime from whichever platform you subscribed on.\n\n\nFirst month is free\n\nSubscribe via Sharpduel (preferred)\n\nSharpduel is our preferred partner — they help us out by sharing our content. Whop works too if you already have an account there.\nSubscribe via Whop\n\n\nData access\nLooking for projections, market data, or tools instead of daily picks? Data subscriptions and data tools are coming soon. See the Data page for what we’re building.\n\nQuestions? Check the FAQ or hit the contact page."
+    "text": "Daily NBA, WNBA, and MLB picks — first baskets, props, home runs, and NRFI/YRFI — delivered on Discord, updated every 30 minutes during game days.\n\nWhat’s included\n\nDiscord server access with all picks, updates, and community chat\nFirst-basket projections for every NBA & WNBA game, plus home-run and NRFI/YRFI projections for MLB\nFull prop markets — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; and more. See the NBA, WNBA and MLB pages for every market and its track record\nAuto-updates every 30 minutes as lines move\nDaily ROI tracking — every bet logged, receipts on-server\nThe Slam Dunk Dashboard at app.slamdunk.bet: every edge, every book’s price, line movement, and the full graded record\n\n\n\nPricing\n\n\n\n\nPlan\nPrice\nFree trial\n\n\n\n\nWeekly\n$19.99 / week\n30 days\n\n\nMonthly\n$49.99 / month\n30 days\n\n\nAnnual\n$499.99 / year\n30 days\n\n\n\n\nPrices and the 30-day trial are the same on Sharpduel and Whop. Sharpduel charges a $1 card verification at signup. Cancel anytime from whichever platform you subscribed on.\n\n\nFirst month is free\n\nSubscribe via Sharpduel (preferred)\n\nSharpduel is our preferred partner — they help us out by sharing our content. Whop works too if you already have an account there.\nSubscribe via Whop\n\n\nData access\nLooking for projections, market data, or tools instead of daily picks? Data subscriptions and data tools are coming soon. See the Data page for what we’re building.\n\nQuestions? Check the FAQ or hit the contact page."
+  },
+  {
+    "objectID": "wnba/first-basket-picks.html",
+    "href": "wnba/first-basket-picks.html",
+    "title": "WNBA First Basket Picks",
+    "section": "",
+    "text": "We have projected WNBA first baskets since the 2024 season, with the models we built for the NBA retrained on WNBA play-by-play data. Projections for every game and every scoring method are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord. Over three seasons, 12,613 tracked first-basket wagers returned +1,355 net units, a 17.2% return on units staked."
+  },
+  {
+    "objectID": "wnba/first-basket-picks.html#the-markets",
+    "href": "wnba/first-basket-picks.html#the-markets",
+    "title": "WNBA First Basket Picks",
+    "section": "The markets",
+    "text": "The markets\n\nFirst basket: the first player to score in the game. Some books count free throws, some do not; alerts say which.\nFirst basket by team: the first player to score for one team. Our largest WNBA market.\nFirst basket exact method and first basket by team exact method: the scorer plus how they score. Long prices, small samples.\nFirst basket type: how the game’s first points are scored.\nTeam to score first and team to score first exact method: which team scores first.\nFirst three by team: the first player on a team to make a three-pointer."
+  },
+  {
+    "objectID": "wnba/first-basket-picks.html#why-wnba-first-baskets-are-different",
+    "href": "wnba/first-basket-picks.html#why-wnba-first-baskets-are-different",
+    "title": "WNBA First Basket Picks",
+    "section": "Why WNBA first baskets are different",
+    "text": "Why WNBA first baskets are different\nWNBA books post fewer markets per game and move them later, often not until the starting lineups are confirmed near tipoff. Rosters are shorter, so a single injury changes early usage more than it does in the NBA, and our models key on exactly that. Prices between books differ widely on the same player, so line shopping matters as much as the projection. The 2026 recap has the player-level results."
+  },
+  {
+    "objectID": "wnba/first-basket-picks.html#track-record-by-season",
+    "href": "wnba/first-basket-picks.html#track-record-by-season",
+    "title": "WNBA First Basket Picks",
+    "section": "Track record by season",
+    "text": "Track record by season\nNet units and ROI on units staked, regular season plus playoffs. 2026 covers games through October 4.\n\n\n\nMarket\n2024\n2025\n2026\n\n\n\n\nFirst basket\n+173 (22.6%)\n+172 (17.4%)\n+153 (16.1%)\n\n\nFirst basket by team\n+207 (20.6%)\n+155 (8.8%)\n+289 (23.6%)\n\n\nFirst basket exact method\n+47 (57.2%)\n+204 (109.1%)\n-59 (-37.2%)\n\n\nFirst basket by team exact method\n\n\n-3 (-0.4%)\n\n\nTeam to score first (incl. exact)\n-9 (-10.9%)\n-2 (-1.0%)\n+16 (7.0%)\n\n\nFirst three by team\n\n\n+29 (10.3%)\n\n\nAll WNBA markets\n+418 (21.6%)\n+529 (17.0%)\n+443 (12.2%)\n\n\nWagers\n2,535\n4,577\n6,556\n\n\n\nFirst basket and first basket by team have been profitable in every season and produce nearly all of the return. The exact-method markets swung from +204 units in 2025 to -59 in 2026 on small samples, which is the kind of variance long prices produce; 5 of 201 exact-method wagers won in 2026. We expanded into by-team exact method and first three by team in 2026, and both are too new to judge."
+  },
+  {
+    "objectID": "wnba/first-basket-picks.html#how-we-project-them",
+    "href": "wnba/first-basket-picks.html#how-we-project-them",
+    "title": "WNBA First Basket Picks",
+    "section": "How we project them",
+    "text": "How we project them\nThe pipeline is the same as for the NBA: label every jump ball and first basket in the play-by-play data, model the tipoff, the first team to score, the first scorer for each team and the method, then combine them into a probability for every player and method. A play is alerted when a book’s price is at least 1.5 percentage points better than our projection, sized by the Kelly criterion. The five-part series starts with a high-level overview."
+  },
+  {
+    "objectID": "wnba/first-basket-picks.html#what-an-alert-looks-like",
+    "href": "wnba/first-basket-picks.html#what-an-alert-looks-like",
+    "title": "WNBA First Basket Picks",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nAlerts post to Discord grouped by game, sorted by edge, with every qualifying book, its price and the recommended units on each line. 🚨 is a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The full board, with every book’s price and line movement, is in the Slam Dunk Dashboard.\n\nWhen do WNBA first basket picks post?\nThe first alerts post when books open the markets, which for the WNBA is often the afternoon of the game. The largest edges usually appear in the hour before tipoff, when starting lineups are confirmed and a book has not yet repriced. Our timing advice applies to both leagues.\n\n\nWhich sportsbooks offer WNBA first basket props?\nFanDuel and DraftKings offer the most markets and carried about 86% of our 2026 volume. Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars also post WNBA first-basket markets on some games. Alerts list every book where a play qualifies.\n\n\nHow many WNBA picks are there per day?\nIn 2026 we alerted 3,946 plays over 118 game days, about 33 per day, or about 11 per game. The unit sizes show which edges are largest.\n\nSubscribe — first month free\nPart of our WNBA picks. The same models produce our NBA first basket picks. You must be 21 or older. Past results do not guarantee future results."
   }
 ]
