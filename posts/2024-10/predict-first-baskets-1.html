@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-10-03">
 <meta name="description" content="A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds.">
 
-<title>How Do You Predict First Baskets? Part 1 of … – Slam Dunk Bets</title>
+<title>How Do You Predict First Baskets? Part 1: High Level Overview – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,17 +74,25 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
 <link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html#article","@type":"BlogPosting","alternativeHeadline":"High Level Overview","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2024-10-03","datePublished":"2024-10-03","description":"A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds.","headline":"How Do You Predict First Baskets? Part 1 of …","image":"https://slamdunk.bet/images/posts/model_flowchart.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"nba, wnba, first-basket, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html","name":"How Do You Predict First Baskets? Part 1 of …","position":3}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html#article","@type":"BlogPosting","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2024-10-03","datePublished":"2024-10-03","description":"A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds.","headline":"How Do You Predict First Baskets? Part 1: High Level Overview","image":"https://slamdunk.bet/images/posts/model_flowchart.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"nba, wnba, first-basket, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html","name":"How Do You Predict First Baskets? Part 1: High Level Overview","position":3}]}]}</script>
+<meta property="og:url" content="https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-10-03">
+<meta property="article:modified_time" content="2024-10-03">
+<meta property="article:tag" content="nba">
+<meta property="article:tag" content="wnba">
+<meta property="article:tag" content="first-basket">
+<meta property="article:tag" content="methodology">
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do You Predict First Baskets? Part 1 of … – Slam Dunk Bets">
+<meta property="og:title" content="How Do You Predict First Baskets? Part 1: High Level Overview – Slam Dunk Bets">
 <meta property="og:description" content="A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds.">
 <meta property="og:image" content="https://slamdunk.bet/images/posts/model_flowchart.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:alt" content="Flowchart of the Slam Dunk Bets first-basket model pipeline from raw data to first player exact method model">
-<meta name="twitter:title" content="How Do You Predict First Baskets? Part 1 of … – Slam Dunk Bets">
+<meta name="twitter:title" content="How Do You Predict First Baskets? Part 1: High Level Overview – Slam Dunk Bets">
 <meta name="twitter:description" content="A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds.">
 <meta name="twitter:image" content="https://slamdunk.bet/images/posts/model_flowchart.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
@@ -158,8 +166,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do You Predict First Baskets? Part 1 of …</h1>
-<p class="subtitle lead">High Level Overview</p>
+<h1 class="title">How Do You Predict First Baskets? Part 1: High Level Overview</h1>
   <div class="quarto-categories">
     <div class="quarto-category">nba</div>
     <div class="quarto-category">wnba</div>
@@ -199,17 +206,35 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p>Our first post outlined why we bet on first baskets, but doesn’t say anything at all about how we do it. These next posts will give some more context on our approach for predicting first basket outcomes. This first post will be a super high-level run through the process. Heck, I can even make a little diagram!</p>
-<p><img src="../../images/posts/model_flowchart.jpg" class="img-fluid" alt="Flowchart of the first-basket model pipeline: raw data is cleaned into tidy data, which feeds win tipoff, first team to score, first team scorer and first player to score models, ending in exact method models" width="600"></p>
+<p>Our <a href="../../posts/2024-10/why-first-baskets.html">first post</a> outlined why we bet on first baskets, but doesn’t say anything at all about how we do it. These next posts will give some more context on our approach for predicting first basket outcomes. This first post will be a super high-level run through the process. Heck, I can even make a little diagram!</p>
+<section id="the-pipeline-in-one-diagram" class="level2">
+<h2 data-anchor-id="the-pipeline-in-one-diagram">The pipeline in one diagram</h2>
+<p><img src="../../images/posts/model_flowchart.jpg" alt="Flowchart of the first-basket model pipeline: raw data is cleaned into tidy data, which feeds win tipoff, first team to score, first team scorer and first player to score models, ending in exact method models" width="600" height="478"></p>
 <p>I’ll walk through the boxes and arrows.</p>
+</section>
+<section id="step-1-label-the-play-by-play-data" class="level2">
+<h2 data-anchor-id="step-1-label-the-play-by-play-data">Step 1: Label the play-by-play data</h2>
 <p>First, we get a bunch of data from different sources, most importantly play-by-play records from the NBA and WNBA.</p>
 <p>We use those data to flag the winning player for every jump ball, and who they beat, as well as which players and teams score first and how it happened.</p>
+</section>
+<section id="step-2-model-the-tipoff-and-the-team-to-score-first" class="level2">
+<h2 data-anchor-id="step-2-model-the-tipoff-and-the-team-to-score-first">Step 2: Model the tipoff and the team to score first</h2>
 <p>Once the data are labeled, we build models to predict the winner of a jump ball between players A and B. These models enable us to predict which team is going to possess the ball first, and knowing which team will possess the ball first is hugely predictive of which team will score first.</p>
+</section>
+<section id="step-3-model-the-first-scorer-for-each-team" class="level2">
+<h2 data-anchor-id="step-3-model-the-first-scorer-for-each-team">Step 3: Model the first scorer for each team</h2>
 <p>We could stop here, because “player to win the tipoff” and “team to score first” are popular prop markets in their own rights, but we keep going! Independent of first possession, we can also model which player will score first for their team given a specific lineup; this is also a very popular (and profitable) prop market. Even more, we model out the odds of a player scoring first for their team with a specific method, like a free throw or a three pointer.</p>
+</section>
+<section id="step-4-combine-them-into-first-basket-odds" class="level2">
+<h2 data-anchor-id="step-4-combine-them-into-first-basket-odds">Step 4: Combine them into first-basket odds</h2>
 <p>Finally, we can use the outputs of the team to score first and player to score first for their team models, to estimate the odds of a player scoring first for the entire game (and the method they use). Tada!</p>
-<p>Now that you’ve got the high level view, we can start looking more specifically at different parts of the process. We can start with the data!</p>
+<p>Now that you’ve got the high level view, we can start looking more specifically at different parts of the process. We can start with the data, in <a href="../../posts/2024-10/predict-first-baskets-2.html">Part 2</a>!</p>
+<div class="series-nav">
+<p><strong>How Do You Predict First Baskets?</strong> <a href="../../posts/2024-10/why-first-baskets.html">Why First Baskets?</a> · <a href="../../posts/2024-10/predict-first-baskets-1.html">Part 1: High Level Overview</a> · <a href="../../posts/2024-10/predict-first-baskets-2.html">Part 2: The Data We Use</a> · <a href="../../posts/2024-10/predict-first-baskets-3.html">Part 3: So Many Models</a> · <a href="../../posts/2024-10/predict-first-baskets-4.html">Part 4: From Predictions To Edges</a> · <a href="../../posts/2024-10/predict-first-baskets-5.html">Part 5: Alert Alert</a> · <a href="../../posts/2024-10/when-to-bet-first-baskets.html">When To Bet First Baskets</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

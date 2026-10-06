@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2026-08-01">
 <meta name="description" content="How we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type, swing, contact and outcome, with minor-league priors for new hitters.">
 
-<title>How Do We Predict Home Runs? Part 1 of … – Slam Dunk Bets</title>
+<title>How Do We Predict Home Runs? Part 1: Pitch Data – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,17 +74,24 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
 <link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html#article","@type":"BlogPosting","alternativeHeadline":"Pitch Data","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2026-08-01","datePublished":"2026-08-01","description":"How we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type, swing, contact and outcome, with minor-league priors for new hitters.","headline":"How Do We Predict Home Runs? Part 1 of …","image":"https://slamdunk.bet/images/posts/hr-pitch-data.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"mlb, home-runs, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html","name":"How Do We Predict Home Runs? Part 1 of …","position":3}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html#article","@type":"BlogPosting","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2026-08-01","datePublished":"2026-08-01","description":"How we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type, swing, contact and outcome, with minor-league priors for new hitters.","headline":"How Do We Predict Home Runs? Part 1: Pitch Data","image":"https://slamdunk.bet/images/posts/hr-pitch-data.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"mlb, home-runs, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html","name":"How Do We Predict Home Runs? Part 1: Pitch Data","position":3}]}]}</script>
+<meta property="og:url" content="https://slamdunk.bet/posts/2026-08/predict-home-runs-1.html">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-08-01">
+<meta property="article:modified_time" content="2026-08-01">
+<meta property="article:tag" content="mlb">
+<meta property="article:tag" content="home-runs">
+<meta property="article:tag" content="methodology">
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do We Predict Home Runs? Part 1 of … – Slam Dunk Bets">
+<meta property="og:title" content="How Do We Predict Home Runs? Part 1: Pitch Data – Slam Dunk Bets">
 <meta property="og:description" content="How we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type, swing, contact and outcome, with minor-league priors for new hitters.">
 <meta property="og:image" content="https://slamdunk.bet/images/posts/hr-pitch-data.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:alt" content="A baseball pitcher mid-delivery with the batter waiting in the foreground">
-<meta name="twitter:title" content="How Do We Predict Home Runs? Part 1 of … – Slam Dunk Bets">
+<meta name="twitter:title" content="How Do We Predict Home Runs? Part 1: Pitch Data – Slam Dunk Bets">
 <meta name="twitter:description" content="How we predict MLB home runs, part 1: Statcast’s 119 columns on every pitch, about 145 engineered features, and a chain of boosted-tree models for pitch type, swing, contact and outcome, with minor-league priors for new hitters.">
 <meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-pitch-data.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
@@ -158,8 +165,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do We Predict Home Runs? Part 1 of …</h1>
-<p class="subtitle lead">Pitch Data</p>
+<h1 class="title">How Do We Predict Home Runs? Part 1: Pitch Data</h1>
   <div class="quarto-categories">
     <div class="quarto-category">mlb</div>
     <div class="quarto-category">home-runs</div>
@@ -198,14 +204,25 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/hr-pitch-data.jpg" class="img-fluid" alt="A baseball pitcher mid-delivery with the batter and umpire in the foreground" width="600"></p>
+<p><img src="../../images/posts/hr-pitch-data.jpg" alt="A baseball pitcher mid-delivery with the batter and umpire in the foreground" width="600" height="400"></p>
 <p>Home runs are the most exciting part of baseball, imho, and they don’t happen very often — right around 3% of plate appearances. They’re a pretty rare event, so figuring out whether a player is going to hit one is a little bit like finding that one lego brick you need in your bin of unsorted bricks.</p>
+<section id="home-runs-are-rare-but-not-random" class="level2">
+<h2 data-anchor-id="home-runs-are-rare-but-not-random">Home runs are rare, but not random</h2>
 <p>We know home runs are at least a teensy bit predictable. Some players are going to hit a lot more home runs than others, year in and year out, and some players are hardly going to hit any. Same story on the mound: some pitchers give up way more homers than others. We know homers are more common at higher elevations (thanks Colorado!), on warmer days, in parks with shorter fences, and when the wind blows out from home plate.</p>
 <p>But…how do you actually turn any of that into a prediction?</p>
 <p>(That question is this whole series — the data, the models, the edges, the alerts, and the app. It will get long and nerdy. That’s the fun part.)</p>
+</section>
+<section id="the-data-119-statcast-columns-on-every-pitch" class="level2">
+<h2 data-anchor-id="the-data-119-statcast-columns-on-every-pitch">The data: 119 Statcast columns on every pitch</h2>
 <p>It starts with data! Statcast publishes 119 columns about every single MLB pitch — velocity, spin, release point, exit velocity, launch angle, all the way down to the tilt of the batter’s swing path. We mirror all of it, roughly 750,000 pitches per season going back to 2017, and then build our own layers on top: batter profiles (career numbers AND the trailing 40 games, with platoon splits and performance against different pitch types), pitcher profiles (arsenal, velocity, workload, recent form), park factors, fence distances in every direction (including the batter’s pull side), elevation, roofs, temperature, wind. Plus team tendencies, like how quickly each club goes to its bench. Plus game-state stuff — score, outs, count, runners — which we’ll get into in Part 2.</p>
+</section>
+<section id="rookies-priors-and-shrinkage" class="level2">
+<h2 data-anchor-id="rookies-priors-and-shrinkage">Rookies, priors and shrinkage</h2>
 <p>Rookies get seeded with minor-league data, and the translation is not gentle: MiLB power gets marked DOWN on the way up (a AAA dinger is worth about 80% of an MLB one in our priors), strikeout rates get marked up, and lower levels count for less than AAA. Sorry, rooks. And every rate in every profile gets empirical-Bayes shrinkage, which is a fancy way of saying small samples get dragged toward league average until they earn their distance. One hot week does not make you Aaron Judge. Yet.</p>
 <p>All told, our models use around 145 features per pitch (145 to 154, depending on the model), which is way more information than I can juggle in my brain at any point in time, let alone for every pitch of every game on a full slate. Fortunately, that’s where the ML models come in.</p>
+</section>
+<section id="a-chain-of-models-one-question-at-a-time" class="level2">
+<h2 data-anchor-id="a-chain-of-models-one-question-at-a-time">A chain of models, one question at a time</h2>
 <p>We use a chain of models — boosted decision trees, trained on about six million pitches — to predict what happens on each pitch, one question at a time:</p>
 <ol type="1">
 <li><strong>What’s he throwing?</strong> Statcast tags pitches with 18 different type codes; we collapse them into six classes (fastball, sinker, cutter, breaking, offspeed, other) because for our purposes the coarse distinctions are the ones that matter. And they DO matter: in 2024, balls in play against four-seamers became homers about 5.3% of the time, versus 3.2% against sinkers.</li>
@@ -215,12 +232,22 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </ol>
 <p>(Fun aside: none of these models ever sees pitch <em>location</em>, on purpose. Our simulator only decides WHAT gets thrown, not where, and if you hand location-hungry models a filled-in average location, every simulated pitch becomes a down-the-middle meatball. Ask us how we know.)</p>
 <p>Sharp-eyed readers might notice there’s no ball-physics step in that list. There used to be! We had models that predicted exit velocity and launch angle off the bat, then turned the physics into outcomes, and they were beautiful. Then we tested them head-to-head against the boring direct approach over a full season, and the boring approach was a hair more accurate and literally twice as fast. So the physics models got benched — they still hang around as diagnostics, but they don’t touch the predictions anymore. The number of models drifts between five and seven as we experiment (RIP to the physics arm), and the current starting five is the list above.</p>
+</section>
+<section id="how-accurate-is-it" class="level2">
+<h2 data-anchor-id="how-accurate-is-it">How accurate is it?</h2>
 <p>Accuracy is what everybody wants to talk about with models, and ours do pretty well for predicting the outcomes of hundreds of interactions between groups of human beings. On the question that matters — does this batter homer in this game — our AUC runs in the .6 to .7 range across backtests and live seasons (this season: .61 through late July, across about 7,000 player-games), with Brier scores around .10 and calibration error around a single point of probability. Translated from nerd: the model is meaningfully better than naive guessing at separating homer games from no-homer games, and when it says 12%, homers happen about 12% of the time. In this business, that second part is the superpower.</p>
+</section>
+<section id="is-the-complexity-worth-it" class="level2">
+<h2 data-anchor-id="is-the-complexity-worth-it">Is the complexity worth it?</h2>
 <p>Chains of models can be REALLY useful (it’s the same trick behind our <a href="../../posts/2024-10/predict-first-baskets-1.html">first-basket models</a>), but they undeniably add complexity, and they add the risk of compounding errors: mess something up in the first model and it flows downstream through everything else, because each model takes the previous outputs as inputs. Are they worth it?</p>
 <p>Our research says yes. You can absolutely estimate a batter’s probability of homering with the simplest possible method: count his games, count his homer games, divide. If Jim played 100 games and homered in 10 of them, call it 10% (+900 in American odds). Totally intuitive, easy to update, and genuinely a lot better than flipping a coin. But the chained approach beats that baseline by roughly +.02 to +.04 of AUC, season after season, in leak-free backtests. That sounds modest, so here’s the honest version: home runs are HARD, nobody’s model sees the future, and a couple points of AUC is the difference between finding real edges and donating vig to the books. The complexity earns its keep. (One of our favorite findings along the way: home runs are overwhelmingly a <em>batter</em> skill. A pitcher’s homer-allowed history carries almost no predictive weight — that’s not a bug in our models, it’s a fact about baseball.)</p>
-<p>So that’s cool — we can price individual pitches. But the bets are on games, and games have STATE. That’s <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2 of …</a>, where we get into score effects, lineups, and the simulations that hold this whole thing together. Thanks for reading!</p>
+<p>So that’s cool — we can price individual pitches. But the bets are on games, and games have STATE. That’s <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2</a>, where we get into score effects, lineups, and the simulations that hold this whole thing together. Thanks for reading!</p>
+<div class="series-nav">
+<p><strong>How Do We Predict Home Runs?</strong> <a href="../../posts/2026-08/predict-home-runs-1.html">Part 1: Pitch Data</a> · <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2: Game-State Data</a> · <a href="../../posts/2026-08/predict-home-runs-3.html">Part 3: From Projections to Edges</a> · <a href="../../posts/2026-08/predict-home-runs-4.html">Part 4: Alert Alert, Home Run Edition</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

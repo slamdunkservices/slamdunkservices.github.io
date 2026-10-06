@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2026-08-04">
 <meta name="description" content="Part 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a Slam Dunk Bets home-run alert looks like in Discord.">
 
-<title>How Do We Predict Home Runs? Part 4 of … – Slam Dunk Bets</title>
+<title>How Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,17 +74,24 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
 <link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html#article","@type":"BlogPosting","alternativeHeadline":"Alert Alert, Home Run Edition","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2026-08-04","datePublished":"2026-08-04","description":"Part 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a Slam Dunk Bets home-run alert looks like in Discord.","headline":"How Do We Predict Home Runs? Part 4 of …","image":"https://slamdunk.bet/images/posts/hr-alerts-press.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"mlb, home-runs, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html","name":"How Do We Predict Home Runs? Part 4 of …","position":3}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html#article","@type":"BlogPosting","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2026-08-04","datePublished":"2026-08-04","description":"Part 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a Slam Dunk Bets home-run alert looks like in Discord.","headline":"How Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition","image":"https://slamdunk.bet/images/posts/hr-alerts-press.jpg","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"mlb, home-runs, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html","name":"How Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition","position":3}]}]}</script>
+<meta property="og:url" content="https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-08-04">
+<meta property="article:modified_time" content="2026-08-04">
+<meta property="article:tag" content="mlb">
+<meta property="article:tag" content="home-runs">
+<meta property="article:tag" content="methodology">
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do We Predict Home Runs? Part 4 of … – Slam Dunk Bets">
+<meta property="og:title" content="How Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition – Slam Dunk Bets">
 <meta property="og:description" content="Part 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a Slam Dunk Bets home-run alert looks like in Discord.">
 <meta property="og:image" content="https://slamdunk.bet/images/posts/hr-alerts-press.jpg">
 <meta property="og:site_name" content="Slam Dunk Bets">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:alt" content="Engraving of a large early-1900s rotary newspaper printing press">
-<meta name="twitter:title" content="How Do We Predict Home Runs? Part 4 of … – Slam Dunk Bets">
+<meta name="twitter:title" content="How Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition – Slam Dunk Bets">
 <meta name="twitter:description" content="Part 4: the alert pipeline, from Monday retrains and 6am refreshes to 30-minute ticks all day, weather resolved to each park’s compass bearing, and what a Slam Dunk Bets home-run alert looks like in Discord.">
 <meta name="twitter:image" content="https://slamdunk.bet/images/posts/hr-alerts-press.jpg">
 <meta name="twitter:creator" content="@jimtheflash">
@@ -158,8 +165,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do We Predict Home Runs? Part 4 of …</h1>
-<p class="subtitle lead">Alert Alert, Home Run Edition</p>
+<h1 class="title">How Do We Predict Home Runs? Part 4: Alert Alert, Home Run Edition</h1>
   <div class="quarto-categories">
     <div class="quarto-category">mlb</div>
     <div class="quarto-category">home-runs</div>
@@ -198,10 +204,18 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/hr-alerts-press.jpg" class="img-fluid" alt="Engraving of a large early-1900s rotary newspaper printing press" width="600"></p>
+<p><img src="../../images/posts/hr-alerts-press.jpg" alt="Engraving of a large early-1900s rotary newspaper printing press" width="600" height="385"></p>
 <p>If you read our <a href="../../posts/2024-10/predict-first-baskets-1.html">first-baskets series</a>, you already know we’re obsessive about the last mile. A projection that never reaches you, or reaches you stale, might as well not exist. So the whole system runs like a tiny newspaper with an extremely niche beat.</p>
+<section id="the-daily-schedule" class="level2">
+<h2 data-anchor-id="the-daily-schedule">The daily schedule</h2>
 <p>Every Monday at 2am, the models retrain on everything through the day before. Every morning at 6am, a full refresh: schedules, rosters, park factors, yesterday’s plays graded and logged. And then every 30 minutes from 7am to 10pm ET, a tick: pull the newest pitch data, check for posted lineups and probable starters, grab a fresh hourly forecast for every ballpark, re-simulate every game whose inputs actually changed (the fingerprint trick from <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2</a>), re-price 13 books, and push alerts.</p>
+</section>
+<section id="weather-resolved-per-ballpark" class="level2">
+<h2 data-anchor-id="weather-resolved-per-ballpark">Weather, resolved per ballpark</h2>
 <p>Weather gets the full nerd treatment, by the way. Wind “blowing out” isn’t a vibe — every forecast is resolved against the actual compass bearing from home plate to center field in that specific park, so a gust that’s blowing out in one stadium is a crosswind in another. Domes are a permanent 72°F and windless, which is boring, but boring is easy to model. Retractable roofs get a per-game open-or-closed call.</p>
+</section>
+<section id="what-a-home-run-alert-looks-like" class="level2">
+<h2 data-anchor-id="what-a-home-run-alert-looks-like">What a home run alert looks like</h2>
 <p>Alerts land in Discord looking like this:</p>
 <blockquote class="blockquote">
 <p><strong>LAA @ TEX (8:05 pm ET)</strong></p>
@@ -218,12 +232,22 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <li>📖 a new book just joined the party</li>
 </ul>
 <p>The high-water marks reset at midnight ET, so a 🚀 is always a genuinely new best — a play that faded and crawled back to a price it already hit today gets a ⬇️, never a fresh rocket.</p>
+</section>
+<section id="projections-freeze-at-first-pitch" class="level2">
+<h2 data-anchor-id="projections-freeze-at-first-pitch">Projections freeze at first pitch</h2>
 <p>And when a game goes live, we stop. Projections freeze at first pitch — no in-game re-pricing, no chasing. Pregame edges are our lane, and we stay in it.</p>
+</section>
+<section id="the-slam-dunk-dashboard" class="level2">
+<h2 data-anchor-id="the-slam-dunk-dashboard">The Slam Dunk Dashboard</h2>
 <p>If Discord isn’t your speed, the same numbers live in the Slam Dunk Dashboard at <a href="https://app.slamdunk.bet">app.slamdunk.bet</a>: one card per game, with the weather, projected lineups, first-inning odds, and per-batter home run odds. And because we archive the full edge table on every single odds refresh, the app can show you how prices moved through the day — when the books adjusted, which direction, and whether the value is growing or already got eaten.</p>
 <p>And that’s the machine: 119 columns on every pitch, six million pitches of training data, a chain of models, an exact little 72-cell plate-appearance solve, 20,000 simulations per game, a calibration layer, 13 books twice an hour, half-Kelly sizing, and a rocket emoji when it matters. From data to dingers, we’ve covered the bases. For real this time — it’s baseball. The bases are literal.</p>
 <p>Thanks as always for reading, holler if you have questions (<a href="https://x.com/jimtheflash">@jimtheflash</a> is the best way to find us), and if you want these alerts in your pocket, please consider <a href="https://sharpduel.com/slam_dunk_bets">subscribing</a> — first month’s free — or come hang out in the <a href="https://whop.com/slam-dunk-bets">Discord</a> 🙏</p>
+<div class="series-nav">
+<p><strong>How Do We Predict Home Runs?</strong> <a href="../../posts/2026-08/predict-home-runs-1.html">Part 1: Pitch Data</a> · <a href="../../posts/2026-08/predict-home-runs-2.html">Part 2: Game-State Data</a> · <a href="../../posts/2026-08/predict-home-runs-3.html">Part 3: From Projections to Edges</a> · <a href="../../posts/2026-08/predict-home-runs-4.html">Part 4: Alert Alert, Home Run Edition</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

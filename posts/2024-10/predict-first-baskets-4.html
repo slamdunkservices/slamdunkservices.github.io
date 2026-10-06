@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-10-06">
 <meta name="description" content="Turning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and Kelly-based unit sizing normalized to about one unit per play.">
 
-<title>How Do You Predict First Baskets? Part 4 of … – Slam Dunk Bets</title>
+<title>How Do You Predict First Baskets? Part 4: From Predictions To Edges – Slam Dunk Bets</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,11 +74,19 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
 <link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
 <link rel="preconnect" href="https://www.googletagmanager.com">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html#article","@type":"BlogPosting","alternativeHeadline":"From Predictions To Edges","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2024-10-06","datePublished":"2024-10-06","description":"Turning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and Kelly-based unit sizing normalized to about one unit per play.","headline":"How Do You Predict First Baskets? Part 4 of …","image":"https://slamdunk.bet/images/posts/Razor_1_(PSF).png","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"nba, wnba, first-basket, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html","name":"How Do You Predict First Baskets? Part 4 of …","position":3}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html#article","@type":"BlogPosting","author":{"@id":"https://slamdunk.bet/#organization"},"dateModified":"2024-10-06","datePublished":"2024-10-06","description":"Turning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and Kelly-based unit sizing normalized to about one unit per play.","headline":"How Do You Predict First Baskets? Part 4: From Predictions To Edges","image":"https://slamdunk.bet/images/posts/Razor_1_(PSF).png","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/articles.html#blog","@type":"Blog","name":"Slam Dunk Bets Articles"},"keywords":"nba, wnba, first-basket, methodology","mainEntityOfPage":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://slamdunk.bet/","name":"Home","position":1},{"@type":"ListItem","item":"https://slamdunk.bet/articles.html","name":"Articles","position":2},{"@type":"ListItem","item":"https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html","name":"How Do You Predict First Baskets? Part 4: From Predictions To Edges","position":3}]}]}</script>
+<meta property="og:url" content="https://slamdunk.bet/posts/2024-10/predict-first-baskets-4.html">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-10-06">
+<meta property="article:modified_time" content="2024-10-06">
+<meta property="article:tag" content="nba">
+<meta property="article:tag" content="wnba">
+<meta property="article:tag" content="first-basket">
+<meta property="article:tag" content="methodology">
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="How Do You Predict First Baskets? Part 4 of … – Slam Dunk Bets">
+<meta property="og:title" content="How Do You Predict First Baskets? Part 4: From Predictions To Edges – Slam Dunk Bets">
 <meta property="og:description" content="Turning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and Kelly-based unit sizing normalized to about one unit per play.">
 <meta property="og:image" content="https://slamdunk.bet/images/posts/Razor_1_(PSF).png">
 <meta property="og:site_name" content="Slam Dunk Bets">
@@ -86,7 +94,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 <meta property="og:image:height" content="732">
 <meta property="og:image:width" content="1791">
 <meta property="og:image:alt" content="Line drawing of a straight razor">
-<meta name="twitter:title" content="How Do You Predict First Baskets? Part 4 of … – Slam Dunk Bets">
+<meta name="twitter:title" content="How Do You Predict First Baskets? Part 4: From Predictions To Edges – Slam Dunk Bets">
 <meta name="twitter:description" content="Turning first-basket probabilities into bets: semi-realtime odds from the major books, implied probability against our model, a 1.5% edge threshold, and Kelly-based unit sizing normalized to about one unit per play.">
 <meta name="twitter:image" content="https://slamdunk.bet/images/posts/Razor_1_(PSF).png">
 <meta name="twitter:creator" content="@jimtheflash">
@@ -162,8 +170,7 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Do You Predict First Baskets? Part 4 of …</h1>
-<p class="subtitle lead">From Predictions To Edges</p>
+<h1 class="title">How Do You Predict First Baskets? Part 4: From Predictions To Edges</h1>
   <div class="quarto-categories">
     <div class="quarto-category">nba</div>
     <div class="quarto-category">wnba</div>
@@ -203,20 +210,32 @@ gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
 </header>
 
 
-<p><img src="../../images/posts/Razor_1_(PSF).png" class="img-fluid" alt="Line drawing of a straight razor" width="600"></p>
+<p><img src="../../images/posts/Razor_1_(PSF).png" alt="Line drawing of a straight razor" width="600" height="245"></p>
 <p>Being able to estimate odds for first baskets is a nifty parlor trick that might give you something to talk about at a job interview or the bar or whatever, but unless we can find opportunities where our predictions can give us a betting edge, they’re not especially useful.</p>
 <p>Fortunately, we can - and do - find edges <em>aplenty!</em> Here’s how.</p>
+<section id="getting-semi-realtime-odds-from-the-books" class="level2">
+<h2 data-anchor-id="getting-semi-realtime-odds-from-the-books">Getting semi-realtime odds from the books</h2>
 <p>First, and we’re sure this goes entirely without saying, we don’t EVER violate or advocate that others violate the terms and conditions of service of sportsbook apps or websites. That’d be morally wrong, and would put us at risk of having our accounts limited even further or shut down entirely (or worse!). You should never break those, or any rules. Ever. Got it? Good.</p>
 <p>That out of the way, we built some tools to get semi-realtime odds from the most popular books available in North America. This is a pain in the ass, because sportsbooks don’t want people to be able to shop around easily, and instead of putting in modernized safeguards against bad actors, the books just use the jankiest sets of data models and practices that you might expect out of a dorm room startup, which is like a “security by stupidity” strategy. We have opinions here, but we digress.</p>
 <p>Once we get the odds, we have to reconcile them with our data. Books are intentionally inconsistent with how they list player and team names, and you’d be shocked at how often they misspell things or list players on the wrong teams, so we have to do some lightweight NLP to map everything together.</p>
+</section>
+<section id="what-counts-as-an-edge" class="level2">
+<h2 data-anchor-id="what-counts-as-an-edge">What counts as an edge</h2>
 <p>After that, we built tools that identify cases where a book is offering odds that are at least 1% longer than what our model predicts. To explain: odds can be translated to probabilities; we compare the probabilities from our model to the odds offered by the books; if our model predicts a player has a 10% chance to score first in the game (translates exactly to +900), but a book offers that player at odds equivalent to 11.11% (+800), we see that 11.11% - 10% = 1.11% which is greater than our threshold.</p>
 <p><em>Update 2024-12-10: We now use a 1.5% threshold for determining a playable edge!</em></p>
 <p>We usually observe 1-6 edges <em>per game</em> at or beyond our threshold for first basket plays in both the NBA and WNBA. And that’s just for the first basket overall market - when you factor in the first basket by team and exact methods plays, we’re seeing <em>between one and two dozen</em> plays per game just on first basket markets.</p>
 <p>I know right? Bananas.</p>
+</section>
+<section id="unit-sizing-with-the-kelly-criterion" class="level2">
+<h2 data-anchor-id="unit-sizing-with-the-kelly-criterion">Unit sizing with the Kelly criterion</h2>
 <p><strong>Edited to Add:</strong> Dang I forgot about the recommended unit size calculations when I first published this. Our unit recommendations are just <a href="https://en.wikipedia.org/wiki/Kelly_criterion">Kelly Criterion</a> with a twist! We use Fully Kelly, but then we adjust based on the average unit size recommendation within a prop market, so that the average recommended bet within each market is 1 unit. This makes it a lot easier to calibrate your outlay based on a market’s ROI, e.g.&nbsp;you can use a bigger unit for more profitable markets. (I bet people will have opinions about this.)</p>
-<p>Anyways, the next part of this will be about the alerts themselves, which involves some conversation about AI! Check it out, and also subscribe to the <a href="https://whop.com/slam-dunk-bets">Discord</a> if you haven’t yet, it helps us make tools and content 🙏</p>
+<p>Anyways, the next part of this, <a href="../../posts/2024-10/predict-first-baskets-5.html">Part 5</a>, will be about the alerts themselves, which involves some conversation about AI! Check it out, and also <a href="https://sharpduel.com/slam_dunk_bets">subscribe</a> if you haven’t yet, it helps us make tools and content 🙏</p>
+<div class="series-nav">
+<p><strong>How Do You Predict First Baskets?</strong> <a href="../../posts/2024-10/why-first-baskets.html">Why First Baskets?</a> · <a href="../../posts/2024-10/predict-first-baskets-1.html">Part 1: High Level Overview</a> · <a href="../../posts/2024-10/predict-first-baskets-2.html">Part 2: The Data We Use</a> · <a href="../../posts/2024-10/predict-first-baskets-3.html">Part 3: So Many Models</a> · <a href="../../posts/2024-10/predict-first-baskets-4.html">Part 4: From Predictions To Edges</a> · <a href="../../posts/2024-10/predict-first-baskets-5.html">Part 5: Alert Alert</a> · <a href="../../posts/2024-10/when-to-bet-first-baskets.html">When To Bet First Baskets</a></p>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

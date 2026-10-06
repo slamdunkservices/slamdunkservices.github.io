@@ -757,3 +757,23 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
 /* Root pages open with their own lede, so hide Quarto's title-block description there.
    Posts (body.post via posts/_metadata.yml) keep it as a standfirst under the subtitle. */
 body:not(.post) #title-block-header .description { display: none; }
+
+/* Series navigation at the foot of multi-part posts (see agents.md, "Add a blog post"). */
+.series-nav {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.35);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.series-nav p {
+    margin-bottom: 0;
+}
+
+/* Body images carry intrinsic width/height attributes (set by _filters/seo-schema.lua) so the browser can
+   reserve space before they load; keep them responsive. */
+main img {
+    max-width: 100%;
+    height: auto;
+}
