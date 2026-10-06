@@ -70,6 +70,7 @@ format:
     css: styles.css
     anchor-sections: false
     canonical-url: true
+    tbl-colwidths: false
     include-in-header:
       - file: _includes/head.html
     include-after-body:

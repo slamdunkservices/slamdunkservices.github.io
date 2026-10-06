@@ -777,3 +777,14 @@ main img {
     max-width: 100%;
     height: auto;
 }
+
+/* Wide data tables (season recaps) scroll sideways on phones instead of widening the page. */
+@media (max-width: 767.98px) {
+    main table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+}

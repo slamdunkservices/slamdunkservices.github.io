@@ -94,7 +94,7 @@ These are the standardized-unit totals from our graded ledgers as of October 5, 
 ::: {.faq-item}
 ### Whoa that's a LOT, like an order of magnitude better than other handicappers. You got receipts?
 
-Yep and we update them every day, automatically. Season recaps with the full charts are in the [Articles](articles.qmd), starting with the [2023-24 NBA recap](posts/2024-10/nba-202324-performance.qmd).
+Yep and we update them every day, automatically. Season recaps with the full charts are in the [Articles](articles.qmd), most recently the [2025-26 NBA recap](posts/2026-10/nba-2025-26-recap.qmd) and the [2026 WNBA recap](posts/2026-10/wnba-2026-recap.qmd).
 :::
 
 ::: {.faq-item}
