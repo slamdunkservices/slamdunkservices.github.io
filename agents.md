@@ -144,7 +144,7 @@ Quarto only copies images that are actually referenced into `_site/`, so an unre
 
 Chrome sometimes hangs after writing the file; kill it, the PNG is already there. Use `--window-size=512,512` for the square logo.
 
-**Homepage carousel.** `scripts/hof-carousel.js` reads `images/hof-carousel/manifest.json` — adding an image to `images/hof-carousel/` does nothing until its filename is added to the manifest. Both paths are shipped via the `resources` list in `_quarto.yml`.
+**Homepage carousel.** `scripts/hof-carousel.js` reads `images/hof-carousel/manifest.json` — adding an image to `images/hof-carousel/` does nothing until its filename is added to the manifest. Store receipts as JPEG (`sips -s format jpeg -s formatOptions 60 in.png --out in.jpg`); quality 60 keeps the text crisp at about a quarter of the PNG size. Both paths are shipped via the `resources` list in `_quarto.yml`.
 
 ## SEO and AI discoverability
 
