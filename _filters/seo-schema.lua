@@ -7,7 +7,9 @@
     posts/**         -> + BlogPosting + BreadcrumbList
     faq.qmd          -> + FAQPage built from ::: {.faq-item} divs (first header = question, rest = answer)
     subscribe.qmd    -> + WebPage + Product/Offer[] from the `schema-offers:` frontmatter list
+    nba/, wnba/, mlb/ -> + WebPage + BreadcrumbList (Home > <sport> Picks > page); a folder's index.qmd is the hub
     everything else  -> + WebPage
+    Any page with ::: {.faq-item} blocks also gets a FAQPage node (faq.qmd gets it instead of WebPage).
 
   Frontmatter hooks:
     description, image, image-alt, date, date-modified, categories, subtitle  (standard Quarto keys)
@@ -83,11 +85,17 @@ local function stem(rel)
   return (rel:gsub("%.[^./]+$", ""))
 end
 
+-- A folder's index page is addressed as the folder (matches Quarto's canonical tag and the sitemap hook).
 local function page_url(rel)
   local s = stem(rel)
   if s == "index" then return SITE .. "/" end
+  local dir = s:match("^(.-)/index$")
+  if dir then return SITE .. "/" .. dir .. "/" end
   return SITE .. "/" .. s .. ".html"
 end
+
+-- Sport hubs: folder -> breadcrumb label. Pages in these folders get Home > hub > page breadcrumbs.
+local HUBS = { nba = "NBA Picks", wnba = "WNBA Picks", mlb = "MLB Picks" }
 
 -- Resolve /images/.., ../../images/.., images/.. (relative to the page's folder) to an absolute URL.
 local function abs_url(p, rel)
@@ -389,6 +397,17 @@ function Pandoc(doc)
     graph[#graph + 1] = webpage_node(url, title, desc, image)
     local product = product_node(m, url, desc)
     if product then graph[#graph + 1] = product end
+    local faq = faq_node(doc.blocks, url, title, desc)
+    if faq then
+      faq["@id"] = url .. "#faq"
+      graph[#graph + 1] = faq
+    end
+    local folder = s:match("^([^/]+)/")
+    if folder and HUBS[folder] then
+      local crumbs = { { "Home", SITE .. "/" }, { HUBS[folder], SITE .. "/" .. folder .. "/" } }
+      if s ~= folder .. "/index" then crumbs[#crumbs + 1] = { title, url } end
+      graph[#graph + 1] = breadcrumb_node(crumbs)
+    end
   end
 
   local json = quarto.json.encode({ ["@context"] = "https://schema.org", ["@graph"] = graph })

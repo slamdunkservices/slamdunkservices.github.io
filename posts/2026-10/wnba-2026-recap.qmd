@@ -128,4 +128,4 @@ Some of that overestimate is expected. We only bet when our number is higher tha
 
 These are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.
 
-The live record for every market is in the [Slam Dunk Dashboard](../../apps.qmd), and results for every season are in the [FAQ](../../faq.qmd). How the first-basket models work is covered in our [five-part series](../2024-10/predict-first-baskets-1.qmd). To get the alerts as they post, [subscribe](https://sharpduel.com/slam_dunk_bets).
+The live record for every market is in the [Slam Dunk Dashboard](../../apps.qmd), results for every season are in the [FAQ](../../faq.qmd), and the market-by-market record is on our [WNBA picks](../../wnba/index.qmd) pages. How the first-basket models work is covered in our [five-part series](../2024-10/predict-first-baskets-1.qmd). To get the alerts as they post, [subscribe](https://sharpduel.com/slam_dunk_bets).

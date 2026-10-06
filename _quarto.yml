@@ -9,6 +9,9 @@ project:
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
+    - "nba/*.qmd"
+    - "wnba/*.qmd"
+    - "mlb/*.qmd"
   post-render:
     - _scripts/post-render.sh
 
@@ -23,6 +26,28 @@ website:
   google-analytics: "G-66MCY7L0V7"
   navbar:
     left:
+      - text: "Picks"
+        menu:
+          - text: "NBA picks"
+            href: nba/index.qmd
+          - text: "NBA first basket picks"
+            href: nba/first-basket-picks.qmd
+          - text: "NBA team to score first & tipoff picks"
+            href: nba/team-to-score-first-picks.qmd
+          - text: "NBA first assist, rebound & three picks"
+            href: nba/first-assist-rebound-three-picks.qmd
+          - text: "---"
+          - text: "WNBA picks"
+            href: wnba/index.qmd
+          - text: "WNBA first basket picks"
+            href: wnba/first-basket-picks.qmd
+          - text: "---"
+          - text: "MLB picks"
+            href: mlb/index.qmd
+          - text: "MLB home run picks"
+            href: mlb/home-run-picks.qmd
+          - text: "MLB NRFI / YRFI picks"
+            href: mlb/nrfi-yrfi-picks.qmd
       - text: "Subscribe"
         href: subscribe.qmd
       - text: "Apps"

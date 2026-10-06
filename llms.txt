@@ -21,6 +21,17 @@ Key facts:
 - [Data](https://slamdunk.bet/data.html): upcoming data subscriptions and tools
 - [Contact](https://slamdunk.bet/contact.html)
 
+## Picks by sport and market (what we project, how, and the tracked record by season)
+- [NBA picks](https://slamdunk.bet/nba/): all NBA markets, record by season, how alerts work
+  - [NBA first basket picks](https://slamdunk.bet/nba/first-basket-picks.html): first basket, exact method, by team, first basket type; +3,546 units over 2023-24 to 2025-26 (12.9% ROI)
+  - [NBA team to score first and win tipoff picks](https://slamdunk.bet/nba/team-to-score-first-picks.html): +142 units in 2025-26 (7.2%)
+  - [NBA first assist, first rebound and first three picks](https://slamdunk.bet/nba/first-assist-rebound-three-picks.html): +576 units in 2025-26 (17.0%)
+- [WNBA picks](https://slamdunk.bet/wnba/): all WNBA markets, record by season
+  - [WNBA first basket picks](https://slamdunk.bet/wnba/first-basket-picks.html): +1,355 units over 2024 to 2026 (17.2% ROI)
+- [MLB picks](https://slamdunk.bet/mlb/): home runs, NRFI/YRFI, newer markets, alert schedule
+  - [MLB home run picks](https://slamdunk.bet/mlb/home-run-picks.html): +142 units since July 16, 2026 (5.3%)
+  - [MLB NRFI and YRFI picks](https://slamdunk.bet/mlb/nrfi-yrfi-picks.html): +20 units since July 16, 2026 (3.3%)
+
 ## Methodology: first baskets (NBA and WNBA)
 - [Why First Baskets?](https://slamdunk.bet/posts/2024-10/why-first-baskets.html): origin story and why the market is mispriced
 - [How Do You Predict First Baskets? Part 1: High Level Overview](https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html)

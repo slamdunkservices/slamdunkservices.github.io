@@ -1,0 +1,60 @@
+---
+title: "NBA First Assist, First Rebound & First Three-Pointer Picks"
+pagetitle: "NBA First Assist, First Rebound & First Three Picks"
+description: "Picks for NBA first assist, first rebound, first block, first three-pointer and first three by team, projected from the same play-by-play models as our first basket picks, for every game. +576 net units (17.0% ROI) in 2025-26 across 3,843 wagers."
+---
+
+Books have expanded first-event props well beyond the first basket. We project the first assist, first rebound, first block and first three-pointer for every NBA game, using the same labeled play-by-play data and lineup-driven usage models as our [first basket picks](first-basket-picks.qmd). In 2025-26 these markets returned +576 net units on 3,843 wagers, a 17.0% return on units staked.
+
+## The markets
+
+- **First assist**: the first player credited with an assist. Point guards dominate the prices, which can leave value on secondary playmakers.
+- **First rebound**: the first player to grab a rebound, offensive or defensive. Depends heavily on who takes, and misses, the first shots.
+- **First block** and **first steal**: offered less often and at long prices. We alert them when a book posts a market and our edge clears the bar.
+- **First three-pointer** and **first three by team**: the first player to make a three, in the game or for one team.
+
+## Track record by season
+
+Net units and ROI on units staked, regular season plus playoffs. Books only began offering some of these markets widely in 2024-25, so the earlier samples are small.
+
+| Market | 2023-24 | 2024-25 | 2025-26 |
+|---|---:|---:|---:|
+| First assist | -1 (49 wagers) | +136 (44.3%) | +305 (27.5%) |
+| First rebound | -22 (37 wagers) | -17 (-28.9%) | +285 (52.0%) |
+| First three-pointer | +176 (24.9%) | +94 (14.2%) | +146 (20.2%) |
+| First three by team | 0 (0.1%) | +32 (3.2%) | -209 (-21.8%) |
+| First block, steal and two-pointer | -2 (4 wagers) | +76 (24 wagers) | +48 (75 wagers) |
+| **All markets** | **+152 (10.2%)** | **+322 (15.6%)** | **+576 (17.0%)** |
+| Wagers | 2,003 | 3,211 | 3,843 |
+
+First assist and first three-pointer have been the steady performers. First rebound had its first full season in 2025-26 and was the best market of the group. First three by team lost 209 units in 2025-26 after two roughly break-even seasons; we are reviewing that model, and it stays in the alerts only where the edge clears our threshold. Blocks, steals and the first two-pointer market are too rare to read much into.
+
+## How we project them
+
+Every first event in a game is labeled from play-by-play data: who got the first assist, rebound, block, steal and three, and in what lineup. The models then estimate each player's chance of being first from their early-game usage, their role in that night's starting lineup, and matchup factors such as the opponent's shot profile. As with first baskets, the biggest edges tend to appear when a lineup changes and a book is slow to reprice. [Part 2](../posts/2024-10/predict-first-baskets-2.qmd) and [Part 3](../posts/2024-10/predict-first-baskets-3.qmd) of the series describe the data and the models.
+
+## What an alert looks like
+
+These plays post in the same Discord alerts as everything else, grouped by game and sorted by edge, with the market named on each line, for example "first assist" or "first three". The [Dashboard](../apps.qmd) lets you filter the board to a single market.
+
+::: {.faq-item}
+### Which books offer first assist and first rebound props?
+
+In 2025-26 most of our first assist and first rebound volume was at DraftKings and bet365, with FanDuel and others adding markets during the season. Availability changes often; alerts list every book where a play qualifies that day.
+:::
+
+::: {.faq-item}
+### Are these picks riskier than first basket picks?
+
+The prices are similar, typically +1200 to +2000 on a first assist or first rebound, so the win rate is similar too: around one in ten. The samples are smaller than for first baskets, so season results swing more. Unit sizes already account for the price.
+:::
+
+::: {.faq-item}
+### Why did first three by team lose money in 2025-26?
+
+We do not have a confirmed answer yet. The market lost 209 units on 1,244 wagers after returning about zero in 2023-24 and +32 in 2024-25. We are checking whether the books repriced the market, whether our projections drifted, or whether it was a bad run. We publish the result either way.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Part of our [NBA picks](index.qmd), alongside [first basket picks](first-basket-picks.qmd) and [team to score first and tipoff picks](team-to-score-first-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

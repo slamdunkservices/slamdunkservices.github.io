@@ -1,0 +1,65 @@
+---
+title: "MLB Home Run Picks"
+pagetitle: "MLB Home Run Picks: Simulated Odds for Every Batter"
+description: "MLB home run picks for every batter in every game: Statcast pitch models, 20,000 simulations per game, and prices from 13 sportsbooks compared twice an hour. Tracked since July 16, 2026: 2,912 alerted plays, +142 net units, 5.3% ROI."
+---
+
+We price every batter's chance of a home run in every MLB game, then compare that price to what 13 sportsbooks and exchanges are offering, twice an hour, all day. When a book's price is at least 2 percentage points better than our projection, it is a play. Since launch on July 16, 2026, 2,912 alerted home run plays returned +142 net units, a 5.3% return on units staked.
+
+## What a home run bet is
+
+A home run prop is a wager that a batter hits at least one home run in the game, usually priced between +250 and +900. Books also offer **2+ home runs** and **3+ home runs** at much longer prices. A batter who does not play, or is lifted before a plate appearance in some books' rules, has the wager voided. Home runs happen in about 3% of plate appearances, so the win rate on these plays is low and the results depend on long-run edge, not on any one night.
+
+## How we project home runs
+
+The projection starts with the pitch. A chain of boosted-tree models, trained on about six million pitches of Statcast data, predicts what each pitcher throws to each batter, whether the batter swings, what happens on the swing, and what happens on contact, using about 145 inputs per pitch: batter and pitcher profiles, platoon splits, park dimensions in every direction, elevation, temperature and wind. For every matchup we solve the plate appearance exactly, then simulate the game 20,000 times, with lineups turning over, starters tiring, bullpens, pinch hitters and score effects. The share of simulations in which a batter homers is his probability, after a calibration step that corrects the simulator's small biases.
+
+Home runs are overwhelmingly a batter skill in the data. A pitcher's home-run history carries almost no predictive weight on its own; what matters is what he throws and where the game is played. The four-part series starts with [Part 1: Pitch Data](../posts/2026-08/predict-home-runs-1.qmd); [Part 3](../posts/2026-08/predict-home-runs-3.qmd) covers edges and sizing.
+
+## Track record since launch
+
+July 16 through October 5, 2026, with ROI on units staked.
+
+| Market | Plays | Net units | ROI |
+|---|---:|---:|---:|
+| 1+ home run | 2,851 | +38 | 1.4% |
+| 2+ home runs | 59 | +107 | 259.6% |
+| 3+ home runs | 2 | -2 | |
+| **All home run markets** | **2,912** | **+142** | **5.3%** |
+
+The 1+ market is where almost all the volume is, and its margin was thin. We started the season with a 1-point edge threshold and raised it twice, to 2 points, after our own tracking showed that the thinnest edges were about a third of volume and returned roughly nothing. The 2+ market is a small sample of long prices, and one good stretch can produce a number like 259%; do not expect that to continue. We will keep adjusting the thresholds based on the tracked results, and we publish the results either way.
+
+## What an alert looks like
+
+> **LAA @ TEX (8:05 pm ET)**
+>
+> -   Josh Lowe 1+ (proj +519): +750 BetRivers (2.5u), +720 DraftKings (2.3u), ...
+> -   Jorge Soler 2+ (proj +545): +600 BetRivers (0.7u)
+
+"Proj +519" is our probability as a price, about 16%; BetRivers is offering +750, about 12%, so the edge is 4 points. Every book where the play qualifies is listed, best value first. Unit sizes are half-Kelly, scaled so the average play is about one unit; a 2.5-unit recommendation is a large edge, and nothing is ever a "max bet".
+
+## Line shopping matters most here
+
+The same batter can be +600 at one book and +900 at another on the same day, which is the difference between an implied 14.3% and 10%. On longshots, taking the best available price is worth more than almost anything else you can do. The alerts rank the books for you, and the [Dashboard](../apps.qmd) shows how each book's price has moved through the day.
+
+::: {.faq-item}
+### When do home run picks post?
+
+The first alerts post after the 6am ET refresh, and new or improved plays post every 30 minutes until first pitch. The largest changes come when lineups are posted, usually three to five hours before the game, and when the hourly forecast shifts. Projections freeze when the game starts.
+:::
+
+::: {.faq-item}
+### Why half-Kelly instead of full Kelly?
+
+Full Kelly assumes the probabilities are exactly right. Ours are calibrated but not perfect, and half-Kelly cuts the size of the drawdowns when a projection is off while keeping most of the growth. Our basketball picks use a full-Kelly formula with a different normalization; the home run markets are longer-priced and more volatile.
+:::
+
+::: {.faq-item}
+### Do the picks include Kalshi, Novig and ProphetX?
+
+Their prices appear in the tables, and they are sometimes the best number on the board, but they are not counted as official plays. Exchange prices move fast and the resting liquidity is often too thin to guarantee the posted price is actually available. Our tracked record uses sportsbook prices only.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Part of our [MLB picks](index.qmd), alongside [NRFI and YRFI picks](nrfi-yrfi-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

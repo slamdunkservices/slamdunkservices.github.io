@@ -1,0 +1,55 @@
+---
+title: "WNBA Prop Picks: First Basket, Team to Score First & More"
+pagetitle: "WNBA Prop Picks: First Basket, Team to Score First & More"
+description: "Model-driven WNBA prop picks for every game: first basket, first basket by team, exact method, team to score first and first three by team. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +443 net units in 2026, +529 in 2025, +418 in 2024."
+image: /images/posts/wnba-2026-recap.png
+image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2026 WNBA season, ending near 443"
+---
+
+Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,390 net units on 13,668 wagers, a 16.0% return on units staked.
+
+## Markets we cover
+
+- **[WNBA first basket picks](first-basket-picks.qmd)**: first basket, first basket by team, exact method, first basket type, team to score first and first three by team. All WNBA markets are on one page because the first-basket markets carry nearly all of the volume.
+
+## Track record by season
+
+| Season | Wagers | Net units | ROI |
+|---|---:|---:|---:|
+| 2026 | 6,556 | +443 | 12.2% |
+| 2025 | 4,577 | +529 | 17.0% |
+| 2024 | 2,535 | +418 | 21.6% |
+
+Regular season plus playoffs, with ROI on units staked; 2026 covers games through October 4, with the playoffs in progress. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
+
+## How the picks work
+
+The models are the same ones that produce our [NBA picks](../nba/index.qmd), trained on WNBA play-by-play data: who wins the tipoff, which team scores first, which player scores first for their team, and how. A play is alerted when a book's price is at least 1.5 percentage points better than our projected probability, with Kelly-based unit sizes scaled so the average play is about one unit. [How Do You Predict First Baskets?](../posts/2024-10/predict-first-baskets-1.qmd) covers the pipeline.
+
+WNBA slates are smaller than NBA slates, two to six games on most days, and books post fewer markets per game. In 2026 we alerted about 33 plays per game day. Starting lineups are usually confirmed close to tipoff, and that is when the largest edges appear.
+
+## What an alert looks like
+
+Alerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book's price and line movement, are in the [Slam Dunk Dashboard](../apps.qmd).
+
+::: {.faq-item}
+### Which sportsbooks do the WNBA picks cover?
+
+FanDuel, DraftKings, Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars. FanDuel and DraftKings carried about 86% of our 2026 volume. Each alert lists every book where the play qualifies.
+:::
+
+::: {.faq-item}
+### Do WNBA picks run all season?
+
+Yes: from opening night through the Finals, including the Commissioner's Cup. There are no picks on days with no games, and WNBA picks and NBA picks run at the same time when the seasons overlap in May and June.
+:::
+
+::: {.faq-item}
+### Is one subscription for both the NBA and the WNBA?
+
+Yes. One subscription covers every league we project: NBA, WNBA and [MLB](../mlb/index.qmd).
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Plans start at $19.99 a week with a 30-day free trial; details on the [Subscribe page](../subscribe.qmd). You must be 21 or older. Past results do not guarantee future results.

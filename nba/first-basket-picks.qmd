@@ -1,0 +1,82 @@
+---
+title: "NBA First Basket Picks"
+pagetitle: "NBA First Basket Picks: Model-Driven First Scorer Props"
+description: "NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI."
+---
+
+First basket props were the first market we modeled, in 2020, and they are still our largest. Our models project the first scorer for every NBA game and every scoring method, compare those projections to the prices at nine sportsbooks every 30 minutes, and post the edges to Discord. Over the last three seasons, 37,374 tracked first-basket wagers returned +3,546 net units, a 12.9% return on units staked.
+
+## What a first basket bet is
+
+A first basket bet is a wager on which player scores the first points of the game. Books offer several versions of it:
+
+- **First basket** (also called first field goal or first points): the first player to score. Some books count free throws, some do not. Our alerts say which.
+- **First basket exact method**: the first scorer and how they score, for example a three-pointer or a dunk. Longer prices, bigger payouts.
+- **First basket by team**: the first player to score for one team, regardless of who scores first in the game. Two winners per game, so shorter prices.
+- **First basket by team exact method**: the team version with the scoring method added.
+- **First basket type**: how the game's first points are scored, regardless of player.
+
+## Why first baskets can be beaten
+
+Books price first-basket props inconsistently, and the prices move a lot during the day. Popular players tend to be overpriced because they draw the most betting action. Less popular players, including role players who move into a starting lineup when someone sits, are often underpriced relative to how often they take the first shot. Our models are built around exactly that: a player's expected early usage in that night's specific lineup. The full story is in [Why First Baskets?](../posts/2024-10/why-first-baskets.qmd)
+
+## How we project first baskets
+
+We label every jump ball and first basket in the NBA's play-by-play data, then build models for each step: who wins the tipoff, which team scores first, which player scores first for their team, and how. Combining them gives a probability for every player and method in the game. The models are ensembles, retrained as the season goes, and reduced versions fill in when a player has too little history, such as a rookie. The five-part series starts with [a high-level overview](../posts/2024-10/predict-first-baskets-1.qmd) and ends with [how the alerts work](../posts/2024-10/predict-first-baskets-5.qmd).
+
+A play is alerted when a book's price is at least 1.5 percentage points better than our projected probability. Unit sizes follow the Kelly criterion, scaled so the average play is about one unit.
+
+## Track record by season
+
+Net units and ROI on units staked, regular season plus playoffs.
+
+| Market | 2023-24 | 2024-25 | 2025-26 |
+|---|---:|---:|---:|
+| First basket | +417 (14.8%) | +226 (8.5%) | +313 (17.0%) |
+| First basket exact method | +243 (16.4%) | +195 (29.8%) | +409 (40.3%) |
+| First basket by team | +611 (13.8%) | +345 (8.9%) | +404 (14.2%) |
+| First basket by team exact method | +192 (10.8%) | -92 (-5.8%) | +253 (19.3%) |
+| **All first-basket markets** | **+1,452 (13.3%)** | **+677 (7.7%)** | **+1,417 (18.4%)** |
+| Wagers | 13,574 | 13,087 | 10,713 |
+
+The totals include a few smaller markets, such as first basket type in 2025-26. The exact-method markets have the longest prices, so they lose most often and produce the largest single wins. In 2025-26, 90 of 1,239 exact-method wagers won, and the market still returned 40%. The [2025-26 recap](../posts/2026-10/nba-2025-26-recap.qmd) lists the biggest hits and the most profitable players.
+
+## What an alert looks like
+
+> **GSW @ LAL**
+>
+> -   🚨 Draymond Green, first basket (proj +1001): +1460 DraftKings (1.4u)
+
+"Proj +1001" is our projection as a price; the book is offering +1460, so the edge is about 2.7 percentage points. Every book where the play qualifies is listed, best price first. 🚨 is a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak.
+
+## When to bet first baskets
+
+Early prices are often the softest, because books open before injury reports and lineups are set. Prices also jump right before tipoff when a starter is ruled out and a replacement enters the lineup. The practical approach is to take early edges when you see them and add to a play when a later alert shows a better price. More in [Is There A Best Time Of Day To Bet First Baskets?](../posts/2024-10/when-to-bet-first-baskets.qmd)
+
+::: {.faq-item}
+### Do free throws count as a first basket?
+
+It depends on the book. Some markets are "first basket" (any points, including free throws) and some are "first field goal" (free throws excluded). Our models project both, and each alert names the market it applies to.
+:::
+
+::: {.faq-item}
+### Which sportsbooks offer first basket props?
+
+In 2025-26 our alerts covered DraftKings, FanDuel, BetRivers, Hard Rock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and FanDuel carry the most markets and most of our volume. Prices for the same player often differ by hundreds of points between books, so the alerts list every book where the play qualifies.
+:::
+
+::: {.faq-item}
+### Why are there so many first basket picks per game?
+
+Because there are many markets per game: first basket, exact method, by team and by team exact, each at several books. In 2025-26 we alerted about 35 first-basket plays per game day. The unit sizes show which edges are largest, and you can filter to the markets and books you use in the [Dashboard](../apps.qmd).
+:::
+
+::: {.faq-item}
+### Do you project first basket of the second half?
+
+Not yet. We project first-event props for the start of the game only, and only for games on the day they are played.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Part of our [NBA picks](index.qmd). We also project [first baskets for every WNBA game](../wnba/first-basket-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

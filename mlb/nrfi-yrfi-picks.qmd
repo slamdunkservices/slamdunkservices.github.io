@@ -1,0 +1,56 @@
+---
+title: "MLB NRFI & YRFI Picks"
+pagetitle: "MLB NRFI & YRFI Picks: First-Inning Run Projections"
+description: "NRFI and YRFI picks (no run or yes run in the first inning) for every MLB game, from the same 20,000-simulation model that prices our home run picks, with starters, lineups, park and weather. Tracked since July 16, 2026: 553 plays, +20 net units, 3.3% ROI."
+---
+
+NRFI and YRFI are bets on whether either team scores in the first inning. We project the first-inning run probability for every MLB game with the same simulation that prices our [home run picks](home-run-picks.qmd), compare it to the prices at 13 sportsbooks and exchanges twice an hour, and alert the games where a book is at least 1.5 percentage points off our number. Since launch on July 16, 2026, 553 alerted first-inning plays returned +20 net units, a 3.3% return on units staked.
+
+## What NRFI and YRFI are
+
+- **NRFI** (no run first inning): neither team scores in the first inning. Wins about half the time in a typical season, so prices sit near even money.
+- **YRFI** (yes run first inning): at least one run is scored by either team in the first inning.
+
+Both depend on the two starting pitchers, the top of each lineup, the park and the weather. A wager is usually settled by the end of the first inning, which makes these the fastest-resolving props in baseball.
+
+## How we project the first inning
+
+The simulation plays every game 20,000 times, plate appearance by plate appearance. For the first inning that means the actual projected top three or four hitters on each side against the actual starter, in that park, in that day's forecast, with the exact plate-appearance solve described in [Part 2 of our home run series](../posts/2026-08/predict-home-runs-2.qmd). The share of simulations with a first-inning run is our YRFI probability, and NRFI is the rest. Because the same simulation produces the home run odds, the two markets are priced consistently with each other.
+
+## Track record since launch
+
+July 16 through October 5, 2026, with ROI on units staked.
+
+| Market | Plays | Net units | ROI |
+|---|---:|---:|---:|
+| NRFI | 144 | -1 | -1.0% |
+| YRFI | 409 | +22 | 4.5% |
+| **All first-inning markets** | **553** | **+20** | **3.3%** |
+
+This is a thin margin on a small sample, and we say so. Most of the plays were YRFI, which suggests books have leaned toward pricing NRFI a little high this season, but 553 plays is not enough to be sure. These are near-even-money prices, so unit sizes are larger than on a home run play with the same edge, and the results are steadier: no long losing streaks, no large single wins.
+
+## What an alert looks like
+
+First-inning plays post in the same Discord alerts as the home run plays, grouped by game in start-time order, with every qualifying book, its price and the recommended units. The [Dashboard](../apps.qmd) game cards show the first-inning odds next to the projected lineups, the starters and the weather.
+
+::: {.faq-item}
+### When do NRFI and YRFI picks post?
+
+After the 6am ET refresh, then every 30 minutes until first pitch. The projection changes most when a starting pitcher is scratched or a lineup is posted with a different top of the order. Projections freeze at first pitch.
+:::
+
+::: {.faq-item}
+### Does the NRFI model use pitcher first-inning stats?
+
+The first inning is simulated the same way as every other inning: from the pitch-level models and each starter's full profile (arsenal, velocity, recent form, workload and platoon splits) against the specific hitters due up. That uses far more information than a pitcher's first-inning ERA, which is a small and noisy sample.
+:::
+
+::: {.faq-item}
+### Which sportsbooks offer NRFI and YRFI?
+
+Most major books: bet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock and theScore. Prices on the same game often differ between books, and on an even-money market a small difference is a meaningful share of the edge. Alerts list every book where a play qualifies.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Part of our [MLB picks](index.qmd), alongside [home run picks](home-run-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

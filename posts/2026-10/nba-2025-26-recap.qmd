@@ -136,4 +136,4 @@ Some of that overestimate is expected. We only bet when our number is higher tha
 
 These are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.
 
-The live record for every market is in the [Slam Dunk Dashboard](../../apps.qmd). Results for every season are in the [FAQ](../../faq.qmd), and the [2026 WNBA recap](wnba-2026-recap.qmd) covers our basketball results from this summer. To get the alerts as they post, [subscribe](https://sharpduel.com/slam_dunk_bets).
+The live record for every market is in the [Slam Dunk Dashboard](../../apps.qmd), and each market's track record by season is on our [NBA picks](../../nba/index.qmd) pages. Results for every season are in the [FAQ](../../faq.qmd), and the [2026 WNBA recap](wnba-2026-recap.qmd) covers our basketball results from this summer. To get the alerts as they post, [subscribe](https://sharpduel.com/slam_dunk_bets).

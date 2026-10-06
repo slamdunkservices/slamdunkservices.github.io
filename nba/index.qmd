@@ -1,0 +1,69 @@
+---
+title: "NBA Prop Picks: First Basket, Team to Score First, First Assist & More"
+pagetitle: "NBA Prop Picks: First Basket, Tipoff, First Assist & More"
+description: "Model-driven NBA prop picks for every game: first basket and exact method, team to score first, win tipoff, first assist, first rebound and first three. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +2,135 net units in 2025-26."
+image: /images/posts/nba-2025-26-recap.png
+image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2025-26 NBA season, ending near 2,135"
+---
+
+Slam Dunk Bets projects first-event props for every NBA game, regular season and playoffs. Our models compare their projections to the prices at nine sportsbooks every 30 minutes and post the edges to Discord with recommended unit sizes. Every recommended bet is graded and published. In 2025-26 that record was +2,135 net units on 16,949 wagers, a 16.3% return on units staked.
+
+## Markets we cover
+
+- **[NBA first basket picks](first-basket-picks.qmd)**: first basket, first basket exact method, first basket by team, and first basket type. Our largest market by far: +1,417 net units (18.4% ROI) in 2025-26.
+- **[NBA team to score first and win tipoff picks](team-to-score-first-picks.qmd)**: the team that scores first, the exact method, and the jump ball. Shorter prices and thinner margins: +142 net units (7.2% ROI) in 2025-26.
+- **[NBA first assist, first rebound and first three picks](first-assist-rebound-three-picks.qmd)**: the other first-event props, including first block and first three by team. +576 net units (17.0% ROI) in 2025-26.
+
+## Track record by season
+
+| Season | Wagers | Net units | ROI |
+|---|---:|---:|---:|
+| 2025-26 | 16,949 | +2,135 | 16.3% |
+| 2024-25 | 18,140 | +1,018 | 8.2% |
+| 2023-24 | 17,558 | +1,692 | 11.8% |
+| 2022-23 | | +1,610\* | |
+| 2021-22 | 3,779 | +572 | 17.1% |
+
+Regular season plus playoffs, with ROI measured on units staked. Wager sizes are standardized so the average recommended bet is about one unit. The 2021-22 season was bet at flat stakes. \*2022-23 reflects a smaller Kelly factor than we use now. The [2025-26 recap](../posts/2026-10/nba-2025-26-recap.qmd) breaks last season down by market, month and player; the [FAQ](../faq.qmd) has every season for every league.
+
+## How the picks work
+
+We build ensembles of machine learning models on NBA play-by-play data, player bios, projected starting lineups and game lines. One set of models predicts the jump ball, one predicts which team scores first, one predicts which player scores first for their team, and one predicts how. Combined, they give a probability for every player, market and method in every game. The whole pipeline is written up in [How Do You Predict First Baskets?](../posts/2024-10/predict-first-baskets-1.qmd)
+
+Every 30 minutes we pull the current prices from the books and convert them to probabilities. When a book's price is at least 1.5 percentage points better than our projection, it is a play. Unit sizes come from the Kelly criterion, scaled so the average play is about one unit, so a 3-unit recommendation means a bigger edge than a 1-unit one.
+
+## What an alert looks like
+
+Alerts post to Discord grouped by game, with plays sorted from largest edge to smallest and every qualifying book listed with its price and recommended units. A simplified example from opening night 2025:
+
+> **GSW @ LAL**
+>
+> -   🚨 Draymond Green, first basket (proj +1001): +1460 DraftKings (1.4u)
+
+The emoji do work: 🚨 marks a play that just qualified, 🚀 a play whose price has moved to a new daily best, and ⬇️ a play that is still live but off its peak. [Part 5 of the series](../posts/2024-10/predict-first-baskets-5.qmd) explains the alerts in full. The same plays, with every book's price and a line-movement chart, are in the [Slam Dunk Dashboard](../apps.qmd).
+
+## When NBA picks post
+
+The first alerts for a slate post in the morning, when books open their first-basket markets. Prices move all day as bettors get involved and injury news lands, and the biggest moves come when starting lineups are confirmed, usually 30 to 60 minutes before tipoff. We keep alerting until the game starts. Our advice on timing is in [Is There A Best Time Of Day To Bet First Baskets?](../posts/2024-10/when-to-bet-first-baskets.qmd)
+
+::: {.faq-item}
+### How many NBA picks are there per night?
+
+In 2025-26 we alerted 12,507 plays over 212 game days, about 60 per day across all markets, or roughly ten per game. Most are first-basket plays. You do not need to bet all of them; the unit sizes tell you which edges are largest.
+:::
+
+::: {.faq-item}
+### Which sportsbooks do the NBA picks cover?
+
+DraftKings, FanDuel, BetRivers, Hard Rock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and FanDuel carried about two thirds of our 2025-26 volume. Every alert lists each book where the play qualifies, so you can take the best price available to you.
+:::
+
+::: {.faq-item}
+### Is this a daily picks service or a model subscription?
+
+Both. The picks post automatically whenever the models find an edge, and subscribers also get the Dashboard with every projection, every book's price and the full graded record. There is no manual tout; everything comes from the models.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Plans start at $19.99 a week with a 30-day free trial; details on the [Subscribe page](../subscribe.qmd). You must be 21 or older. Past results do not guarantee future results.

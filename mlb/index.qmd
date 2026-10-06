@@ -1,0 +1,63 @@
+---
+title: "MLB Prop Picks: Home Runs, NRFI & YRFI"
+pagetitle: "MLB Prop Picks: Home Runs, NRFI & YRFI"
+description: "Model-driven MLB prop picks: home runs for every batter and NRFI/YRFI for every game, from Statcast pitch models and 20,000 simulations per game, compared to 13 sportsbooks twice an hour. Launched July 2026, every bet tracked: home runs +142 net units (5.3% ROI), NRFI/YRFI +20 (3.3%)."
+---
+
+Slam Dunk Bets added baseball on July 16, 2026. Our models price every pitch from Statcast data, simulate every game 20,000 times, and turn the results into a home run probability for every batter and a first-inning run probability for every game. Those projections are compared to the prices at 13 sportsbooks and exchanges twice an hour, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published.
+
+## Markets we cover
+
+- **[MLB home run picks](home-run-picks.qmd)**: one or more home runs by a batter, plus the 2+ and 3+ markets. +142 net units (5.3% ROI) since launch.
+- **[MLB NRFI and YRFI picks](nrfi-yrfi-picks.qmd)**: no runs or yes runs in the first inning. +20 net units (3.3% ROI) since launch.
+- **Newer markets**: stolen bases, RBI, runs scored and total bases started in September 2026. They post to the same alerts, and we will report on them once the samples are large enough to mean something.
+
+## Track record since launch
+
+| Market | Plays | Net units | ROI |
+|---|---:|---:|---:|
+| Home runs | 2,912 | +142 | 5.3% |
+| NRFI / YRFI | 553 | +20 | 3.3% |
+
+July 16 through October 5, 2026, regular season and postseason, with ROI on units staked. Plays are counted per batter or game per day, with voided plays excluded. Baseball margins are thinner than our basketball margins, and the samples are one partial season. We publish them anyway, and the season totals for every league are in the [FAQ](../faq.qmd).
+
+## How the picks work
+
+Statcast publishes about 119 columns on every pitch. We mirror all of it back to 2017 and build batter, pitcher, park and weather profiles on top. A chain of boosted-tree models predicts each pitch: what is thrown, whether the batter swings, what happens on the swing and what happens on contact. For every matchup we solve the plate appearance exactly, then simulate the game 20,000 times with lineups, bullpens, pinch hitters and score effects. A calibration layer trues the output up so that a published 12% means 12%. The four-part series starts with [Part 1: Pitch Data](../posts/2026-08/predict-home-runs-1.qmd).
+
+A home run play is alerted when a book's price is at least 2 percentage points better than our projection (1.5 points for multi-homer and first-inning markets). Unit sizes are half-Kelly, scaled so the average play is about one unit.
+
+## What an alert looks like
+
+> **LAA @ TEX (8:05 pm ET)**
+>
+> -   Josh Lowe 1+ (proj +519): +750 BetRivers (2.5u), +720 DraftKings (2.3u), ...
+> -   Jorge Soler 2+ (proj +545): +600 BetRivers (0.7u)
+
+Games in start-time order, plays sorted by edge, every qualifying book listed with its price and recommended units, best value first. 🚨 marks a play that just qualified, 🚀 a new daily-best price, ⬇️ a play off its peak, 📖 a book that just joined. [Part 4 of the series](../posts/2026-08/predict-home-runs-4.qmd) explains the alerts in full. The [Slam Dunk Dashboard](../apps.qmd) shows one card per game with the weather, projected lineups, first-inning odds and per-batter home run odds.
+
+## When MLB picks post
+
+Models retrain every Monday. Every morning at 6am ET there is a full refresh, then a tick every 30 minutes from 7am to 10pm ET: new pitch data, posted lineups and probable starters, an hourly forecast for every park, and a re-simulation of every game whose inputs changed. Projections freeze at first pitch; there is no in-game repricing.
+
+::: {.faq-item}
+### Which sportsbooks do the MLB picks cover?
+
+bet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock and theScore, plus the Kalshi, Novig and ProphetX exchanges. Exchange prices appear in the tables for reference but are not counted as official plays, because the posted price is often not available in size.
+:::
+
+::: {.faq-item}
+### Does weather really matter for home run picks?
+
+Yes. Every forecast is resolved against the compass bearing from home plate to center field in that park, so "wind blowing out" means blowing out in that stadium specifically. Temperature, elevation and roof status are inputs too. Domes are modeled as 72°F and windless.
+:::
+
+::: {.faq-item}
+### Is baseball included in the regular subscription?
+
+Yes. One subscription covers MLB, [NBA](../nba/index.qmd) and [WNBA](../wnba/index.qmd) picks, the Discord and the Dashboard.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Plans start at $19.99 a week with a 30-day free trial; details on the [Subscribe page](../subscribe.qmd). You must be 21 or older. Past results do not guarantee future results.

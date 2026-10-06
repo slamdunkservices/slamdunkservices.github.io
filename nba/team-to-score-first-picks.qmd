@@ -1,0 +1,57 @@
+---
+title: "NBA Team to Score First & Win Tipoff Picks"
+pagetitle: "NBA Team to Score First & Win Tipoff Picks"
+description: "Picks for NBA team to score first, team to score first exact method, and win tipoff, from our jump-ball and first-possession models, for every game. Tracked by season: +142 net units (7.2% ROI) in 2025-26 across 2,393 wagers."
+---
+
+Team to score first and win tipoff are the simplest first-event props: two outcomes, prices near even money. They are also the first two steps in our first-basket pipeline, so we project them for every NBA game. These are our thinnest-margin markets, and we say so. Over the last three seasons they returned +248 net units on 6,216 wagers, a 4.6% return on units staked.
+
+## The markets
+
+- **Win tipoff**: which player wins the opening jump ball. Usually priced between -130 and +130.
+- **Team to score first**: which team scores the game's first points.
+- **Team to score first exact method**: the team and how it scores, for example a two-pointer. Longer prices, more ways to lose.
+
+## How we project them
+
+The tipoff model predicts the chance that one specific jumper beats another. A player's record against that specific opponent is the strongest input, with height, reach, vertical and overall jump-ball win rate behind it. The team-to-score-first model takes the tipoff projection and adds team-level inputs such as lineup-adjusted offensive efficiency and the game line. Defense matters surprisingly little here. These are the only models in our stack that use sportsbook odds as an input, because they perform better with them. [Part 3 of the series](../posts/2024-10/predict-first-baskets-3.qmd) has the details.
+
+## Track record by season
+
+Net units and ROI on units staked, regular season plus playoffs.
+
+| Market | 2023-24 | 2024-25 | 2025-26 |
+|---|---:|---:|---:|
+| Win tipoff | +16 (5.1%) | +54 (18.3%) | +137 (13.7%) |
+| Team to score first | +61 (10.3%) | -14 (-8.2%) | +1 (0.3%) |
+| Team to score first exact method | +11 (1.1%) | -21 (-2.0%) | +4 (0.8%) |
+| **All three markets** | **+87 (4.7%)** | **+19 (1.3%)** | **+142 (7.2%)** |
+| Wagers | 1,981 | 1,842 | 2,393 |
+
+Win tipoff has been profitable in all three seasons and carried most of the group's return. Team to score first has been close to break-even for two seasons. These markets have short prices, so edges are small in percentage terms and the results are steadier than first-basket props, with far fewer long losing streaks and no huge single wins.
+
+## What an alert looks like
+
+Team-level plays post in the same Discord alerts as the first-basket plays, grouped by game, with the book, the price and the recommended units. Because prices are short, recommended unit sizes here are often larger than on a first-basket play with the same edge.
+
+::: {.faq-item}
+### Does the team that wins the tipoff always score first?
+
+No, but first possession is the strongest single predictor of which team scores first, which is why we model the jump ball before anything else. A team can win the tip and turn it over or miss, and the other team scores.
+:::
+
+::: {.faq-item}
+### Why is the ROI lower than on first basket picks?
+
+Prices near even money leave less room for a book to be wrong. A 1.5-point edge on a +110 price is a small share of the payout, while the same edge on a +1200 first-basket price is a large one. We alert these plays because they are positive expected value, but the returns per unit staked are smaller.
+:::
+
+::: {.faq-item}
+### Which books offer win tipoff and team to score first?
+
+Most major books offer team to score first. Win tipoff is less common; in 2025-26 our tipoff volume was almost all at DraftKings, BetMGM and Caesars, and most of our team-to-score-first volume was at FanDuel. Alerts list every book where a play qualifies.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Part of our [NBA picks](index.qmd), alongside [first basket picks](first-basket-picks.qmd) and [first assist, rebound and three picks](first-assist-rebound-three-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

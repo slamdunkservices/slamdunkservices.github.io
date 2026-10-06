@@ -1,0 +1,67 @@
+---
+title: "WNBA First Basket Picks"
+pagetitle: "WNBA First Basket Picks: Model-Driven First Scorer Props"
+description: "WNBA first basket picks from the same models we use for the NBA: first basket, first basket by team, exact method, team to score first and first three by team for every game, refreshed every 30 minutes. 12,613 tracked first-basket wagers over three seasons, +1,355 net units, 17.2% ROI."
+---
+
+We have projected WNBA first baskets since the 2024 season, with the models we built for the NBA retrained on WNBA play-by-play data. Projections for every game and every scoring method are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord. Over three seasons, 12,613 tracked first-basket wagers returned +1,355 net units, a 17.2% return on units staked.
+
+## The markets
+
+- **First basket**: the first player to score in the game. Some books count free throws, some do not; alerts say which.
+- **First basket by team**: the first player to score for one team. Our largest WNBA market.
+- **First basket exact method** and **first basket by team exact method**: the scorer plus how they score. Long prices, small samples.
+- **First basket type**: how the game's first points are scored.
+- **Team to score first** and **team to score first exact method**: which team scores first.
+- **First three by team**: the first player on a team to make a three-pointer.
+
+## Why WNBA first baskets are different
+
+WNBA books post fewer markets per game and move them later, often not until the starting lineups are confirmed near tipoff. Rosters are shorter, so a single injury changes early usage more than it does in the NBA, and our models key on exactly that. Prices between books differ widely on the same player, so line shopping matters as much as the projection. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) has the player-level results.
+
+## Track record by season
+
+Net units and ROI on units staked, regular season plus playoffs. 2026 covers games through October 4.
+
+| Market | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|
+| First basket | +173 (22.6%) | +172 (17.4%) | +153 (16.1%) |
+| First basket by team | +207 (20.6%) | +155 (8.8%) | +289 (23.6%) |
+| First basket exact method | +47 (57.2%) | +204 (109.1%) | -59 (-37.2%) |
+| First basket by team exact method | | | -3 (-0.4%) |
+| Team to score first (incl. exact) | -9 (-10.9%) | -2 (-1.0%) | +16 (7.0%) |
+| First three by team | | | +29 (10.3%) |
+| **All WNBA markets** | **+418 (21.6%)** | **+529 (17.0%)** | **+443 (12.2%)** |
+| Wagers | 2,535 | 4,577 | 6,556 |
+
+First basket and first basket by team have been profitable in every season and produce nearly all of the return. The exact-method markets swung from +204 units in 2025 to -59 in 2026 on small samples, which is the kind of variance long prices produce; 5 of 201 exact-method wagers won in 2026. We expanded into by-team exact method and first three by team in 2026, and both are too new to judge.
+
+## How we project them
+
+The pipeline is the same as for the NBA: label every jump ball and first basket in the play-by-play data, model the tipoff, the first team to score, the first scorer for each team and the method, then combine them into a probability for every player and method. A play is alerted when a book's price is at least 1.5 percentage points better than our projection, sized by the Kelly criterion. The five-part series starts with [a high-level overview](../posts/2024-10/predict-first-baskets-1.qmd).
+
+## What an alert looks like
+
+Alerts post to Discord grouped by game, sorted by edge, with every qualifying book, its price and the recommended units on each line. 🚨 is a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The full board, with every book's price and line movement, is in the [Slam Dunk Dashboard](../apps.qmd).
+
+::: {.faq-item}
+### When do WNBA first basket picks post?
+
+The first alerts post when books open the markets, which for the WNBA is often the afternoon of the game. The largest edges usually appear in the hour before tipoff, when starting lineups are confirmed and a book has not yet repriced. Our [timing advice](../posts/2024-10/when-to-bet-first-baskets.qmd) applies to both leagues.
+:::
+
+::: {.faq-item}
+### Which sportsbooks offer WNBA first basket props?
+
+FanDuel and DraftKings offer the most markets and carried about 86% of our 2026 volume. Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars also post WNBA first-basket markets on some games. Alerts list every book where a play qualifies.
+:::
+
+::: {.faq-item}
+### How many WNBA picks are there per day?
+
+In 2026 we alerted 3,946 plays over 118 game days, about 33 per day, or about 11 per game. The unit sizes show which edges are largest.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Part of our [WNBA picks](index.qmd). The same models produce our [NBA first basket picks](../nba/first-basket-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

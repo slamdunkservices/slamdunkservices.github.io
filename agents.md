@@ -32,10 +32,11 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `faq.qmd` | FAQ as open `::: {.faq-item}` sections (see SEO) |
 | `about.qmd`, `privacy.qmd`, `terms.qmd` | Trust pages, linked from the footer. Plain-language drafts, not legal advice; keep effective dates current |
 | `contact.qmd`, `404.qmd` | Contact page; custom not-found page (GitHub Pages serves `404.html` automatically) |
+| `nba/`, `wnba/`, `mlb/` | Sport landing pages: `index.qmd` is the hub (`/nba/` etc.), the other `.qmd` files are market pages (`/nba/first-basket-picks.html`). Linked from the navbar "Picks" menu |
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
 | `_drafts/` | Unfinished posts. Underscore prefix keeps the folder out of the render entirely (see its README) |
 | `_filters/seo-schema.lua` | Emits JSON-LD structured data into every page's `<head>`, plus the Open Graph extras Quarto lacks (`og:url`, `og:type`, `article:*`) and intrinsic `width`/`height` on body images |
-| `_scripts/post-render.sh` | Quarto `post-render` hook: rewrites the homepage `<loc>` in `sitemap.xml` from `/index.html` to `/` so it matches the canonical URL |
+| `_scripts/post-render.sh` | Quarto `post-render` hook: rewrites every `.../index.html` `<loc>` in `sitemap.xml` to its folder URL (`/`, `/nba/`, ...) so it matches the canonical tags |
 | `_includes/head.html` | Extra `<head>` markup: RSS link, search-engine verification meta tags (placeholders), preconnect |
 | `_includes/after-body.html` | Loads `scripts/site-analytics.js` on every page |
 | `_og/*.html` | Source compositions for the raster brand images (see Images). Not rendered |
@@ -97,6 +98,8 @@ image-alt: "What the image shows"
 - Add a bullet for the post under the matching section of `llms.txt`.
 - The post appears automatically on `articles.qmd` and in `articles.xml`. `draft: true` keeps it off the listing but still renders an empty page; park truly unfinished posts in `_drafts/` instead.
 
+**Add or update a market page.** Market pages live under `nba/`, `wnba/`, `mlb/` (hub = `index.qmd`). Each has a lede, the markets, how we project them, a track record table by season (numbers from the ledgers; `_scripts/roi-chart/season_stats.py` and the per-market summary it prints are the source), a sample alert, `::: {.faq-item}` blocks (the filter emits FAQPage for them on any page), and the Sharpduel CTA. Add new pages to the navbar `menu` in `_quarto.yml` and to the "Picks by sport and market" section of `llms.txt`. Update the track-record tables after each season along with the FAQ.
+
 **Edit a page.** Edit the `.qmd` at repo root, preview, commit, publish. Every root page has `title`, `pagetitle` (browser/search title; Quarto appends " – Slam Dunk Bets"), and `description` in its frontmatter. Keep them when editing; write them for any new page.
 
 **Change pricing.** Prices live in four places and must match: the table and `schema-offers` block in `subscribe.qmd`, the "How much does it cost?" answer in `faq.qmd`, and the key-facts paragraph in `llms.txt`.
@@ -155,20 +158,20 @@ What the build produces, and where each piece comes from:
 - `sitemap.xml` — automatic from `site-url`; drafts excluded.
 - `robots.txt`, `llms.txt` — source files at repo root.
 - `articles.xml` — the `feed:` block on `articles.qmd` (full-text RSS).
-- JSON-LD — `_filters/seo-schema.lua`: `Organization` + `WebSite` on every page; `BlogPosting` + `BreadcrumbList` on posts; `FAQPage` on `faq.qmd`; `WebPage` (+ `Product`/`Offer` from `schema-offers`) elsewhere. Set `schema-type: none` in frontmatter to skip a page (the 404 does).
+- JSON-LD — `_filters/seo-schema.lua`: `Organization` + `WebSite` on every page; `BlogPosting` + `BreadcrumbList` on posts; `FAQPage` on `faq.qmd` and on any other page with `.faq-item` blocks (added next to its `WebPage`); `WebPage` (+ `Product`/`Offer` from `schema-offers`) elsewhere; `BreadcrumbList` (Home > sport hub > page) under `nba/`, `wnba/`, `mlb/`. A folder's `index.qmd` is addressed as the folder (`/nba/`), matching Quarto's canonical tag. Set `schema-type: none` in frontmatter to skip a page (the 404 does).
 - `og:url`, `og:type` (`article` on posts, `website` elsewhere), `article:published_time`/`modified_time`/`tag` — same filter, from `date`, `date-modified`, `categories`.
 - `width`/`height` on body images — same filter, read from the PNG/JPEG file header. An explicit `width=600` on an image is kept and the height is scaled to match. SVGs and remote images are left alone.
 
 The site description is duplicated in three places on purpose (`_quarto.yml`, `SITE_DESC` in the Lua filter, the summary in `llms.txt`); change all three together. Brand facts in the filter's `Organization` node (legal name, founding year, email, `sameAs` profiles) are the canonical entity description — update there first.
 
-Verification after `quarto render` (all counts should equal the number of pages, 24 excluding the 404):
+Verification after `quarto render` (all counts should equal the number of pages, 35 excluding the 404):
 
 ```bash
 grep -rl 'name="description"' _site --include='*.html' | grep -v site_libs | wc -l
 grep -rl 'rel="canonical"' _site --include='*.html' | grep -v site_libs | wc -l
 grep -rl 'application/ld+json' _site --include='*.html' | grep -v site_libs | wc -l
 grep -rl 'property="og:url"' _site --include='*.html' | grep -v site_libs | wc -l
-grep -c 'slamdunk.bet/</loc>' _site/sitemap.xml   # 1: post-render hook rewrote the homepage entry
+grep -c 'index.html' _site/sitemap.xml   # 0: post-render hook rewrites every index page to its folder URL
 tail -1 _site/robots.txt   # Sitemap line
 ls _site/llms.txt _site/articles.xml _site/sitemap.xml _site/404.html
 ```
