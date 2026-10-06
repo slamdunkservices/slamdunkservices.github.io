@@ -37,7 +37,7 @@ Key facts:
 - [Part 4: Alert Alert, Home Run Edition](https://slamdunk.bet/posts/2026-08/predict-home-runs-4.html): the daily pipeline and alert format
 
 ## Track record
-Season totals (net units, ROI on units staked, from our graded ledgers as of 2026-09-14): 2025-26 NBA +2,135 (16.4%); 2024-25 NBA +1,018 (8.2%); 2023-24 NBA +1,692 (11.8%); 2022-23 NBA +1,610; 2021-22 NBA +572 (17.1%, flat stakes); 2026 WNBA +365 (11.6%) through Aug 30; 2025 WNBA +529 (17.0%); 2024 WNBA +418 (21.6%); 2026 MLB since July 16: home runs +126 (6.0%), NRFI/YRFI +3 (0.7%).
+Season totals (net units, ROI on units staked, from our graded ledgers as of 2026-10-05): 2025-26 NBA +2,135 (16.3%); 2024-25 NBA +1,018 (8.2%); 2023-24 NBA +1,692 (11.8%); 2022-23 NBA +1,610; 2021-22 NBA +572 (17.1%, flat stakes); 2026 WNBA +443 (12.2%) through Oct 4; 2025 WNBA +529 (17.0%); 2024 WNBA +418 (21.6%); 2026 MLB since July 16: home runs +142 (5.3%), NRFI/YRFI +20 (3.3%).
 - [2023-24 NBA ROI Recap: 1692 Units Net Profit](https://slamdunk.bet/posts/2024-10/nba-202324-performance.html): 17,558 tracked bets
 - [2023-24 NBA ROI Recap: Top 5 ROI Players](https://slamdunk.bet/posts/2024-10/nba-202324-top-players.html)
 - [2023-24 NBA ROI Recap: Biggest Hits](https://slamdunk.bet/posts/2024-10/nba-202324-biggest-hits.html)
