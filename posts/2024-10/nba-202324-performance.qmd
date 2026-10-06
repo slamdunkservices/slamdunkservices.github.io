@@ -10,11 +10,17 @@ image: "/images/posts/nba_roi_202324.png"
 image-alt: "Line chart of Slam Dunk Bets cumulative units for the 2023-24 NBA season, climbing from 0 to about 1,700 units over roughly 17,500 bets"
 ---
 
-With the 2024-25 NBA season about to kickoff, we thought it would be prudent to remind everybody about our performance last year. Here's a graph tracking our 1692 units of ROI over the course of the 2023-24 NBA season. This graph includes all of our prop markets, which you can check out in the FAQ.
+Ahead of the 2024-25 NBA season, we thought it would be prudent to remind everybody about our performance the year before. Here's a graph tracking our 1692 units of ROI over the course of the 2023-24 NBA season. This graph includes all of our prop markets, which you can check out in the [FAQ](../../faq.qmd).
+
+## The season in one chart
 
 ![](/images/posts/nba_roi_202324.png){fig-alt="Line chart of cumulative units for the 2023-24 NBA season, rising from 0 to about 1,700 units across roughly 17,500 bets"}
 
+## How to read it
+
 The horizontal axis is "bet number", which is just the index of bets we've made - far left is the first bet we made of the season, far right is the last one. The vertical axis is "units returned" which just counts the NET units returned from the bet. When the line goes up, we're winning, when it goes down, we're losing.
+
+## What stands out
 
 Some things to call out:
 
@@ -24,8 +30,12 @@ Some things to call out:
 
 -   We make a LOT of bets - this chart included 17,558 data points!
 
--   While we had some plays that made the line go straight up (we'll write some separate posts on those, but bless Noah Clowney), the majority of the return is grinding away with incremental wins.
+-   While we had some plays that made the line go straight up (see the [biggest hits](nba-202324-biggest-hits.qmd), but bless Noah Clowney), the majority of the return is grinding away with incremental wins.
 
-This is the first of our recaps, but definitely not the last. Thanks a lot for reading, holler if you have any questions ([\@jimtheflash](https://x.com/jimtheflash) is the best way to find us), and please consider [subscribing](https://whop.com/slam-dunk-bets) if you haven't yet 🙏
+This is the first of our recaps, but definitely not the last: next up are the [top 5 ROI players](nba-202324-top-players.qmd) and the [biggest single hits](nba-202324-biggest-hits.qmd) of the season. Thanks a lot for reading, holler if you have any questions ([\@jimtheflash](https://x.com/jimtheflash) is the best way to find us), and please consider [subscribing](https://sharpduel.com/slam_dunk_bets) if you haven't yet 🙏
 
 (And if 1692 units of profit isn't enough, well, idk what else we can say!)
+
+::: {.series-nav}
+**2023-24 NBA ROI Recap:** [1692 Units Net Profit](nba-202324-performance.qmd) · [Top 5 ROI Players](nba-202324-top-players.qmd) · [Biggest Hits](nba-202324-biggest-hits.qmd)
+:::

@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+pagetitle: "Contact Slam Dunk Bets: Partnerships, Support & Billing"
 description: "How to reach Slam Dunk Bets: partnerships and data inquiries by email, support on X, and billing questions through Sharpduel or Whop."
 ---
 

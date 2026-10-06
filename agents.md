@@ -34,7 +34,8 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `contact.qmd`, `404.qmd` | Contact page; custom not-found page (GitHub Pages serves `404.html` automatically) |
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
 | `_drafts/` | Unfinished posts. Underscore prefix keeps the folder out of the render entirely (see its README) |
-| `_filters/seo-schema.lua` | Emits JSON-LD structured data into every page's `<head>` |
+| `_filters/seo-schema.lua` | Emits JSON-LD structured data into every page's `<head>`, plus the Open Graph extras Quarto lacks (`og:url`, `og:type`, `article:*`) and intrinsic `width`/`height` on body images |
+| `_scripts/post-render.sh` | Quarto `post-render` hook: rewrites the homepage `<loc>` in `sitemap.xml` from `/index.html` to `/` so it matches the canonical URL |
 | `_includes/head.html` | Extra `<head>` markup: RSS link, search-engine verification meta tags (placeholders), preconnect |
 | `_includes/after-body.html` | Loads `scripts/site-analytics.js` on every page |
 | `_og/*.html` | Source compositions for the raster brand images (see Images). Not rendered |
@@ -88,6 +89,10 @@ image-alt: "What the image shows"
 
 - **Category vocabulary** (use only these): `nba`, `wnba`, `mlb`, `first-basket`, `home-runs`, `methodology`, `roi-recap`, `strategy`.
 - Every body image needs alt text: `![What it shows](/images/posts/foo.jpg)`.
+- Put the topic in the `title` itself ("How Do We Predict Home Runs? Part 1: Pitch Data"), not in `subtitle`: the title is the `<title>`, the H1, the JSON-LD headline, and what search and AI answer engines cite.
+- Break the body into `## ` sections every few paragraphs with headings that read as answers ("What counts as a playable edge"). Answer engines and featured snippets extract headed sections; a wall of paragraphs gets skipped.
+- Link to at least one other page on the site (the FAQ, a series part, a recap) and, for a multi-part series, end every part with the shared `::: {.series-nav}` block listing all parts (styled in `styles.css`). Link forward to the next part in the closing paragraph.
+- Keep images at or under 1600px on the long edge and roughly 300 KB (`sips -Z 1600 -s formatOptions 45 in.jpg --out in.jpg` works; `sips` upscales smaller images with `-Z`, so skip the flag for anything already smaller). Oversized photos were the single biggest Core Web Vitals problem on the site.
 - Link subscribe CTAs to `https://sharpduel.com/slam_dunk_bets` (preferred) and Whop only as `https://whop.com/slam-dunk-bets` (no `www`, no trailing slash).
 - Add a bullet for the post under the matching section of `llms.txt`.
 - The post appears automatically on `articles.qmd` and in `articles.xml`. `draft: true` keeps it off the listing but still renders an empty page; park truly unfinished posts in `_drafts/` instead.
@@ -98,7 +103,8 @@ image-alt: "What the image shows"
 
 **Update the ROI numbers.** The FAQ "What kind of ROI" answer, the `## Track record` line in `llms.txt`, and the headline claim ("8,000+ units", in `index.qmd`, `about.qmd`, `faq.qmd`, `_quarto.yml` description, `SITE_DESC` in `_filters/seo-schema.lua`, and `_og/og-default.html` → regenerate the PNG) all come from the graded ledgers, not from memory. Sources and method:
 
-- NBA and WNBA season snapshots: `~/Code/adhoc/bet_tracking/<LEAGUE>/<season>/bet_tracking_consolidated.csv` (registry: `slam_dunk_tracking.R` there). Net = sum of `units_standardized_net`; ROI = net / sum of `units_standardized_bet` (voids excluded from the denominator). 2021-22 and 2022-23 are spreadsheets at flat stakes; by decision (2026-09-14) the site keeps 2022-23 at +1,610 with its Kelly footnote even though the spreadsheet computes to about +929.
+- NBA and WNBA season snapshots: `~/Code/adhoc/bet_tracking/<LEAGUE>/<season>/bet_tracking_consolidated.csv` (registry: `slam_dunk_tracking.R` there). Net = sum of `units_standardized_net`; ROI = net / sum of `units_standardized_bet` (voids excluded from the denominator). 2021-22 and 2022-23 are spreadsheets at flat stakes (`Win`/`Loss` outcomes, American `Odds`, `Units` staked); 2021-22 computes to +572 net on 3,349 staked (17.1%), which is what the FAQ and `llms.txt` show. By decision (2026-09-14) the site keeps 2022-23 at +1,610 with its Kelly footnote even though the spreadsheet computes to about +929.
+- The homepage chart `images/home/cumulative_total.png` is a static export (last through about June 2026, topping out near 7,000 units); regenerate it whenever the headline number moves, and keep it consistent with the FAQ list.
 - Live WNBA season: `$WNBA_DATA_ROOT/02_curated/wnba_first_to_score/tracking/ledger/*.csv` (exchanges already excluded). The adhoc snapshot of the current season goes stale; prefer the ledger.
 - MLB: `$MLB_DATA_ROOT/02_curated/bet_tracking/<product>/roi_daily.csv`; use only rows where `market == "ALL"` (per-market rows would double-count). Net = sum of `net_units_std`, staked = sum of `staked_units_std`.
 - Read CSVs with `/Users/jim/Code/jobs/mlb/.venv/bin/python` (pandas); the two `.xlsx` seasons need `/Users/jim/Code/jobs/atp/.venv/bin/python` (openpyxl). Data roots are defined in `~/.<league>_jobs.env`; NBA has no local root (history is in the adhoc tree and `gs://sdbs_nba`).
@@ -150,6 +156,8 @@ What the build produces, and where each piece comes from:
 - `robots.txt`, `llms.txt` — source files at repo root.
 - `articles.xml` — the `feed:` block on `articles.qmd` (full-text RSS).
 - JSON-LD — `_filters/seo-schema.lua`: `Organization` + `WebSite` on every page; `BlogPosting` + `BreadcrumbList` on posts; `FAQPage` on `faq.qmd`; `WebPage` (+ `Product`/`Offer` from `schema-offers`) elsewhere. Set `schema-type: none` in frontmatter to skip a page (the 404 does).
+- `og:url`, `og:type` (`article` on posts, `website` elsewhere), `article:published_time`/`modified_time`/`tag` — same filter, from `date`, `date-modified`, `categories`.
+- `width`/`height` on body images — same filter, read from the PNG/JPEG file header. An explicit `width=600` on an image is kept and the height is scaled to match. SVGs and remote images are left alone.
 
 The site description is duplicated in three places on purpose (`_quarto.yml`, `SITE_DESC` in the Lua filter, the summary in `llms.txt`); change all three together. Brand facts in the filter's `Organization` node (legal name, founding year, email, `sameAs` profiles) are the canonical entity description — update there first.
 
@@ -159,6 +167,8 @@ Verification after `quarto render` (all counts should equal the number of pages,
 grep -rl 'name="description"' _site --include='*.html' | grep -v site_libs | wc -l
 grep -rl 'rel="canonical"' _site --include='*.html' | grep -v site_libs | wc -l
 grep -rl 'application/ld+json' _site --include='*.html' | grep -v site_libs | wc -l
+grep -rl 'property="og:url"' _site --include='*.html' | grep -v site_libs | wc -l
+grep -c 'slamdunk.bet/</loc>' _site/sitemap.xml   # 1: post-render hook rewrote the homepage entry
 tail -1 _site/robots.txt   # Sitemap line
 ls _site/llms.txt _site/articles.xml _site/sitemap.xml _site/404.html
 ```
@@ -167,7 +177,7 @@ ls _site/llms.txt _site/articles.xml _site/sitemap.xml _site/404.html
 
 - GA4 property `G-66MCY7L0V7` via `website.google-analytics`.
 - `scripts/site-analytics.js` sends `cta_click` (params: `cta_destination`, `cta_text`, `cta_location`, `link_url`, `page_path`) and `ai_referral` (`referrer_host`). Register those as custom dimensions and mark `cta_click` a key event in the GA4 admin UI; create an "AI Search" channel group on the same referrer list that's in the script.
-- Google Search Console and Bing Webmaster Tools: verify by DNS TXT (preferred) or paste the verification meta tags into `_includes/head.html`, then submit `https://slamdunk.bet/sitemap.xml` to both. Bing's index feeds ChatGPT search and Copilot.
+- Google Search Console: verified by DNS TXT (the `google-site-verification` record is on `slamdunk.bet`). Bing Webmaster Tools is not verified yet (no Bing TXT record as of 2026-10-06); it can import the property from Search Console in one step. Submit `https://slamdunk.bet/sitemap.xml` to both. Bing's index feeds ChatGPT search and Copilot.
 
 ## Ads
 
@@ -179,4 +189,4 @@ Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do 
 
 ## Do not render
 
-`agents.md`, `CLAUDE.md`, and `README.md` are excluded from the site because the `project.render` whitelist in `_quarto.yml` only renders `.qmd`. Underscore-prefixed folders (`_includes`, `_filters`, `_og`, `_drafts`) are excluded by Quarto convention. Keep it that way.
+`agents.md`, `CLAUDE.md`, and `README.md` are excluded from the site because the `project.render` whitelist in `_quarto.yml` only renders `.qmd`. Underscore-prefixed folders (`_includes`, `_filters`, `_scripts`, `_og`, `_drafts`) are excluded by Quarto convention. Keep it that way.

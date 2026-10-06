@@ -12,7 +12,9 @@ image-alt: "A toy clown balancing on a ball inside a dollar-sign coin tray full 
 
 ![](/images/posts/2017-365-64_Stop_Clowning_Around_with_Money_(33123997902).jpg){fig-alt="A toy clown balancing on a ball inside a dollar-sign coin tray full of quarters"}
 
-As we get ready for the next NBA season, we're taking a look back at our 2023-24 NBA betting performance. Here were the top 10 biggest hits (by units returned):
+As we get ready for the next NBA season, we're taking a look back at our [2023-24 NBA betting performance](nba-202324-performance.qmd). Here were the top 10 biggest hits (by units returned):
+
+## The top 10 single-bet wins
 
 -   Dean Wade, first player to score exact method 2-pointer, Jan 1 2024
     -   +8000 odds at MGM, 1.2u wager, 97u return
@@ -45,4 +47,12 @@ As we get ready for the next NBA season, we're taking a look back at our 2023-24
     -   +500 at Fanduel, 8.1u wager, 40.5u ROI
     -   our second biggest wager of the year (yeah January 2nd was a big day of betting) and the second leg of a massive ROI on TJD for the day
 
-Thanks as always for reading, and please consider [subscribing](https://whop.com/slam-dunk-bets) if you haven't yet!
+## What the list has in common
+
+Eight of the ten came from exact-method markets, where a book has to price not just who scores first but how. That's where our [exact-method models](predict-first-baskets-3.qmd) earn their keep, and it's why the unit sizes are small: these are longshots, sized by [Kelly](predict-first-baskets-4.qmd), and most of them lose. The ones that hit pay for a lot of the ones that don't.
+
+Thanks as always for reading, and please consider [subscribing](https://sharpduel.com/slam_dunk_bets) if you haven't yet!
+
+::: {.series-nav}
+**2023-24 NBA ROI Recap:** [1692 Units Net Profit](nba-202324-performance.qmd) · [Top 5 ROI Players](nba-202324-top-players.qmd) · [Biggest Hits](nba-202324-biggest-hits.qmd)
+:::

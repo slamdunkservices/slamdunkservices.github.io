@@ -14,6 +14,13 @@
     schema-type: none   -> skip this page entirely (used by 404.qmd)
     schema-offers: [{name, price, billing: P1W|P1M|P1Y}]
 
+  Also emits, per page:
+    <meta property="og:url"> and <meta property="og:type"> (article on posts, website elsewhere), plus
+    article:published_time / article:modified_time / article:tag on posts (Quarto only writes the basic OG set).
+  And on every body image whose file is a local PNG or JPEG: width/height attributes read from the file
+  header (pure Lua), so the browser reserves space before the image loads (no layout shift). An explicit
+  width= on the image is kept and the height is scaled to match.
+
   Descriptions must still be written in YAML: Quarto builds the Open Graph tags before this filter runs.
 ]]
 
@@ -278,6 +285,77 @@ local function product_node(m, url, desc)
   }
 end
 
+-- ---------- image dimensions ----------
+
+local function be16(str, i) return str:byte(i) * 256 + str:byte(i + 1) end
+local function be32(str, i) return ((str:byte(i) * 256 + str:byte(i + 1)) * 256 + str:byte(i + 2)) * 256 + str:byte(i + 3) end
+
+-- Return width, height for a PNG or JPEG file, or nil for anything else / unreadable.
+local function image_size(path)
+  local f = io.open(path, "rb")
+  if not f then return nil end
+  local head = f:read(32)
+  if not head or #head < 24 then f:close() return nil end
+  if head:sub(1, 8) == "\137PNG\r\n\26\n" then
+    f:close()
+    return be32(head, 17), be32(head, 21)
+  end
+  if head:sub(1, 2) ~= "\255\216" then f:close() return nil end
+  f:seek("set", 2)
+  while true do
+    local marker = f:read(2)
+    if not marker or marker:byte(1) ~= 0xFF then break end
+    local code = marker:byte(2)
+    if code == 0xD8 or (code >= 0xD0 and code <= 0xD7) or code == 0x01 then
+      -- standalone markers, no length
+    else
+      local lenb = f:read(2)
+      if not lenb or #lenb < 2 then break end
+      local len = be16(lenb, 1)
+      if code == 0xC0 or code == 0xC1 or code == 0xC2 or code == 0xC3 or code == 0xC5 or code == 0xC6 or code == 0xC7
+        or code == 0xC9 or code == 0xCA or code == 0xCB or code == 0xCD or code == 0xCE or code == 0xCF then
+        local sof = f:read(5)
+        f:close()
+        if not sof or #sof < 5 then return nil end
+        return be16(sof, 4), be16(sof, 2)
+      end
+      if code == 0xD9 or code == 0xDA then break end
+      f:seek("cur", len - 2)
+    end
+  end
+  f:close()
+  return nil
+end
+
+-- Resolve an image src (root-absolute, relative to the page, or page-folder relative) to a filesystem path.
+local function image_path(src, rel)
+  if src == nil or src:match("^https?://") or src:match("^data:") then return nil end
+  local root = quarto.project.directory
+  if root == nil then return nil end
+  if src:sub(1, 1) == "/" then return pandoc.path.join({ root, src:sub(2) }) end
+  local dir = pandoc.path.directory(rel)
+  if dir == "." or dir == "" then return pandoc.path.join({ root, src }) end
+  return pandoc.path.join({ root, dir, src })
+end
+
+function Image(img)
+  if not quarto.doc.is_format("html") then return nil end
+  local rel = rel_input()
+  if rel == nil then return nil end
+  local attrs = img.attributes
+  if attrs.height then return nil end
+  local w, h = image_size(image_path(img.src, rel))
+  if not w or not h or w == 0 then return nil end
+  local want = attrs.width and tonumber(attrs.width:match("^(%d+)$"))
+  if want then
+    attrs.height = tostring(math.floor(want * h / w + 0.5))
+  elseif attrs.width == nil then
+    attrs.width = tostring(w)
+    attrs.height = tostring(h)
+  end
+  return img
+end
+
 -- ---------- main ----------
 
 function Pandoc(doc)
@@ -316,5 +394,24 @@ function Pandoc(doc)
   local json = quarto.json.encode({ ["@context"] = "https://schema.org", ["@graph"] = graph })
   json = json:gsub("</", "<\\/")
   quarto.doc.include_text("in-header", '<script type="application/ld+json">' .. json .. "</script>")
+
+  -- Open Graph extras that Quarto does not write itself.
+  local function meta_tag(prop, content)
+    if content == nil or content == "" then return end
+    content = tostring(content):gsub("&", "&amp;"):gsub('"', "&quot;")
+    quarto.doc.include_text("in-header", '<meta property="' .. prop .. '" content="' .. content .. '">')
+  end
+  meta_tag("og:url", url)
+  if s:match("^posts/") then
+    meta_tag("og:type", "article")
+    local published = iso_date(meta_str(m, "date"))
+    meta_tag("article:published_time", published)
+    meta_tag("article:modified_time", iso_date(meta_str(m, "date-modified")) or published)
+    if m.categories then
+      for _, c in ipairs(m.categories) do meta_tag("article:tag", stringify(c)) end
+    end
+  else
+    meta_tag("og:type", "website")
+  end
   return nil
 end

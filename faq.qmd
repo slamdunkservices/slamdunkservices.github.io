@@ -78,6 +78,7 @@ We've cleared 8,000+ net units across our tracked NBA, WNBA and MLB picks since 
 -   2024-25 NBA: +1,018 units (8.2% ROI)
 -   2023-24 NBA: +1,692 units (11.8% ROI)
 -   2022-23 NBA: +1,610 units\*
+-   2021-22 NBA: +572 units (17.1% ROI)\*\*
 -   2026 WNBA: +365 units (11.6% ROI) through August 30
 -   2025 WNBA: +529 units (17.0% ROI)
 -   2024 WNBA: +418 units (21.6% ROI)
@@ -86,6 +87,8 @@ We've cleared 8,000+ net units across our tracked NBA, WNBA and MLB picks since 
 These are the standardized-unit totals from our graded ledgers as of September 14, 2026. The live record for every market is in the [Dashboard](apps.qmd).
 
 *\* reflects a different application of kelly criterion than we used moving forward, i.e. a smaller kelly factor.*
+
+*\*\* our first tracked season, bet at flat stakes before we introduced Kelly sizing.*
 :::
 
 ::: {.faq-item}

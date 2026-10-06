@@ -9,6 +9,8 @@ project:
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
+  post-render:
+    - _scripts/post-render.sh
 
 lang: en
 

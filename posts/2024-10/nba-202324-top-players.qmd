@@ -14,6 +14,8 @@ image-alt: "Kick scooters lined up in a parking area"
 
 In prep for the 2024-25 NBA season we're looking back at some of the highlights from the 2023-24 season (where we were up [1692 units](nba-202324-performance.qmd)).
 
+## The top five by net units
+
 Here were the top 5 players from 2023-24, from a net ROI perspective. We're showing how many bets we made on that player over the year (across all first basket type markets), how many wins we hit, our net ROI in units, as well as an ROI %.
 
 -   Scoot Henderson, Portland Trailblazers
@@ -32,6 +34,14 @@ Here were the top 5 players from 2023-24, from a net ROI perspective. We're show
     -   107 bets, 23 wins, net 73 units, 59% ROI
     -   We bet on Zoobs a lot, especially on first basket exact methods two-pointer plays and first basket by team; like most other players on this list, which is why his ROI is markedly lower than others so far.
 
-Most of those players netted us more by themselves than other services are netting in total. Fun fact though - none of the players in this list are represented in any of the top 10 single biggest wins from 2023-24. We'll check those out next.
+## Why these players kept paying
 
-Thanks as always for reading, and please consider [subscribing](https://whop.com/slam-dunk-bets) if you haven't yet!
+The common thread is usage the books underrated: part-time starters, and secondary scorers playing next to stars who soaked up the betting action. That's the same pattern we described in [Why First Baskets?](why-first-baskets.qmd), and it's exactly what our [player to score first models](predict-first-baskets-3.qmd) are built to find.
+
+Most of those players netted us more by themselves than other services are netting in total. Fun fact though - none of the players in this list are represented in any of the top 10 single biggest wins from 2023-24. We check those out in the [biggest hits recap](nba-202324-biggest-hits.qmd).
+
+Thanks as always for reading, and please consider [subscribing](https://sharpduel.com/slam_dunk_bets) if you haven't yet!
+
+::: {.series-nav}
+**2023-24 NBA ROI Recap:** [1692 Units Net Profit](nba-202324-performance.qmd) · [Top 5 ROI Players](nba-202324-top-players.qmd) · [Biggest Hits](nba-202324-biggest-hits.qmd)
+:::
