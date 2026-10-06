@@ -32,7 +32,7 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `faq.qmd` | FAQ as open `::: {.faq-item}` sections (see SEO) |
 | `about.qmd`, `privacy.qmd`, `terms.qmd` | Trust pages, linked from the footer. Plain-language drafts, not legal advice; keep effective dates current |
 | `contact.qmd`, `404.qmd` | Contact page; custom not-found page (GitHub Pages serves `404.html` automatically) |
-| `nba/`, `wnba/`, `mlb/` | Sport landing pages: `index.qmd` is the hub (`/nba/` etc.), the other `.qmd` files are market pages (`/nba/first-basket-picks.html`). Linked from the navbar "Picks" menu |
+| `nba/`, `wnba/`, `mlb/` | Sport landing pages: `index.qmd` is the hub (`/nba/` etc.), the other `.qmd` files are market pages (`/nba/first-basket-picks.html`). Linked from the navbar "Markets" menu |
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
 | `_drafts/` | Unfinished posts. Underscore prefix keeps the folder out of the render entirely (see its README) |
 | `_filters/seo-schema.lua` | Emits JSON-LD structured data into every page's `<head>`, plus the Open Graph extras Quarto lacks (`og:url`, `og:type`, `article:*`) and intrinsic `width`/`height` on body images |

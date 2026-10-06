@@ -26,7 +26,7 @@ website:
   google-analytics: "G-66MCY7L0V7"
   navbar:
     left:
-      - text: "Picks"
+      - text: "Markets"
         menu:
           - text: "NBA picks"
             href: nba/index.qmd

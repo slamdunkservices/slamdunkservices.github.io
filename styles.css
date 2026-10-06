@@ -134,7 +134,7 @@ p, li, .listing-description {
     }
     .navbar .nav-link:hover,
     .navbar .nav-link:focus { color: #39ff14 !important; }
-    /* Navbar dropdown (the "Picks" menu): Bootstrap's white panel against the forced light text */
+    /* Navbar dropdown (the "Markets" menu): Bootstrap's white panel against the forced light text */
     .navbar .dropdown-menu {
         background: #141414 !important;
         border-color: #333 !important;
