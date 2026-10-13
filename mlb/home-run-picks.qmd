@@ -2,6 +2,9 @@
 title: "MLB Home Run Picks"
 pagetitle: "MLB Home Run Picks: Simulated Odds for Every Batter"
 description: "MLB home run picks for every batter in every game: Statcast pitch models, 20,000 simulations per game, and prices from 13 sportsbooks compared twice an hour. Tracked since July 16, 2026: 2,912 alerted plays, +142 net units, 5.3% ROI."
+date-modified: 2026-10-06
+image: /images/og/mlb-home-run-picks.png
+image-alt: "Slam Dunk Bets MLB home run picks: +142 units, 5.3% ROI over 2,912 tracked plays since July 16, 2026"
 ---
 
 We price every batter's chance of a home run in every MLB game, then compare that price to what 13 sportsbooks and exchanges are offering, twice an hour, all day. When a book's price is at least 2 percentage points better than our projection, it is a play. Since launch on July 16, 2026, 2,912 alerted home run plays returned +142 net units, a 5.3% return on units staked.

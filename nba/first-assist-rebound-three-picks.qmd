@@ -2,6 +2,9 @@
 title: "NBA First Assist, First Rebound & First Three-Pointer Picks"
 pagetitle: "NBA First Assist, First Rebound & First Three Picks"
 description: "Picks for NBA first assist, first rebound, first block, first three-pointer and first three by team, projected from the same play-by-play models as our first basket picks, for every game. +576 net units (17.0% ROI) in 2025-26 across 3,843 wagers."
+date-modified: 2026-10-06
+image: /images/og/nba-first-assist-rebound-three-picks.png
+image-alt: "Slam Dunk Bets NBA first assist, rebound and three picks: +576 units, 17.0% ROI over 3,843 tracked wagers in 2025-26"
 ---
 
 Books have expanded first-event props well beyond the first basket. We project the first assist, first rebound, first block and first three-pointer for every NBA game, using the same labeled play-by-play data and lineup-driven usage models as our [first basket picks](first-basket-picks.qmd). In 2025-26 these markets returned +576 net units on 3,843 wagers, a 17.0% return on units staked.
@@ -15,7 +18,7 @@ Books have expanded first-event props well beyond the first basket. We project t
 
 ## Track record by season
 
-Net units and ROI on units staked, regular season plus playoffs. Books only began offering some of these markets widely in 2024-25, so the earlier samples are small.
+Net units and ROI on units staked, regular season plus playoffs. Updated October 5, 2026, from our graded ledgers. Books only began offering some of these markets widely in 2024-25, so the earlier samples are small.
 
 | Market | 2023-24 | 2024-25 | 2025-26 |
 |---|---:|---:|---:|

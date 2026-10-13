@@ -6,6 +6,8 @@ project:
     - scripts/site-analytics.js
     - llms.txt
     - images/brand/logo-square.png
+    - images/brand/apple-touch-icon.png
+    - images/og/**
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
@@ -82,11 +84,11 @@ website:
     card-style: summary_large_image
   page-footer:
     border: false
-    left: "[About](/about.html) · [Privacy](/privacy.html) · [Terms](/terms.html)"
+    left: "[NBA](/nba/) · [WNBA](/wnba/) · [MLB](/mlb/) · [Subscribe](/subscribe.html) · [Articles](/articles.html)"
     center: |
       21+ Only | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
       © Slam Dunk Betting Services LLC, 2026
-    right: "[@slam_dunk_bets](https://x.com/slam_dunk_bets)"
+    right: "[About](/about.html) · [Privacy](/privacy.html) · [Terms](/terms.html) · [@slam_dunk_bets](https://x.com/slam_dunk_bets)"
   search: false
 
 format:

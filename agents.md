@@ -36,10 +36,11 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `posts/YYYY-MM/*.qmd` | Blog posts, grouped by year-month folders |
 | `_drafts/` | Unfinished posts. Underscore prefix keeps the folder out of the render entirely (see its README) |
 | `_filters/seo-schema.lua` | Emits JSON-LD structured data into every page's `<head>`, plus the Open Graph extras Quarto lacks (`og:url`, `og:type`, `article:*`) and intrinsic `width`/`height` on body images |
-| `_scripts/post-render.sh` | Quarto `post-render` hook: rewrites every `.../index.html` `<loc>` in `sitemap.xml` to its folder URL (`/`, `/nba/`, ...) so it matches the canonical tags |
-| `_includes/head.html` | Extra `<head>` markup: RSS link, search-engine verification meta tags (placeholders), preconnect |
+| `_scripts/post-render.sh` | Quarto `post-render` hook: rewrites every `.../index.html` `<loc>` in `sitemap.xml` to its folder URL (`/`, `/nba/`, ...) so it matches the canonical tags, and replaces each `<lastmod>` with the last git commit date of the page's source (uncommitted sources keep the render time, so commit before publishing) |
+| `_scripts/og-cards/` | `build.sh` renders one branded 1200×630 share card per row of `cards.tsv` into `images/og/` from the `_og/card.html` template (see Images) |
+| `_includes/head.html` | Extra `<head>` markup: RSS link, `theme-color` (Discord embed accent), `apple-touch-icon`, search-engine verification meta tags (placeholders), preconnect |
 | `_includes/after-body.html` | Loads `scripts/site-analytics.js` on every page |
-| `_og/*.html` | Source compositions for the raster brand images (see Images). Not rendered |
+| `_og/*.html` | Source compositions for the raster brand images and the per-page share-card template `card.html` (see Images). Not rendered |
 | `robots.txt` | Copied verbatim to `_site/`. Explicitly allows search and AI crawlers and carries the `Sitemap:` line (Quarto does not add it when a source `robots.txt` exists) |
 | `llms.txt` | Plain-text summary of the business and site for AI agents, per llmstxt.org. Shipped via `resources` |
 | `images/` | All assets, organized by the page that uses them (see Images below) |
@@ -96,11 +97,12 @@ image-alt: "What the image shows"
 - Keep images at or under 1600px on the long edge and roughly 300 KB (`sips -Z 1600 -s formatOptions 45 in.jpg --out in.jpg` works; `sips` upscales smaller images with `-Z`, so skip the flag for anything already smaller). Oversized photos were the single biggest Core Web Vitals problem on the site.
 - Link subscribe CTAs to `https://sharpduel.com/slam_dunk_bets` (preferred) and Whop only as `https://whop.com/slam-dunk-bets` (no `www`, no trailing slash).
 - Add a bullet for the post under the matching section of `llms.txt`.
+- When you later edit a published post in a way a reader would notice, set `date-modified: YYYY-MM-DD`; it feeds `dateModified`, `article:modified_time` and the visible "Modified" line. The sitemap `lastmod` comes from git automatically.
 - The post appears automatically on `articles.qmd` and in `articles.xml`. `draft: true` keeps it off the listing but still renders an empty page; park truly unfinished posts in `_drafts/` instead.
 
-**Add or update a market page.** Market pages live under `nba/`, `wnba/`, `mlb/` (hub = `index.qmd`). Each has a lede, the markets, how we project them, a track record table by season (numbers from the ledgers; `_scripts/roi-chart/season_stats.py` and the per-market summary it prints are the source), a sample alert, `::: {.faq-item}` blocks (the filter emits FAQPage for them on any page), and the Sharpduel CTA. Add new pages to the navbar `menu` in `_quarto.yml` and to the "Picks by sport and market" section of `llms.txt`. Update the track-record tables after each season along with the FAQ.
+**Add or update a market page.** Market pages live under `nba/`, `wnba/`, `mlb/` (hub = `index.qmd`). Each has a lede, the markets, how we project them, a track record table by season (numbers from the ledgers; `_scripts/roi-chart/season_stats.py` and the per-market summary it prints are the source), a sample alert, `::: {.faq-item}` blocks (the filter emits FAQPage for them on any page), and the Sharpduel CTA. Add new pages to the navbar `menu` in `_quarto.yml` and to the "Picks by sport and market" section of `llms.txt`. Update the track-record tables after each season along with the FAQ. When the numbers change, also bump `date-modified` in the page frontmatter (it becomes `dateModified` in the JSON-LD and the "Modified" line under the title), update the "Updated <date>, from our graded ledgers" sentence under the table, and rebuild the page's share card.
 
-**Edit a page.** Edit the `.qmd` at repo root, preview, commit, publish. Every root page has `title`, `pagetitle` (browser/search title; Quarto appends " – Slam Dunk Bets"), and `description` in its frontmatter. Keep them when editing; write them for any new page.
+**Edit a page.** Edit the `.qmd` at repo root, preview, commit, publish. Every root page has `title`, `pagetitle` (browser/search title; Quarto appends " – Slam Dunk Bets"), and `description` in its frontmatter. Keep them when editing; write them for any new page. Body sections on root pages use `## ` headings (the title is the H1; never skip to `### `). On `faq.qmd` the question in each `.faq-item` is a `## `; on sport pages, where the items sit under a `## ` section, it is a `### `.
 
 **Change pricing.** Prices live in four places and must match: the table and `schema-offers` block in `subscribe.qmd`, the "How much does it cost?" answer in `faq.qmd`, and the key-facts paragraph in `llms.txt`.
 
@@ -128,7 +130,8 @@ The Lua filter turns these into `FAQPage` structured data; anything outside a `.
 
 | Folder | Used by |
 |---|---|
-| `images/brand/` | Site-wide — favicon (`_quarto.yml`), logos (`styles.css`, `index.qmd`), `og-default.png` (social card, `website.image`) and `logo-square.png` (JSON-LD logo) |
+| `images/brand/` | Site-wide — favicon (`_quarto.yml`), logos (`styles.css`, `index.qmd`), `og-default.png` (social card, `website.image`), `logo-square.png` (JSON-LD logo) and `apple-touch-icon.png` (180px, made from `logo-square.png` with `sips`) |
+| `images/og/` | Per-page share cards built by `_scripts/og-cards/build.sh`; referenced only from frontmatter `image:`, shipped via `resources` |
 | `images/home/` | `index.qmd` |
 | `images/apps/` | `apps.qmd` |
 | `images/posts/` | `posts/**/*.qmd` |
@@ -138,6 +141,8 @@ The Lua filter turns these into `FAQPage` structured data; anything outside a `.
 Drop new assets into the folder for the page that uses them. Reference as `images/<folder>/foo.jpg` from root-level pages, or `/images/<folder>/foo.jpg` from posts (root-absolute is preferred in posts because it also works as `image:` frontmatter and in the JSON-LD).
 
 Quarto only copies images that are actually referenced into `_site/`, so an unreferenced file costs nothing at publish time — but keep `images/_unused/` for anything not on the site so the page folders stay a true inventory. The leading underscore also keeps the folder out of Quarto's input scan.
+
+**Per-page share cards.** Market pages, Subscribe, FAQ and About each carry a branded card with the page's headline stat instead of the generic `og-default.png`. Each card is a row in `_scripts/og-cards/cards.tsv` (slug, title, stat, sub, foot); run `_scripts/og-cards/build.sh [slug ...]` to render into `images/og/<slug>.png`, and set `image: /images/og/<slug>.png` plus `image-alt` in the page frontmatter. Rebuild the card whenever its stat changes (season rollover, pricing). Hub pages use the season recap chart as their image; posts keep their own images because the listing thumbnails come from the same `image:` key.
 
 **Regenerate the social card or square logo.** Edit `_og/og-default.html` or `_og/logo-square.html`, then screenshot with headless Chrome (the only rasterizer on this machine; no Pillow/rsvg):
 
@@ -155,10 +160,10 @@ What the build produces, and where each piece comes from:
 
 - `<title>`, `<meta name="description">`, Open Graph and Twitter cards — from each page's `pagetitle`/`title`, `description`, `image`, `image-alt`, with site-wide fallbacks in `_quarto.yml` (`website.description`, `website.image`). Quarto builds these from YAML, so a description must be written in frontmatter; the Lua filter cannot backfill it.
 - `<link rel="canonical">` — `canonical-url: true` plus `site-url`.
-- `sitemap.xml` — automatic from `site-url`; drafts excluded.
+- `sitemap.xml` — automatic from `site-url`; drafts excluded; `lastmod` rewritten to git commit dates by the post-render hook.
 - `robots.txt`, `llms.txt` — source files at repo root.
 - `articles.xml` — the `feed:` block on `articles.qmd` (full-text RSS).
-- JSON-LD — `_filters/seo-schema.lua`: `Organization` + `WebSite` on every page; `BlogPosting` + `BreadcrumbList` on posts; `FAQPage` on `faq.qmd` and on any other page with `.faq-item` blocks (added next to its `WebPage`); `WebPage` (+ `Product`/`Offer` from `schema-offers`) elsewhere; `BreadcrumbList` (Home > sport hub > page) under `nba/`, `wnba/`, `mlb/`. A folder's `index.qmd` is addressed as the folder (`/nba/`), matching Quarto's canonical tag. Set `schema-type: none` in frontmatter to skip a page (the 404 does).
+- JSON-LD — `_filters/seo-schema.lua`: `Organization` + `WebSite` + the founder `Person` (`/about.html#founder`, linked as `Organization.founder` and as the `author` of every post) on every page; `BlogPosting` + `BreadcrumbList` on posts; `FAQPage` on `faq.qmd` and on any other page with `.faq-item` blocks (added next to its `WebPage`); `WebPage` (+ `Product`/`Offer` from `schema-offers`) elsewhere; `BreadcrumbList` (Home > sport hub > page) under `nba/`, `wnba/`, `mlb/`. A folder's `index.qmd` is addressed as the folder (`/nba/`), matching Quarto's canonical tag. Set `schema-type: none` in frontmatter to skip a page (the 404 does).
 - `og:url`, `og:type` (`article` on posts, `website` elsewhere), `article:published_time`/`modified_time`/`tag` — same filter, from `date`, `date-modified`, `categories`.
 - `width`/`height` on body images — same filter, read from the PNG/JPEG file header. An explicit `width=600` on an image is kept and the height is scaled to match. SVGs and remote images are left alone.
 

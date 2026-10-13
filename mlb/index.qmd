@@ -2,6 +2,7 @@
 title: "MLB Prop Picks: Home Runs, NRFI & YRFI"
 pagetitle: "MLB Prop Picks: Home Runs, NRFI & YRFI"
 description: "Model-driven MLB prop picks: home runs for every batter and NRFI/YRFI for every game, from Statcast pitch models and 20,000 simulations per game, compared to 13 sportsbooks twice an hour. Launched July 2026, every bet tracked: home runs +142 net units (5.3% ROI), NRFI/YRFI +20 (3.3%)."
+date-modified: 2026-10-06
 ---
 
 Slam Dunk Bets added baseball on July 16, 2026. Our models price every pitch from Statcast data, simulate every game 20,000 times, and turn the results into a home run probability for every batter and a first-inning run probability for every game. Those projections are compared to the prices at 13 sportsbooks and exchanges twice an hour, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published.

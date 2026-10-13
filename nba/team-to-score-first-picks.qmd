@@ -2,6 +2,9 @@
 title: "NBA Team to Score First & Win Tipoff Picks"
 pagetitle: "NBA Team to Score First & Win Tipoff Picks"
 description: "Picks for NBA team to score first, team to score first exact method, and win tipoff, from our jump-ball and first-possession models, for every game. Tracked by season: +142 net units (7.2% ROI) in 2025-26 across 2,393 wagers."
+date-modified: 2026-10-06
+image: /images/og/nba-team-to-score-first-picks.png
+image-alt: "Slam Dunk Bets NBA team to score first and win tipoff picks: +142 units, 7.2% ROI over 2,393 tracked wagers in 2025-26"
 ---
 
 Team to score first and win tipoff are the simplest first-event props: two outcomes, prices near even money. They are also the first two steps in our first-basket pipeline, so we project them for every NBA game. These are our thinnest-margin markets, and we say so. Over the last three seasons they returned +248 net units on 6,216 wagers, a 4.6% return on units staked.
@@ -18,7 +21,7 @@ The tipoff model predicts the chance that one specific jumper beats another. A p
 
 ## Track record by season
 
-Net units and ROI on units staked, regular season plus playoffs.
+Net units and ROI on units staked, regular season plus playoffs. Updated October 5, 2026, from our graded ledgers.
 
 | Market | 2023-24 | 2024-25 | 2025-26 |
 |---|---:|---:|---:|

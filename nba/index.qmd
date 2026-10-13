@@ -4,6 +4,7 @@ pagetitle: "NBA Prop Picks: First Basket, Tipoff, First Assist & More"
 description: "Model-driven NBA prop picks for every game: first basket and exact method, team to score first, win tipoff, first assist, first rebound and first three. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +2,135 net units in 2025-26."
 image: /images/posts/nba-2025-26-recap.png
 image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2025-26 NBA season, ending near 2,135"
+date-modified: 2026-10-06
 ---
 
 Slam Dunk Bets projects first-event props for every NBA game, regular season and playoffs. Our models compare their projections to the prices at nine sportsbooks every 30 minutes and post the edges to Discord with recommended unit sizes. Every recommended bet is graded and published. In 2025-26 that record was +2,135 net units on 16,949 wagers, a 16.3% return on units staked.
@@ -24,7 +25,7 @@ Slam Dunk Bets projects first-event props for every NBA game, regular season and
 | 2022-23 | | +1,610\* | |
 | 2021-22 | 3,779 | +572 | 17.1% |
 
-Regular season plus playoffs, with ROI measured on units staked. Wager sizes are standardized so the average recommended bet is about one unit. The 2021-22 season was bet at flat stakes. \*2022-23 reflects a smaller Kelly factor than we use now. The [2025-26 recap](../posts/2026-10/nba-2025-26-recap.qmd) breaks last season down by market, month and player; the [FAQ](../faq.qmd) has every season for every league.
+Updated October 5, 2026, from our graded ledgers. Regular season plus playoffs, with ROI measured on units staked. Wager sizes are standardized so the average recommended bet is about one unit. The 2021-22 season was bet at flat stakes. \*2022-23 reflects a smaller Kelly factor than we use now. The [2025-26 recap](../posts/2026-10/nba-2025-26-recap.qmd) breaks last season down by market, month and player; the [FAQ](../faq.qmd) has every season for every league.
 
 ## How the picks work
 

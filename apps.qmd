@@ -55,7 +55,7 @@ The Slam Dunk Dashboard is the web app that comes with every subscription. It sh
 ```
 :::
 
-### Getting in
+## Getting in
 
 Head to [app.slamdunk.bet](https://app.slamdunk.bet) and you'll be asked to sign in with **Discord** or **Google** right away. Active subscribers land straight on the board. Not subscribed yet? We'll send you to sign up first — subscribe once and you're in.
 

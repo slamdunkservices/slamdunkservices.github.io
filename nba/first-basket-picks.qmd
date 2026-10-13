@@ -2,6 +2,9 @@
 title: "NBA First Basket Picks"
 pagetitle: "NBA First Basket Picks: Model-Driven First Scorer Props"
 description: "NBA first basket picks from machine learning models: first basket, exact method, first basket by team and first basket type for every game, refreshed every 30 minutes. 37,374 tracked wagers over three seasons, +3,546 net units, 12.9% ROI."
+date-modified: 2026-10-06
+image: /images/og/nba-first-basket-picks.png
+image-alt: "Slam Dunk Bets NBA first basket picks: +3,546 units, 12.9% ROI over 37,374 tracked wagers from 2023-24 through 2025-26"
 ---
 
 First basket props were the first market we modeled, in 2020, and they are still our largest. Our models project the first scorer for every NBA game and every scoring method, compare those projections to the prices at nine sportsbooks every 30 minutes, and post the edges to Discord. Over the last three seasons, 37,374 tracked first-basket wagers returned +3,546 net units, a 12.9% return on units staked.
@@ -28,7 +31,7 @@ A play is alerted when a book's price is at least 1.5 percentage points better t
 
 ## Track record by season
 
-Net units and ROI on units staked, regular season plus playoffs.
+Net units and ROI on units staked, regular season plus playoffs. Updated October 5, 2026, from our graded ledgers.
 
 | Market | 2023-24 | 2024-25 | 2025-26 |
 |---|---:|---:|---:|

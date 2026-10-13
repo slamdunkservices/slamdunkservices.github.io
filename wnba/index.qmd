@@ -4,6 +4,7 @@ pagetitle: "WNBA Prop Picks: First Basket, Team to Score First & More"
 description: "Model-driven WNBA prop picks for every game: first basket, first basket by team, exact method, team to score first and first three by team. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +443 net units in 2026, +529 in 2025, +418 in 2024."
 image: /images/posts/wnba-2026-recap.png
 image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2026 WNBA season, ending near 443"
+date-modified: 2026-10-06
 ---
 
 Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,390 net units on 13,668 wagers, a 16.0% return on units staked.
@@ -20,7 +21,7 @@ Slam Dunk Bets projects first-event props for every WNBA game, regular season an
 | 2025 | 4,577 | +529 | 17.0% |
 | 2024 | 2,535 | +418 | 21.6% |
 
-Regular season plus playoffs, with ROI on units staked; 2026 covers games through October 4, with the playoffs in progress. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
+Regular season plus playoffs, with ROI on units staked. Updated October 5, 2026, from our graded ledgers; 2026 covers games through October 4, with the playoffs in progress. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
 
 ## How the picks work
 

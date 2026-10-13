@@ -2,6 +2,9 @@
 title: "WNBA First Basket Picks"
 pagetitle: "WNBA First Basket Picks: Model-Driven First Scorer Props"
 description: "WNBA first basket picks from the same models we use for the NBA: first basket, first basket by team, exact method, team to score first and first three by team for every game, refreshed every 30 minutes. 12,613 tracked first-basket wagers over three seasons, +1,355 net units, 17.2% ROI."
+date-modified: 2026-10-06
+image: /images/og/wnba-first-basket-picks.png
+image-alt: "Slam Dunk Bets WNBA first basket picks: +1,355 units, 17.2% ROI over 12,613 tracked wagers from 2024 through 2026"
 ---
 
 We have projected WNBA first baskets since the 2024 season, with the models we built for the NBA retrained on WNBA play-by-play data. Projections for every game and every scoring method are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord. Over three seasons, 12,613 tracked first-basket wagers returned +1,355 net units, a 17.2% return on units staked.
@@ -21,7 +24,7 @@ WNBA books post fewer markets per game and move them later, often not until the 
 
 ## Track record by season
 
-Net units and ROI on units staked, regular season plus playoffs. 2026 covers games through October 4.
+Net units and ROI on units staked, regular season plus playoffs. Updated October 5, 2026, from our graded ledgers; 2026 covers games through October 4.
 
 | Market | 2024 | 2025 | 2026 |
 |---|---:|---:|---:|

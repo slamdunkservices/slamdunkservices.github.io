@@ -3,8 +3,8 @@
   Declared project-wide in _quarto.yml (filters:). Pure Lua; needs only Quarto.
 
   Page types (from the input path relative to the project root):
-    index.qmd        -> Organization + WebSite
-    posts/**         -> + BlogPosting + BreadcrumbList
+    index.qmd        -> Organization + WebSite + Person (founder); these three go on every page
+    posts/**         -> + BlogPosting (author = the founder Person, publisher = Organization) + BreadcrumbList
     faq.qmd          -> + FAQPage built from ::: {.faq-item} divs (first header = question, rest = answer)
     subscribe.qmd    -> + WebPage + Product/Offer[] from the `schema-offers:` frontmatter list
     nba/, wnba/, mlb/ -> + WebPage + BreadcrumbList (Home > <sport> Picks > page); a folder's index.qmd is the hub
@@ -13,6 +13,7 @@
 
   Frontmatter hooks:
     description, image, image-alt, date, date-modified, categories, subtitle  (standard Quarto keys)
+    date-modified on a non-post page -> dateModified on its WebPage/FAQPage node (set it when the numbers change)
     schema-type: none   -> skip this page entirely (used by 404.qmd)
     schema-offers: [{name, price, billing: P1W|P1M|P1Y}]
 
@@ -33,6 +34,7 @@ local DEFAULT_IMAGE = SITE .. "/images/brand/og-default.png"
 local LOGO = SITE .. "/images/brand/logo-square.png"
 local ORG_ID = SITE .. "/#organization"
 local SITE_ID = SITE .. "/#website"
+local FOUNDER_ID = SITE .. "/about.html#founder"
 local SUBSCRIBE_URL = "https://sharpduel.com/slam_dunk_bets"
 
 local stringify = pandoc.utils.stringify
@@ -136,6 +138,7 @@ local function org_node()
     url = SITE .. "/",
     description = SITE_DESC,
     foundingDate = "2020",
+    founder = { ["@id"] = FOUNDER_ID },
     email = "slamdunkbettingservices@gmail.com",
     logo = { ["@type"] = "ImageObject", url = LOGO, width = 512, height = 512 },
     image = DEFAULT_IMAGE,
@@ -146,6 +149,20 @@ local function org_node()
       "https://whop.com/slam-dunk-bets",
       "https://app.slamdunk.bet",
     },
+  }
+end
+
+-- The founder, as the named author of every post. Anchors to the "Who's behind it" section of about.qmd.
+local function founder_node()
+  return {
+    ["@type"] = "Person",
+    ["@id"] = FOUNDER_ID,
+    name = "Jim",
+    alternateName = "jimtheflash",
+    url = FOUNDER_ID,
+    jobTitle = "Founder",
+    worksFor = { ["@id"] = ORG_ID },
+    sameAs = { "https://x.com/jimtheflash" },
   }
 end
 
@@ -161,6 +178,14 @@ local function website_node()
   }
 end
 
+-- datePublished/dateModified from `date` / `date-modified` frontmatter, when a page has them.
+local function add_dates(node, m)
+  local published = iso_date(meta_str(m, "date"))
+  local modified = iso_date(meta_str(m, "date-modified"))
+  if published then node.datePublished = published end
+  if modified or published then node.dateModified = modified or published end
+end
+
 local function breadcrumb_node(items)
   local list = {}
   for i, it in ipairs(items) do
@@ -169,8 +194,8 @@ local function breadcrumb_node(items)
   return { ["@type"] = "BreadcrumbList", itemListElement = list }
 end
 
-local function webpage_node(url, title, desc, image)
-  return {
+local function webpage_node(m, url, title, desc, image)
+  local node = {
     ["@type"] = "WebPage",
     ["@id"] = url,
     url = url,
@@ -181,6 +206,8 @@ local function webpage_node(url, title, desc, image)
     primaryImageOfPage = { ["@type"] = "ImageObject", url = image },
     publisher = { ["@id"] = ORG_ID },
   }
+  add_dates(node, m)
+  return node
 end
 
 local function blogposting_node(m, url, title, desc, image)
@@ -201,7 +228,7 @@ local function blogposting_node(m, url, title, desc, image)
     datePublished = published,
     dateModified = modified,
     inLanguage = "en-US",
-    author = { ["@id"] = ORG_ID },
+    author = { ["@id"] = FOUNDER_ID },
     publisher = { ["@id"] = ORG_ID },
     isPartOf = { ["@type"] = "Blog", ["@id"] = SITE .. "/articles.html#blog", name = SITE_NAME .. " Articles" },
   }
@@ -211,7 +238,7 @@ local function blogposting_node(m, url, title, desc, image)
   return node
 end
 
-local function faq_node(blocks, url, title, desc)
+local function faq_node(m, blocks, url, title, desc)
   local items = {}
   for _, b in ipairs(blocks) do
     if b.t == "Div" and b.classes:includes("faq-item") then
@@ -234,7 +261,7 @@ local function faq_node(blocks, url, title, desc)
     end
   end
   if #items == 0 then return nil end
-  return {
+  local node = {
     ["@type"] = "FAQPage",
     ["@id"] = url,
     url = url,
@@ -245,6 +272,8 @@ local function faq_node(blocks, url, title, desc)
     publisher = { ["@id"] = ORG_ID },
     mainEntity = items,
   }
+  add_dates(node, m)
+  return node
 end
 
 local BILLING_UNIT = { P1W = "WEE", P1M = "MON", P1Y = "ANN" }
@@ -380,7 +409,7 @@ function Pandoc(doc)
   local desc = meta_str(m, "description") or SITE_DESC
   local image = abs_url(meta_str(m, "image"), rel) or DEFAULT_IMAGE
 
-  local graph = { org_node(), website_node() }
+  local graph = { org_node(), website_node(), founder_node() }
 
   if s:match("^posts/") then
     graph[#graph + 1] = blogposting_node(m, url, title, desc, image)
@@ -390,14 +419,14 @@ function Pandoc(doc)
       { title, url },
     })
   elseif s == "faq" then
-    graph[#graph + 1] = faq_node(doc.blocks, url, title, desc) or webpage_node(url, title, desc, image)
+    graph[#graph + 1] = faq_node(m, doc.blocks, url, title, desc) or webpage_node(m, url, title, desc, image)
   elseif s == "index" then
     -- Organization + WebSite carry the homepage.
   else
-    graph[#graph + 1] = webpage_node(url, title, desc, image)
+    graph[#graph + 1] = webpage_node(m, url, title, desc, image)
     local product = product_node(m, url, desc)
     if product then graph[#graph + 1] = product end
-    local faq = faq_node(doc.blocks, url, title, desc)
+    local faq = faq_node(m, doc.blocks, url, title, desc)
     if faq then
       faq["@id"] = url .. "#faq"
       graph[#graph + 1] = faq

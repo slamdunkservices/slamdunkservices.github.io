@@ -2,6 +2,9 @@
 title: "MLB NRFI & YRFI Picks"
 pagetitle: "MLB NRFI & YRFI Picks: First-Inning Run Projections"
 description: "NRFI and YRFI picks (no run or yes run in the first inning) for every MLB game, from the same 20,000-simulation model that prices our home run picks, with starters, lineups, park and weather. Tracked since July 16, 2026: 553 plays, +20 net units, 3.3% ROI."
+date-modified: 2026-10-06
+image: /images/og/mlb-nrfi-yrfi-picks.png
+image-alt: "Slam Dunk Bets MLB NRFI and YRFI picks: +20 units, 3.3% ROI over 553 tracked plays since July 16, 2026"
 ---
 
 NRFI and YRFI are bets on whether either team scores in the first inning. We project the first-inning run probability for every MLB game with the same simulation that prices our [home run picks](home-run-picks.qmd), compare it to the prices at 13 sportsbooks and exchanges twice an hour, and alert the games where a book is at least 1.5 percentage points off our number. Since launch on July 16, 2026, 553 alerted first-inning plays returned +20 net units, a 3.3% return on units staked.
