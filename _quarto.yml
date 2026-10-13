@@ -69,6 +69,12 @@ website:
       - icon: twitter-x
         href: https://x.com/slam_dunk_bets
         aria-label: Slam Dunk Bets on X
+      - icon: instagram
+        href: https://www.instagram.com/slam_dunk_bets_/
+        aria-label: Slam Dunk Bets on Instagram
+      - icon: linkedin
+        href: https://www.linkedin.com/company/slam-dunk-bets
+        aria-label: Slam Dunk Betting Services on LinkedIn
       - icon: envelope
         href: "mailto:slamdunkbettingservices@gmail.com"
         aria-label: Email Slam Dunk Bets
@@ -88,7 +94,7 @@ website:
     center: |
       21+ Only | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
       © Slam Dunk Betting Services LLC, 2026
-    right: "[About](/about.html) · [Privacy](/privacy.html) · [Terms](/terms.html) · [@slam_dunk_bets](https://x.com/slam_dunk_bets)"
+    right: "[About](/about.html) · [Privacy](/privacy.html) · [Terms](/terms.html) · [X](https://x.com/slam_dunk_bets) · [Instagram](https://www.instagram.com/slam_dunk_bets_/) · [LinkedIn](https://www.linkedin.com/company/slam-dunk-bets)"
   search: false
 
 format:

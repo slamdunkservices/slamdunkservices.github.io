@@ -193,7 +193,7 @@ None on the site. If ads or affiliate links are ever added: article pages only, 
 
 ## Brand voice
 
-Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. Prefer **Sharpduel** over Whop for subscription CTAs (Sharpduel is the primary button; Whop is the secondary option). The brand account is `@slam_dunk_bets` on X; `@jimtheflash` is the founder/support handle.
+Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. Prefer **Sharpduel** over Whop for subscription CTAs (Sharpduel is the primary button; Whop is the secondary option). The brand account is `@slam_dunk_bets` on X; `@jimtheflash` is the founder/support handle. Instagram is `slam_dunk_bets_` (trailing underscore) and the LinkedIn company page is `linkedin.com/company/slam-dunk-bets`. All profiles are listed in the navbar tools, the footer, the About page, `llms.txt`, and the `sameAs` list in `_filters/seo-schema.lua`; add any new profile to all five.
 
 ## Do not render
 

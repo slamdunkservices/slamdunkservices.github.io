@@ -145,6 +145,8 @@ local function org_node()
     sameAs = {
       "https://x.com/slam_dunk_bets",
       "https://x.com/jimtheflash",
+      "https://www.instagram.com/slam_dunk_bets_/",
+      "https://www.linkedin.com/company/slam-dunk-bets",
       "https://sharpduel.com/slam_dunk_bets",
       "https://whop.com/slam-dunk-bets",
       "https://app.slamdunk.bet",
