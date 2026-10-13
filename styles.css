@@ -738,6 +738,7 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     border-bottom: 1px solid #e6e6e4;
 }
 
+.faq-item h2,
 .faq-item h3 {
     font-size: 1.2rem;
     margin: 0 0 0.6rem;
