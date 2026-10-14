@@ -15,7 +15,7 @@ Marketing + blog site for **Slam Dunk Bets**, an NBA, WNBA & MLB prop picks serv
 
 - `quarto preview` — live local preview with hot reload
 - `quarto render` — build the site into `_site/` (gitignored)
-- `quarto publish gh-pages` — render and push the built site to `gh-pages` (see Publishing)
+- `_scripts/publish.sh` — the publish command: checks the Quarto version and a clean tree, runs `quarto publish gh-pages`, then pings IndexNow with the changed pages (see Publishing)
 
 There are no tests or linters. The verification greps in the SEO section below are the closest thing.
 
@@ -37,6 +37,7 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `_drafts/` | Unfinished posts. Underscore prefix keeps the folder out of the render entirely (see its README) |
 | `_filters/seo-schema.lua` | Emits JSON-LD structured data into every page's `<head>`, plus the Open Graph extras Quarto lacks (`og:url`, `og:type`, `article:*`) and intrinsic `width`/`height` on body images |
 | `_scripts/post-render.sh` | Quarto `post-render` hook: rewrites every `.../index.html` `<loc>` in `sitemap.xml` to its folder URL (`/`, `/nba/`, ...) so it matches the canonical tags, and replaces each `<lastmod>` with the last git commit date of the page's source (uncommitted sources keep the render time, so commit before publishing) |
+| `_scripts/publish.sh`, `_scripts/indexnow.py`, `<32-hex>.txt` | Publish wrapper and the IndexNow submitter it runs afterwards. The root `.txt` file whose name is 32 hex characters is the IndexNow key (content = name), served from the site root via `resources`. Bing, Yandex and the other IndexNow engines learn about changed pages within minutes; Google ignores IndexNow |
 | `_scripts/og-cards/` | `build.sh` renders one branded 1200×630 share card per row of `cards.tsv` into `images/og/` from the `_og/card.html` template (see Images) |
 | `_includes/head.html` | Extra `<head>` markup: RSS link, `theme-color` (Discord embed accent), `apple-touch-icon`, search-engine verification meta tags (placeholders), preconnect |
 | `_includes/after-body.html` | Loads `scripts/site-analytics.js` on every page |
@@ -58,7 +59,7 @@ There are no tests or linters. The verification greps in the SEO section below a
 
 ## Publishing
 
-Publishing uses the Quarto `publish` command, which renders locally and pushes the built `_site/` to the `gh-pages` branch. Full docs: <https://quarto.org/docs/publishing/github-pages.html>.
+Publishing uses the Quarto `publish` command, which renders locally and pushes the built `_site/` to the `gh-pages` branch. Full docs: <https://quarto.org/docs/publishing/github-pages.html>. Run it through `_scripts/publish.sh`, which refuses a dirty tree (the sitemap's `lastmod` values come from git history, so uncommitted edits would publish with a stale date), then diffs the new sitemap against the one that was live and submits every new or changed URL to IndexNow once the key file answers on the live site. `_scripts/indexnow.py --all` resubmits every page; `--dry-run` shows what would be sent.
 
 No GitHub Actions workflow — all publishing happens from the author's machine. On first publish, Quarto writes a `_publish.yml` file recording the target; commit it when it appears.
 
@@ -68,7 +69,7 @@ Typical flow:
 2. `quarto --version` — must be 1.9+
 3. `quarto preview` — check locally
 4. Commit + push `main`
-5. `quarto publish gh-pages` from the repo root (must be on a branch that is **not** `gh-pages`)
+5. `_scripts/publish.sh` from the repo root (must be on a branch that is **not** `gh-pages`)
 6. After publish, spot-check `https://slamdunk.bet/robots.txt`, `/llms.txt`, `/sitemap.xml`, `/articles.xml`
 
 ## Common tasks

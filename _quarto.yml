@@ -8,6 +8,7 @@ project:
     - images/brand/logo-square.png
     - images/brand/apple-touch-icon.png
     - images/og/**
+    - 967ecc7d6e5a0c9767d677a826b11d20.txt   # IndexNow key (see _scripts/indexnow.py)
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
