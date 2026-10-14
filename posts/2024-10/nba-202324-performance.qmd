@@ -6,7 +6,7 @@ date: 2024-10-11
 categories: [nba, first-basket, roi-recap]
 draft: false
 description: "The 2023-24 NBA season in one chart: 17,558 tracked prop bets and 1,692 net units of profit across first-basket and related markets, plotted bet by bet."
-image: "/images/posts/nba_roi_202324.png"
+image: "/images/posts/nba-2023-24-recap.png"
 image-alt: "Line chart of Slam Dunk Bets cumulative units for the 2023-24 NBA season, climbing from 0 to about 1,700 units over roughly 17,500 bets"
 ---
 
@@ -14,7 +14,7 @@ Ahead of the 2024-25 NBA season, we thought it would be prudent to remind everyb
 
 ## The season in one chart
 
-![](/images/posts/nba_roi_202324.png){fig-alt="Line chart of cumulative units for the 2023-24 NBA season, rising from 0 to about 1,700 units across roughly 17,500 bets"}
+![](/images/posts/nba-2023-24-recap.png){fig-alt="Line chart of cumulative units for the 2023-24 NBA season, rising from 0 to about 1,700 units across roughly 17,500 bets"}
 
 ## How to read it
 

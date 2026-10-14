@@ -8,7 +8,7 @@
  */
 (() => {
   const CTA_HOSTS = ["sharpduel.com", "whop.com", "app.slamdunk.bet"];
-  const AI_REFERRERS = /(^|\.)(chatgpt\.com|openai\.com|perplexity\.ai|claude\.ai|anthropic\.com|copilot\.microsoft\.com|gemini\.google\.com|you\.com|meta\.ai|poe\.com|duckduckgo\.com)$/i;
+  const AI_REFERRERS = /(^|\.)(chatgpt\.com|openai\.com|perplexity\.ai|claude\.ai|anthropic\.com|copilot\.microsoft\.com|gemini\.google\.com|you\.com|meta\.ai|poe\.com|duckduckgo\.com|grok\.com|x\.ai|mistral\.ai|deepseek\.com|kagi\.com)$/i;
   const SECTIONS = ".hero, .final-cta, .feature-list, .track-record, .subscribe-ctas, .pricing, .faq-item, .navbar, footer, main";
 
   const send = (name, params) => {

@@ -9,6 +9,7 @@
     subscribe.qmd    -> + WebPage + Product/Offer[] from the `schema-offers:` frontmatter list
     nba/, wnba/, mlb/ -> + WebPage + BreadcrumbList (Home > <sport> Picks > page); a folder's index.qmd is the hub
     stats/, guides/  -> same shape (Home > Stats > page, including stats/<league>/<team> pages)
+    Pages with a BreadcrumbList also get a visible .breadcrumbs trail at the top of the body (styled in styles.css).
     everything else  -> + WebPage
     Any page with ::: {.faq-item} blocks also gets a FAQPage node (faq.qmd gets it instead of WebPage).
 
@@ -141,6 +142,16 @@ local function org_node()
     foundingDate = "2020",
     founder = { ["@id"] = FOUNDER_ID },
     email = "slamdunkbettingservices@gmail.com",
+    contactPoint = {
+      ["@type"] = "ContactPoint",
+      contactType = "customer support",
+      email = "slamdunkbettingservices@gmail.com",
+      url = SITE .. "/contact.html",
+      availableLanguage = "en",
+    },
+    areaServed = "US",
+    knowsAbout = { "NBA first basket props", "WNBA first basket props", "MLB home run props", "NRFI and YRFI betting",
+                   "sports betting models", "Kelly criterion bet sizing" },
     logo = { ["@type"] = "ImageObject", url = LOGO, width = 512, height = 512 },
     image = DEFAULT_IMAGE,
     sameAs = {
@@ -406,6 +417,7 @@ function Pandoc(doc)
 
   local rel = rel_input()
   if rel == nil then return nil end
+  local changed = false
   local s = stem(rel)
   local url = page_url(rel)
   local title = meta_str(m, "title") or meta_str(m, "pagetitle") or SITE_NAME
@@ -439,6 +451,18 @@ function Pandoc(doc)
       local crumbs = { { "Home", SITE .. "/" }, { HUBS[folder], SITE .. "/" .. folder .. "/" } }
       if s ~= folder .. "/index" then crumbs[#crumbs + 1] = { title, url } end
       graph[#graph + 1] = breadcrumb_node(crumbs)
+      -- Visible trail matching the BreadcrumbList, inserted above the body (the title block renders above it).
+      local inlines = pandoc.List()
+      for i, c in ipairs(crumbs) do
+        if i > 1 then inlines:insert(pandoc.Span({ pandoc.Str("›") }, { class = "crumb-sep", ["aria-hidden"] = "true" })) end
+        if i == #crumbs then
+          inlines:insert(pandoc.Span({ pandoc.Str(c[1]) }, { ["aria-current"] = "page" }))
+        else
+          inlines:insert(pandoc.Link({ pandoc.Str(c[1]) }, c[2]))
+        end
+      end
+      doc.blocks:insert(1, pandoc.Div({ pandoc.Plain(inlines) }, { class = "breadcrumbs", ["aria-label"] = "Breadcrumb" }))
+      changed = true
     end
   end
 
@@ -464,5 +488,6 @@ function Pandoc(doc)
   else
     meta_tag("og:type", "website")
   end
+  if changed then return doc end
   return nil
 end

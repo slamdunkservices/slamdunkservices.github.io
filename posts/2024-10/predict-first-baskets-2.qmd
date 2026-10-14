@@ -5,11 +5,11 @@ date: 2024-10-04
 categories: [nba, wnba, first-basket, methodology]
 draft: false
 description: "The data behind our first-basket models: NBA and WNBA play-by-play and box scores, player bios, projected starting lineups, sportsbook game lines, and the pipelines that clean, label and feature-engineer it."
-image: "/images/posts/library.jpeg"
+image: "/images/posts/library-bookshelves.jpg"
 image-alt: "Rows of bookshelves in a library"
 ---
 
-![](../../images/posts/library.jpeg){fig-alt="Rows of bookshelves in a library" width=600}
+![](../../images/posts/library-bookshelves.jpg){fig-alt="Rows of bookshelves in a library" width=600}
 
 First two posts in this series were very high level, now we get into some specifics. What data are we using to predict first basket outcomes?
 

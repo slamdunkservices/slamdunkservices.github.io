@@ -801,3 +801,27 @@ main img {
         -webkit-overflow-scrolling: touch;
     }
 }
+
+/* Visible breadcrumb trail on sport, stats and guide pages (emitted by _filters/seo-schema.lua). */
+.breadcrumbs {
+    font-size: 0.85rem;
+    color: #6c6c6c;
+    margin: -0.5rem 0 1.25rem;
+}
+
+.breadcrumbs a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs .crumb-sep {
+    margin: 0 0.45rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .breadcrumbs { color: #9a9a9a; }
+}

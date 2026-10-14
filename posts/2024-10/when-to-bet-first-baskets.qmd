@@ -6,11 +6,11 @@ date: 2024-10-09
 categories: [nba, wnba, first-basket, strategy]
 draft: false
 description: "Early lines or pre-tip lineup news? What we've learned about timing first-basket bets in the NBA and WNBA: grab soft early prices, top off when odds improve, and watch the alerts around tipoff."
-image: "/images/posts/Analog_timepiece.jpg"
+image: "/images/posts/analog-wristwatch.jpg"
 image-alt: "Close-up of an analog wristwatch face"
 ---
 
-![](/images/posts/Analog_timepiece.jpg){fig-alt="Close-up of an analog wristwatch face" width=600}
+![](/images/posts/analog-wristwatch.jpg){fig-alt="Close-up of an analog wristwatch face" width=600}
 
 We mentioned in our [series on predicting first baskets](predict-first-baskets-5.qmd) that we'd look at how to time your first basket bets. There's not a "perfect" strategy but here's some strategies that sometimes seem to work:
 

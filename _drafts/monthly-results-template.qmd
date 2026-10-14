@@ -1,0 +1,50 @@
+---
+title: "MONTH YEAR Results: +NET Units at ROI% ROI"
+author: Slam Dunk Bets
+date: YYYY-MM-DD
+categories: [nba, first-basket, roi-recap]
+draft: false
+description: "Our LEAGUE results for MONTH YEAR: WAGERS tracked wagers returned +NET net units, a ROI% return on units staked. Results by market, the largest wins, and the season to date."
+image: "/images/posts/results-YYYY-MM.png"
+image-alt: "Line chart of cumulative net units for Slam Dunk Bets in the SEASON LEAGUE season through MONTH YEAR"
+---
+<!-- Monthly results post template. Copy to posts/YYYY-MM/results-YYYY-MM.qmd, fill from
+     `python _scripts/roi-chart/month_stats.py YYYY-MM`, draw the season-to-date chart with
+     _scripts/roi-chart/season.R, and delete this comment. Keep it a report: numbers, what moved them, no plays. -->
+
+## Summary
+
+Slam Dunk Bets recommended WAGERS wagers on LEAGUE first-event props in MONTH YEAR. They returned +NET net units on STAKED units staked, a return on investment (ROI) of ROI%. The season to date stands at +STD_NET units (STD_ROI%) on STD_WAGERS wagers.
+
+![Cumulative net units, SEASON LEAGUE season through MONTH YEAR.](/images/posts/results-YYYY-MM.png){fig-alt="Line chart of cumulative net units for the SEASON LEAGUE season"}
+
+## Results by market
+
+| Market | Wagers | Wins | Units staked | Net units | ROI |
+|---|---:|---:|---:|---:|---:|
+| First Basket | | | | | |
+| First Basket by Team | | | | | |
+| **Total** | | | | | |
+
+One or two sentences on which markets carried the month and which lagged, and whether that matches the season pattern.
+
+## Largest wins
+
+| Date | Game | Market | Selection | Price | Units staked | Net units |
+|---|---|---|---|---:|---:|---:|
+| | | | | | | |
+
+## Players
+
+The most and least profitable players of the month, with wagers and wins, and a sentence on why (lineup changes, pricing, variance).
+
+## Season to date
+
+| | Wagers | Wins | Units staked | Net units | ROI |
+|---|---:|---:|---:|---:|---:|
+| MONTH YEAR | | | | | |
+| Season to date | | | | | |
+
+## How we counted
+
+Wager sizes are standardized so that the average recommended wager is about one unit. Net units are winnings minus losses, ROI is net units divided by units staked, and voided wagers are excluded. These are tracked results, not a guarantee; past results do not predict future results. The live record is in the [Slam Dunk Dashboard](../../apps.qmd), every season is in the [FAQ](../../faq.qmd), and the market-by-market record is on the [LEAGUE picks](../../nba/index.qmd) pages. To get the alerts as they post, [subscribe](https://sharpduel.com/slam_dunk_bets).

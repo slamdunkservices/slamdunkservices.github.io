@@ -5,11 +5,11 @@ date: 2024-10-07
 categories: [nba, wnba, first-basket, methodology]
 draft: false
 description: "How our Discord alerts work: the pipeline re-runs every 30 minutes, edges are grouped by game and player, and emoji flags mark new plays, new daily-best edges, and lines that have moved off their peak."
-image: "/images/posts/Action-Max-Red-Light.jpg"
+image: "/images/posts/red-alert-light.jpg"
 image-alt: "A red light on a black background"
 ---
 
-![](../../images/posts/Action-Max-Red-Light.jpg){fig-alt="A red light on a black background" width=600}
+![](../../images/posts/red-alert-light.jpg){fig-alt="A red light on a black background" width=600}
 
 I think this is gonna be the last part of the "How Do You Predict First Baskets?" series of posts! Woohoo, we made it! The last post is on the alerts themselves - how do we make the edges we identify actionable for our users?
 

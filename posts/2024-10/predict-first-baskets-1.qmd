@@ -5,7 +5,7 @@ date: 2024-10-03
 categories: [nba, wnba, first-basket, methodology]
 draft: false
 description: "A map of our first-basket pipeline: clean and label play-by-play data, model the tipoff, team to score first and player to score first, then combine them into first-basket and exact-method odds."
-image: "/images/posts/model_flowchart.jpg"
+image: "/images/posts/first-basket-model-flowchart.jpg"
 image-alt: "Flowchart of the Slam Dunk Bets first-basket model pipeline from raw data to first player exact method model"
 ---
 
@@ -13,7 +13,7 @@ Our [first post](why-first-baskets.qmd) outlined why we bet on first baskets, bu
 
 ## The pipeline in one diagram
 
-![](../../images/posts/model_flowchart.jpg){fig-alt="Flowchart of the first-basket model pipeline: raw data is cleaned into tidy data, which feeds win tipoff, first team to score, first team scorer and first player to score models, ending in exact method models" width=600}
+![](../../images/posts/first-basket-model-flowchart.jpg){fig-alt="Flowchart of the first-basket model pipeline: raw data is cleaned into tidy data, which feeds win tipoff, first team to score, first team scorer and first player to score models, ending in exact method models" width=600}
 
 I'll walk through the boxes and arrows.
 
