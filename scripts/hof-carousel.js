@@ -5,6 +5,7 @@
 
   const imageAlt = "Hall of Fame betting receipt";
   const eagerCount = 3;
+  const maxSlides = 40; // the manifest lists every receipt; show a random sample so the page is not 600+ <img> nodes
   const interval = Number(carousel.dataset.bsInterval) || 3200;
   const manifestUrl = carousel.dataset.hofManifest || "images/hof-carousel/manifest.json";
   const imageBase = carousel.dataset.hofImageBase || "images/hof-carousel/";
@@ -54,7 +55,7 @@
         throw new Error("Manifest did not contain any images");
       }
 
-      inner.replaceChildren(...shuffle(filenames).map(createSlide));
+      inner.replaceChildren(...shuffle(filenames).slice(0, maxSlides).map(createSlide));
       if (!startCarousel()) {
         window.addEventListener("load", startCarousel, { once: true });
       }
