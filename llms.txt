@@ -32,6 +32,20 @@ Key facts:
   - [MLB home run picks](https://slamdunk.bet/mlb/home-run-picks.html): +142 units since July 16, 2026 (5.3%)
   - [MLB NRFI and YRFI picks](https://slamdunk.bet/mlb/nrfi-yrfi-picks.html): +20 units since July 16, 2026 (3.3%)
 
+## Stats (public history behind the picks, rebuilt from play-by-play and line scores)
+- [Stats hub](https://slamdunk.bet/stats/): what is covered and where it comes from
+- [NBA first basket stats](https://slamdunk.bet/stats/nba-first-basket-leaders.html): most first baskets, highest rate per start, team scored-first and tipoff rates, scoring method; links to one page per team at https://slamdunk.bet/stats/nba/<team-slug>.html (e.g. /stats/nba/los-angeles-lakers.html) with who scores first for that team, home/away, tipoff jumpers and the previous season
+- [WNBA first basket stats](https://slamdunk.bet/stats/wnba-first-basket-leaders.html): same tables for the WNBA; team pages at https://slamdunk.bet/stats/wnba/<team-slug>.html
+- [MLB NRFI stats](https://slamdunk.bet/stats/mlb-nrfi-rates.html): league NRFI rate, every team home and away, every starting pitcher with 15+ starts, by month and by season; team pages at https://slamdunk.bet/stats/mlb/<team-slug>.html (e.g. /stats/mlb/new-york-yankees.html) with first-inning scoring and every starter's record
+
+## Guides (definitions and grading rules)
+- [All guides](https://slamdunk.bet/guides/)
+- [What is a first basket bet?](https://slamdunk.bet/guides/what-is-a-first-basket-bet.html): first field goal vs first points, by-team version, voids, typical odds
+- [First basket exact method, explained](https://slamdunk.bet/guides/first-basket-exact-method.html): player plus method, and-one grading, why the odds are long
+- [What do NRFI and YRFI mean?](https://slamdunk.bet/guides/what-is-nrfi-yrfi.html): grading, rain rules, league rate, what moves the price
+- [What is a home run prop bet?](https://slamdunk.bet/guides/what-is-a-home-run-prop-bet.html): 1+/2+ markets, scratches and pinch hitters, line shopping
+- [What is a unit in sports betting?](https://slamdunk.bet/guides/what-is-a-unit-in-sports-betting.html): units, net units, ROI, Kelly-based sizing
+
 ## Methodology: first baskets (NBA and WNBA)
 - [Why First Baskets?](https://slamdunk.bet/posts/2024-10/why-first-baskets.html): origin story and why the market is mispriced
 - [How Do You Predict First Baskets? Part 1: High Level Overview](https://slamdunk.bet/posts/2024-10/predict-first-baskets-1.html)
