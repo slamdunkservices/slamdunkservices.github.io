@@ -9,8 +9,9 @@ pages changed. Run by _scripts/publish.sh after `quarto publish`; can also be ru
 
 The key is the 32-hex-character .txt file at the repo root (its content equals its name), served from the site
 root via the `resources` list in _quarto.yml. IndexNow fetches it to confirm the submission came from the site owner.
+HTTP goes through curl (the python.org Python on this Mac has no CA bundle, so urllib cannot verify certificates).
 """
-import argparse, glob, json, os, re, sys, time, urllib.request, urllib.error
+import argparse, glob, json, os, re, subprocess, sys, time
 
 HOST = "slamdunk.bet"
 ENDPOINT = "https://api.indexnow.org/indexnow"
@@ -46,28 +47,34 @@ def changed(previous, current):
     return [u for u, m in current.items() if previous.get(u) != m]
 
 
-def wait_for_key(k, timeout=420):
+def curl(args, timeout):
+    """(status, body) via curl; status is 0 when the request itself failed, with curl's error in body."""
+    p = subprocess.run(["curl", "-sS", "--max-time", str(timeout), "-o", "-", "-w", "\n%{http_code}"] + args,
+                       capture_output=True, text=True)
+    if p.returncode != 0:
+        return 0, p.stderr.strip()
+    body, _, status = p.stdout.rpartition("\n")
+    return int(status or 0), body
+
+
+def wait_for_key(k, timeout=600):
     url = "https://%s/%s.txt" % (HOST, k)
     deadline = time.time() + timeout
-    while time.time() < deadline:
-        try:
-            with urllib.request.urlopen(url, timeout=15) as r:
-                if r.status == 200 and r.read().decode().strip() == k:
-                    return True
-        except (urllib.error.URLError, OSError):
-            pass
+    last = ""
+    while True:
+        status, body = curl([url], 15)
+        if status == 200 and body.strip() == k:
+            return True
+        last = "HTTP %d" % status if status else body
+        if time.time() >= deadline:
+            print("indexnow: last attempt: %s" % last, file=sys.stderr)
+            return False
         time.sleep(15)
-    return False
 
 
 def submit(k, urls):
-    body = json.dumps({"host": HOST, "key": k, "keyLocation": "https://%s/%s.txt" % (HOST, k), "urlList": urls}).encode()
-    req = urllib.request.Request(ENDPOINT, data=body, headers={"Content-Type": "application/json; charset=utf-8"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return r.status, r.read().decode()
-    except urllib.error.HTTPError as e:
-        return e.code, e.read().decode()
+    body = json.dumps({"host": HOST, "key": k, "keyLocation": "https://%s/%s.txt" % (HOST, k), "urlList": urls})
+    return curl(["-X", "POST", "-H", "Content-Type: application/json; charset=utf-8", "--data-binary", body, ENDPOINT], 30)
 
 
 def main():
