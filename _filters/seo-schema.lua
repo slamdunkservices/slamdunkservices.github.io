@@ -8,6 +8,7 @@
     faq.qmd          -> + FAQPage built from ::: {.faq-item} divs (first header = question, rest = answer)
     subscribe.qmd    -> + WebPage + Product/Offer[] from the `schema-offers:` frontmatter list
     nba/, wnba/, mlb/ -> + WebPage + BreadcrumbList (Home > <sport> Picks > page); a folder's index.qmd is the hub
+    stats/, guides/  -> same shape (Home > Stats > page, including stats/<league>/<team> pages)
     everything else  -> + WebPage
     Any page with ::: {.faq-item} blocks also gets a FAQPage node (faq.qmd gets it instead of WebPage).
 
@@ -97,7 +98,7 @@ local function page_url(rel)
 end
 
 -- Sport hubs: folder -> breadcrumb label. Pages in these folders get Home > hub > page breadcrumbs.
-local HUBS = { nba = "NBA Picks", wnba = "WNBA Picks", mlb = "MLB Picks" }
+local HUBS = { nba = "NBA Picks", wnba = "WNBA Picks", mlb = "MLB Picks", stats = "Stats", guides = "Guides" }
 
 -- Resolve /images/.., ../../images/.., images/.. (relative to the page's folder) to an absolute URL.
 local function abs_url(p, rel)

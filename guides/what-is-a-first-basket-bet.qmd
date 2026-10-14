@@ -1,0 +1,73 @@
+---
+title: "What Is a First Basket Bet? How It Works and How It's Graded"
+pagetitle: "What Is a First Basket Bet? Rules, Grading and Odds"
+description: "A first basket bet is a wager on which player scores the first points or first field goal of an NBA or WNBA game. How books grade it, whether free throws count, the by-team version, typical odds, and what happens if your player doesn't start."
+date-modified: 2026-10-13
+image: /images/og/guides-what-is-a-first-basket-bet.png
+image-alt: "What is a first basket bet: first field goal versus first points"
+---
+
+A first basket bet is a wager on which player scores first in a basketball game. It settles within the first minute or two, it is offered on every NBA and WNBA game at most sportsbooks, and the odds on a starter usually run from about +300 for the favorite to +1500 and beyond for the rest of the lineup. It is also the market Slam Dunk Bets was built on, so this page covers the rules in more detail than most.
+
+## First basket, first field goal, first points
+
+Books use "first basket" loosely, and the fine print matters:
+
+- **First field goal**: the first *made field goal* of the game. Free throws do not count. This is the most common version.
+- **First points**: the first points of any kind. A player who is fouled on the opening possession and makes a free throw wins this market but not the field-goal version.
+- **First basket**: whichever of the two the book has decided it means. Check the market rules; the same book can use different rules in different states.
+
+The difference comes up more than you would think. In the 2025-26 NBA season, the game's first points and its first field goal went to different players in about 8% of games. The [NBA first basket stats](../stats/nba-first-basket-leaders.qmd) page tracks that number every season.
+
+## The variants
+
+- **First basket by team**: the first player to score for one specific team, regardless of who scores first in the game. Two winners per game, so prices are shorter.
+- **First basket exact method**: the player *and* how they score, for example a three-pointer or a dunk. Much longer odds. See the [exact method guide](first-basket-exact-method.qmd).
+- **First basket type**: how the game's first points are scored (two, three, free throw), regardless of player.
+- **Team to score first**: which team scores first, often paired with a win-tipoff market. Covered on the [NBA team to score first page](../nba/team-to-score-first-picks.qmd).
+- **First basket of the second half**: offered by some books; we do not project it yet.
+
+## How it is graded
+
+- The winner is the player credited with the qualifying score in the official play-by-play. A tip-in or a goaltended shot counts for the player credited with the points.
+- If your player does not play at all, nearly every book voids the bet and refunds the stake. If the player plays but does not score first, the bet loses. Whether a player who is listed as a starter but ruled out at tipoff is void depends on the book; most void.
+- An "and-one" (a made basket with a foul) counts as a field goal at the moment the shot goes in, so the shooter wins the field-goal market before the free throw is attempted.
+- Each-way and "no player" options exist at some books. Read the market rules the first time you bet at a new one.
+
+## What the odds look like
+
+The favorite is usually the team's primary scorer or its center, because the first possession of most games is a set play run for one of them. In 2025-26 the median price Slam Dunk Bets bet in these markets was +600, which a book prices as roughly a 14% chance. Even the best first-basket player in the league scores first for their team in about 40% of starts; see the leaders table on the [stats page](../stats/nba-first-basket-leaders.qmd).
+
+Prices move all day. Books open the market before injury reports and starting lineups are confirmed, and the biggest moves come in the hour before tipoff when a starter is ruled out and a replacement enters the lineup. Our [timing article](../posts/2024-10/when-to-bet-first-baskets.qmd) covers how to handle that.
+
+## Why first baskets can be beaten
+
+Books price this market inconsistently and popular players are usually overpriced because they attract the most action. Role players who take the first shot in a set play, or who move into the starting lineup when someone sits, are often priced below their real chance. That mispricing is the reason we started [modeling first baskets in 2020](../posts/2024-10/why-first-baskets.qmd), and the tracked results are on the [NBA first basket picks](../nba/first-basket-picks.qmd) and [WNBA first basket picks](../wnba/first-basket-picks.qmd) pages.
+
+::: {.faq-item}
+### Do free throws count as a first basket?
+
+Only in a first-points market. A first-field-goal market ignores free throws, and most books that say "first basket" mean first field goal. The market rules at your book settle it.
+:::
+
+::: {.faq-item}
+### What happens if my first basket player doesn't start?
+
+If the player does not play at all, the bet is voided and refunded at nearly every book. If the player comes off the bench, the bet stands and almost always loses, because the first basket is scored long before a reserve enters.
+:::
+
+::: {.faq-item}
+### What are typical first basket odds?
+
+About +300 to +500 for a team's most likely first scorer, +600 to +1200 for the rest of the starting lineup, and longer for reserves. Odds for the same player regularly differ by hundreds of points between books, which is why our alerts list every book where a play qualifies.
+:::
+
+::: {.faq-item}
+### Who scores the first basket most often?
+
+It changes every season, and it is as much about who takes the first shot as who makes it. The [NBA leaders](../stats/nba-first-basket-leaders.qmd) and [WNBA leaders](../stats/wnba-first-basket-leaders.qmd) pages list the top players and every team's most frequent first scorer.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+More guides: [first basket exact method](first-basket-exact-method.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).

@@ -3,12 +3,13 @@
 # _og/card.html and headless Chrome (the only rasterizer on this machine). Run from the repo root:
 #   _scripts/og-cards/build.sh            # every card
 #   _scripts/og-cards/build.sh faq about  # just these slugs
+#   CARDS_TSV=_scripts/stats/cards.tsv _scripts/og-cards/build.sh   # the generated stats cards
 # Chrome often hangs after writing the file, so each run is killed once the PNG appears. Reference the
 # output from a page as `image: /images/og/<slug>.png` with an `image-alt`.
 set -e
 root=$(cd "$(dirname "$0")/../.." && pwd)
 chrome="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-tsv="$root/_scripts/og-cards/cards.tsv"
+tsv="${CARDS_TSV:-$root/_scripts/og-cards/cards.tsv}"   # another manifest, e.g. the one _scripts/stats/build.py writes
 template="$root/_og/card.html"
 logo="file://$root/images/brand/logo-horizontal-dark.svg"
 work=$(mktemp -d)

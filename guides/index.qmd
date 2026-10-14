@@ -1,0 +1,18 @@
+---
+title: "Prop Betting Guides"
+pagetitle: "Prop Betting Guides: First Baskets, NRFI, Home Runs and Units"
+description: "Plain-English guides to the prop markets Slam Dunk Bets projects: what a first basket bet is, how exact method is graded, what NRFI and YRFI mean, how home run props work, and what a unit is."
+date-modified: 2026-10-13
+image: /images/og/guides.png
+image-alt: "Slam Dunk Bets prop betting guides"
+---
+
+Short, specific explanations of the markets we bet, written for someone placing the bet for the first time. Each guide covers what the bet is, how sportsbooks grade it, what the odds usually look like and what actually moves the price.
+
+- [What is a first basket bet?](what-is-a-first-basket-bet.qmd): first field goal, first points, by team, and the free-throw question.
+- [First basket exact method, explained](first-basket-exact-method.qmd): player plus scoring method, how and-ones are graded, and why the odds are so long.
+- [What do NRFI and YRFI mean?](what-is-nrfi-yrfi.qmd): the first-inning market, how it is graded when weather intervenes, and what the league rate looks like.
+- [What is a home run prop bet?](what-is-a-home-run-prop-bet.qmd): 1+ and 2+ home run markets, voids, and why line shopping matters most on longshots.
+- [What is a unit in sports betting?](what-is-a-unit-in-sports-betting.qmd): units, net units, ROI, and how our unit sizes are set.
+
+For the history behind each market, see the [stats](../stats/index.qmd). For what our models have returned on each one, see the [NBA](../nba/index.qmd), [WNBA](../wnba/index.qmd) and [MLB](../mlb/index.qmd) market pages.

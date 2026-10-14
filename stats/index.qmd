@@ -1,0 +1,50 @@
+---
+title: "Stats: Who Scores First, Who Keeps the First Inning Clean"
+pagetitle: "First Basket and NRFI Stats for Every NBA, WNBA and MLB Team"
+description: "First basket history for every NBA and WNBA team and player, and the NRFI record of every MLB team and starting pitcher, counted from play-by-play and official line scores. The context behind our picks, free to read."
+date-modified: 2026-10-13
+image: /images/og/stats.png
+image-alt: "Slam Dunk Bets stats: first basket and first inning history for every team"
+---
+
+These pages answer the questions bettors ask before a first basket or first-inning bet: who scores first for this team, how often does the home team score first, which starters keep the first inning clean. Everything is counted from the play-by-play and the official line scores, not from a sportsbook, and rebuilt from the data as seasons progress.
+
+The stats are history. The [picks](../subscribe.qmd) come from models that combine this history with tonight's lineups, the opponent, the park, the weather and the price at every book.
+
+## NBA
+
+[NBA first basket stats](nba-first-basket-leaders.qmd): the players with the most first baskets, the highest rate per start, how often each team scores first and wins the tipoff, and how first baskets are scored. Then one page per team with who scores first for them, home and away, by phase of the season, with the jump-ball record and the previous season for comparison.
+
+Atlanta Hawks · Boston Celtics · Brooklyn Nets · Charlotte Hornets · Chicago Bulls · Cleveland Cavaliers · Dallas Mavericks · Denver Nuggets · Detroit Pistons · Golden State Warriors · Houston Rockets · Indiana Pacers · LA Clippers · Los Angeles Lakers · Memphis Grizzlies · Miami Heat · Milwaukee Bucks · Minnesota Timberwolves · New Orleans Pelicans · New York Knicks · Oklahoma City Thunder · Orlando Magic · Philadelphia 76ers · Phoenix Suns · Portland Trail Blazers · Sacramento Kings · San Antonio Spurs · Toronto Raptors · Utah Jazz · Washington Wizards: all linked from the [NBA leaders page](nba-first-basket-leaders.qmd).
+
+## WNBA
+
+[WNBA first basket stats](wnba-first-basket-leaders.qmd): the same tables for the WNBA season, with a page for each of the 15 teams.
+
+## MLB
+
+[MLB NRFI stats](mlb-nrfi-rates.qmd): how often there is no run in the first inning, by team, at home and away, by month, and for every starting pitcher with 15 or more starts. Then one page per team with their NRFI record, how often they score and allow a first-inning run, and every starter's first-inning record.
+
+## How to use these numbers
+
+A high rate is not a bet. Books price first baskets from the same starting lineups and first-inning markets from the same starters, so a player who scores first in 30% of starts is only worth a bet when a book offers better than 30%, after tonight's lineup and opponent are accounted for. The [guides](../guides/index.qmd) explain how each market works, and the [market pages](../nba/index.qmd) show what our models have returned on each one.
+
+::: {.faq-item}
+### Where do these stats come from?
+
+NBA and WNBA first baskets, first points and tipoffs are labeled from the official play-by-play and box scores. MLB first-inning runs come from the official inning-by-inning line scores, and starting pitchers from the posted probables. Pages note the date they were last rebuilt.
+:::
+
+::: {.faq-item}
+### How often are the stats updated?
+
+They are rebuilt from the data periodically during each season, and always after a season ends. The current season appears once enough games have been played to mean something.
+:::
+
+::: {.faq-item}
+### Are these the picks?
+
+No. The picks post to Discord for subscribers, from models that use this history plus the day's lineups, prices and conditions. These pages are the public context behind them.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}

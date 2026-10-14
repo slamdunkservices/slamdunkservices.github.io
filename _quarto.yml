@@ -15,6 +15,9 @@ project:
     - "nba/*.qmd"
     - "wnba/*.qmd"
     - "mlb/*.qmd"
+    - "stats/*.qmd"
+    - "stats/*/*.qmd"
+    - "guides/*.qmd"
   post-render:
     - _scripts/post-render.sh
 
@@ -51,6 +54,30 @@ website:
             href: mlb/home-run-picks.qmd
           - text: "MLB NRFI / YRFI picks"
             href: mlb/nrfi-yrfi-picks.qmd
+      - text: "Stats"
+        menu:
+          - text: "All stats"
+            href: stats/index.qmd
+          - text: "NBA first basket stats"
+            href: stats/nba-first-basket-leaders.qmd
+          - text: "WNBA first basket stats"
+            href: stats/wnba-first-basket-leaders.qmd
+          - text: "MLB NRFI stats"
+            href: stats/mlb-nrfi-rates.qmd
+      - text: "Guides"
+        menu:
+          - text: "All guides"
+            href: guides/index.qmd
+          - text: "What is a first basket bet?"
+            href: guides/what-is-a-first-basket-bet.qmd
+          - text: "First basket exact method"
+            href: guides/first-basket-exact-method.qmd
+          - text: "What are NRFI and YRFI?"
+            href: guides/what-is-nrfi-yrfi.qmd
+          - text: "Home run prop bets"
+            href: guides/what-is-a-home-run-prop-bet.qmd
+          - text: "What is a unit?"
+            href: guides/what-is-a-unit-in-sports-betting.qmd
       - text: "Subscribe"
         href: subscribe.qmd
       - text: "Apps"

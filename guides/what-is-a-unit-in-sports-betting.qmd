@@ -1,0 +1,69 @@
+---
+title: "What Is a Unit in Sports Betting? Units, Net Units and ROI, Explained"
+pagetitle: "What Is a Unit in Sports Betting? Units, Net Units and ROI"
+description: "A unit is a bettor's standard stake, so results can be compared without dollar amounts. What a unit is worth, how net units and ROI are counted, what a realistic ROI looks like, and how Slam Dunk Bets sets its unit sizes with the Kelly criterion."
+date-modified: 2026-10-13
+image: /images/og/guides-what-is-a-unit-in-sports-betting.png
+image-alt: "What is a unit in sports betting"
+---
+
+A unit is a bettor's standard bet size. Instead of saying "I won $340 last month", a bettor says "I'm up 3.4 units", and everyone who hears it can translate it into their own money. Units make a record comparable across bettors with different bankrolls and let a picks service publish results without telling you how much to risk.
+
+## What a unit is worth
+
+Whatever you decide. The usual advice is 1% to 2% of your bankroll, so a bettor with $5,000 set aside for betting has a $50 to $100 unit. Common units are $100, $10 and $1. The point is that it stays fixed: a 2-unit bet is always twice a 1-unit bet, whatever the dollar amount.
+
+## Net units and ROI
+
+Two numbers describe a record:
+
+- **Net units** is profit measured in units: everything won minus everything lost. A +600 bet of 1 unit that wins is +6 units; one that loses is -1.
+- **ROI** (return on investment) is net units divided by units staked. Win 160 units on 1,000 staked and the ROI is 16%.
+
+Both matter. A big net-unit number on a huge volume of bets can hide a thin margin, and a high ROI on a tiny sample means nothing yet. Our season recaps show both, with the number of wagers next to them: in the 2025-26 NBA season, 16,949 wagers returned +2,135 net units on 13,059 units staked, a 16.3% ROI. The [2025-26 recap](../posts/2026-10/nba-2025-26-recap.qmd) breaks it down.
+
+## What a realistic ROI looks like
+
+On sides and totals, a long-run ROI of 3% to 5% is excellent, because the books' margin is small and the markets are efficient. Prop markets like first baskets and home runs are priced less carefully, so the achievable margin is wider, and the variance is far higher: a 16% ROI on first baskets arrives with weeks of losses between the wins. Any record should be judged on thousands of bets, not dozens, and the FAQ lists ours [season by season](../faq.qmd).
+
+## How our unit sizes are set
+
+Every play Slam Dunk Bets alerts carries a recommended size, such as 1.4u. The sizes come from the **Kelly criterion**, a formula that stakes more when the edge is larger and the odds shorter, and less on long prices. We scale the result so that the average play is about one unit, which means:
+
+- A **3-unit** recommendation marks one of the largest edges of the day.
+- A **0.3-unit** recommendation on a +5000 price is normal; long shots get small stakes on purpose.
+- For MLB we use half-Kelly, a more conservative version, because baseball margins are thinner.
+
+You do not have to bet every play, and you should not bet the units literally if they add up to more than you are comfortable with on a busy night. Treat the sizes as a ranking of edges and scale them to your own unit. [Part 4 of the first basket series](../posts/2024-10/predict-first-baskets-4.qmd) explains the sizing, and the [Slam Dunk Dashboard](../apps.qmd) includes a unit-sizing calculator.
+
+## Standardized units in our records
+
+Our published records use standardized units, with wager sizes normalized so the average recommended bet is about one unit, and ROI measured on units actually staked, with voided bets excluded. The first tracked season, 2021-22, was bet at flat stakes before Kelly sizing was introduced. All of this is spelled out in the [FAQ](../faq.qmd) and in each season recap's "How we counted" section.
+
+::: {.faq-item}
+### What is a unit in betting?
+
+A bettor's standard stake, chosen once and kept fixed, usually 1% to 2% of the bankroll. Results are then reported in units so they can be compared without dollar amounts.
+:::
+
+::: {.faq-item}
+### How much money is one unit?
+
+Whatever you set it to. $100, $10 and $1 are common. A record of +2,135 units means +$21,350 at a $10 unit and +$2,135 at a $1 unit.
+:::
+
+::: {.faq-item}
+### What is a good ROI in sports betting?
+
+A few percent on sides and totals over the long run. Prop markets allow more, with more variance; our NBA seasons have ranged from 8% to 17% on tens of thousands of wagers.
+:::
+
+::: {.faq-item}
+### Why do your alerts recommend different unit sizes?
+
+Because the edges differ. A Kelly-based formula stakes more on larger edges and shorter prices and less on long shots, scaled so the average play is about one unit.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+More guides: [what is a first basket bet](what-is-a-first-basket-bet.qmd) · [what do NRFI and YRFI mean](what-is-nrfi-yrfi.qmd) · [all guides](index.qmd).

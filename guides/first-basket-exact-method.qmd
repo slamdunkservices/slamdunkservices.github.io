@@ -1,0 +1,69 @@
+---
+title: "First Basket Exact Method, Explained: Player Plus How They Score"
+pagetitle: "First Basket Exact Method: Rules, Grading and Why the Odds Are Long"
+description: "First basket exact method is a bet on which player scores the first basket and how: two-pointer, three-pointer or free throw. How books grade and-ones and free throws, what the odds look like, and why a market that loses most of the time can still be profitable."
+date-modified: 2026-10-13
+image: /images/og/guides-first-basket-exact-method.png
+image-alt: "First basket exact method explained"
+---
+
+First basket exact method is the first basket market with one more condition: you pick the player *and* the way they score. Instead of "Jalen Brunson first basket" you bet "Jalen Brunson first basket, two-pointer" or "Jalen Brunson first basket, three-pointer". Getting the player right but the method wrong loses. The payoff is a much longer price.
+
+## The methods
+
+Books split the first score into some combination of:
+
+- **Two-pointer**: any made field goal inside the arc, including layups, dunks, hooks and jumpers.
+- **Three-pointer**: a made shot from behind the arc.
+- **Free throw**: offered only on first-*points* versions of the market, where a free throw can be the first score.
+
+Some books go further and offer the first basket *type* on its own (two, three or free throw, any player), and some offer the **by-team exact method**, the first scorer for one team with the method attached. The by-team version has two winners per game and shorter prices.
+
+## How it is graded
+
+- The method is whatever the official play-by-play records for the qualifying score. A shot from the corner with a foot on the line is a two-pointer because that is how it was scored, not because of where the shooter meant to be.
+- An **and-one** is a made two- or three-pointer with a foul. The field goal is the first basket, graded by its method; the free throw that follows is irrelevant.
+- If the first points of the game are **free throws**, a first-*field-goal* exact method market is still decided by the first made field goal that follows. A first-*points* exact method market pays the free throw option.
+- If your player does not play, the bet is void at nearly every book. If they play and someone else scores first, or they score first by the other method, it loses.
+
+## What the odds look like
+
+Prices start around +600 for a center's two-pointer and run past +5000 for a guard's three-pointer or a reserve's anything. The longest prices are where our biggest single wins have come from: a +8000 two-pointer by Dean Wade on New Year's Day 2024 returned 97 units on a 1.2-unit stake. The [2023-24 biggest hits](../posts/2024-10/nba-202324-biggest-hits.qmd) post lists ten like it.
+
+Because the prices are so long, the market loses far more often than it wins. In the 2025-26 NBA season, Slam Dunk Bets won 90 of 1,239 exact-method wagers, about 7%, and the market still returned a 40% profit on units staked, because the prices on the winners were longer than their real chance. The full record is on the [NBA first basket picks](../nba/first-basket-picks.qmd) page.
+
+## Why the market is beatable
+
+Exact method asks the book to price two things at once: who shoots first and what kind of shot it is. Books get the method part wrong more often than the player part. A big man's two-pointer is usually priced well, but a forward who often takes a catch-and-shoot three on the first possession, or a center who gets the opening lob, can be priced far below their real rate. Our models predict the method separately from the player and combine them; [Part 3 of the first basket series](../posts/2024-10/predict-first-baskets-3.qmd) explains the modeling, and the [team stats pages](../stats/nba-first-basket-leaders.qmd) show how each team's first baskets were actually scored.
+
+## Managing the variance
+
+Long odds mean long losing streaks, with wins arriving in bunches. The sensible approach is small, consistent stakes sized to the edge, which is what our unit sizes do: a 0.5-unit alert on a +4000 price is normal, and a 3-unit alert is rare. See [what is a unit](what-is-a-unit-in-sports-betting.qmd) for how the sizes are set, and do not judge the market on a month.
+
+::: {.faq-item}
+### What does "first basket exact method" mean?
+
+A bet on which player scores the game's first basket and how they score it: a two-pointer, a three-pointer, or at some books a free throw. Both parts have to be right.
+:::
+
+::: {.faq-item}
+### How is an and-one graded in an exact method market?
+
+As the field goal that was made. A layup plus a foul is a two-pointer; the free throw afterward does not change the result.
+:::
+
+::: {.faq-item}
+### What are typical first basket exact method odds?
+
+Roughly +600 to +1500 for a likely first scorer's most likely method, and +2000 to +10000 for everything else. Prices for the same player and method can differ by thousands of points between books.
+:::
+
+::: {.faq-item}
+### Is exact method a good bet?
+
+Only at the right price. It wins rarely, so it needs an edge that the model can quantify, small stakes, and a long enough sample to let the math work. Our record in the market, season by season, is on the [NBA first basket picks](../nba/first-basket-picks.qmd) page.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+More guides: [what is a first basket bet](what-is-a-first-basket-bet.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).

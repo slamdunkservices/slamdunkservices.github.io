@@ -1,0 +1,63 @@
+---
+title: "What Do NRFI and YRFI Mean? The First-Inning Bet, Explained"
+pagetitle: "What Is NRFI? No Run First Inning Betting Explained"
+description: "NRFI means no run in the first inning and YRFI means yes run. How the MLB first-inning bet is graded, what happens when a game is delayed or shortened, what the odds usually look like, how often NRFI actually hits, and what moves the price."
+date-modified: 2026-10-13
+image: /images/og/guides-what-is-nrfi-yrfi.png
+image-alt: "What do NRFI and YRFI mean"
+---
+
+NRFI stands for **no run first inning** and YRFI for **yes run first inning**. It is a two-sided bet on whether either team scores in the first inning of an MLB game. The bet settles after six outs, before most people have found their seats, which is a big part of why it has become one of the most popular baseball props.
+
+## How it is graded
+
+- **NRFI** wins if the first inning ends with the score 0-0. **YRFI** wins if either team scores at least one run in the top or bottom of the first.
+- Any run counts: earned, unearned, a wild pitch, a balk, a bases-loaded walk.
+- A run that scores on a play that ends the inning still counts if it crosses before the third out, following the normal scoring rules.
+- If the game is **postponed before the first pitch**, the bet is void. If a rain delay interrupts the first inning and the game resumes, the bet stands on the completed inning. If a game is suspended during the first inning and finished another day, rules vary by book; most settle on the completed inning whenever it is finished.
+- The market is not affected by anything that happens after the first inning, including a called game.
+
+## What the odds look like
+
+Both sides are usually priced between -105 and -135, with the favorite depending on the starters. Two aces in a pitcher's park push NRFI toward -140; two back-end starters at Coors Field push YRFI there instead. Unlike first baskets, there is no long shot: this is an even-money market where the edge is a few percentage points, so the price you take matters as much as the side.
+
+## How often NRFI hits
+
+Roughly half of all games. In the 2026 regular season, 49.4% of MLB games had no first-inning run, and the rate by team ran from about 38% to 60%. The spread by starting pitcher is much wider: the best starters keep the first inning clean in about 90% of starts, the worst in under 50%. The [MLB NRFI stats](../stats/mlb-nrfi-rates.qmd) page has every team and every starter with 15 or more starts, and each team's page has its home and away splits and month-by-month record.
+
+## What moves the price
+
+1. **The starting pitchers**, more than anything. First-inning run rates vary by starter far more than by team.
+2. **The top of each lineup**. Only the first three to five hitters on each side usually bat in the first, so a lineup change at the top matters and a change at the bottom does not.
+3. **The park and the weather**. Elevation, temperature and wind direction all move home run and run probability, and the first inning is played in the day's posted conditions.
+4. **Platoon splits**. A left-handed starter against a lineup stacked with right-handed hitters, or the reverse.
+
+Our model prices every pitch from Statcast data, simulates the game 20,000 times with that day's starters, lineups and weather, and compares the first-inning result to the posted prices. The tracked record is on the [MLB NRFI and YRFI picks](../mlb/nrfi-yrfi-picks.qmd) page, and [Part 2 of the home run series](../posts/2026-08/predict-home-runs-2.qmd) explains the simulation.
+
+::: {.faq-item}
+### What does NRFI mean in betting?
+
+No run first inning: a bet that neither team scores in the first inning of a baseball game. YRFI, yes run first inning, is the opposite side.
+:::
+
+::: {.faq-item}
+### What happens to an NRFI bet if the game is rained out?
+
+If the game is postponed before it starts, the bet is void and the stake is returned. If the first inning is completed, the bet settles on it regardless of what happens to the rest of the game.
+:::
+
+::: {.faq-item}
+### Does an unearned run count for YRFI?
+
+Yes. Any run that crosses the plate in the first inning, however it scores, settles YRFI.
+:::
+
+::: {.faq-item}
+### Is NRFI a good bet?
+
+It is a good bet at a good price, and a bad bet at a bad one. Because both sides are near even money, the edge comes from pricing the specific starters, lineups and conditions better than the book. A team's season NRFI rate is useful context but is already in the price.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+More guides: [what is a home run prop bet](what-is-a-home-run-prop-bet.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).

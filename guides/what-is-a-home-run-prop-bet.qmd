@@ -1,0 +1,71 @@
+---
+title: "What Is a Home Run Prop Bet? 1+ and 2+ Home Run Odds, Explained"
+pagetitle: "Home Run Prop Bets Explained: 1+ HR Odds, Grading and Voids"
+description: "A home run prop is a bet that a specific batter hits a home run in a game. How the 1+, 2+ and 3+ markets work, what the odds look like, what happens when a player is scratched or pinch-hits, why line shopping matters most on longshots, and what actually drives the price."
+date-modified: 2026-10-13
+image: /images/og/guides-what-is-a-home-run-prop-bet.png
+image-alt: "What is a home run prop bet"
+---
+
+A home run prop is a bet that a named batter hits at least one home run in a game. Books list it as "to hit a home run", "1+ HR" or "anytime home run", and it is available on every batter in every starting lineup, usually from a couple of hours after lineups post until first pitch. It is the market behind our [MLB home run picks](../mlb/home-run-picks.qmd).
+
+## The markets
+
+- **1+ home run**: the batter hits at least one home run. The standard market.
+- **2+ home runs**: at least two in the same game. Much longer prices, typically +1500 to +5000.
+- **3+ home runs**: rare and very long. A novelty at most books.
+- **First home run of the game**, **home run in the first inning** and team totals exist at some books but are thinner markets with less liquidity.
+
+## How it is graded
+
+- The bet wins on any home run credited to the batter in the box score, including an inside-the-park home run. A home run in extra innings counts.
+- If the batter **does not appear in the game**, the bet is void and refunded at nearly every book.
+- If the batter is not in the starting lineup but **pinch-hits or enters as a substitute**, most books grade the bet on whatever happens, so it stands and usually loses. A few void it. Check the market rules the first time you bet at a book.
+- A game that is **called early** settles on the official box score if the game is official, and is void at most books if it is not.
+- A rained-out game is void. A suspended game that is completed later is graded on the completed game at most books.
+
+## What the odds look like
+
+Prices for 1+ home run run from about +200 for an elite power hitter in a hitter's park on a windy day to +900 and beyond for a light-hitting middle infielder. The better the hitter and the better the conditions, the shorter the price. Because most batters homer in well under 20% of games, almost every price is a plus number, and almost every bettor loses most of their bets while waiting for the ones that pay.
+
+## Why line shopping matters here more than anywhere
+
+Home run prices for the same batter routinely differ by 100 to 300 points between books, and on the longer prices the difference between +600 and +800 is the difference between a bet with an edge and a bet without one. In 2026 our alerts compared 13 sportsbooks and exchanges on every batter and listed each book where a play qualified. [Part 3 of the home run series](../posts/2026-08/predict-home-runs-3.qmd) shows the math.
+
+## What drives the price
+
+1. **The batter**: raw power, contact quality, strikeout rate, and how they fare against the day's starter's pitch mix.
+2. **The starting pitcher** and, later in the game, the bullpen the batter is likely to face.
+3. **The park**: dimensions, elevation and the published park factors by handedness.
+4. **The weather**: temperature and, most of all, wind direction relative to that specific park's orientation. Wind "blowing out" means different things at Wrigley and at Oracle Park.
+5. **Lineup spot**, because the leadoff hitter gets one more plate appearance than the ninth hitter on an average night.
+
+Our model prices each pitch from Statcast data, simulates every game 20,000 times with that day's lineups and forecast, and alerts a play when a book's price is at least 2 percentage points better than the projection. The record since launch is on the [MLB home run picks](../mlb/home-run-picks.qmd) page, and the series starts with [Part 1: Pitch Data](../posts/2026-08/predict-home-runs-1.qmd).
+
+::: {.faq-item}
+### What does "1+ home run" mean?
+
+The batter hits at least one home run in the game. It is the same market as "to hit a home run" or "anytime home run".
+:::
+
+::: {.faq-item}
+### What happens to a home run bet if the player is scratched?
+
+If the batter does not appear in the game at all, the bet is void and the stake is refunded at nearly every sportsbook.
+:::
+
+::: {.faq-item}
+### Does a pinch-hit home run count?
+
+Yes, if the bet stands. At most books a bet on a player who starts on the bench stands once they enter the game, so a pinch-hit home run wins. A few books void bets on non-starters; check the rules.
+:::
+
+::: {.faq-item}
+### What are good home run odds?
+
+Any price longer than the batter's real chance that day. A 15% hitter is fair at about +567, so +700 is a bet and +450 is not, and the same batter's price differs by book. That is what our alerts check 30 times a day.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+More guides: [what do NRFI and YRFI mean](what-is-nrfi-yrfi.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).
