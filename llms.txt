@@ -1,9 +1,9 @@
 # Slam Dunk Bets
 
-> Slam Dunk Bets (Slam Dunk Betting Services LLC, founded 2020) is a subscription sports betting picks and data service run by data scientists and engineers. We build machine learning models that project NBA and WNBA first-basket and other first-event props (about 15 markets) and MLB home runs and NRFI/YRFI (no/yes runs in the first inning). Projections and sportsbook odds refresh every 30 minutes, plays post automatically to a Discord server with recommended unit sizes, and every recommended bet is tracked and graded publicly: 8,000+ net units since the 2021-22 NBA season.
+> Slam Dunk Bets (Slam Dunk Betting Services LLC, founded 2020) is a subscription sports betting picks and data service run by data scientists and engineers. We build machine learning models that project NBA and WNBA first-basket and other first-event props (about 15 markets), MLB home runs and NRFI/YRFI (no/yes runs in the first inning), and NFL and NHL scorer props (anytime and first touchdown, first and anytime goal scorer). Projections and sportsbook odds refresh every 30 minutes, plays post automatically to a Discord server with recommended unit sizes, and every recommended bet is tracked and graded publicly: 8,000+ net units since the 2021-22 NBA season.
 
 Key facts:
-- Markets: NBA and WNBA first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist/rebound/block/steal, and more; MLB home runs by batter and NRFI/YRFI.
+- Markets: NBA and WNBA first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist/rebound/block/steal, and more; MLB home runs by batter and NRFI/YRFI; NFL anytime touchdown scorer and first touchdown scorer; NHL first goal scorer and anytime goal scorer.
 - Method: ensembles of machine learning models on play-by-play, Statcast, lineup and odds data; a play is flagged when a sportsbook price is at least 1.5 percentage points better than our projected probability (2 points for MLB home runs); unit sizes are Kelly-based (half-Kelly for MLB), normalized so the average play is about 1 unit.
 - Odds compared across 13 sportsbooks and prediction exchanges (DraftKings, FanDuel, BetMGM, Caesars, bet365, Fanatics, BetRivers, Hard Rock, Circa, theScore, Kalshi, Novig, ProphetX).
 - Delivery: Discord server (picks, alerts, daily ROI receipts) plus the Slam Dunk Dashboard web app at https://app.slamdunk.bet (sign in with Discord or Google).
@@ -31,6 +31,7 @@ Key facts:
 - [MLB picks](https://slamdunk.bet/mlb/): home runs, NRFI/YRFI, newer markets, alert schedule
   - [MLB home run picks](https://slamdunk.bet/mlb/home-run-picks.html): +142 units since July 16, 2026 (5.3%)
   - [MLB NRFI and YRFI picks](https://slamdunk.bet/mlb/nrfi-yrfi-picks.html): +20 units since July 16, 2026 (3.3%)
+- NFL (anytime and first touchdown scorer) and NHL (first and anytime goal scorer) picks post to the same Discord under the same subscription; no market pages or season records yet
 
 ## Stats (public history behind the picks, rebuilt from play-by-play and line scores)
 - [Stats hub](https://slamdunk.bet/stats/): what is covered and where it comes from

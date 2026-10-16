@@ -1,24 +1,32 @@
 <?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="200" viewBox="0 0 520 200">
-  <rect width="520" height="200" fill="#0a0a0a"></rect>
-  <path d="M 55 150 Q 250 -5 436 68" stroke="#39ff14" stroke-width="3" fill="none" stroke-dasharray="7.2 4.8" opacity="0.75"></path>
-  <defs><clipPath id="bball-456-68"><circle cx="456" cy="68" r="15.6"></circle></clipPath></defs>
-  <circle cx="456" cy="68" r="15.6" fill="none" stroke="#39ff14" stroke-width="1.56"></circle>
-  <g clip-path="url(#bball-456-68)">
-    <g transform="translate(456,68) scale(0.027177700348432057)" fill="none" stroke="#39ff14" stroke-width="57.4" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M-438 370 C-313 205 -158 43 -3 -104 C146 -246 302 -349 460 -359"></path>
-      <path d="M-574 13 C-485 93 -331 55 -256 -38 C-185 -126 -187 -294 -15 -595"></path>
-      <path d="M-442 -385 C-489 -264 -450 -126 -343 19 C-220 186 -7 366 194 434 C261 457 324 458 383 420"></path>
-      <path d="M569 -17 C450 94 260 125 60 129 C-34 131 -110 153 -155 211 C-208 280 -194 394 -71 573"></path>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
+  <defs>
+    <g id="basketball" fill="none" stroke-width="1.7" stroke-linecap="round">
+      <circle r="14"></circle>
+      <path d="M0 -14V14M-14 0H14M-9.9 -9.9C-3.5 -3.5 -3.5 3.5 -9.9 9.9M9.9 -9.9C3.5 -3.5 3.5 3.5 9.9 9.9"></path>
     </g>
-  </g>
-  <path d="M 55 150 Q 250 72 436 134" stroke="#39ff14" stroke-width="3" fill="none" stroke-dasharray="7.2 4.8" opacity="0.75"></path>
-  <circle cx="456" cy="134" r="15.6" fill="none" stroke="#39ff14" stroke-width="1.56"></circle>
-  <g transform="translate(456,134) scale(0.156)" fill="none" stroke="#39ff14" stroke-width="10.0" stroke-linecap="round" stroke-dasharray="7 9">
-    <path d="M 60 -80 C 26 -30 26 30 60 80"></path>
-    <path d="M -60 -80 C -26 -30 -26 30 -60 80"></path>
-  </g>
-  <text x="260" y="128" text-anchor="middle" font-family="&#39;Barlow Condensed&#39;, sans-serif" font-size="72" font-weight="500" letter-spacing="2" fill="#ffffff">SLAM DUNK</text>
-  <text x="260" y="164" text-anchor="middle" font-family="&#39;Barlow Condensed&#39;, sans-serif" font-size="30" font-weight="700" letter-spacing="16" fill="#39ff14">BETS</text>
-  <line x1="98" y1="176" x2="422" y2="176" stroke="#39ff14" stroke-width="1.5" opacity="0.35"></line>
+    <g id="football" fill="none" stroke-width="1.7" stroke-linecap="round" transform="rotate(-32)">
+      <ellipse rx="16" ry="9.5"></ellipse>
+      <path d="M-5.5 0H5.5M-3.3 -2.4V2.4M0 -2.4V2.4M3.3 -2.4V2.4"></path>
+      <path d="M-12.5 -4.5Q-10.5 0 -12.5 4.5M12.5 -4.5Q10.5 0 12.5 4.5"></path>
+    </g>
+    <g id="baseball" fill="none" stroke-width="1.7" stroke-linecap="round">
+      <circle r="14"></circle>
+      <path d="M-9 -11C-4 -5 -4 5 -9 11M9 -11C4 -5 4 5 9 11" stroke-dasharray="1.6 2.2"></path>
+    </g>
+    <g id="puck" fill="none" stroke-width="1.7" stroke-linejoin="round">
+      <ellipse cy="-4.5" rx="14" ry="5"></ellipse>
+      <path d="M-14 -4.5V4.5A14 5 0 0 0 14 4.5V-4.5"></path>
+    </g>
+  </defs>
+  <rect width="600" height="220" fill="#0a0a0a"></rect>
+  <text x="300" y="96" text-anchor="middle" font-family="'Barlow Condensed', sans-serif" font-size="72" font-weight="500" letter-spacing="2" fill="#ffffff">SLAM DUNK</text>
+  <path d="M48 130H186" stroke="#39ff14" stroke-width="3" fill="none" stroke-dasharray="7.2 4.8" opacity="0.6"></path>
+  <path d="M414 130H552" stroke="#39ff14" stroke-width="3" fill="none" stroke-dasharray="7.2 4.8" opacity="0.6"></path>
+  <use href="#basketball" transform="translate(216,130)" stroke="#39ff14"></use>
+  <use href="#football" transform="translate(272,130)" stroke="#39ff14"></use>
+  <use href="#baseball" transform="translate(328,130)" stroke="#39ff14"></use>
+  <use href="#puck" transform="translate(384,132)" stroke="#39ff14"></use>
+  <text x="300" y="186" text-anchor="middle" font-family="'Barlow Condensed', sans-serif" font-size="30" font-weight="700" letter-spacing="16" fill="#39ff14">BETS</text>
+  <text x="300" y="208" text-anchor="middle" font-family="'Barlow Condensed', sans-serif" font-size="13" font-weight="700" letter-spacing="4" fill="#b0b0b0">NBA · WNBA · MLB · NFL · NHL</text>
 </svg>

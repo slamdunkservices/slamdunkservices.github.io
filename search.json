@@ -32,7 +32,7 @@
     "href": "wnba/index.html#what-an-alert-looks-like",
     "title": "WNBA Prop Picks: First Basket, Team to Score First & More",
     "section": "What an alert looks like",
-    "text": "What an alert looks like\nAlerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book’s price and line movement, are in the Slam Dunk Dashboard.\n\nWhich sportsbooks do the WNBA picks cover?\nFanDuel, DraftKings, Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars. FanDuel and DraftKings carried about 86% of our 2026 volume. Each alert lists every book where the play qualifies.\n\n\nDo WNBA picks run all season?\nYes: from opening night through the Finals, including the Commissioner’s Cup. There are no picks on days with no games, and WNBA picks and NBA picks run at the same time when the seasons overlap in May and June.\n\n\nIs one subscription for both the NBA and the WNBA?\nYes. One subscription covers every league we project: NBA, WNBA and MLB.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
+    "text": "What an alert looks like\nAlerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book’s price and line movement, are in the Slam Dunk Dashboard.\n\nWhich sportsbooks do the WNBA picks cover?\nFanDuel, DraftKings, Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars. FanDuel and DraftKings carried about 86% of our 2026 volume. Each alert lists every book where the play qualifies.\n\n\nDo WNBA picks run all season?\nYes: from opening night through the Finals, including the Commissioner’s Cup. There are no picks on days with no games, and WNBA picks and NBA picks run at the same time when the seasons overlap in May and June.\n\n\nIs one subscription for both the NBA and the WNBA?\nYes. One subscription covers every league we project: NBA, WNBA, MLB, NFL and NHL.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
   },
   {
     "objectID": "terms.html",
@@ -2377,7 +2377,7 @@
     "href": "faq.html#who-are-you-nerds",
     "title": "FAQ",
     "section": "Who are you nerds?",
-    "text": "Who are you nerds?\nWe’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game — plus who’ll go deep and whether the first inning scores for every MLB game. Slam Dunk Bets has been at this since 2020; more on the About page."
+    "text": "Who are you nerds?\nWe’re a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they’ll do it, for every NBA and WNBA regular season and playoff game — plus who’ll go deep and whether the first inning scores for every MLB game, and who finds the end zone or the back of the net for every NFL and NHL game. Slam Dunk Bets has been at this since 2020; more on the About page."
   },
   {
     "objectID": "faq.html#how-much-does-it-cost",
@@ -2398,7 +2398,7 @@
     "href": "faq.html#what-props-do-you-project",
     "title": "FAQ",
     "section": "What props do you project?",
-    "text": "What props do you project?\nHere’s the current list, but we’re always adding more when new props become available! Each market has its own page with the track record by season: NBA picks, WNBA picks and MLB picks.\nFor NBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nfirst basket by team exact method\nwin tipoff\nplayer to not score first basket\nteam to score first\nteam to score first exact method\nfirst assist\nfirst block\nfirst rebound\nfirst steal\n\nFor WNBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nteam to score first\n\nFor MLB:\n\nhome runs (by batter)\nno runs first inning (NRFI) / yes runs first inning (YRFI)"
+    "text": "What props do you project?\nHere’s the current list, but we’re always adding more when new props become available! Each market has its own page with the track record by season: NBA picks, WNBA picks and MLB picks.\nFor NBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nfirst basket by team exact method\nwin tipoff\nplayer to not score first basket\nteam to score first\nteam to score first exact method\nfirst assist\nfirst block\nfirst rebound\nfirst steal\n\nFor WNBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nteam to score first\n\nFor MLB:\n\nhome runs (by batter)\nno runs first inning (NRFI) / yes runs first inning (YRFI)\n\nFor NFL:\n\nanytime touchdown scorer\nfirst touchdown scorer\n\nFor NHL:\n\nfirst goal scorer\nanytime goal scorer"
   },
   {
     "objectID": "faq.html#any-notable-first-basket-props-you-dont-project",
@@ -2475,7 +2475,7 @@
     "href": "about.html",
     "title": "About Slam Dunk Bets",
     "section": "",
-    "text": "Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game and home runs and first-inning scoring for every MLB game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes."
+    "text": "Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game, home runs and first-inning scoring for every MLB game, and touchdown and goal scorers for every NFL and NHL game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes."
   },
   {
     "objectID": "about.html#how-it-started",
@@ -2489,7 +2489,7 @@
     "href": "about.html#what-we-model",
     "title": "About Slam Dunk Bets",
     "section": "What we model",
-    "text": "What we model\n\nNBA and WNBA: first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist, rebound, block and steal, and more, for every regular season and playoff game.\nMLB: home runs by batter and NRFI/YRFI (no or yes runs in the first inning), for every game, since July 2026.\n\nThe models are ensembles trained on play-by-play, Statcast, lineup and odds data. We flag a play when a sportsbook’s price is meaningfully better than our projected probability and size it with a Kelly-based formula. We wrote the whole pipeline up in two series: How Do You Predict First Baskets? and How Do We Predict Home Runs?"
+    "text": "What we model\n\nNBA and WNBA: first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist, rebound, block and steal, and more, for every regular season and playoff game.\nMLB: home runs by batter and NRFI/YRFI (no or yes runs in the first inning), for every game, since July 2026.\nNFL: anytime touchdown scorer and first touchdown scorer, for every game.\nNHL: first goal scorer and anytime goal scorer, for every game.\n\nThe models are ensembles trained on play-by-play, Statcast, lineup and odds data. We flag a play when a sportsbook’s price is meaningfully better than our projected probability and size it with a Kelly-based formula. We wrote the whole pipeline up in two series: How Do You Predict First Baskets? and How Do We Predict Home Runs?"
   },
   {
     "objectID": "about.html#how-we-keep-score",
@@ -2676,42 +2676,42 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
+    "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "",
-    "text": "Slam Dunk Bets is a subscription picks service run by data scientists and engineers. Our machine learning models project first-basket props for every NBA and WNBA game and home runs and NRFI/YRFI for every MLB game, compare them to sportsbook prices every 30 minutes, and post the edges to Discord with unit sizes. Every bet is tracked and graded in public.\n\n\nSubscribe — Free First Month"
+    "text": "Slam Dunk Bets is a subscription picks service run by data scientists and engineers. Our machine learning models project first-basket props for every NBA and WNBA game, home runs and NRFI/YRFI for every MLB game, and touchdown and goal scorers for every NFL and NHL game, compare them to sportsbook prices every 30 minutes, and post the edges to Discord with unit sizes. Every bet is tracked and graded in public.\n\n\nSubscribe — Free First Month"
   },
   {
     "objectID": "index.html#what-you-get",
     "href": "index.html#what-you-get",
-    "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
+    "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "What you get 🧐",
-    "text": "What you get 🧐\n\nBest-in-class projections for every NBA, WNBA & MLB game — first baskets, home runs, and more\nNBA, WNBA & MLB prop data and picks across a growing list of markets\nAutomatic updates every 30 minutes — projections refresh all day\nDiscord access with daily ROI receipts, tracked since the 2021–22 NBA season\nDashboards & data to dive deeper for more edges and plays\n\nBrowse the picks by sport: NBA · WNBA · MLB"
+    "text": "What you get 🧐\n\nBest-in-class projections for every NBA, WNBA, MLB, NFL & NHL game — first baskets, home runs, touchdown and goal scorers, and more\nNBA, WNBA, MLB, NFL & NHL prop data and picks across a growing list of markets\nAutomatic updates every 30 minutes — projections refresh all day\nDiscord access with daily ROI receipts, tracked since the 2021–22 NBA season\nDashboards & data to dive deeper for more edges and plays\n\nBrowse the picks by sport: NBA · WNBA · MLB"
   },
   {
     "objectID": "index.html#how-it-works",
     "href": "index.html#how-it-works",
-    "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
+    "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "How it works 🛠️",
-    "text": "How it works 🛠️\n\n\n\n\n1. Model the slate\n\nProjections for every NBA, WNBA, and MLB game, built from the same stat foundation we’ve used since 2022.\n\n\n\n\n\n2. Refresh every 30 minutes\n\nPicks update automatically as lines move — no stale numbers, no guesswork.\n\n\n\n\n\n3. Post picks in Discord\n\nDaily picks and ROI receipts, straight to your phone through the Discord community."
+    "text": "How it works 🛠️\n\n\n\n\n1. Model the slate\n\nProjections for every NBA, WNBA, MLB, NFL, and NHL game, built from the same stat foundation we’ve used since 2022.\n\n\n\n\n\n2. Refresh every 30 minutes\n\nPicks update automatically as lines move — no stale numbers, no guesswork.\n\n\n\n\n\n3. Post picks in Discord\n\nDaily picks and ROI receipts, straight to your phone through the Discord community."
   },
   {
     "objectID": "index.html#units-of-roi-since-202122",
     "href": "index.html#units-of-roi-since-202122",
-    "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
+    "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "8,000+ units of ROI since 2021–22 💰",
     "text": "8,000+ units of ROI since 2021–22 💰\nWe’ve tracked every pick since the 2021–22 NBA season, and the full cumulative chart is still climbing.\n\n\n\nNet units across every tracked NBA, WNBA and MLB pick, October 2021 through October 5, 2026. The 2022-23 NBA season is drawn at +1,610 units; see the FAQ for every season."
   },
   {
     "objectID": "index.html#hall-of-fame",
     "href": "index.html#hall-of-fame",
-    "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
+    "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "Hall of Fame 🏆",
     "text": "Hall of Fame 🏆\nReal green tickets from our users, updated daily on Discord."
   },
   {
     "objectID": "index.html#ready-to-cash-in",
     "href": "index.html#ready-to-cash-in",
-    "title": "NBA, WNBA & MLB picks, backed by 8,000+ units of ROI since 2021–22.",
+    "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "Ready to cash in?",
     "text": "Ready to cash in?\nSubscribe — Free First Month\nStill have questions? See the FAQ"
   },
@@ -2755,7 +2755,7 @@
     "href": "mlb/index.html#when-mlb-picks-post",
     "title": "MLB Prop Picks: Home Runs, NRFI & YRFI",
     "section": "When MLB picks post",
-    "text": "When MLB picks post\nModels retrain every Monday. Every morning at 6am ET there is a full refresh, then a tick every 30 minutes from 7am to 10pm ET: new pitch data, posted lineups and probable starters, an hourly forecast for every park, and a re-simulation of every game whose inputs changed. Projections freeze at first pitch; there is no in-game repricing.\n\nWhich sportsbooks do the MLB picks cover?\nbet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock and theScore, plus the Kalshi, Novig and ProphetX exchanges. Exchange prices appear in the tables for reference but are not counted as official plays, because the posted price is often not available in size.\n\n\nDoes weather really matter for home run picks?\nYes. Every forecast is resolved against the compass bearing from home plate to center field in that park, so “wind blowing out” means blowing out in that stadium specifically. Temperature, elevation and roof status are inputs too. Domes are modeled as 72°F and windless.\n\n\nIs baseball included in the regular subscription?\nYes. One subscription covers MLB, NBA and WNBA picks, the Discord and the Dashboard.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
+    "text": "When MLB picks post\nModels retrain every Monday. Every morning at 6am ET there is a full refresh, then a tick every 30 minutes from 7am to 10pm ET: new pitch data, posted lineups and probable starters, an hourly forecast for every park, and a re-simulation of every game whose inputs changed. Projections freeze at first pitch; there is no in-game repricing.\n\nWhich sportsbooks do the MLB picks cover?\nbet365, BetMGM, BetRivers, Caesars, Circa, DraftKings, Fanatics, FanDuel, Hard Rock and theScore, plus the Kalshi, Novig and ProphetX exchanges. Exchange prices appear in the tables for reference but are not counted as official plays, because the posted price is often not available in size.\n\n\nDoes weather really matter for home run picks?\nYes. Every forecast is resolved against the compass bearing from home plate to center field in that park, so “wind blowing out” means blowing out in that stadium specifically. Temperature, elevation and roof status are inputs too. Domes are modeled as 72°F and windless.\n\n\nIs baseball included in the regular subscription?\nYes. One subscription covers MLB, NBA, WNBA, NFL and NHL picks, the Discord and the Dashboard.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
   },
   {
     "objectID": "nba/first-assist-rebound-three-picks.html",
@@ -4820,14 +4820,14 @@
     "href": "subscribe.html",
     "title": "Subscribe to Slam Dunk Bets",
     "section": "",
-    "text": "Daily NBA, WNBA, and MLB picks — first baskets, props, home runs, and NRFI/YRFI — delivered on Discord, updated every 30 minutes during game days."
+    "text": "Daily NBA, WNBA, MLB, NFL, and NHL picks — first baskets, props, home runs, NRFI/YRFI, touchdown and goal scorers — delivered on Discord, updated every 30 minutes during game days."
   },
   {
     "objectID": "subscribe.html#whats-included",
     "href": "subscribe.html#whats-included",
     "title": "Subscribe to Slam Dunk Bets",
     "section": "What’s included",
-    "text": "What’s included\n\nDiscord server access with all picks, updates, and community chat\nFirst-basket projections for every NBA & WNBA game, plus home-run and NRFI/YRFI projections for MLB\nFull prop markets — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; and more. See the NBA, WNBA and MLB pages for every market and its track record\nAuto-updates every 30 minutes as lines move\nDaily ROI tracking — every bet logged, receipts on-server\nThe Slam Dunk Dashboard at app.slamdunk.bet: every edge, every book’s price, line movement, and the full graded record"
+    "text": "What’s included\n\nDiscord server access with all picks, updates, and community chat\nFirst-basket projections for every NBA & WNBA game, home-run and NRFI/YRFI projections for MLB, and touchdown and goal scorer projections for every NFL & NHL game\nFull prop markets — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; anytime and first touchdown for football; first and anytime goal scorer for hockey; and more. See the NBA, WNBA and MLB pages for every market and its track record\nAuto-updates every 30 minutes as lines move\nDaily ROI tracking — every bet logged, receipts on-server\nThe Slam Dunk Dashboard at app.slamdunk.bet: every edge, every book’s price, line movement, and the full graded record"
   },
   {
     "objectID": "subscribe.html#pricing",
