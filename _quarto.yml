@@ -26,7 +26,7 @@ lang: en
 website:
   title: "Slam Dunk Bets"
   site-url: https://slamdunk.bet
-  description: "Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22."
+  description: "Model-driven NBA, WNBA, MLB, NFL and NHL prop picks from a team of data scientists: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22."
   image: images/brand/og-default.png
   favicon: images/brand/favicon-32.svg
   google-analytics: "G-66MCY7L0V7"

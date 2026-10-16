@@ -31,7 +31,7 @@
 
 local SITE = "https://slamdunk.bet"
 local SITE_NAME = "Slam Dunk Bets"
-local SITE_DESC = "Model-driven NBA, WNBA and MLB prop picks from a team of data scientists: first baskets, home runs and NRFI/YRFI, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22."
+local SITE_DESC = "Model-driven NBA, WNBA, MLB, NFL and NHL prop picks from a team of data scientists: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22."
 local DEFAULT_IMAGE = SITE .. "/images/brand/og-default.png"
 local LOGO = SITE .. "/images/brand/logo-square.png"
 local ORG_ID = SITE .. "/#organization"

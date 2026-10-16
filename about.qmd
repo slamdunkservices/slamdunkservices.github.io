@@ -1,12 +1,13 @@
 ---
 title: "About Slam Dunk Bets"
-pagetitle: "About: Data Scientists Modeling NBA, WNBA & MLB Props"
-description: "Slam Dunk Bets is a sports betting picks and data service founded in 2020 by data scientists and engineers. We model first-basket props for every NBA and WNBA game and home runs and NRFI/YRFI for every MLB game, and we publish every graded bet."
+pagetitle: "About: Data Scientists Modeling NBA, WNBA, MLB, NFL & NHL Props"
+description: "Slam Dunk Bets is a sports betting picks and data service founded in 2020 by data scientists and engineers. We model first-basket props for every NBA and WNBA game, home runs and NRFI/YRFI for every MLB game, and touchdown and goal scorers for every NFL and NHL game, and we publish every graded bet."
+date-modified: 2026-10-16
 image: /images/og/about.png
 image-alt: "About Slam Dunk Bets: data scientists and engineers modeling props since 2020 and publishing every graded bet"
 ---
 
-Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game and home runs and first-inning scoring for every MLB game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes.
+Slam Dunk Bets is a sports betting picks and data service run by a small team of data scientists and engineers. We build machine learning models that project first-event props for every NBA and WNBA game, home runs and first-inning scoring for every MLB game, and touchdown and goal scorers for every NFL and NHL game, compare those projections to sportsbook prices every 30 minutes, and post the edges to our subscribers with recommended unit sizes.
 
 ## How it started
 
@@ -16,6 +17,8 @@ We started predicting first baskets in 2020, right as sports betting went legal 
 
 - **NBA and WNBA**: first basket (points and field goals), first basket exact method, first basket by team, team to score first, win tipoff, first assist, rebound, block and steal, and more, for every regular season and playoff game.
 - **MLB**: home runs by batter and NRFI/YRFI (no or yes runs in the first inning), for every game, since July 2026.
+- **NFL**: anytime touchdown scorer and first touchdown scorer, for every game.
+- **NHL**: first goal scorer and anytime goal scorer, for every game.
 
 The models are ensembles trained on play-by-play, Statcast, lineup and odds data. We flag a play when a sportsbook's price is meaningfully better than our projected probability and size it with a Kelly-based formula. We wrote the whole pipeline up in two series: [How Do You Predict First Baskets?](posts/2024-10/predict-first-baskets-1.qmd) and [How Do We Predict Home Runs?](posts/2026-08/predict-home-runs-1.qmd)
 

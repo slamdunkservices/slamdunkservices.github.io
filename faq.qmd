@@ -1,8 +1,8 @@
 ---
 title: "FAQ"
 pagetitle: "FAQ: Props, Pricing, ROI and Methods"
-description: "Who we are, what Slam Dunk Bets costs, which NBA, WNBA and MLB props we project, how we track ROI (8,000+ net units since 2021-22), whether it's legal where you live, where the data comes from, and how the models work."
-date-modified: 2026-10-06
+description: "Who we are, what Slam Dunk Bets costs, which NBA, WNBA, MLB, NFL and NHL props we project, how we track ROI (8,000+ net units since 2021-22), whether it's legal where you live, where the data comes from, and how the models work."
+date-modified: 2026-10-16
 image: /images/og/faq.png
 image-alt: "Slam Dunk Bets FAQ: 8,000+ net units since 2021-22; pricing, markets, ROI by season, data and models"
 ---
@@ -12,7 +12,7 @@ Straight answers about the service. Still stuck? Hit the [contact page](contact.
 ::: {.faq-item}
 ## Who are you nerds?
 
-We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game — plus who'll go deep and whether the first inning scores for every MLB game. Slam Dunk Bets has been at this since 2020; more on the [About page](about.qmd).
+We're a bunch of data scientists and engineers who use machine learning and artificial intelligence to project who will score first, and how they'll do it, for every NBA and WNBA regular season and playoff game — plus who'll go deep and whether the first inning scores for every MLB game, and who finds the end zone or the back of the net for every NFL and NHL game. Slam Dunk Bets has been at this since 2020; more on the [About page](about.qmd).
 :::
 
 ::: {.faq-item}
@@ -58,6 +58,16 @@ For MLB:
 
 -   home runs (by batter)
 -   no runs first inning (NRFI) / yes runs first inning (YRFI)
+
+For NFL:
+
+-   anytime touchdown scorer
+-   first touchdown scorer
+
+For NHL:
+
+-   first goal scorer
+-   anytime goal scorer
 :::
 
 ::: {.faq-item}
