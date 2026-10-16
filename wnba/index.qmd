@@ -48,7 +48,7 @@ Yes: from opening night through the Finals, including the Commissioner's Cup. Th
 ::: {.faq-item}
 ### Is one subscription for both the NBA and the WNBA?
 
-Yes. One subscription covers every league we project: NBA, WNBA, [MLB](../mlb/index.qmd), NFL and NHL.
+Yes. One subscription covers every league we project: NBA, WNBA, [MLB](../mlb/index.qmd), [NFL](../nfl/index.qmd) and [NHL](../nhl/index.qmd).
 :::
 
 [Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}

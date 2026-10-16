@@ -22,7 +22,7 @@ Daily NBA, WNBA, MLB, NFL, and NHL picks — first baskets, props, home runs, NR
 
 - **Discord server access** with all picks, updates, and community chat
 - **First-basket projections** for every NBA & WNBA game, **home-run and NRFI/YRFI projections** for MLB, and **touchdown and goal scorer projections** for every NFL & NHL game
-- **Full prop markets** — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; anytime and first touchdown for football; first and anytime goal scorer for hockey; and&nbsp;more. See the [NBA](nba/index.qmd), [WNBA](wnba/index.qmd) and [MLB](mlb/index.qmd) pages for every market and its track record
+- **Full prop markets** — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; anytime and first touchdown for football; first and anytime goal scorer for hockey; and&nbsp;more. See the [NBA](nba/index.qmd), [WNBA](wnba/index.qmd), [MLB](mlb/index.qmd), [NFL](nfl/index.qmd) and [NHL](nhl/index.qmd) pages for every market and its track record
 - **Auto-updates every 30 minutes** as lines move
 - **Daily ROI tracking** — every bet logged, receipts on-server
 - **The Slam Dunk Dashboard** at [app.slamdunk.bet](https://app.slamdunk.bet): every edge, every book's price, line movement, and the full graded record

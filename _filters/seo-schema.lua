@@ -7,7 +7,7 @@
     posts/**         -> + BlogPosting (author = the founder Person, publisher = Organization) + BreadcrumbList
     faq.qmd          -> + FAQPage built from ::: {.faq-item} divs (first header = question, rest = answer)
     subscribe.qmd    -> + WebPage + Product/Offer[] from the `schema-offers:` frontmatter list
-    nba/, wnba/, mlb/ -> + WebPage + BreadcrumbList (Home > <sport> Picks > page); a folder's index.qmd is the hub
+    nba/, wnba/, mlb/, nfl/, nhl/ -> + WebPage + BreadcrumbList (Home > <sport> Picks > page); a folder's index.qmd is the hub
     stats/, guides/  -> same shape (Home > Stats > page, including stats/<league>/<team> pages)
     Pages with a BreadcrumbList also get a visible .breadcrumbs trail at the top of the body (styled in styles.css).
     everything else  -> + WebPage
@@ -99,7 +99,8 @@ local function page_url(rel)
 end
 
 -- Sport hubs: folder -> breadcrumb label. Pages in these folders get Home > hub > page breadcrumbs.
-local HUBS = { nba = "NBA Picks", wnba = "WNBA Picks", mlb = "MLB Picks", stats = "Stats", guides = "Guides" }
+local HUBS = { nba = "NBA Picks", wnba = "WNBA Picks", mlb = "MLB Picks", nfl = "NFL Picks", nhl = "NHL Picks",
+               stats = "Stats", guides = "Guides" }
 
 -- Resolve /images/.., ../../images/.., images/.. (relative to the page's folder) to an absolute URL.
 local function abs_url(p, rel)
@@ -151,7 +152,7 @@ local function org_node()
     },
     areaServed = "US",
     knowsAbout = { "NBA first basket props", "WNBA first basket props", "MLB home run props", "NRFI and YRFI betting",
-                   "sports betting models", "Kelly criterion bet sizing" },
+                   "NFL touchdown scorer props", "NHL goal scorer props", "sports betting models", "Kelly criterion bet sizing" },
     logo = { ["@type"] = "ImageObject", url = LOGO, width = 512, height = 512 },
     image = DEFAULT_IMAGE,
     sameAs = {

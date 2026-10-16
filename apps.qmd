@@ -2,7 +2,8 @@
 title: "Slam Dunk Dashboard"
 subtitle: "All our plays and data, plus historical tracking and a unit-sizing calculator"
 pagetitle: "Slam Dunk Dashboard: Live Prop Edges, Book Lines & Model Tracking"
-description: "The Slam Dunk Dashboard shows every NBA, WNBA and MLB prop we project, ranked by edge, with each book's line, our fair line, recommended units, line-movement charts and the full graded record. Included with every subscription."
+description: "The Slam Dunk Dashboard shows every NBA, WNBA, MLB, NFL and NHL prop we project, ranked by edge, with each book's line, our fair line, recommended units, line-movement charts and the full graded record. Included with every subscription."
+date-modified: 2026-10-16
 image: images/apps/markets.png
 image-alt: "Slam Dunk Dashboard markets board listing props with book lines, model lines, edges, and units"
 ---
@@ -42,7 +43,7 @@ The Slam Dunk Dashboard is the web app that comes with every subscription. It sh
     </div>
     <div class="carousel-item">
       <img class="app-carousel-image" src="images/apps/home-runs.png" alt="Slam Dunk Dashboard MLB home runs markets board">
-      <p class="app-carousel-desc"><strong>All three leagues</strong> — MLB home-run and first-inning (NRFI/YRFI) markets sit right alongside the NBA and WNBA boards.</p>
+      <p class="app-carousel-desc"><strong>Every league</strong> — MLB home-run and first-inning (NRFI/YRFI) markets sit right alongside the NBA and WNBA boards, with NFL touchdown-scorer and NHL goal-scorer boards on the same tabs.</p>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#appCarousel" data-bs-slide="prev" aria-label="Previous screenshot">

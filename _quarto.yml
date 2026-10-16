@@ -54,6 +54,11 @@ website:
             href: mlb/home-run-picks.qmd
           - text: "MLB NRFI / YRFI picks"
             href: mlb/nrfi-yrfi-picks.qmd
+          - text: "---"
+          - text: "NFL touchdown scorer picks"
+            href: nfl/index.qmd
+          - text: "NHL goal scorer picks"
+            href: nhl/index.qmd
       - text: "Stats"
         menu:
           - text: "All stats"

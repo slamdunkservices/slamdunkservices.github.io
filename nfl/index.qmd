@@ -1,0 +1,49 @@
+---
+title: "NFL Prop Picks: Anytime & First Touchdown Scorer"
+pagetitle: "NFL Prop Picks: Anytime & First Touchdown Scorer"
+description: "Model-driven NFL touchdown scorer picks for every game: anytime touchdown and first touchdown scorer, posted to Discord with unit sizes and every bet graded. New for the 2026 season, so the season record is still being graded and will post here once the sample is a full season."
+image: /images/og/nfl-picks.png
+image-alt: "Slam Dunk Bets NFL picks: anytime and first touchdown scorer, grading in progress for the 2026 season"
+date-modified: 2026-10-16
+---
+
+Slam Dunk Bets added football for the 2026 NFL season. Our models project the chance that each player scores a touchdown, and scores the first one, in every game. Those projections are compared to sportsbook prices on game days, and the edges post to Discord with recommended unit sizes, the same way our [NBA](../nba/index.qmd), [WNBA](../wnba/index.qmd) and [MLB](../mlb/index.qmd) picks do. Every recommended bet is graded from the first alert.
+
+## Markets we cover
+
+- **Anytime touchdown scorer**: a player to score at least one touchdown, rushing or receiving, in the game.
+- **First touchdown scorer**: a player to score the game's first touchdown.
+
+Both markets post for every game on the slate, with every qualifying book, its price and the recommended units on each line.
+
+## Track record: grading in progress
+
+NFL picks are too new to have a season to report. Every recommended bet is logged and graded programmatically, and the running totals post to Discord daily, so subscribers can see the record as it builds. We will publish the full season table here, by market, with wagers, net units and ROI on units staked, once the 2026 season is complete. Until then the graded record for every market is in the [Slam Dunk Dashboard](../apps.qmd), and the season totals for every league with a full season are in the [FAQ](../faq.qmd).
+
+We report every league on the same basis: regular season plus playoffs, voided plays excluded, with wager sizes standardized so the average recommended bet is about one unit.
+
+## What an alert looks like
+
+Alerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book's price and line movement, are in the [Slam Dunk Dashboard](../apps.qmd).
+
+::: {.faq-item}
+### When will the NFL track record be published?
+
+After the 2026 season, once there is a full season of graded bets to report. The running record is visible to subscribers in Discord and the Dashboard in the meantime.
+:::
+
+::: {.faq-item}
+### How are touchdown scorer bets graded?
+
+An anytime touchdown bet wins if the player scores a rushing or receiving touchdown at any point in the game; a first touchdown bet wins only if the player scores the game's first touchdown. Most books void the bet if the player does not play, but grading differs by book, so check the market rules where you bet.
+:::
+
+::: {.faq-item}
+### Is football included in the regular subscription?
+
+Yes. One subscription covers NFL, [NBA](../nba/index.qmd), [WNBA](../wnba/index.qmd), [MLB](../mlb/index.qmd) and [NHL](../nhl/index.qmd) picks, the Discord and the Dashboard.
+:::
+
+[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Plans start at $19.99 a week with a 30-day free trial; details on the [Subscribe page](../subscribe.qmd). You must be 21 or older. Past results do not guarantee future results.

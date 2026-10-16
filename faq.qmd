@@ -30,7 +30,7 @@ Subscribe through Sharpduel or Whop and you get access to our Discord server, wh
 ::: {.faq-item}
 ## What props do you project?
 
-Here's the current list, but we're always adding more when new props become available! Each market has its own page with the track record by season: [NBA picks](nba/index.qmd), [WNBA picks](wnba/index.qmd) and [MLB picks](mlb/index.qmd).
+Here's the current list, but we're always adding more when new props become available! Each market has its own page with the track record by season: [NBA picks](nba/index.qmd), [WNBA picks](wnba/index.qmd) and [MLB picks](mlb/index.qmd). [NFL picks](nfl/index.qmd) and [NHL picks](nhl/index.qmd) are new this season, so their records are still being graded.
 
 For NBA:
 

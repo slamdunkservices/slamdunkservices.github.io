@@ -32,7 +32,7 @@ Slam Dunk Bets is a subscription picks service run by data scientists and engine
 - **Discord access** with daily ROI receipts, tracked since the 2021–22 NBA season
 - **Dashboards & data** to dive deeper for more edges and plays
 
-Browse the picks by sport: [NBA](nba/index.qmd) · [WNBA](wnba/index.qmd) · [MLB](mlb/index.qmd)
+Browse the picks by sport: [NBA](nba/index.qmd) · [WNBA](wnba/index.qmd) · [MLB](mlb/index.qmd) · [NFL](nfl/index.qmd) · [NHL](nhl/index.qmd)
 :::
 
 ::::::: how-it-works

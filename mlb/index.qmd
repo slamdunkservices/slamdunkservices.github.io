@@ -56,7 +56,7 @@ Yes. Every forecast is resolved against the compass bearing from home plate to c
 ::: {.faq-item}
 ### Is baseball included in the regular subscription?
 
-Yes. One subscription covers MLB, [NBA](../nba/index.qmd), [WNBA](../wnba/index.qmd), NFL and NHL picks, the Discord and the Dashboard.
+Yes. One subscription covers MLB, [NBA](../nba/index.qmd), [WNBA](../wnba/index.qmd), [NFL](../nfl/index.qmd) and [NHL](../nhl/index.qmd) picks, the Discord and the Dashboard.
 :::
 
 [Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
