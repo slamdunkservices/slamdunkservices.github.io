@@ -2121,6 +2121,34 @@
     "text": "What stands out\nSome things to call out:\n\nObviously this line is not flat, which means that we had ups and downs.\nThe line ends a LOT higher than when it began! 1692 units higher, in fact.\nWe make a LOT of bets - this chart included 17,558 data points!\nWhile we had some plays that made the line go straight up (see the biggest hits, but bless Noah Clowney), the majority of the return is grinding away with incremental wins.\n\nThis is the first of our recaps, but definitely not the last: next up are the top 5 ROI players and the biggest single hits of the season. Thanks a lot for reading, holler if you have any questions (@jimtheflash is the best way to find us), and please consider subscribing if you haven’t yet 🙏\n(And if 1692 units of profit isn’t enough, well, idk what else we can say!)\n\n2023-24 NBA ROI Recap: 1692 Units Net Profit · Top 5 ROI Players · Biggest Hits"
   },
   {
+    "objectID": "nhl/index.html",
+    "href": "nhl/index.html",
+    "title": "NHL Prop Picks: First & Anytime Goal Scorer",
+    "section": "",
+    "text": "Home›NHL Picks\nSlam Dunk Bets added hockey for the 2026-27 NHL season. Our models project the chance that each skater scores a goal, and scores the first one, in every game. Those projections are compared to sportsbook prices on game days, and the edges post to Discord with recommended unit sizes, the same way our NBA, WNBA and MLB picks do. Every recommended bet is graded from the first alert."
+  },
+  {
+    "objectID": "nhl/index.html#markets-we-cover",
+    "href": "nhl/index.html#markets-we-cover",
+    "title": "NHL Prop Picks: First & Anytime Goal Scorer",
+    "section": "Markets we cover",
+    "text": "Markets we cover\n\nFirst goal scorer: a player to score the game’s first goal.\nAnytime goal scorer: a player to score at least one goal in the game.\n\nBoth markets post for every game on the slate, with every qualifying book, its price and the recommended units on each line."
+  },
+  {
+    "objectID": "nhl/index.html#track-record-grading-in-progress",
+    "href": "nhl/index.html#track-record-grading-in-progress",
+    "title": "NHL Prop Picks: First & Anytime Goal Scorer",
+    "section": "Track record: grading in progress",
+    "text": "Track record: grading in progress\nNHL picks are too new to have a season to report. Every recommended bet is logged and graded programmatically, and the running totals post to Discord daily, so subscribers can see the record as it builds. We will publish the full season table here, by market, with wagers, net units and ROI on units staked, once the 2026-27 season is complete. Until then the graded record for every market is in the Slam Dunk Dashboard, and the season totals for every league with a full season are in the FAQ.\nWe report every league on the same basis: regular season plus playoffs, voided plays excluded, with wager sizes standardized so the average recommended bet is about one unit."
+  },
+  {
+    "objectID": "nhl/index.html#what-an-alert-looks-like",
+    "href": "nhl/index.html#what-an-alert-looks-like",
+    "title": "NHL Prop Picks: First & Anytime Goal Scorer",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nAlerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book’s price and line movement, are in the Slam Dunk Dashboard.\n\nWhen will the NHL track record be published?\nAfter the 2026-27 season, once there is a full season of graded bets to report. The running record is visible to subscribers in Discord and the Dashboard in the meantime.\n\n\nHow are goal scorer bets graded?\nA first goal scorer bet wins only if the player scores the game’s first goal; an anytime goal scorer bet wins if the player scores at any point, including overtime at most books. Shootout goals usually do not count, and most books void the bet if the player is scratched, but grading differs by book, so check the market rules where you bet.\n\n\nIs hockey included in the regular subscription?\nYes. One subscription covers NHL, NBA, WNBA, MLB and NFL picks, the Discord and the Dashboard.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
     "objectID": "nba/team-to-score-first-picks.html",
     "href": "nba/team-to-score-first-picks.html",
     "title": "NBA Team to Score First & Win Tipoff Picks",
@@ -2398,7 +2426,7 @@
     "href": "faq.html#what-props-do-you-project",
     "title": "FAQ",
     "section": "What props do you project?",
-    "text": "What props do you project?\nHere’s the current list, but we’re always adding more when new props become available! Each market has its own page with the track record by season: NBA picks, WNBA picks and MLB picks.\nFor NBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nfirst basket by team exact method\nwin tipoff\nplayer to not score first basket\nteam to score first\nteam to score first exact method\nfirst assist\nfirst block\nfirst rebound\nfirst steal\n\nFor WNBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nteam to score first\n\nFor MLB:\n\nhome runs (by batter)\nno runs first inning (NRFI) / yes runs first inning (YRFI)\n\nFor NFL:\n\nanytime touchdown scorer\nfirst touchdown scorer\n\nFor NHL:\n\nfirst goal scorer\nanytime goal scorer"
+    "text": "What props do you project?\nHere’s the current list, but we’re always adding more when new props become available! Each market has its own page with the track record by season: NBA picks, WNBA picks and MLB picks. NFL picks and NHL picks are new this season, so their records are still being graded.\nFor NBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nfirst basket by team exact method\nwin tipoff\nplayer to not score first basket\nteam to score first\nteam to score first exact method\nfirst assist\nfirst block\nfirst rebound\nfirst steal\n\nFor WNBA:\n\nfirst basket (points and field goals)\nfirst basket exact method\nfirst basket by team\nteam to score first\n\nFor MLB:\n\nhome runs (by batter)\nno runs first inning (NRFI) / yes runs first inning (YRFI)\n\nFor NFL:\n\nanytime touchdown scorer\nfirst touchdown scorer\n\nFor NHL:\n\nfirst goal scorer\nanytime goal scorer"
   },
   {
     "objectID": "faq.html#any-notable-first-basket-props-you-dont-project",
@@ -2685,7 +2713,7 @@
     "href": "index.html#what-you-get",
     "title": "NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.",
     "section": "What you get 🧐",
-    "text": "What you get 🧐\n\nBest-in-class projections for every NBA, WNBA, MLB, NFL & NHL game — first baskets, home runs, touchdown and goal scorers, and more\nNBA, WNBA, MLB, NFL & NHL prop data and picks across a growing list of markets\nAutomatic updates every 30 minutes — projections refresh all day\nDiscord access with daily ROI receipts, tracked since the 2021–22 NBA season\nDashboards & data to dive deeper for more edges and plays\n\nBrowse the picks by sport: NBA · WNBA · MLB"
+    "text": "What you get 🧐\n\nBest-in-class projections for every NBA, WNBA, MLB, NFL & NHL game — first baskets, home runs, touchdown and goal scorers, and more\nNBA, WNBA, MLB, NFL & NHL prop data and picks across a growing list of markets\nAutomatic updates every 30 minutes — projections refresh all day\nDiscord access with daily ROI receipts, tracked since the 2021–22 NBA season\nDashboards & data to dive deeper for more edges and plays\n\nBrowse the picks by sport: NBA · WNBA · MLB · NFL · NHL"
   },
   {
     "objectID": "index.html#how-it-works",
@@ -2833,6 +2861,34 @@
     "title": "NBA Prop Picks: First Basket, Team to Score First, First Assist & More",
     "section": "When NBA picks post",
     "text": "When NBA picks post\nThe first alerts for a slate post in the morning, when books open their first-basket markets. Prices move all day as bettors get involved and injury news lands, and the biggest moves come when starting lineups are confirmed, usually 30 to 60 minutes before tipoff. We keep alerting until the game starts. Our advice on timing is in Is There A Best Time Of Day To Bet First Baskets?\n\nHow many NBA picks are there per night?\nIn 2025-26 we alerted 12,507 plays over 212 game days, about 60 per day across all markets, or roughly ten per game. Most are first-basket plays. You do not need to bet all of them; the unit sizes tell you which edges are largest.\n\n\nWhich sportsbooks do the NBA picks cover?\nDraftKings, FanDuel, BetRivers, Hard Rock, bet365, BetMGM, Fanatics, Caesars and theScore. DraftKings and FanDuel carried about two thirds of our 2025-26 volume. Every alert lists each book where the play qualifies, so you can take the best price available to you.\n\n\nIs this a daily picks service or a model subscription?\nBoth. The picks post automatically whenever the models find an edge, and subscribers also get the Dashboard with every projection, every book’s price and the full graded record. There is no manual tout; everything comes from the models.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
+  },
+  {
+    "objectID": "nfl/index.html",
+    "href": "nfl/index.html",
+    "title": "NFL Prop Picks: Anytime & First Touchdown Scorer",
+    "section": "",
+    "text": "Home›NFL Picks\nSlam Dunk Bets added football for the 2026 NFL season. Our models project the chance that each player scores a touchdown, and scores the first one, in every game. Those projections are compared to sportsbook prices on game days, and the edges post to Discord with recommended unit sizes, the same way our NBA, WNBA and MLB picks do. Every recommended bet is graded from the first alert."
+  },
+  {
+    "objectID": "nfl/index.html#markets-we-cover",
+    "href": "nfl/index.html#markets-we-cover",
+    "title": "NFL Prop Picks: Anytime & First Touchdown Scorer",
+    "section": "Markets we cover",
+    "text": "Markets we cover\n\nAnytime touchdown scorer: a player to score at least one touchdown, rushing or receiving, in the game.\nFirst touchdown scorer: a player to score the game’s first touchdown.\n\nBoth markets post for every game on the slate, with every qualifying book, its price and the recommended units on each line."
+  },
+  {
+    "objectID": "nfl/index.html#track-record-grading-in-progress",
+    "href": "nfl/index.html#track-record-grading-in-progress",
+    "title": "NFL Prop Picks: Anytime & First Touchdown Scorer",
+    "section": "Track record: grading in progress",
+    "text": "Track record: grading in progress\nNFL picks are too new to have a season to report. Every recommended bet is logged and graded programmatically, and the running totals post to Discord daily, so subscribers can see the record as it builds. We will publish the full season table here, by market, with wagers, net units and ROI on units staked, once the 2026 season is complete. Until then the graded record for every market is in the Slam Dunk Dashboard, and the season totals for every league with a full season are in the FAQ.\nWe report every league on the same basis: regular season plus playoffs, voided plays excluded, with wager sizes standardized so the average recommended bet is about one unit."
+  },
+  {
+    "objectID": "nfl/index.html#what-an-alert-looks-like",
+    "href": "nfl/index.html#what-an-alert-looks-like",
+    "title": "NFL Prop Picks: Anytime & First Touchdown Scorer",
+    "section": "What an alert looks like",
+    "text": "What an alert looks like\nAlerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book’s price and line movement, are in the Slam Dunk Dashboard.\n\nWhen will the NFL track record be published?\nAfter the 2026 season, once there is a full season of graded bets to report. The running record is visible to subscribers in Discord and the Dashboard in the meantime.\n\n\nHow are touchdown scorer bets graded?\nAn anytime touchdown bet wins if the player scores a rushing or receiving touchdown at any point in the game; a first touchdown bet wins only if the player scores the game’s first touchdown. Most books void the bet if the player does not play, but grading differs by book, so check the market rules where you bet.\n\n\nIs football included in the regular subscription?\nYes. One subscription covers NFL, NBA, WNBA, MLB and NHL picks, the Discord and the Dashboard.\n\nSubscribe — first month free\nPlans start at $19.99 a week with a 30-day free trial; details on the Subscribe page. You must be 21 or older. Past results do not guarantee future results."
   },
   {
     "objectID": "posts/2024-10/nba-202324-biggest-hits.html",
@@ -4827,7 +4883,7 @@
     "href": "subscribe.html#whats-included",
     "title": "Subscribe to Slam Dunk Bets",
     "section": "What’s included",
-    "text": "What’s included\n\nDiscord server access with all picks, updates, and community chat\nFirst-basket projections for every NBA & WNBA game, home-run and NRFI/YRFI projections for MLB, and touchdown and goal scorer projections for every NFL & NHL game\nFull prop markets — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; anytime and first touchdown for football; first and anytime goal scorer for hockey; and more. See the NBA, WNBA and MLB pages for every market and its track record\nAuto-updates every 30 minutes as lines move\nDaily ROI tracking — every bet logged, receipts on-server\nThe Slam Dunk Dashboard at app.slamdunk.bet: every edge, every book’s price, line movement, and the full graded record"
+    "text": "What’s included\n\nDiscord server access with all picks, updates, and community chat\nFirst-basket projections for every NBA & WNBA game, home-run and NRFI/YRFI projections for MLB, and touchdown and goal scorer projections for every NFL & NHL game\nFull prop markets — team to score first, tipoff, first assist / rebound / block / steal for hoops; home runs and NRFI/YRFI for baseball; anytime and first touchdown for football; first and anytime goal scorer for hockey; and more. See the NBA, WNBA, MLB, NFL and NHL pages for every market and its track record\nAuto-updates every 30 minutes as lines move\nDaily ROI tracking — every bet logged, receipts on-server\nThe Slam Dunk Dashboard at app.slamdunk.bet: every edge, every book’s price, line movement, and the full graded record"
   },
   {
     "objectID": "subscribe.html#pricing",

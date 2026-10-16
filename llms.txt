@@ -31,7 +31,8 @@ Key facts:
 - [MLB picks](https://slamdunk.bet/mlb/): home runs, NRFI/YRFI, newer markets, alert schedule
   - [MLB home run picks](https://slamdunk.bet/mlb/home-run-picks.html): +142 units since July 16, 2026 (5.3%)
   - [MLB NRFI and YRFI picks](https://slamdunk.bet/mlb/nrfi-yrfi-picks.html): +20 units since July 16, 2026 (3.3%)
-- NFL (anytime and first touchdown scorer) and NHL (first and anytime goal scorer) picks post to the same Discord under the same subscription; no market pages or season records yet
+- [NFL picks](https://slamdunk.bet/nfl/): anytime touchdown scorer and first touchdown scorer, new for the 2026 season; the season record is being graded and posts after the season
+- [NHL picks](https://slamdunk.bet/nhl/): first goal scorer and anytime goal scorer, new for the 2026-27 season; the season record is being graded and posts after the season
 
 ## Stats (public history behind the picks, rebuilt from play-by-play and line scores)
 - [Stats hub](https://slamdunk.bet/stats/): what is covered and where it comes from
