@@ -44,7 +44,7 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `_scripts/og-cards/` | `build.sh` renders one branded 1200×630 share card per row of `cards.tsv` into `images/og/` from the `_og/card.html` template (see Images) |
 | `_includes/head.html` | Extra `<head>` markup: RSS link, `theme-color` (Discord embed accent), `apple-touch-icon`, search-engine verification meta tags (placeholders), preconnect |
 | `_includes/after-body.html` | Loads `scripts/site-analytics.js` on every page |
-| `_og/*.html` | Source compositions for the raster brand images and the per-page share-card template `card.html` (see Images). Not rendered |
+| `_og/*.html` | Source compositions for the raster brand images, the social profile header and avatar, and the per-page share-card template `card.html` (see Images). Not rendered |
 | `robots.txt` | Copied verbatim to `_site/`. Explicitly allows search and AI crawlers and carries the `Sitemap:` line (Quarto does not add it when a source `robots.txt` exists) |
 | `llms.txt` | Plain-text summary of the business and site for AI agents, per llmstxt.org. Shipped via `resources` |
 | `images/` | All assets, organized by the page that uses them (see Images below) |
@@ -147,7 +147,7 @@ The Lua filter turns these into `FAQPage` structured data; anything outside a `.
 
 | Folder | Used by |
 |---|---|
-| `images/brand/` | Site-wide — favicon (`_quarto.yml`), logos (`styles.css`, `index.qmd`), `og-default.png` (social card, `website.image`), `logo-square.png` (JSON-LD logo) and `apple-touch-icon.png` (180px, made from `logo-square.png` with `sips`) |
+| `images/brand/` | Site-wide — favicon (`_quarto.yml`), logos (`styles.css`, `index.qmd`), `og-default.png` (social card, `website.image`), `logo-square.png` (JSON-LD logo) and `apple-touch-icon.png` (180px, made from `logo-square.png` with `sips`). Also the social profile assets, not referenced by the site: `x-header.png` (1500×500 X header) and `profile-avatar.png` / `profile-avatar-400.png` (1080 and 400 px profile image for X and Instagram), each in a dark and a `-light` (white ground) version and each also saved as a `.jpg` (`sips -s format jpeg -s formatOptions 92`) for uploaders that reject PNG, rendered from `_og/x-header.html`, `_og/profile-avatar.html` and their `-light` twins with the headless Chrome recipe below (`--window-size=1500,500` and `1080,1080`; the 400 px copy is `sips -Z 400`) |
 | `images/og/` | Per-page share cards built by `_scripts/og-cards/build.sh`; referenced only from frontmatter `image:`, shipped via `resources` |
 | `images/home/` | `index.qmd` |
 | `images/apps/` | `apps.qmd` |
