@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Model-driven NBA, NFL and NHL prop picks posted to Discord and refreshed every 30 minutes: first baskets, touchdown and goal scorers. 8,000+ net units tracked since 2021-22. First 30 days free.">
+
+<title>Prop Picks Backed by 8,000+ Units, First Month Free – Slam Dunk Bets</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./images/brand/favicon-32.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f0fea7da9d331d21bc429b830e72bbc9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-66MCY7L0V7"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-66MCY7L0V7', { 'anonymize_ip': true});
+</script>
+<!-- Search engine ownership verification. Paste the tokens here, or verify via a DNS TXT record instead (preferred: covers app.slamdunk.bet too). -->
+<!-- <meta name="google-site-verification" content="PASTE_GOOGLE_TOKEN"> -->
+<!-- <meta name="msvalidate.01" content="PASTE_BING_TOKEN"> -->
+<meta name="theme-color" content="#39ff14">
+<link rel="apple-touch-icon" sizes="180x180" href="./images/brand/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Slam Dunk Bets Articles" href="https://slamdunk.bet/articles.xml">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<meta name="robots" content="noindex, follow">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://slamdunk.bet/#organization","@type":"Organization","areaServed":"US","contactPoint":{"@type":"ContactPoint","availableLanguage":"en","contactType":"customer support","email":"slamdunkbettingservices@gmail.com","url":"https://slamdunk.bet/contact.html"},"description":"Model-driven NBA, WNBA, MLB, NFL and NHL prop picks from a team of data scientists: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","email":"slamdunkbettingservices@gmail.com","founder":{"@id":"https://slamdunk.bet/about.html#founder"},"foundingDate":"2020","image":"https://slamdunk.bet/images/brand/og-default.png","knowsAbout":["NBA first basket props","WNBA first basket props","MLB home run props","NRFI and YRFI betting","NFL touchdown scorer props","NHL goal scorer props","sports betting models","Kelly criterion bet sizing"],"legalName":"Slam Dunk Betting Services LLC","logo":{"@type":"ImageObject","height":512,"url":"https://slamdunk.bet/images/brand/logo-square.png","width":512},"name":"Slam Dunk Bets","sameAs":["https://x.com/slam_dunk_bets","https://x.com/jimtheflash","https://www.instagram.com/slam_dunk_bets_/","https://www.linkedin.com/company/slam-dunk-bets","https://sharpduel.com/slam_dunk_bets","https://whop.com/slam-dunk-bets","https://app.slamdunk.bet"],"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/#website","@type":"WebSite","description":"Model-driven NBA, WNBA, MLB, NFL and NHL prop picks from a team of data scientists: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22.","inLanguage":"en-US","name":"Slam Dunk Bets","publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/"},{"@id":"https://slamdunk.bet/about.html#founder","@type":"Person","alternateName":"jimtheflash","jobTitle":"Founder","name":"Jim","sameAs":["https://x.com/jimtheflash"],"url":"https://slamdunk.bet/about.html#founder","worksFor":{"@id":"https://slamdunk.bet/#organization"}},{"@id":"https://slamdunk.bet/free-trial.html","@type":"WebPage","description":"Model-driven NBA, NFL and NHL prop picks posted to Discord and refreshed every 30 minutes: first baskets, touchdown and goal scorers. 8,000+ net units tracked since 2021-22. First 30 days free.","inLanguage":"en-US","isPartOf":{"@id":"https://slamdunk.bet/#website"},"name":"Prop Picks Backed by 8,000+ Units, First Month Free","primaryImageOfPage":{"@type":"ImageObject","url":"https://slamdunk.bet/images/brand/og-default.png"},"publisher":{"@id":"https://slamdunk.bet/#organization"},"url":"https://slamdunk.bet/free-trial.html"}]}</script>
+<meta property="og:url" content="https://slamdunk.bet/free-trial.html">
+<meta property="og:type" content="website">
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Prop Picks Backed by 8,000+ Units, First Month Free">
+<meta property="og:description" content="Model-driven NBA, NFL and NHL prop picks posted to Discord and refreshed every 30 minutes: first baskets, touchdown and goal scorers. 8,000+ net units tracked since 2021-22. First 30 days free.">
+<meta property="og:image" content="https://slamdunk.bet/images/brand/og-default.png">
+<meta property="og:site_name" content="Slam Dunk Bets">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:alt" content="Slam Dunk Bets: prop picks backed by 8,000+ units of tracked ROI">
+<meta name="twitter:title" content="Prop Picks Backed by 8,000+ Units, First Month Free">
+<meta name="twitter:description" content="Model-driven NBA, NFL and NHL prop picks posted to Discord and refreshed every 30 minutes: first baskets, touchdown and goal scorers. 8,000+ net units tracked since 2021-22. First 30 days free.">
+<meta name="twitter:image" content="https://slamdunk.bet/images/brand/og-default.png">
+<meta name="twitter:creator" content="@jimtheflash">
+<meta name="twitter:site" content="@slam_dunk_bets">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+<meta name="twitter:image:alt" content="Slam Dunk Bets: prop picks backed by 8,000+ units of tracked ROI">
+<link rel="canonical" href="https://slamdunk.bet/free-trial.html">
+</head>
+
+<body class="nav-fixed ad-landing quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Slam Dunk Bets</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-markets" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Markets</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-markets">    
+        <li>
+    <a class="dropdown-item" href="./nba/index.html">
+ <span class="dropdown-text">NBA picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nba/first-basket-picks.html">
+ <span class="dropdown-text">NBA first basket picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nba/team-to-score-first-picks.html">
+ <span class="dropdown-text">NBA team to score first &amp; tipoff picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nba/first-assist-rebound-three-picks.html">
+ <span class="dropdown-text">NBA first assist, rebound &amp; three picks</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./wnba/index.html">
+ <span class="dropdown-text">WNBA picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./wnba/first-basket-picks.html">
+ <span class="dropdown-text">WNBA first basket picks</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./mlb/index.html">
+ <span class="dropdown-text">MLB picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mlb/home-run-picks.html">
+ <span class="dropdown-text">MLB home run picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./mlb/nrfi-yrfi-picks.html">
+ <span class="dropdown-text">MLB NRFI / YRFI picks</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./nfl/index.html">
+ <span class="dropdown-text">NFL touchdown scorer picks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./nhl/index.html">
+ <span class="dropdown-text">NHL goal scorer picks</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-stats" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Stats</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-stats">    
+        <li>
+    <a class="dropdown-item" href="./stats/index.html">
+ <span class="dropdown-text">All stats</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./stats/nba-first-basket-leaders.html">
+ <span class="dropdown-text">NBA first basket stats</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./stats/wnba-first-basket-leaders.html">
+ <span class="dropdown-text">WNBA first basket stats</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./stats/mlb-nrfi-rates.html">
+ <span class="dropdown-text">MLB NRFI stats</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Guides</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-guides">    
+        <li>
+    <a class="dropdown-item" href="./guides/index.html">
+ <span class="dropdown-text">All guides</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guides/what-is-a-first-basket-bet.html">
+ <span class="dropdown-text">What is a first basket bet?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guides/first-basket-exact-method.html">
+ <span class="dropdown-text">First basket exact method</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guides/what-is-nrfi-yrfi.html">
+ <span class="dropdown-text">What are NRFI and YRFI?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guides/what-is-a-home-run-prop-bet.html">
+ <span class="dropdown-text">Home run prop bets</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guides/what-is-a-unit-in-sports-betting.html">
+ <span class="dropdown-text">What is a unit?</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./apps.html"> 
+<span class="menu-text">Apps</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./articles.html"> 
+<span class="menu-text">Articles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">FAQ</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://x.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label="Slam Dunk Bets on X"><i class="bi bi-twitter-x"></i></a>
+    <a href="https://www.instagram.com/slam_dunk_bets_/" title="" class="quarto-navigation-tool px-1" aria-label="Slam Dunk Bets on Instagram"><i class="bi bi-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/slam-dunk-bets" title="" class="quarto-navigation-tool px-1" aria-label="Slam Dunk Betting Services on LinkedIn"><i class="bi bi-linkedin"></i></a>
+    <a href="mailto:slamdunkbettingservices@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label="Email Slam Dunk Bets"><i class="bi bi-envelope"></i></a>
+    <a href="https://sharpduel.com/slam_dunk_bets" title="" class="quarto-navigation-tool px-1" aria-label="Join the Discord via Sharpduel"><i class="bi bi-discord"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<!-- Paid-traffic landing page (X ads and other campaigns). Kept out of search with noindex and out of
+     sitemap.xml by _scripts/post-render.sh; not in the navbar or llms.txt. Numbers must match the FAQ. -->
+<div class="hero">
+<div class="hero-banner">
+<p><img src="images/brand/logo-horizontal-light.svg" class="banner-light img-fluid" alt="Slam Dunk Bets"> <img src="images/brand/logo-horizontal-dark.svg" class="banner-dark img-fluid" alt="Slam Dunk Bets"></p>
+</div>
+<section id="prop-picks-backed-by-8000-units-of-tracked-roi.-first-month-free." class="level1">
+<h1>Prop picks backed by 8,000+ units of tracked ROI. First month free.</h1>
+<div class="hero-lede">
+<p>Our models price first baskets, touchdown scorers and goal scorers for every NBA, NFL and NHL game, check them against the books every 30 minutes, and post the edges to Discord with unit sizes.</p>
+</div>
+<p><a href="https://sharpduel.com/slam_dunk_bets" class="btn btn-primary btn-lg" role="button">Start your free month</a></p>
+<div class="lp-fineprint">
+<p>30 days free, then from $19.99 a week. Cancel anytime. 21+.</p>
+</div>
+</section>
+</div>
+<div class="lp-stats">
+<div class="lp-stat">
+<p><strong>8,000+</strong></p>
+<p>net units since 2021–22</p>
+</div>
+<div class="lp-stat">
+<p><strong>+2,135</strong></p>
+<p>units in the 2025–26 NBA season, 16.3% ROI</p>
+</div>
+<div class="lp-stat">
+<p><strong>Every bet</strong></p>
+<p>graded and tracked, receipts daily</p>
+</div>
+</div>
+<section id="the-record-every-pick-since-202122" class="level2 track-record">
+<h2 data-anchor-id="the-record-every-pick-since-202122">The record, every pick since 2021–22</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/home/cumulative_total.png" alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units" width="1600" height="800" class="figure-img"></p>
+<figcaption>Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 5, 2026. Season-by-season numbers are in the <a href="./faq.html">FAQ</a>.</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-you-get" class="level2 feature-list">
+<h2 data-anchor-id="what-you-get">What you get</h2>
+<ul>
+<li><strong>Picks in Discord</strong> with unit sizes, refreshed every 30 minutes as lines move</li>
+<li><strong>NBA first baskets</strong>, team to score first, first assist, rebound and three; <strong>NFL</strong> anytime and first touchdown; <strong>NHL</strong> first and anytime goal; WNBA and MLB in season</li>
+<li><strong>Daily ROI receipts</strong> for every market, wins and losses</li>
+<li><strong>The Slam Dunk Dashboard</strong>: every edge, every book’s price, and the full graded record</li>
+</ul>
+</section>
+<section id="real-green-tickets" class="level2 hall-of-fame">
+<h2 data-anchor-id="real-green-tickets">Real green tickets</h2>
+<div class="hof-carousel-wrap">
+  <div id="hofCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3200" data-hof-manifest="images/hof-carousel/manifest.json" data-hof-image-base="images/hof-carousel/">
+    <div class="carousel-inner">
+      <div class="hof-loading" role="status" aria-label="Loading Hall of Fame receipts"></div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hofCarousel" data-bs-slide="prev" aria-label="Previous receipt">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hofCarousel" data-bs-slide="next" aria-label="Next receipt">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</div>
+<script src="scripts/hof-carousel.js"></script>
+</section>
+<section id="pricing" class="level2 lp-pricing">
+<h2 data-anchor-id="pricing">Pricing</h2>
+<div class="pricing">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Plan</th>
+<th>Price</th>
+<th>Free trial</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Weekly</td>
+<td>$19.99 / week</td>
+<td>30 days</td>
+</tr>
+<tr class="even">
+<td>Monthly</td>
+<td>$49.99 / month</td>
+<td>30 days</td>
+</tr>
+<tr class="odd">
+<td>Annual</td>
+<td>$499.99 / year</td>
+<td>30 days</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Sharpduel runs a $1 card check at signup. Cancel anytime from your Sharpduel account.</p>
+</section>
+<div class="lp-faq">
+<section id="do-you-take-bets" class="level3 faq-item">
+<h3 data-anchor-id="do-you-take-bets">Do you take bets?</h3>
+<p>No.&nbsp;We’re a picks and data service, not a sportsbook. You place your own bets wherever you play, and only where sports betting is legal for you.</p>
+</section>
+<section id="what-happens-after-the-free-month" class="level3 faq-item">
+<h3 data-anchor-id="what-happens-after-the-free-month">What happens after the free month?</h3>
+<p>Your plan renews at the price you picked unless you cancel before the 30 days are up. Cancel from Sharpduel in a couple of taps.</p>
+</section>
+<section id="are-the-results-real" class="level3 faq-item">
+<h3 data-anchor-id="are-the-results-real">Are the results real?</h3>
+<p>Every pick is logged and graded, wins and losses, with daily receipts in Discord and the full record in the Dashboard. More in the <a href="./faq.html">FAQ</a>.</p>
+</section>
+</div>
+<section id="ready-to-cash-in" class="level2 final-cta">
+<h2 data-anchor-id="ready-to-cash-in">Ready to cash in?</h2>
+<p><a href="https://sharpduel.com/slam_dunk_bets" class="btn btn-primary btn-lg" role="button">Start your free month</a></p>
+<p>Past results don’t guarantee future results. 21+ only. If you or someone you know has a gambling problem, call <a href="tel:+18004262537" class="text-nowrap">1-800-GAMBLER</a>.</p>
+</section>
+<div class="sticky-cta" aria-hidden="true">
+  <a class="btn btn-primary" href="https://sharpduel.com/slam_dunk_bets" tabindex="-1">Start your free month</a>
+</div>
+<script>
+  // Show the bottom bar only while neither in-page CTA is on screen.
+  (() => {
+    const bar = document.querySelector(".sticky-cta");
+    const targets = document.querySelectorAll(".hero .btn-primary, .final-cta .btn-primary");
+    if (!bar || !targets.length || !("IntersectionObserver" in window)) return;
+    const visible = new Set();
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((e) => (e.isIntersecting ? visible.add(e.target) : visible.delete(e.target)));
+      bar.classList.toggle("is-shown", visible.size === 0);
+    });
+    targets.forEach((t) => observer.observe(t));
+  })();
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/slamdunk\.bet");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="./nba/">NBA</a> · <a href="./wnba/">WNBA</a> · <a href="./mlb/">MLB</a> · <a href="./subscribe.html">Subscribe</a> · <a href="./articles.html">Articles</a></p>
+</div>   
+    <div class="nav-footer-center">
+<p>21+ Only | <a href="https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/">National Problem Gambling Helpline</a> <br> © Slam Dunk Betting Services LLC, 2026</p>
+</div>
+    <div class="nav-footer-right">
+<p><a href="./about.html">About</a> · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a> · <a href="https://x.com/slam_dunk_bets">X</a> · <a href="https://www.instagram.com/slam_dunk_bets_/">Instagram</a> · <a href="https://www.linkedin.com/company/slam-dunk-bets">LinkedIn</a></p>
+</div>
+  </div>
+</footer>
+<script src="./scripts/site-analytics.js" defer=""></script>
+
+
+
+
+</body></html>
