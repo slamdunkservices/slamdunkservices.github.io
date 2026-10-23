@@ -765,6 +765,8 @@ h1, h2, h3, h4, h5, h6 { scroll-margin-top: 0; }
     .faq-item,
     .faq-item:last-of-type { border-color: #222; }
     .pricing th, .pricing td { border-color: #222 !important; }
+    /* Full-layout pages paint tables white, which leaves the light dark-mode text unreadable */
+    .page-columns .column-page table { background-color: transparent; }
 }
 
 /* Root pages open with their own lede, so hide Quarto's title-block description there.
@@ -824,4 +826,96 @@ main img {
 
 @media (prefers-color-scheme: dark) {
     .breadcrumbs { color: #9a9a9a; }
+}
+
+/* ─── Paid-traffic landing page (free-trial.qmd) ───────────────── */
+
+/* No navbar: one exit (the CTA), plus the footer's trust links */
+body.ad-landing #quarto-header { display: none; }
+
+.ad-landing .hero { margin-bottom: 1.5rem; }
+
+.ad-landing .hero-banner img { max-width: min(360px, 80%); }
+
+.lp-fineprint p {
+    font-size: 0.9rem;
+    opacity: 0.75;
+    margin: 0;
+}
+
+.lp-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto 2.5rem;
+    text-align: center;
+}
+
+.lp-stat {
+    border: 1px solid #e6e6e4;
+    border-radius: 12px;
+    padding: 1rem 0.75rem;
+}
+
+.lp-stat p { margin: 0; line-height: 1.35; }
+
+.lp-stat p:first-child strong {
+    display: block;
+    font-size: 1.6rem;
+    color: #1a9e00;
+}
+
+.ad-landing .lp-pricing,
+.ad-landing .lp-faq {
+    max-width: 720px;
+    margin: 3rem auto;
+}
+
+.ad-landing .final-cta .btn-primary { padding-left: 1rem; padding-right: 1rem; }
+
+.ad-landing .final-cta p:last-child {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+/* Bottom bar on phones, shown by the page script while no other CTA is on screen */
+.sticky-cta { display: none; }
+
+@media (max-width: 576px) {
+    .lp-stats { grid-template-columns: 1fr; gap: 0.6rem; }
+
+    .lp-stat { display: flex; align-items: baseline; gap: 0.6rem; text-align: left; padding: 0.7rem 1rem; }
+
+    .lp-stat p:first-child strong { display: inline; font-size: 1.3rem; white-space: nowrap; }
+
+    .sticky-cta {
+        display: block;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1030;
+        padding: 0.6rem 1rem calc(0.6rem + env(safe-area-inset-bottom));
+        background: rgba(10, 10, 10, 0.94);
+        transform: translateY(110%);
+        transition: transform 0.2s ease;
+    }
+
+    .sticky-cta.is-shown { transform: none; }
+
+    .sticky-cta .btn {
+        width: 100%;
+        background: #39ff14;
+        border-color: #39ff14;
+        color: #0a0a0a;
+        font-weight: 700;
+    }
+
+    body.ad-landing { padding-bottom: 4.5rem; }
+}
+
+@media (prefers-color-scheme: dark) {
+    .lp-stat { border-color: #2a2a2a; }
+    .lp-stat p:first-child strong { color: #39ff14; }
 }

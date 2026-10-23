@@ -26,6 +26,7 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `_quarto.yml` | Site config — `site-url`, site description/image, navbar, footer, Open Graph/Twitter, `canonical-url`, includes, filter, render whitelist, `resources` |
 | `index.qmd` | Homepage — hero (H1 tagline + one-paragraph lede), feature list, "Hall of Fame" carousel |
 | `subscribe.qmd` | Subscription landing page — what's included, **pricing table**, `schema-offers` frontmatter |
+| `free-trial.qmd` | Paid-traffic landing page (X ads, other campaigns): no navbar, one Sharpduel CTA, sticky phone CTA, pricing, 21+ disclaimer. `noindex`, dropped from the sitemap by the post-render hook, and kept out of the navbar and `llms.txt`. Its numbers and prices follow the FAQ and pricing rules below |
 | `apps.qmd` | Slam Dunk Dashboard page (carousel of screenshots) |
 | `data.qmd` | Data products teaser page |
 | `articles.qmd` | Blog listing page (reads `posts/`) and generates the RSS feed `articles.xml` |
@@ -119,9 +120,11 @@ The "current" basketball season is the latest with 100+ games in the data, so ea
 
 **Add or update a market page.** Market pages live under `nba/`, `wnba/`, `mlb/`, `nfl/`, `nhl/` (hub = `index.qmd`). Each has a lede, the markets, how we project them, a track record table by season (numbers from the ledgers; `_scripts/roi-chart/season_stats.py` and the per-market summary it prints are the source), a sample alert, `::: {.faq-item}` blocks (the filter emits FAQPage for them on any page), and the Sharpduel CTA. Add new pages to the navbar `menu` in `_quarto.yml` and to the "Picks by sport and market" section of `llms.txt`. The `stats/` and `guides/` folders get the same breadcrumbs (Home > Stats > page). Update the track-record tables after each season along with the FAQ. When the numbers change, also bump `date-modified` in the page frontmatter (it becomes `dateModified` in the JSON-LD and the "Modified" line under the title), update the "Updated <date>, from our graded ledgers" sentence under the table, and rebuild the page's share card.
 
+**Run a paid campaign.** Point ads at `https://slamdunk.bet/free-trial.html` with UTM tags (`?utm_source=x&utm_medium=paid_social&utm_campaign=<name>`), which GA4 picks up on its own. For X conversion tracking, set `X_PIXEL_ID` and `X_CTA_EVENT_ID` at the top of `scripts/site-analytics.js` (from X Ads > Events Manager); every Sharpduel/Whop click then fires that event. Turning the pixel on means updating the "Advertising" section of `privacy.qmd`. X treats picks/tipster services as gambling content, so the ad account needs X's gambling authorization first.
+
 **Edit a page.** Edit the `.qmd` at repo root, preview, commit, publish. Every root page has `title`, `pagetitle` (browser/search title; Quarto appends " – Slam Dunk Bets"), and `description` in its frontmatter. Keep them when editing; write them for any new page. Body sections on root pages use `## ` headings (the title is the H1; never skip to `### `). On `faq.qmd` the question in each `.faq-item` is a `## `; on sport pages, where the items sit under a `## ` section, it is a `### `.
 
-**Change pricing.** Prices live in four places and must match: the table and `schema-offers` block in `subscribe.qmd`, the "How much does it cost?" answer in `faq.qmd`, and the key-facts paragraph in `llms.txt`.
+**Change pricing.** Prices live in five places and must match: the table and `schema-offers` block in `subscribe.qmd`, the "How much does it cost?" answer in `faq.qmd`, the key-facts paragraph in `llms.txt`, and the table and fine print in `free-trial.qmd`.
 
 **Update the ROI numbers.** The FAQ "What kind of ROI" answer, the `## Track record` line in `llms.txt`, and the headline claim ("8,000+ units", in `index.qmd`, `about.qmd`, `faq.qmd`, `_quarto.yml` description, `SITE_DESC` in `_filters/seo-schema.lua`, and `_og/og-default.html` → regenerate the PNG) all come from the graded ledgers, not from memory. Sources and method:
 
@@ -188,7 +191,7 @@ Breadcrumbs: pages under `nba/`, `wnba/`, `mlb/`, `stats/` and `guides/` get bot
 
 The site description is duplicated in three places on purpose (`_quarto.yml`, `SITE_DESC` in the Lua filter, the summary in `llms.txt`); change all three together. Brand facts in the filter's `Organization` node (legal name, founding year, email, `sameAs` profiles) are the canonical entity description — update there first.
 
-Verification after `quarto render` (all counts should equal the number of pages; 122 after the stats, guides, NFL and NHL pages were added, excluding the 404):
+Verification after `quarto render` (all counts should equal the number of pages; 123 with `free-trial`, 122 after the stats, guides, NFL and NHL pages were added, excluding the 404):
 
 ```bash
 grep -rl 'name="description"' _site --include='*.html' | grep -v site_libs | wc -l
