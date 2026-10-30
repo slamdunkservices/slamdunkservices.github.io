@@ -76,7 +76,7 @@ Daily picks and ROI receipts, straight to your phone through the Discord communi
 
 We've tracked every pick since the 2021–22 NBA season, and the full cumulative chart is still climbing.
 
-![Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 5, 2026. The 2022-23 NBA season is drawn at +1,610 units; see the [FAQ](faq.qmd) for every season.](images/home/cumulative_total.png){fig-alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units"}
+![Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 29, 2026. The 2022-23 NBA season is drawn at +1,610 units; see the [FAQ](faq.qmd) for every season.](images/home/cumulative_total.png){fig-alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units"}
 :::
 
 ::: hall-of-fame

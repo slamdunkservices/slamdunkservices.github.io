@@ -1,5 +1,6 @@
 # Per-season net units / ROI from the graded ledgers, plus a per-date, per-series daily net CSV (argv[1]).
 # Called by _scripts/roi-chart/build.sh. Sources are documented in agents.md ("Update the ROI numbers").
+# "MLB 2026 batter props" pools the stolen base, RBI, runs and total bases products that launched in September 2026.
 import pandas as pd, glob, openpyxl, sys
 A='/Users/jim/Code/adhoc/bet_tracking/'
 W='/Users/jim/Desktop/files/sdbs_wnba/02_curated/wnba_first_to_score/tracking/ledger/'
@@ -28,7 +29,8 @@ parts=[old('NBA/2021-2022/prop_bets_21_22.xlsx','NBA 2021-22'),
        std(A+'WNBA/2024/bet_tracking_consolidated.csv','WNBA 2024'),
        std(A+'WNBA/2025/bet_tracking_consolidated.csv','WNBA 2025'),
        pd.concat([std(f,'WNBA 2026') for f in sorted(glob.glob(W+'*.csv'))])]
-for prod,label in [('home_runs','MLB 2026 home runs'),('nrfi_yrfi','MLB 2026 NRFI/YRFI')]:
+for prod,label in [('home_runs','MLB 2026 home runs'),('nrfi_yrfi','MLB 2026 NRFI/YRFI'),
+                   ('stolen_bases','MLB 2026 batter props'),('rbi','MLB 2026 batter props'),('runs','MLB 2026 batter props'),('total_bases','MLB 2026 batter props')]:
     df=pd.read_csv(M+prod+'/roi_daily.csv'); df=df[df.market=='ALL']
     parts.append(pd.DataFrame({'date':pd.to_datetime(df.date).dt.date,'net':df.net_units_std,'staked':df.staked_units_std,'series':label}))
 allp=pd.concat(parts)

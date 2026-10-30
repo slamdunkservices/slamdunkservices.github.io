@@ -1,26 +1,31 @@
 ---
 title: "MLB Prop Picks: Home Runs, NRFI & YRFI"
 pagetitle: "MLB Prop Picks: Home Runs, NRFI & YRFI"
-description: "Model-driven MLB prop picks: home runs for every batter and NRFI/YRFI for every game, from Statcast pitch models and 20,000 simulations per game, compared to 13 sportsbooks twice an hour. Launched July 2026, every bet tracked: home runs +142 net units (5.3% ROI), NRFI/YRFI +20 (3.3%)."
-date-modified: 2026-10-06
+description: "Model-driven MLB prop picks: home runs for every batter and NRFI/YRFI for every game, from Statcast pitch models and 20,000 simulations per game, compared to 13 sportsbooks twice an hour. Launched July 2026, every bet tracked: in the 2026 season home runs returned +131 net units (4.8% ROI) and NRFI/YRFI +19 (2.9%)."
+date-modified: 2026-10-30
 ---
 
 Slam Dunk Bets added baseball on July 16, 2026. Our models price every pitch from Statcast data, simulate every game 20,000 times, and turn the results into a home run probability for every batter and a first-inning run probability for every game. Those projections are compared to the prices at 13 sportsbooks and exchanges twice an hour, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published.
 
 ## Markets we cover
 
-- **[MLB home run picks](home-run-picks.qmd)**: one or more home runs by a batter, plus the 2+ and 3+ markets. +142 net units (5.3% ROI) since launch.
-- **[MLB NRFI and YRFI picks](nrfi-yrfi-picks.qmd)**: no runs or yes runs in the first inning. +20 net units (3.3% ROI) since launch.
-- **Newer markets**: stolen bases, RBI, runs scored and total bases started in September 2026. They post to the same alerts, and we will report on them once the samples are large enough to mean something.
+- **[MLB home run picks](home-run-picks.qmd)**: one or more home runs by a batter, plus the 2+ and 3+ markets. +131 net units (4.8% ROI) in 2026.
+- **[MLB NRFI and YRFI picks](nrfi-yrfi-picks.qmd)**: no runs or yes runs in the first inning. +19 net units (2.9% ROI) in 2026.
+- **Newer markets**: stolen bases, RBI, runs scored and total bases started in September 2026. They post to the same alerts, and their first partial season is in the table below.
 
-## Track record since launch
+## Track record, 2026 season
 
 | Market | Plays | Net units | ROI |
 |---|---:|---:|---:|
-| Home runs | 2,912 | +142 | 5.3% |
-| NRFI / YRFI | 553 | +20 | 3.3% |
+| Home runs | 2,720 | +131 | 4.8% |
+| NRFI / YRFI | 572 | +19 | 2.9% |
+| Runs scored (from Sept 12) | 377 | +25 | 6.3% |
+| RBI (from Sept 12) | 357 | +9 | 2.7% |
+| Stolen bases (from Sept 2) | 253 | -27 | -11.1% |
+| Total bases (from Sept 12) | 1,014 | -29 | -3.0% |
+| **All MLB markets** | **5,293** | **+128** | **2.4%** |
 
-July 16 through October 5, 2026, regular season and postseason, with ROI on units staked. Plays are counted per batter or game per day, with voided plays excluded. Baseball margins are thinner than our basketball margins, and the samples are one partial season. We publish them anyway, and the season totals for every league are in the [FAQ](../faq.qmd).
+July 16 through October 28, 2026, regular season and postseason, with ROI on units staked. Updated October 30, 2026, from our graded ledgers; the season is complete. Plays are counted per batter or game per day, with voided plays excluded. Baseball margins are thinner than our basketball margins, and the samples are one partial season: the home run and first-inning markets made +149 units (4.4%) and the four markets added in September lost 22. We publish them anyway. The [2026 MLB recap](../posts/2026-10/mlb-2026-recap.qmd) breaks the season down by market, month, book and player, and the season totals for every league are in the [FAQ](../faq.qmd).
 
 ## How the picks work
 

@@ -1,13 +1,13 @@
 ---
 title: "WNBA Prop Picks: First Basket, Team to Score First & More"
 pagetitle: "WNBA Prop Picks: First Basket, Team to Score First & More"
-description: "Model-driven WNBA prop picks for every game: first basket, first basket by team, exact method, team to score first and first three by team. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +443 net units in 2026, +529 in 2025, +418 in 2024."
+description: "Model-driven WNBA prop picks for every game: first basket, first basket by team, exact method, team to score first and first three by team. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +464 net units in 2026, +529 in 2025, +418 in 2024."
 image: /images/posts/wnba-2026-recap.png
-image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2026 WNBA season, ending near 443"
-date-modified: 2026-10-06
+image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2026 WNBA season, ending near 464"
+date-modified: 2026-10-30
 ---
 
-Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,390 net units on 13,668 wagers, a 16.0% return on units staked.
+Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,411 net units on 13,819 wagers, a 16.1% return on units staked.
 
 ## Markets we cover
 
@@ -17,17 +17,17 @@ Slam Dunk Bets projects first-event props for every WNBA game, regular season an
 
 | Season | Wagers | Net units | ROI |
 |---|---:|---:|---:|
-| 2026 | 6,556 | +443 | 12.2% |
+| 2026 | 6,707 | +464 | 12.5% |
 | 2025 | 4,577 | +529 | 17.0% |
 | 2024 | 2,535 | +418 | 21.6% |
 
-Regular season plus playoffs, with ROI on units staked. Updated October 5, 2026, from our graded ledgers; 2026 covers games through October 4, with the playoffs in progress. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
+Regular season plus playoffs, with ROI on units staked. Updated October 30, 2026, from our graded ledgers; 2026 covers games through October 29, with Game 7 of the Finals still to be played. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
 
 ## How the picks work
 
 The models are the same ones that produce our [NBA picks](../nba/index.qmd), trained on WNBA play-by-play data: who wins the tipoff, which team scores first, which player scores first for their team, and how. A play is alerted when a book's price is at least 1.5 percentage points better than our projected probability, with Kelly-based unit sizes scaled so the average play is about one unit. [How Do You Predict First Baskets?](../posts/2024-10/predict-first-baskets-1.qmd) covers the pipeline.
 
-WNBA slates are smaller than NBA slates, two to six games on most days, and books post fewer markets per game. In 2026 we alerted about 33 plays per game day. Starting lineups are usually confirmed close to tipoff, and that is when the largest edges appear.
+WNBA slates are smaller than NBA slates, two to six games on most days, and books post fewer markets per game. In 2026 we alerted about 32 plays per game day. Starting lineups are usually confirmed close to tipoff, and that is when the largest edges appear.
 
 ## What an alert looks like
 

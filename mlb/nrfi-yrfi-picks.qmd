@@ -1,13 +1,13 @@
 ---
 title: "MLB NRFI & YRFI Picks"
 pagetitle: "MLB NRFI & YRFI Picks: First-Inning Run Projections"
-description: "NRFI and YRFI picks (no run or yes run in the first inning) for every MLB game, from the same 20,000-simulation model that prices our home run picks, with starters, lineups, park and weather. Tracked since July 16, 2026: 553 plays, +20 net units, 3.3% ROI."
-date-modified: 2026-10-06
+description: "NRFI and YRFI picks (no run or yes run in the first inning) for every MLB game, from the same 20,000-simulation model that prices our home run picks, with starters, lineups, park and weather. Tracked from launch on July 16, 2026, through the World Series: 572 plays, +19 net units, 2.9% ROI."
+date-modified: 2026-10-30
 image: /images/og/mlb-nrfi-yrfi-picks.png
-image-alt: "Slam Dunk Bets MLB NRFI and YRFI picks: +20 units, 3.3% ROI over 553 tracked plays since July 16, 2026"
+image-alt: "Slam Dunk Bets MLB NRFI and YRFI picks: +19 units, 2.9% ROI over 572 tracked plays in the 2026 season"
 ---
 
-NRFI and YRFI are bets on whether either team scores in the first inning. We project the first-inning run probability for every MLB game with the same simulation that prices our [home run picks](home-run-picks.qmd), compare it to the prices at 13 sportsbooks and exchanges twice an hour, and alert the games where a book is at least 1.5 percentage points off our number. Since launch on July 16, 2026, 553 alerted first-inning plays returned +20 net units, a 3.3% return on units staked.
+NRFI and YRFI are bets on whether either team scores in the first inning. We project the first-inning run probability for every MLB game with the same simulation that prices our [home run picks](home-run-picks.qmd), compare it to the prices at 13 sportsbooks and exchanges twice an hour, and alert the games where a book is at least 1.5 percentage points off our number. From launch on July 16, 2026, through the end of the World Series, 572 alerted first-inning plays returned +19 net units, a 2.9% return on units staked.
 
 ## What NRFI and YRFI are
 
@@ -20,17 +20,17 @@ Both depend on the two starting pitchers, the top of each lineup, the park and t
 
 The simulation plays every game 20,000 times, plate appearance by plate appearance. For the first inning that means the actual projected top three or four hitters on each side against the actual starter, in that park, in that day's forecast, with the exact plate-appearance solve described in [Part 2 of our home run series](../posts/2026-08/predict-home-runs-2.qmd). The share of simulations with a first-inning run is our YRFI probability, and NRFI is the rest. Because the same simulation produces the home run odds, the two markets are priced consistently with each other.
 
-## Track record since launch
+## Track record, 2026 season
 
-July 16 through October 5, 2026, with ROI on units staked.
+July 16 through October 28, 2026, regular season and postseason, with ROI on units staked. Updated October 30, 2026, from our graded ledgers.
 
 | Market | Plays | Net units | ROI |
 |---|---:|---:|---:|
 | NRFI | 144 | -1 | -1.0% |
-| YRFI | 409 | +22 | 4.5% |
-| **All first-inning markets** | **553** | **+20** | **3.3%** |
+| YRFI | 428 | +20 | 4.0% |
+| **All first-inning markets** | **572** | **+19** | **2.9%** |
 
-This is a thin margin on a small sample, and we say so. Most of the plays were YRFI, which suggests books have leaned toward pricing NRFI a little high this season, but 553 plays is not enough to be sure. These are near-even-money prices, so unit sizes are larger than on a home run play with the same edge, and the results are steadier: no long losing streaks, no large single wins.
+This is a thin margin on a small sample, and we say so. Most of the plays were YRFI, which suggests books leaned toward pricing NRFI a little high in 2026, but 572 plays is not enough to be sure. The [2026 MLB recap](../posts/2026-10/mlb-2026-recap.qmd) has the month-by-month results. These are near-even-money prices, so unit sizes are larger than on a home run play with the same edge, and the results are steadier: no long losing streaks, no large single wins.
 
 ## What an alert looks like
 

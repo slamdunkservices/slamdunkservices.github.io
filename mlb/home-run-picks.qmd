@@ -1,13 +1,13 @@
 ---
 title: "MLB Home Run Picks"
 pagetitle: "MLB Home Run Picks: Simulated Odds for Every Batter"
-description: "MLB home run picks for every batter in every game: Statcast pitch models, 20,000 simulations per game, and prices from 13 sportsbooks compared twice an hour. Tracked since July 16, 2026: 2,912 alerted plays, +142 net units, 5.3% ROI."
-date-modified: 2026-10-06
+description: "MLB home run picks for every batter in every game: Statcast pitch models, 20,000 simulations per game, and prices from 13 sportsbooks compared twice an hour. Tracked from launch on July 16, 2026, through the World Series: 2,720 alerted plays, +131 net units, 4.8% ROI."
+date-modified: 2026-10-30
 image: /images/og/mlb-home-run-picks.png
-image-alt: "Slam Dunk Bets MLB home run picks: +142 units, 5.3% ROI over 2,912 tracked plays since July 16, 2026"
+image-alt: "Slam Dunk Bets MLB home run picks: +131 units, 4.8% ROI over 2,720 tracked plays in the 2026 season"
 ---
 
-We price every batter's chance of a home run in every MLB game, then compare that price to what 13 sportsbooks and exchanges are offering, twice an hour, all day. When a book's price is at least 2 percentage points better than our projection, it is a play. Since launch on July 16, 2026, 2,912 alerted home run plays returned +142 net units, a 5.3% return on units staked.
+We price every batter's chance of a home run in every MLB game, then compare that price to what 13 sportsbooks and exchanges are offering, twice an hour, all day. When a book's price is at least 2 percentage points better than our projection, it is a play. From launch on July 16, 2026, through the end of the World Series, 2,720 alerted home run plays returned +131 net units, a 4.8% return on units staked.
 
 ## What a home run bet is
 
@@ -19,18 +19,18 @@ The projection starts with the pitch. A chain of boosted-tree models, trained on
 
 Home runs are overwhelmingly a batter skill in the data. A pitcher's home-run history carries almost no predictive weight on its own; what matters is what he throws and where the game is played. The four-part series starts with [Part 1: Pitch Data](../posts/2026-08/predict-home-runs-1.qmd); [Part 3](../posts/2026-08/predict-home-runs-3.qmd) covers edges and sizing.
 
-## Track record since launch
+## Track record, 2026 season
 
-July 16 through October 5, 2026, with ROI on units staked.
+July 16 through October 28, 2026, regular season and postseason, with ROI on units staked. Updated October 30, 2026, from our graded ledgers; voided plays are excluded.
 
 | Market | Plays | Net units | ROI |
 |---|---:|---:|---:|
-| 1+ home run | 2,851 | +38 | 1.4% |
-| 2+ home runs | 59 | +107 | 259.6% |
+| 1+ home run | 2,661 | +26 | 1.0% |
+| 2+ home runs | 57 | +107 | 259.6% |
 | 3+ home runs | 2 | -2 | |
-| **All home run markets** | **2,912** | **+142** | **5.3%** |
+| **All home run markets** | **2,720** | **+131** | **4.8%** |
 
-The 1+ market is where almost all the volume is, and its margin was thin. We started the season with a 1-point edge threshold and raised it twice, to 2 points, after our own tracking showed that the thinnest edges were about a third of volume and returned roughly nothing. The 2+ market is a small sample of long prices, and one good stretch can produce a number like 259%; do not expect that to continue. We will keep adjusting the thresholds based on the tracked results, and we publish the results either way.
+The 1+ market is where almost all the volume is, and its margin was thin: +26 units on 2,692 staked. We started the season with a 1-point edge threshold and raised it twice, to 2 points, after our own tracking showed that the thinnest edges were about a third of volume and returned roughly nothing. The 2+ market is a small sample of long prices, and one good stretch can produce a number like 259%; do not expect that to continue. We will keep adjusting the thresholds based on the tracked results, and we publish the results either way. The [2026 MLB recap](../posts/2026-10/mlb-2026-recap.qmd) has the month-by-month, book-by-book and player-level results.
 
 ## What an alert looks like
 

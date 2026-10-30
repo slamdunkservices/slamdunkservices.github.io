@@ -54,7 +54,7 @@ graded and tracked, receipts daily
 ::: track-record
 ## The record, every pick since 2021–22
 
-![Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 5, 2026. Season-by-season numbers are in the [FAQ](faq.qmd).](images/home/cumulative_total.png){fig-alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units"}
+![Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 29, 2026. Season-by-season numbers are in the [FAQ](faq.qmd).](images/home/cumulative_total.png){fig-alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units"}
 :::
 
 ::: feature-list
