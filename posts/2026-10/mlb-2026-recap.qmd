@@ -15,7 +15,7 @@ Slam Dunk Bets launched baseball on July 16, 2026. From that day through the las
 
 The two markets we launched with carried the season. Home runs returned +131 units (4.8%) and first-inning plays (NRFI and YRFI) returned +19 units (2.9%), a combined +149 units at 4.4%. The four batter markets we added in September, stolen bases, RBI, runs scored and total bases, lost 22 units between them.
 
-These are thinner margins than our basketball picks, which returned 16.3% in the [2025-26 NBA season](nba-2025-26-recap.qmd) and 12.5% so far in the [2026 WNBA season](wnba-2026-recap.qmd), and this was a partial first season. We publish it the same way.
+These are thinner margins than our basketball picks, which returned 16.3% in the [2025-26 NBA season](nba-2025-26-recap.qmd) and 12.3% in the [2026 WNBA season](wnba-2026-recap.qmd), and this was a partial first season. We publish it the same way.
 
 ![Cumulative net units, 2026 MLB season from the July 16 launch. The shaded area is the postseason.](/images/posts/mlb-2026-recap.png){fig-alt="Line chart of cumulative net units for the 2026 MLB season. The line falls to about -110 in late July, climbs to about 140 by mid-August, reaches about 200 at the end of September, and drifts down to about 128 through the postseason."}
 

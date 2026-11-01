@@ -1,13 +1,13 @@
 ---
 title: "WNBA Prop Picks: First Basket, Team to Score First & More"
 pagetitle: "WNBA Prop Picks: First Basket, Team to Score First & More"
-description: "Model-driven WNBA prop picks for every game: first basket, first basket by team, exact method, team to score first and first three by team. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +464 net units in 2026, +529 in 2025, +418 in 2024."
+description: "Model-driven WNBA prop picks for every game: first basket, first basket by team, exact method, team to score first and first three by team. Posted to Discord every 30 minutes with unit sizes, every bet tracked: +458 net units in 2026, +529 in 2025, +418 in 2024."
 image: /images/posts/wnba-2026-recap.png
-image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2026 WNBA season, ending near 464"
-date-modified: 2026-10-30
+image-alt: "Line chart of Slam Dunk Bets cumulative net units in the 2026 WNBA season, ending near 458"
+date-modified: 2026-11-01
 ---
 
-Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,411 net units on 13,819 wagers, a 16.1% return on units staked.
+Slam Dunk Bets projects first-event props for every WNBA game, regular season and playoffs, with the same models we use for the NBA. Projections are compared to the prices at eight sportsbooks every 30 minutes, and the edges post to Discord with recommended unit sizes. Every recommended bet is graded and published. Across three WNBA seasons the record is +1,404 net units on 13,830 wagers, a 16.0% return on units staked.
 
 ## Markets we cover
 
@@ -17,11 +17,11 @@ Slam Dunk Bets projects first-event props for every WNBA game, regular season an
 
 | Season | Wagers | Net units | ROI |
 |---|---:|---:|---:|
-| 2026 | 6,707 | +464 | 12.5% |
+| 2026 | 6,718 | +458 | 12.3% |
 | 2025 | 4,577 | +529 | 17.0% |
 | 2024 | 2,535 | +418 | 21.6% |
 
-Regular season plus playoffs, with ROI on units staked. Updated October 30, 2026, from our graded ledgers; 2026 covers games through October 29, with Game 7 of the Finals still to be played. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
+Regular season plus playoffs, with ROI on units staked. Updated November 1, 2026, from our graded ledgers; 2026 is final, through Game 7 of the Finals on October 31. Wager sizes are standardized so the average recommended bet is about one unit. The [2026 recap](../posts/2026-10/wnba-2026-recap.qmd) breaks the season down by market, month and player.
 
 ## How the picks work
 

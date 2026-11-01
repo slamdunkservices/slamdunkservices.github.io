@@ -2,7 +2,7 @@
 title: "FAQ"
 pagetitle: "FAQ: Props, Pricing, ROI and Methods"
 description: "Who we are, what Slam Dunk Bets costs, which NBA, WNBA, MLB, NFL and NHL props we project, how we track ROI (8,000+ net units since 2021-22), whether it's legal where you live, where the data comes from, and how the models work."
-date-modified: 2026-10-30
+date-modified: 2026-11-01
 image: /images/og/faq.png
 image-alt: "Slam Dunk Bets FAQ: 8,000+ net units since 2021-22; pricing, markets, ROI by season, data and models"
 ---
@@ -92,7 +92,7 @@ We've cleared 8,000+ net units across our tracked NBA, WNBA and MLB picks since 
 -   2023-24 NBA: +1,692 units (11.8% ROI)
 -   2022-23 NBA: +1,610 units\*
 -   2021-22 NBA: +572 units (17.1% ROI)\*\*
--   2026 WNBA: +464 units (12.5% ROI), regular season and playoffs through October 29, with the Finals in progress
+-   2026 WNBA: +458 units (12.3% ROI), regular season and playoffs through the Finals
 -   2025 WNBA: +529 units (17.0% ROI)
 -   2024 WNBA: +418 units (21.6% ROI)
 -   2026 MLB, from the July 16 launch through the World Series: home runs +131 units (4.8% ROI) and NRFI/YRFI +19 units (2.9% ROI). Runs scored, RBI, stolen bases and total bases started in September and together lost 22 units, for +128 units (2.4% ROI) across every MLB market.
