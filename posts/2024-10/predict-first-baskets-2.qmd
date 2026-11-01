@@ -41,6 +41,8 @@ The ultimate criteria for whether we use data in our models is, "does it make th
 
 Next up is a deeper dive into the models themselves in [Part 3](predict-first-baskets-3.qmd) (not like a SUPER deep dive, but more than what was in the [last post](predict-first-baskets-1.qmd) on this). Thanks for reading, and thanks even more if you subscribe!
 
+Some of the labeled data is public: [NBA first basket stats](../../stats/nba-first-basket-leaders.qmd) and [WNBA first basket stats](../../stats/wnba-first-basket-leaders.qmd) show who scored first for every team, counted from the same play-by-play.
+
 ::: {.series-nav}
 **How Do You Predict First Baskets?** [Why First Baskets?](why-first-baskets.qmd) · [Part 1: High Level Overview](predict-first-baskets-1.qmd) · [Part 2: The Data We Use](predict-first-baskets-2.qmd) · [Part 3: So Many Models](predict-first-baskets-3.qmd) · [Part 4: From Predictions To Edges](predict-first-baskets-4.qmd) · [Part 5: Alert Alert](predict-first-baskets-5.qmd) · [When To Bet First Baskets](when-to-bet-first-baskets.qmd)
 :::

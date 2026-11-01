@@ -36,6 +36,8 @@ This is a thin margin on a small sample, and we say so. Most of the plays were Y
 
 First-inning plays post in the same Discord alerts as the home run plays, grouped by game in start-time order, with every qualifying book, its price and the recommended units. The [Dashboard](../apps.qmd) game cards show the first-inning odds next to the projected lineups, the starters and the weather.
 
+New to the market? [What do NRFI and YRFI mean?](../guides/what-is-nrfi-yrfi.qmd) covers the grading rules, rain delays and shortened games. The first-inning record of every team and starting pitcher is on [MLB NRFI stats](../stats/mlb-nrfi-rates.qmd), with a page per team.
+
 ::: {.faq-item}
 ### When do NRFI and YRFI picks post?
 

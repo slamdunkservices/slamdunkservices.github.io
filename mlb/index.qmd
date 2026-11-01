@@ -46,6 +46,8 @@ Games in start-time order, plays sorted by edge, every qualifying book listed wi
 
 Models retrain every Monday. Every morning at 6am ET there is a full refresh, then a tick every 30 minutes from 7am to 10pm ET: new pitch data, posted lineups and probable starters, an hourly forecast for every park, and a re-simulation of every game whose inputs changed. Projections freeze at first pitch; there is no in-game repricing.
 
+The guides explain each market and how it is graded: [What is a home run prop bet?](../guides/what-is-a-home-run-prop-bet.qmd) and [What do NRFI and YRFI mean?](../guides/what-is-nrfi-yrfi.qmd). The first-inning history behind the NRFI picks is public on [MLB NRFI stats](../stats/mlb-nrfi-rates.qmd): the league rate, every team home and away, and every starting pitcher.
+
 ::: {.faq-item}
 ### Which sportsbooks do the MLB picks cover?
 

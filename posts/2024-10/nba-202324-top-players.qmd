@@ -42,6 +42,8 @@ Most of those players netted us more by themselves than other services are netti
 
 Thanks as always for reading, and please consider [subscribing](https://sharpduel.com/slam_dunk_bets) if you haven't yet!
 
+Who scores first for every team now, counted from the play-by-play, is on [NBA first basket stats](../../stats/nba-first-basket-leaders.qmd); the current record of the market is on the [NBA first basket picks](../../nba/first-basket-picks.qmd) page.
+
 ::: {.series-nav}
 **2023-24 NBA ROI Recap:** [1692 Units Net Profit](nba-202324-performance.qmd) · [Top 5 ROI Players](nba-202324-top-players.qmd) · [Biggest Hits](nba-202324-biggest-hits.qmd)
 :::

@@ -47,6 +47,8 @@ The emoji do work: 🚨 marks a play that just qualified, 🚀 a play whose pric
 
 The first alerts for a slate post in the morning, when books open their first-basket markets. Prices move all day as bettors get involved and injury news lands, and the biggest moves come when starting lineups are confirmed, usually 30 to 60 minutes before tipoff. We keep alerting until the game starts. Our advice on timing is in [Is There A Best Time Of Day To Bet First Baskets?](../posts/2024-10/when-to-bet-first-baskets.qmd)
 
+The [guides](../guides/index.qmd) explain each market and how books grade it, starting with [What is a first basket bet?](../guides/what-is-a-first-basket-bet.qmd). The history behind the picks is public on [NBA first basket stats](../stats/nba-first-basket-leaders.qmd): the season's first basket leaders, every team's scored-first and tipoff rates, and a page for each of the 30 teams.
+
 ::: {.faq-item}
 ### How many NBA picks are there per night?
 

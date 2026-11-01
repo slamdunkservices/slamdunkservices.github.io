@@ -47,6 +47,8 @@ The pipeline is the same as for the NBA: label every jump ball and first basket 
 
 Alerts post to Discord grouped by game, sorted by edge, with every qualifying book, its price and the recommended units on each line. 🚨 is a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The full board, with every book's price and line movement, is in the [Slam Dunk Dashboard](../apps.qmd).
 
+New to the market? [What is a first basket bet?](../guides/what-is-a-first-basket-bet.qmd) covers the grading rules and [First basket exact method, explained](../guides/first-basket-exact-method.qmd) covers the method markets. Who scored first for every WNBA team, home and away, is on [WNBA first basket stats](../stats/wnba-first-basket-leaders.qmd).
+
 ::: {.faq-item}
 ### When do WNBA first basket picks post?
 

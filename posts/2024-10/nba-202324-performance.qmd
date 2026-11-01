@@ -36,6 +36,8 @@ This is the first of our recaps, but definitely not the last: next up are the [t
 
 (And if 1692 units of profit isn't enough, well, idk what else we can say!)
 
+Every season since is on the [NBA picks](../../nba/index.qmd) page, and [What is a unit in sports betting?](../../guides/what-is-a-unit-in-sports-betting.qmd) explains how we count units and ROI.
+
 ::: {.series-nav}
 **2023-24 NBA ROI Recap:** [1692 Units Net Profit](nba-202324-performance.qmd) · [Top 5 ROI Players](nba-202324-top-players.qmd) · [Biggest Hits](nba-202324-biggest-hits.qmd)
 :::

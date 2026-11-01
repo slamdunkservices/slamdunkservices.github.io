@@ -56,6 +56,8 @@ The totals include a few smaller markets, such as first basket type in 2025-26. 
 
 Early prices are often the softest, because books open before injury reports and lineups are set. Prices also jump right before tipoff when a starter is ruled out and a replacement enters the lineup. The practical approach is to take early edges when you see them and add to a play when a later alert shows a better price. More in [Is There A Best Time Of Day To Bet First Baskets?](../posts/2024-10/when-to-bet-first-baskets.qmd)
 
+New to the market? [What is a first basket bet?](../guides/what-is-a-first-basket-bet.qmd) covers the grading rules, free throws and voids, and [First basket exact method, explained](../guides/first-basket-exact-method.qmd) covers the method markets. For who actually scores first, [NBA first basket stats](../stats/nba-first-basket-leaders.qmd) has the season leaders, every team's scored-first and tipoff rates, and a page per team.
+
 ::: {.faq-item}
 ### Do free throws count as a first basket?
 

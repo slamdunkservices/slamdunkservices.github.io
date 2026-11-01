@@ -45,6 +45,8 @@ The 1+ market is where almost all the volume is, and its margin was thin: +26 un
 
 The same batter can be +600 at one book and +900 at another on the same day, which is the difference between an implied 14.3% and 10%. On longshots, taking the best available price is worth more than almost anything else you can do. The alerts rank the books for you, and the [Dashboard](../apps.qmd) shows how each book's price has moved through the day.
 
+New to the market? [What is a home run prop bet?](../guides/what-is-a-home-run-prop-bet.qmd) covers the 1+ and 2+ markets, scratches and voids. [What is a unit in sports betting?](../guides/what-is-a-unit-in-sports-betting.qmd) explains the units and ROI in the table above and why these plays are sized at half-Kelly.
+
 ::: {.faq-item}
 ### When do home run picks post?
 

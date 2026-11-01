@@ -26,6 +26,8 @@ We report every league on the same basis: regular season plus playoffs, voided p
 
 Alerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book's price and line movement, are in the [Slam Dunk Dashboard](../apps.qmd).
 
+Unit sizes work the same way in every sport we cover; [What is a unit in sports betting?](../guides/what-is-a-unit-in-sports-betting.qmd) explains units, net units and ROI, which is how the record will be reported here. The [guides](../guides/index.qmd) cover the other markets we bet.
+
 ::: {.faq-item}
 ### When will the NFL track record be published?
 

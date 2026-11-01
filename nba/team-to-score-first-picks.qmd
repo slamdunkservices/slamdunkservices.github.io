@@ -37,6 +37,8 @@ Win tipoff has been profitable in all three seasons and carried most of the grou
 
 Team-level plays post in the same Discord alerts as the first-basket plays, grouped by game, with the book, the price and the recommended units. Because prices are short, recommended unit sizes here are often larger than on a first-basket play with the same edge.
 
+How often each team scores first and wins the tipoff, at home and away, is on [NBA first basket stats](../stats/nba-first-basket-leaders.qmd) and the team pages linked from it. The by-team version of the player market is explained in [What is a first basket bet?](../guides/what-is-a-first-basket-bet.qmd), and unit sizes in [What is a unit in sports betting?](../guides/what-is-a-unit-in-sports-betting.qmd).
+
 ::: {.faq-item}
 ### Does the team that wins the tipoff always score first?
 

@@ -33,6 +33,8 @@ WNBA slates are smaller than NBA slates, two to six games on most days, and book
 
 Alerts post to Discord grouped by game, sorted from largest edge to smallest, with every qualifying book, its price and the recommended units on each line. 🚨 marks a new play, 🚀 a new daily-best price, ⬇️ a play that is off its peak. The same plays, with every book's price and line movement, are in the [Slam Dunk Dashboard](../apps.qmd).
 
+[What is a first basket bet?](../guides/what-is-a-first-basket-bet.qmd) explains the market and its by-team version. The history behind the picks is on [WNBA first basket stats](../stats/wnba-first-basket-leaders.qmd): the season's leaders, every team's scored-first and tipoff rates, and a page for each team.
+
 ::: {.faq-item}
 ### Which sportsbooks do the WNBA picks cover?
 

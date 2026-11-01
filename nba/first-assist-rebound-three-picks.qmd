@@ -40,6 +40,8 @@ Every first event in a game is labeled from play-by-play data: who got the first
 
 These plays post in the same Discord alerts as everything else, grouped by game and sorted by edge, with the market named on each line, for example "first assist" or "first three". The [Dashboard](../apps.qmd) lets you filter the board to a single market.
 
+These markets are sized the same way as the rest: [What is a unit in sports betting?](../guides/what-is-a-unit-in-sports-betting.qmd) explains the units and ROI in the table above. How first baskets are scored each season, including the share that are threes, is on [NBA first basket stats](../stats/nba-first-basket-leaders.qmd).
+
 ::: {.faq-item}
 ### Which books offer first assist and first rebound props?
 

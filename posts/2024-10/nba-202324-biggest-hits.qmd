@@ -53,6 +53,8 @@ Eight of the ten came from exact-method markets, where a book has to price not j
 
 Thanks as always for reading, and please consider [subscribing](https://sharpduel.com/slam_dunk_bets) if you haven't yet!
 
+[First basket exact method, explained](../../guides/first-basket-exact-method.qmd) covers how the method markets are graded, and the first three-pointer market has its own page: [NBA first assist, first rebound and first three picks](../../nba/first-assist-rebound-three-picks.qmd).
+
 ::: {.series-nav}
 **2023-24 NBA ROI Recap:** [1692 Units Net Profit](nba-202324-performance.qmd) · [Top 5 ROI Players](nba-202324-top-players.qmd) · [Biggest Hits](nba-202324-biggest-hits.qmd)
 :::
