@@ -30,7 +30,7 @@
 <h2 data-anchor-id="summary">Summary</h2>
 <p>Slam Dunk Bets launched baseball on July 16, 2026. From that day through the last game of the World Series on October 28, we recommended 5,293 plays, logged as 10,508 wagers, across six MLB markets. They returned +128 net units on 5,326 units staked, a return on investment (ROI) of 2.4%.</p>
 <p>The two markets we launched with carried the season. Home runs returned +131 units (4.8%) and first-inning plays (NRFI and YRFI) returned +19 units (2.9%), a combined +149 units at 4.4%. The four batter markets we added in September, stolen bases, RBI, runs scored and total bases, lost 22 units between them.</p>
-<p>These are thinner margins than our basketball picks, which returned 16.3% in the <a href="../../posts/2026-10/nba-2025-26-recap.html">2025-26 NBA season</a> and 12.5% so far in the <a href="../../posts/2026-10/wnba-2026-recap.html">2026 WNBA season</a>, and this was a partial first season. We publish it the same way.</p>
+<p>These are thinner margins than our basketball picks, which returned 16.3% in the <a href="../../posts/2026-10/nba-2025-26-recap.html">2025-26 NBA season</a> and 12.3% in the <a href="../../posts/2026-10/wnba-2026-recap.html">2026 WNBA season</a>, and this was a partial first season. We publish it the same way.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://slamdunk.bet/images/posts/mlb-2026-recap.png" alt="Line chart of cumulative net units for the 2026 MLB season. The line falls to about -110 in late July, climbs to about 140 by mid-August, reaches about 200 at the end of September, and drifts down to about 128 through the postseason." width="1600" height="800" class="figure-img"></p>
@@ -902,7 +902,7 @@
   <media:content url="https://slamdunk.bet/images/posts/nba-2025-26-recap.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
-  <title>2026 WNBA Recap: +464 Units at 12.5% ROI</title>
+  <title>2026 WNBA Recap: +458 Units at 12.3% ROI</title>
   <dc:creator>Slam Dunk Bets</dc:creator>
   <link>https://slamdunk.bet/posts/2026-10/wnba-2026-recap.html</link>
   <description><![CDATA[ 
@@ -912,12 +912,12 @@
 
 <section id="summary" class="level2">
 <h2 data-anchor-id="summary">Summary</h2>
-<p>Slam Dunk Bets recommended 6,707 wagers on WNBA first-event props in 2026, from opening night on May 8 through Game 6 of the Finals on October 29. The wagers returned +464 net units on 3,721 units staked, a return on investment (ROI) of 12.5%.</p>
-<p>This recap was first published on October 6, with the playoffs in progress, and updated on October 30 through Game 6 of the Finals. Game 7 is still to be played, so the final totals will move a little.</p>
+<p>Slam Dunk Bets recommended 6,707 wagers on WNBA first-event props in 2026, from opening night on May 8 through Game 7 of the Finals on October 31. The wagers returned +458 net units on 3,728 units staked, a return on investment (ROI) of 12.3%.</p>
+<p>This recap was first published on October 6, with the playoffs in progress, and updated on November 1 with the final results through Game 7 of the Finals.</p>
 <p>The ROI was lower than in our two previous WNBA seasons. The 2025 season returned +529 units (17.0%). The 2024 season returned +418 units (21.6%).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://slamdunk.bet/images/posts/wnba-2026-recap.png" alt="Line chart of cumulative net units for the 2026 WNBA season. The line moves around zero through mid-June, rises to about 290 by the end of June, climbs slowly to about 390 by late September, and ends near 464 on October 29." width="1600" height="800" class="figure-img"></p>
+<p><img src="https://slamdunk.bet/images/posts/wnba-2026-recap.png" alt="Line chart of cumulative net units for the 2026 WNBA season. The line moves around zero through mid-June, rises to about 290 by the end of June, climbs slowly to about 390 by late September, peaks near 507 on October 9, and ends near 458 on October 31." width="1600" height="800" class="figure-img"></p>
 <figcaption>Cumulative net units, 2026 WNBA season. The shaded area is the playoffs.</figcaption>
 </figure>
 </div>
@@ -948,21 +948,21 @@
 </tr>
 <tr class="even">
 <td>Playoffs</td>
-<td style="text-align: right;">366</td>
-<td style="text-align: right;">239</td>
+<td style="text-align: right;">377</td>
+<td style="text-align: right;">249</td>
 <td style="text-align: right;">42</td>
-<td style="text-align: right;">223</td>
-<td style="text-align: right;">+51</td>
-<td style="text-align: right;">23.1%</td>
+<td style="text-align: right;">229</td>
+<td style="text-align: right;">+45</td>
+<td style="text-align: right;">19.5%</td>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
-<td style="text-align: right;">6,707</td>
-<td style="text-align: right;">4,046</td>
+<td style="text-align: right;">6,718</td>
+<td style="text-align: right;">4,056</td>
 <td style="text-align: right;">979</td>
-<td style="text-align: right;">3,721</td>
-<td style="text-align: right;">+464</td>
-<td style="text-align: right;">12.5%</td>
+<td style="text-align: right;">3,728</td>
+<td style="text-align: right;">+458</td>
+<td style="text-align: right;">12.3%</td>
 </tr>
 </tbody>
 </table>
@@ -986,48 +986,48 @@
 <tbody>
 <tr class="odd">
 <td>First Basket by Team</td>
-<td style="text-align: right;">2,657</td>
-<td style="text-align: right;">1,405</td>
+<td style="text-align: right;">2,662</td>
+<td style="text-align: right;">1,409</td>
 <td style="text-align: right;">458</td>
-<td style="text-align: right;">1,257</td>
-<td style="text-align: right;">+310</td>
-<td style="text-align: right;">24.7%</td>
+<td style="text-align: right;">1,259</td>
+<td style="text-align: right;">+308</td>
+<td style="text-align: right;">24.4%</td>
 </tr>
 <tr class="even">
 <td>First Basket</td>
-<td style="text-align: right;">2,061</td>
-<td style="text-align: right;">1,036</td>
+<td style="text-align: right;">2,063</td>
+<td style="text-align: right;">1,038</td>
 <td style="text-align: right;">171</td>
-<td style="text-align: right;">978</td>
-<td style="text-align: right;">+188</td>
-<td style="text-align: right;">19.2%</td>
+<td style="text-align: right;">979</td>
+<td style="text-align: right;">+186</td>
+<td style="text-align: right;">19.0%</td>
 </tr>
 <tr class="odd">
 <td>First Team</td>
-<td style="text-align: right;">357</td>
-<td style="text-align: right;">194</td>
+<td style="text-align: right;">358</td>
+<td style="text-align: right;">195</td>
 <td style="text-align: right;">187</td>
 <td style="text-align: right;">218</td>
 <td style="text-align: right;">+23</td>
-<td style="text-align: right;">10.7%</td>
+<td style="text-align: right;">10.5%</td>
 </tr>
 <tr class="even">
 <td>First Three by Team</td>
-<td style="text-align: right;">345</td>
-<td style="text-align: right;">322</td>
+<td style="text-align: right;">346</td>
+<td style="text-align: right;">323</td>
 <td style="text-align: right;">41</td>
-<td style="text-align: right;">292</td>
-<td style="text-align: right;">+22</td>
-<td style="text-align: right;">7.4%</td>
+<td style="text-align: right;">293</td>
+<td style="text-align: right;">+21</td>
+<td style="text-align: right;">7.0%</td>
 </tr>
 <tr class="odd">
 <td>First Basket Type</td>
-<td style="text-align: right;">82</td>
-<td style="text-align: right;">64</td>
+<td style="text-align: right;">83</td>
+<td style="text-align: right;">65</td>
 <td style="text-align: right;">28</td>
-<td style="text-align: right;">81</td>
-<td style="text-align: right;">+1</td>
-<td style="text-align: right;">1.1%</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.1%</td>
 </tr>
 <tr class="even">
 <td>First Team Exact</td>
@@ -1040,12 +1040,12 @@
 </tr>
 <tr class="odd">
 <td>First Basket by Team Exact</td>
-<td style="text-align: right;">966</td>
-<td style="text-align: right;">844</td>
+<td style="text-align: right;">967</td>
+<td style="text-align: right;">845</td>
 <td style="text-align: right;">77</td>
-<td style="text-align: right;">714</td>
-<td style="text-align: right;">-12</td>
-<td style="text-align: right;">-1.7%</td>
+<td style="text-align: right;">715</td>
+<td style="text-align: right;">-13</td>
+<td style="text-align: right;">-1.8%</td>
 </tr>
 <tr class="even">
 <td>First Basket Exact</td>
@@ -1058,8 +1058,8 @@
 </tr>
 </tbody>
 </table>
-<p>The two largest markets produced almost all of the profit. First Basket by Team returned +310 units (24.7%), and First Basket returned +188 units (19.2%). Together that is +498 units, more than the season’s entire net.</p>
-<p>The exact-method markets did not work this season. In these markets you pick both the scorer and how they score. First Basket Exact lost 61 units, with 5 wins in 203 wagers. First Basket by Team Exact lost 12 units. This differs from our NBA results, where the exact-method markets were among the most profitable (<a href="../../posts/2026-10/nba-2025-26-recap.html">2025-26 NBA recap</a>). The WNBA samples are much smaller, and it is not yet clear whether the difference is real.</p>
+<p>The two largest markets produced almost all of the profit. First Basket by Team returned +308 units (24.4%), and First Basket returned +186 units (19.0%). Together that is +494 units, more than the season’s entire net.</p>
+<p>The exact-method markets did not work this season. In these markets you pick both the scorer and how they score. First Basket Exact lost 61 units, with 5 wins in 203 wagers. First Basket by Team Exact lost 13 units. This differs from our NBA results, where the exact-method markets were among the most profitable (<a href="../../posts/2026-10/nba-2025-26-recap.html">2025-26 NBA recap</a>). The WNBA samples are much smaller, and it is not yet clear whether the difference is real.</p>
 <p>What the markets mean:</p>
 <ul>
 <li><strong>First Basket</strong>: the player who scores the game’s first points. Some books count only field goals.</li>
@@ -1114,15 +1114,15 @@
 </tr>
 <tr class="even">
 <td>October 2026</td>
-<td style="text-align: right;">140</td>
-<td style="text-align: right;">+63</td>
-<td style="text-align: right;">45.1%</td>
+<td style="text-align: right;">146</td>
+<td style="text-align: right;">+56</td>
+<td style="text-align: right;">38.5%</td>
 </tr>
 </tbody>
 </table>
-<p>Every month was profitable, but June accounted for 58% of the season’s net units. From July through September, ROI was between 4% and 9%.</p>
-<p>The season’s largest decline was 105 units, from +339 on August 8 to +233 on August 15. The total recovered to a new high on August 19.</p>
-<p>We placed wagers on 126 days, and 63 of those days (50.0%) finished positive. The best day was June 14, at +95 units. The worst was September 22, at -38 units.</p>
+<p>Every month was profitable, but June accounted for 59% of the season’s net units. From July through September, ROI was between 4% and 9%.</p>
+<p>The season’s largest decline was 105 units, from +339 on August 8 to +233 on August 15. The total recovered to a new high on August 19. The total peaked at +507 units after the October 9 playoff game and gave back 49 units over the Finals.</p>
+<p>We placed wagers on 127 days, and 63 of those days (49.6%) finished positive. The best day was June 14, at +95 units. The worst was September 22, at -38 units.</p>
 </section>
 <section id="players" class="level2">
 <h2 data-anchor-id="players">Players</h2>
@@ -1247,11 +1247,11 @@
 </tr>
 </tbody>
 </table>
-<p>The ten largest wins together returned +331 units, 71% of the season’s net. Without them, the season would have returned about +134 units. Most of the profit in these markets comes from a small number of long-odds wins. This season depended on them more than our NBA season did, where the ten largest wins made up 22% of the net. The largest loss on any single play was 3.8 units.</p>
+<p>The ten largest wins together returned +330 units, 72% of the season’s net. Without them, the season would have returned about +127 units. Most of the profit in these markets comes from a small number of long-odds wins. This season depended on them more than our NBA season did, where the ten largest wins made up 22% of the net. The largest loss on any single play was 3.8 units.</p>
 </section>
 <section id="how-accurate-were-the-projections" class="level2">
 <h2 data-anchor-id="how-accurate-were-the-projections">How accurate were the projections?</h2>
-<p>For each of the 4,046 plays, we compared our projected probability with the sportsbook’s price at the time of the first alert.</p>
+<p>For each of the 4,056 plays, we compared our projected probability with the sportsbook’s price at the time of the first alert.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -1262,11 +1262,11 @@
 <tbody>
 <tr class="odd">
 <td>Our projections</td>
-<td style="text-align: right;">613</td>
+<td style="text-align: right;">615</td>
 </tr>
 <tr class="even">
 <td>Sportsbook prices</td>
-<td style="text-align: right;">525</td>
+<td style="text-align: right;">526</td>
 </tr>
 <tr class="odd">
 <td><strong>Actual wins</strong></td>
@@ -1274,7 +1274,7 @@
 </tr>
 </tbody>
 </table>
-<p>The plays won 43 more times than the sportsbook prices implied. That gap is the edge the profit comes from. Our projections were too high by 45 wins.</p>
+<p>The plays won 42 more times than the sportsbook prices implied. That gap is the edge the profit comes from. Our projections were too high by 47 wins.</p>
 <p>Some of that overestimate is expected. We only bet when our number is higher than the book’s, so we mostly act on the cases where our projection is highest. Some of those projections are too high by chance, and that pushes the total up.</p>
 </section>
 <section id="how-we-counted" class="level2">
@@ -1283,8 +1283,8 @@
 <li><strong>Wagers and plays.</strong> A play is one recommendation: a player or team, in one market, in one game. When a price improves after the first alert, we recommend adding to the play, and each addition is logged as a separate wager. The same play at a different sportsbook is also a separate wager.</li>
 <li><strong>Units.</strong> Wager sizes are standardized so that the average recommended wager is about one unit. Net units are winnings minus losses. ROI is net units divided by units staked.</li>
 <li><strong>Voided wagers.</strong> 430 wagers were voided by the sportsbook, for example when a player did not play. They are excluded from every figure above.</li>
-<li><strong>Completeness.</strong> The figures include every other wager we alerted from May 8 through October 29, at the price posted when we alerted it. Prediction exchanges are not included.</li>
-<li><strong>Sportsbooks.</strong> FanDuel accounted for 45% of units staked, at a 15.8% ROI. DraftKings accounted for 42%, at a -1.4% ROI. The rest was spread across Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars.</li>
+<li><strong>Completeness.</strong> The figures include every other wager we alerted from May 8 through October 31, at the price posted when we alerted it. Prediction exchanges are not included.</li>
+<li><strong>Sportsbooks.</strong> FanDuel accounted for 45% of units staked, at a 15.6% ROI. DraftKings accounted for 42%, at a -1.7% ROI. The rest was spread across Fanatics, BetMGM, theScore, BetRivers, Hard Rock and Caesars.</li>
 </ul>
 <p>These are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.</p>
 <p>The live record for every market is in the <a href="../../apps.html">Slam Dunk Dashboard</a>, results for every season are in the <a href="../../faq.html">FAQ</a>, and the market-by-market record is on our <a href="../../wnba/index.html">WNBA picks</a> pages. How the first-basket models work is covered in our <a href="../../posts/2024-10/predict-first-baskets-1.html">five-part series</a>. To get the alerts as they post, <a href="https://sharpduel.com/slam_dunk_bets">subscribe</a>.</p>
