@@ -1,13 +1,13 @@
 ---
 title: "Privacy Policy"
-description: "What slamdunk.bet collects (anonymous analytics only), which third parties handle subscriptions and sign-in, and how to contact Slam Dunk Betting Services LLC about your data."
+description: "What slamdunk.bet collects (anonymous analytics and an ad-measurement pixel), which third parties handle subscriptions and sign-in, and how to contact Slam Dunk Betting Services LLC about your data."
 ---
 
-*Effective September 14, 2026. This policy covers the website at slamdunk.bet, operated by Slam Dunk Betting Services LLC ("Slam Dunk Bets", "we").*
+*Effective November 13, 2026. This policy covers the website at slamdunk.bet, operated by Slam Dunk Betting Services LLC ("Slam Dunk Bets", "we").*
 
 ## What this site collects
 
-This website has no accounts, forms, or comment sections. The only data it collects is **anonymous usage analytics** through Google Analytics 4: pages viewed, approximate location derived from a truncated IP address, device and browser type, the site that referred you, and clicks on our subscribe and app links. Google Analytics sets cookies to tell repeat visits apart. We use this to understand which pages and links are useful; we don't sell it, and we can't identify you from it.
+This website has no accounts, forms, or comment sections. Apart from the ad-measurement pixel described under "Advertising and affiliate links" below, the only data it collects is **anonymous usage analytics** through Google Analytics 4: pages viewed, approximate location derived from a truncated IP address, device and browser type, the site that referred you, and clicks on our subscribe and app links. Google Analytics sets cookies to tell repeat visits apart. We use this to understand which pages and links are useful; we don't sell it, and we can't identify you from it.
 
 You can opt out with the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout), by blocking cookies for this site in your browser, or by using a content blocker.
 
@@ -21,7 +21,9 @@ Subscribing, paying, and receiving picks all happen on other companies' platform
 
 ## Advertising and affiliate links
 
-This site currently runs no advertising. If we add affiliate links or ads in the future, any page that contains them will say so plainly, and this policy will be updated to describe any additional data collection.
+This site shows no ads and has no affiliate links. We do advertise Slam Dunk Bets on other platforms, and to measure whether those ads work, every page loads the **Whop Pixel**, a script from Whop, the company that processes some of our subscriptions. It records page views and the ad or link that brought you here, may set cookies or similar identifiers, and lets Whop connect a visit to a later purchase on Whop and report that conversion to the ad platform that referred you. Whop handles this data under its own privacy policy. A content blocker or blocking third-party scripts in your browser turns it off.
+
+If we add affiliate links or on-site ads in the future, any page that contains them will say so plainly, and this policy will be updated to describe any additional data collection.
 
 ## Children
 
