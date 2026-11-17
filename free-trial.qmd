@@ -1,8 +1,8 @@
 ---
-pagetitle: "Prop Picks Backed by 8,000+ Units, First Month Free"
-description: "Model-driven NBA, NFL and NHL prop picks posted to Discord and refreshed every 30 minutes: first baskets, touchdown and goal scorers. 8,000+ net units tracked since 2021-22. First 30 days free."
+pagetitle: "Player Prop Projections and Picks for NBA, NFL & NHL"
+description: "A subscription service with machine-learning projections and picks for NBA, NFL and NHL player props, posted to Discord and refreshed every 30 minutes. First 30 days free, then $19.99 a week, $49.99 a month or $499.99 a year. 21+ only."
 image: images/brand/og-default.png
-image-alt: "Slam Dunk Bets: prop picks backed by 8,000+ units of tracked ROI"
+image-alt: "Slam Dunk Bets: machine-learning projections and picks for NBA, WNBA, MLB, NFL and NHL player props"
 page-layout: full
 body-classes: ad-landing
 include-in-header:
@@ -11,43 +11,47 @@ include-in-header:
 ---
 
 <!-- Paid-traffic landing page (X ads and other campaigns). Kept out of search with noindex and out of
-     sitemap.xml by _scripts/post-render.sh; not in the navbar or llms.txt. Numbers must match the FAQ. -->
+     sitemap.xml by _scripts/post-render.sh; not in the navbar or llms.txt. Numbers must match the FAQ.
+     X reviews this page with the ads: no profit or ROI claim in the hero, the price after the trial next to
+     every CTA, and the 21+ / 1-800-GAMBLER line near the top. -->
 
 :::: hero
 ::: hero-banner
 ![Slam Dunk Bets](images/brand/logo-horizontal-light.svg){.banner-light fig-alt="Slam Dunk Bets"} ![Slam Dunk Bets](images/brand/logo-horizontal-dark.svg){.banner-dark fig-alt="Slam Dunk Bets"}
 :::
 
-# Prop picks backed by 8,000+ units of tracked ROI. First month free.
+# Machine-learning projections and picks for NBA, NFL & NHL player props.
 
 ::: hero-lede
-Our models price first baskets, touchdown scorers and goal scorers for every NBA, NFL and NHL game, check them against the books every 30 minutes, and post the edges to Discord with unit sizes.
+Slam Dunk Bets is a subscription picks service. Our models estimate first baskets, touchdown scorers and goal scorers for every NBA, NFL and NHL game, check them against the books every 30 minutes, and post the edges to Discord with unit sizes.
 :::
 
 [Start your free month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
 
 ::: lp-fineprint
-30 days free, then from $19.99 a week. Cancel anytime. 21+.
+30 days free, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime.
+
+21+ only. Gambling problem? Call [1-800-GAMBLER](tel:+18004262537){.text-nowrap}.
 :::
 ::::
 
 :::::: lp-stats
 ::: lp-stat
-**8,000+**
+**Every 30 min**
 
-net units since 2021–22
+projections and prices refresh
 :::
 
 ::: lp-stat
-**+2,135**
+**13 books**
 
-units in the 2025–26 NBA season, 16.3% ROI
+sportsbooks and exchanges compared
 :::
 
 ::: lp-stat
 **Every bet**
 
-graded and tracked, receipts daily
+graded and tracked, wins and losses
 :::
 ::::::
 
@@ -55,6 +59,8 @@ graded and tracked, receipts daily
 ## The record, every pick since 2021–22
 
 ![Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 31, 2026. Season-by-season numbers are in the [FAQ](faq.qmd).](images/home/cumulative_total.png){fig-alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units"}
+
+Past results don't guarantee future results.
 :::
 
 ::: feature-list
@@ -122,9 +128,11 @@ Every pick is logged and graded, wins and losses, with daily receipts in Discord
 :::
 
 ::: final-cta
-## Ready to cash in?
+## Try it free for 30 days
 
 [Start your free month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+30 days free, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime.
 
 Past results don't guarantee future results. 21+ only. If you or someone you know has a gambling problem, call [1-800-GAMBLER](tel:+18004262537){.text-nowrap}.
 :::

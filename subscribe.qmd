@@ -41,6 +41,8 @@ Prices and the 30-day trial are the same on Sharpduel and Whop. Sharpduel charge
 
 ## First month is free
 
+Free for 30 days, then \$19.99/week, \$49.99/month or \$499.99/year, depending on the plan you pick. Cancel anytime. 21+ only.
+
 ::: {.subscribe-ctas}
 [Subscribe via Sharpduel (preferred)](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
 :::

@@ -1,8 +1,8 @@
 ---
 pagetitle: "NBA, WNBA, MLB, NFL & NHL Prop Picks Backed by Data"
 image: images/brand/og-default.png
-image-alt: "Slam Dunk Bets: NBA, WNBA, MLB, NFL and NHL prop picks backed by 8,000+ units of tracked ROI"
-description: "Model-driven NBA, WNBA, MLB, NFL and NHL prop picks, posted to Discord and refreshed every 30 minutes: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers. 8,000+ net units tracked since 2021-22. First 30 days free."
+image-alt: "Slam Dunk Bets: machine-learning projections and picks for NBA, WNBA, MLB, NFL and NHL player props"
+description: "Model-driven NBA, WNBA, MLB, NFL and NHL prop picks, posted to Discord and refreshed every 30 minutes: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers. A subscription service: first 30 days free, then $19.99 a week, $49.99 a month or $499.99 a year. 21+ only."
 page-layout: full
 body-classes: home-page
 ---
@@ -12,7 +12,7 @@ body-classes: home-page
 ![Slam Dunk Bets](images/brand/logo-horizontal-light.svg){.banner-light fig-alt="Slam Dunk Bets"} ![Slam Dunk Bets](images/brand/logo-horizontal-dark.svg){.banner-dark fig-alt="Slam Dunk Bets"}
 :::
 
-# NBA, WNBA, MLB, NFL & NHL picks, backed by 8,000+ units of ROI since 2021–22.
+# Machine-learning projections and picks for NBA, WNBA, MLB, NFL & NHL player props.
 
 ::: hero-lede
 Slam Dunk Bets is a subscription picks service run by data scientists and engineers. Our machine learning models project first-basket props for every NBA and WNBA game, home runs and NRFI/YRFI for every MLB game, and touchdown and goal scorers for every NFL and NHL game, compare them to sportsbook prices every 30 minutes, and post the edges to Discord with unit sizes. Every bet is tracked and graded in public.
@@ -21,6 +21,12 @@ Slam Dunk Bets is a subscription picks service run by data scientists and engine
 ------------------------------------------------------------------------
 
 [Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+::: lp-fineprint
+Free first month, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime.
+
+21+ only. Gambling problem? Call [1-800-GAMBLER](tel:+18004262537){.text-nowrap}.
+:::
 ::::
 
 ::: feature-list
@@ -72,9 +78,9 @@ Daily picks and ROI receipts, straight to your phone through the Discord communi
 :::::::
 
 ::: track-record
-## 8,000+ units of ROI since 2021–22 💰
+## Every pick tracked since 2021–22
 
-We've tracked every pick since the 2021–22 NBA season, and the full cumulative chart is still climbing.
+We've logged and graded every pick since the 2021–22 NBA season, wins and losses. Season-by-season numbers are in the [FAQ](faq.qmd). Past results don't guarantee future results.
 
 ![Net units across every tracked NBA, WNBA and MLB pick, October 2021 through October 31, 2026. The 2022-23 NBA season is drawn at +1,610 units; see the [FAQ](faq.qmd) for every season.](images/home/cumulative_total.png){fig-alt="Line chart of cumulative net units for Slam Dunk Bets picks from October 2021 to October 2026, climbing from 0 to about 8,600 units"}
 :::
@@ -103,9 +109,11 @@ Real green tickets from our users, updated daily on Discord.
 :::
 
 ::: final-cta
-## Ready to cash in?
+## Try it free for a month
 
 [Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+
+Free first month, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime. 21+ only.
 
 [Still have questions? See the FAQ](faq.qmd)
 :::

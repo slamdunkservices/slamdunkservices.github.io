@@ -26,7 +26,7 @@ lang: en
 website:
   title: "Slam Dunk Bets"
   site-url: https://slamdunk.bet
-  description: "Model-driven NBA, WNBA, MLB, NFL and NHL prop picks from a team of data scientists: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers, refreshed every 30 minutes and tracked to 8,000+ net units since 2021-22."
+  description: "Model-driven NBA, WNBA, MLB, NFL and NHL prop picks from a team of data scientists: first baskets, home runs, NRFI/YRFI, touchdown and goal scorers, refreshed every 30 minutes with every pick tracked and graded since 2021-22."
   image: images/brand/og-default.png
   favicon: images/brand/favicon-32.svg
   google-analytics: "G-66MCY7L0V7"
@@ -125,7 +125,7 @@ website:
     border: false
     left: "[NBA](/nba/) · [WNBA](/wnba/) · [MLB](/mlb/) · [Subscribe](/subscribe.html) · [Articles](/articles.html)"
     center: |
-      21+ Only | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
+      21+ Only | Gambling problem? Call [1-800-GAMBLER](tel:+18004262537) | [National Problem Gambling Helpline](https://www.ncpgambling.org/help-treatment/about-the-national-problem-gambling-helpline/) <br>
       © Slam Dunk Betting Services LLC, 2026
     right: "[About](/about.html) · [Privacy](/privacy.html) · [Terms](/terms.html) · [X](https://x.com/slam_dunk_bets) · [Instagram](https://www.instagram.com/slam_dunk_bets_/) · [LinkedIn](https://www.linkedin.com/company/slam-dunk-bets)"
   search: false
