@@ -1,9 +1,9 @@
 ---
 title: "Terms of Use"
-description: "Terms for using slamdunk.bet and Slam Dunk Bets picks: an information service for adults 21+, no guarantee of results, responsible gambling resources, and how billing works through Sharpduel and Whop."
+description: "Terms for using slamdunk.bet and Slam Dunk Bets picks: an information service for adults 21+, no guarantee of results, responsible gambling resources, and how billing works through Whop."
 ---
 
-*Effective September 14, 2026. These terms cover slamdunk.bet and the picks, projections, and data published by Slam Dunk Betting Services LLC ("Slam Dunk Bets", "we").*
+*Effective November 19, 2026. These terms cover slamdunk.bet and the picks, projections, and data published by Slam Dunk Betting Services LLC ("Slam Dunk Bets", "we").*
 
 ## What we are, and aren't
 
@@ -23,7 +23,7 @@ If gambling stops being fun, help is free and confidential: call or text **1-800
 
 ## Subscriptions and billing
 
-Subscriptions are sold and billed by **Sharpduel** or **Whop** under their terms. Prices, free trials, renewals, cancellations, and refunds are handled through whichever platform you subscribed on; contact them first for billing questions. Access to the Discord server and the Slam Dunk Dashboard is for the subscriber only; sharing picks or account access with non-subscribers may result in cancellation.
+Subscriptions are sold and billed by **Whop** under its terms. Prices, free trials, renewals, cancellations, and refunds are handled through Whop; contact Whop first for billing questions. Access to the Discord server and the Slam Dunk Dashboard is for the subscriber only; sharing picks or account access with non-subscribers may result in cancellation.
 
 ## Our content
 

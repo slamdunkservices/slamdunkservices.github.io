@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: "What slamdunk.bet collects (anonymous analytics and an ad-measurement pixel), which third parties handle subscriptions and sign-in, and how to contact Slam Dunk Betting Services LLC about your data."
 ---
 
-*Effective November 13, 2026. This policy covers the website at slamdunk.bet, operated by Slam Dunk Betting Services LLC ("Slam Dunk Bets", "we").*
+*Effective November 19, 2026. This policy covers the website at slamdunk.bet, operated by Slam Dunk Betting Services LLC ("Slam Dunk Bets", "we").*
 
 ## What this site collects
 
@@ -15,13 +15,13 @@ You can opt out with the [Google Analytics opt-out browser add-on](https://tools
 
 Subscribing, paying, and receiving picks all happen on other companies' platforms, each governed by its own privacy policy:
 
-- **Sharpduel** and **Whop** handle checkout, billing, and subscription management. We never see your card details.
+- **Whop** handles checkout, billing, and subscription management. We never see your card details.
 - **Discord** hosts the community where picks are posted.
 - **The Slam Dunk Dashboard** at app.slamdunk.bet asks you to sign in with Discord or Google so it can confirm you're an active subscriber. It stores the account identifier those services return and nothing else from your profile.
 
 ## Advertising and affiliate links
 
-This site shows no ads and has no affiliate links. We do advertise Slam Dunk Bets on other platforms, and to measure whether those ads work, every page loads the **Whop Pixel**, a script from Whop, the company that processes some of our subscriptions. It records page views and the ad or link that brought you here, may set cookies or similar identifiers, and lets Whop connect a visit to a later purchase on Whop and report that conversion to the ad platform that referred you. Whop handles this data under its own privacy policy. A content blocker or blocking third-party scripts in your browser turns it off.
+This site shows no ads and has no affiliate links. We do advertise Slam Dunk Bets on other platforms, and to measure whether those ads work, every page loads the **Whop Pixel**, a script from Whop, the company that processes our subscriptions. It records page views and the ad or link that brought you here, may set cookies or similar identifiers, and lets Whop connect a visit to a later purchase on Whop and report that conversion to the ad platform that referred you. Whop handles this data under its own privacy policy. A content blocker or blocking third-party scripts in your browser turns it off.
 
 If we add affiliate links or on-site ads in the future, any page that contains them will say so plainly, and this policy will be updated to describe any additional data collection.
 
