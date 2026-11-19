@@ -35,7 +35,7 @@ An engaged reader might ask, "are there peak times when lines are at their softe
 
 We're always trying to incrementally improve our alerts, by getting the odds faster (maybe someday the books will actually sell access to their odds APIs! nah jk they're cowards), and calculating predictions in advance when we can.
 
-And there it is. From data to alerts, we've covered the bases. Er, baskets. We've covered the baskets. Thanks for reading, and if you haven't, please [subscribe](https://sharpduel.com/slam_dunk_bets)!
+And there it is. From data to alerts, we've covered the bases. Er, baskets. We've covered the baskets. Thanks for reading, and if you haven't, please [subscribe](https://whop.com/slam-dunk-bets)!
 
 A current example of an alert, and when they post during the day, is on the [NBA picks](../../nba/index.qmd) page; the same plays with every book's price are in the [Slam Dunk Dashboard](../../apps.qmd).
 

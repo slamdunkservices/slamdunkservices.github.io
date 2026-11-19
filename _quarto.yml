@@ -112,8 +112,8 @@ website:
         href: "mailto:slamdunkbettingservices@gmail.com"
         aria-label: Email Slam Dunk Bets
       - icon: discord
-        href: https://sharpduel.com/slam_dunk_bets
-        aria-label: Join the Discord via Sharpduel
+        href: https://whop.com/slam-dunk-bets
+        aria-label: Join the Discord via Whop
   open-graph:
     locale: en_US
     site-name: Slam Dunk Bets

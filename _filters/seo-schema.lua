@@ -37,7 +37,7 @@ local LOGO = SITE .. "/images/brand/logo-square.png"
 local ORG_ID = SITE .. "/#organization"
 local SITE_ID = SITE .. "/#website"
 local FOUNDER_ID = SITE .. "/about.html#founder"
-local SUBSCRIBE_URL = "https://sharpduel.com/slam_dunk_bets"
+local SUBSCRIBE_URL = "https://whop.com/slam-dunk-bets"
 
 local stringify = pandoc.utils.stringify
 

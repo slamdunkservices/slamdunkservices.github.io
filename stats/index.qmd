@@ -51,4 +51,4 @@ They are rebuilt from the data periodically during each season, and always after
 No. The picks post to Discord for subscribers, from models that use this history plus the day's lineups, prices and conditions. These pages are the public context behind them.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}

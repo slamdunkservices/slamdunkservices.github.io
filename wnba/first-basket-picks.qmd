@@ -67,6 +67,6 @@ FanDuel and DraftKings offer the most markets and carried about 86% of our 2026 
 In 2026 we alerted 4,056 plays over 127 game days, about 32 per day, or about 11 per game. The unit sizes show which edges are largest.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 Part of our [WNBA picks](index.qmd). The same models produce our [NBA first basket picks](../nba/first-basket-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

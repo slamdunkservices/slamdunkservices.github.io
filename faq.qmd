@@ -18,13 +18,13 @@ We're a bunch of data scientists and engineers who use machine learning and arti
 ::: {.faq-item}
 ## How much does it cost?
 
-$19.99 a week, $49.99 a month, or $499.99 a year, and every plan starts with a 30-day free trial. Prices are the same whether you subscribe through [Sharpduel](https://sharpduel.com/slam_dunk_bets), our preferred partner, or [Whop](https://whop.com/slam-dunk-bets). Details on the [Subscribe page](subscribe.qmd).
+$19.99 a week, $49.99 a month, or $499.99 a year, and every plan starts with a 30-day free trial. Subscribe through [Whop](https://whop.com/slam-dunk-bets). Details on the [Subscribe page](subscribe.qmd).
 :::
 
 ::: {.faq-item}
 ## How do I get the picks?
 
-Subscribe through Sharpduel or Whop and you get access to our Discord server, where plays post automatically all day with recommended unit sizes, plus the [Slam Dunk Dashboard](apps.qmd) at [app.slamdunk.bet](https://app.slamdunk.bet), where you sign in with Discord or Google and see every edge, every book's price, and the full graded record.
+Subscribe through Whop and you get access to our Discord server, where plays post automatically all day with recommended unit sizes, plus the [Slam Dunk Dashboard](apps.qmd) at [app.slamdunk.bet](https://app.slamdunk.bet), where you sign in with Discord or Google and see every edge, every book's price, and the full graded record.
 :::
 
 ::: {.faq-item}

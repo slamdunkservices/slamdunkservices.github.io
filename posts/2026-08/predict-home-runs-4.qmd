@@ -49,7 +49,7 @@ If Discord isn't your speed, the same numbers live in the Slam Dunk Dashboard at
 
 And that's the machine: 119 columns on every pitch, six million pitches of training data, a chain of models, an exact little 72-cell plate-appearance solve, 20,000 simulations per game, a calibration layer, 13 books twice an hour, half-Kelly sizing, and a rocket emoji when it matters. From data to dingers, we've covered the bases. For real this time — it's baseball. The bases are literal.
 
-Thanks as always for reading, holler if you have questions ([\@jimtheflash](https://x.com/jimtheflash) is the best way to find us), and if you want these alerts in your pocket, please consider [subscribing](https://sharpduel.com/slam_dunk_bets) — first month's free — or come hang out in the [Discord](https://whop.com/slam-dunk-bets) 🙏
+Thanks as always for reading, holler if you have questions ([\@jimtheflash](https://x.com/jimtheflash) is the best way to find us), and if you want these alerts in your pocket, please consider [subscribing](https://whop.com/slam-dunk-bets) — first month's free — or come hang out in the [Discord](https://whop.com/slam-dunk-bets) 🙏
 
 ::: {.series-nav}
 **How Do We Predict Home Runs?** [Part 1: Pitch Data](predict-home-runs-1.qmd) · [Part 2: Game-State Data](predict-home-runs-2.qmd) · [Part 3: From Projections to Edges](predict-home-runs-3.qmd) · [Part 4: Alert Alert, Home Run Edition](predict-home-runs-4.qmd)

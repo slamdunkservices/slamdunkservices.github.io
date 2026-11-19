@@ -20,7 +20,7 @@ Slam Dunk Bets is a subscription picks service run by data scientists and engine
 
 ------------------------------------------------------------------------
 
-[Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — Free First Month](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 ::: lp-fineprint
 Free first month, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime.
@@ -111,7 +111,7 @@ Real green tickets from our users, updated daily on Discord.
 ::: final-cta
 ## Try it free for a month
 
-[Subscribe — Free First Month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — Free First Month](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 Free first month, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime. 21+ only.
 

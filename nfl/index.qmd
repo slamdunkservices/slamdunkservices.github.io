@@ -46,6 +46,6 @@ An anytime touchdown bet wins if the player scores a rushing or receiving touchd
 Yes. One subscription covers NFL, [NBA](../nba/index.qmd), [WNBA](../wnba/index.qmd), [MLB](../mlb/index.qmd) and [NHL](../nhl/index.qmd) picks, the Discord and the Dashboard.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 Plans start at $19.99 a week with a 30-day free trial; details on the [Subscribe page](../subscribe.qmd). You must be 21 or older. Past results do not guarantee future results.

@@ -150,6 +150,6 @@ Only if the price does not already reflect it. Books price NRFI from the same st
 :::
 
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 Source: MLB Stats API line scores and probable starters, 2026 regular season. Updated October 13, 2026. Back to [all stats](index.qmd).

@@ -26,7 +26,7 @@ There are no tests or linters. The verification greps in the SEO section below a
 | `_quarto.yml` | Site config — `site-url`, site description/image, navbar, footer, Open Graph/Twitter, `canonical-url`, includes, filter, render whitelist, `resources` |
 | `index.qmd` | Homepage — hero (H1 tagline + one-paragraph lede), feature list, "Hall of Fame" carousel |
 | `subscribe.qmd` | Subscription landing page — what's included, **pricing table**, `schema-offers` frontmatter |
-| `free-trial.qmd` | Paid-traffic landing page (X ads, other campaigns): no navbar, one Sharpduel CTA, sticky phone CTA, pricing, 21+ disclaimer. `noindex`, dropped from the sitemap by the post-render hook, and kept out of the navbar and `llms.txt`. Its numbers and prices follow the FAQ and pricing rules below |
+| `free-trial.qmd` | Paid-traffic landing page (X ads, other campaigns): no navbar, one Whop CTA, sticky phone CTA, pricing, 21+ disclaimer. `noindex`, dropped from the sitemap by the post-render hook, and kept out of the navbar and `llms.txt`. Its numbers and prices follow the FAQ and pricing rules below |
 | `apps.qmd` | Slam Dunk Dashboard page (carousel of screenshots) |
 | `data.qmd` | Data products teaser page |
 | `articles.qmd` | Blog listing page (reads `posts/`) and generates the RSS feed `articles.xml` |
@@ -100,7 +100,7 @@ image-alt: "What the image shows"
 - Break the body into `## ` sections every few paragraphs with headings that read as answers ("What counts as a playable edge"). Answer engines and featured snippets extract headed sections; a wall of paragraphs gets skipped.
 - Link to at least one other page on the site (the FAQ, a series part, a recap) and, for a multi-part series, end every part with the shared `::: {.series-nav}` block listing all parts (styled in `styles.css`). Link forward to the next part in the closing paragraph.
 - Name image files descriptively (`red-alert-light.jpg`, not `IMG_3068.jpg` or a Wikimedia filename with parentheses). Keep images at or under 1600px on the long edge and roughly 300 KB (`sips -Z 1600 -s formatOptions 45 in.jpg --out in.jpg` works; `sips` upscales smaller images with `-Z`, so skip the flag for anything already smaller). Oversized photos were the single biggest Core Web Vitals problem on the site.
-- Link subscribe CTAs to `https://sharpduel.com/slam_dunk_bets` (preferred) and Whop only as `https://whop.com/slam-dunk-bets` (no `www`, no trailing slash).
+- Link subscribe CTAs to Whop, only as `https://whop.com/slam-dunk-bets` (no `www`, no trailing slash). Sharpduel was the primary signup until 2026-11; it now appears only on the billing pages (contact, terms, privacy) for existing subscribers.
 - Add a bullet for the post under the matching section of `llms.txt`.
 - When you later edit a published post in a way a reader would notice, set `date-modified: YYYY-MM-DD`; it feeds `dateModified`, `article:modified_time` and the visible "Modified" line. The sitemap `lastmod` comes from git automatically.
 - The post appears automatically on `articles.qmd` and in `articles.xml`. `draft: true` keeps it off the listing but still renders an empty page; park truly unfinished posts in `_drafts/` instead.
@@ -217,7 +217,7 @@ None on the site. If ads or affiliate links are ever added: article pages only, 
 
 ## Brand voice
 
-Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. Prefer **Sharpduel** over Whop for subscription CTAs (Sharpduel is the primary button; Whop is the secondary option). The brand account is `@slam_dunk_bets` on X; `@jimtheflash` is the founder/support handle. Instagram is `slam_dunk_bets_` (trailing underscore) and the LinkedIn company page is `linkedin.com/company/slam-dunk-bets`. All profiles are listed in the navbar tools, the footer, the About page, `llms.txt`, and the `sameAs` list in `_filters/seo-schema.lua`; add any new profile to all five.
+Casual, confident, and clean. Use plain-spoken copy with selective emphasis; do not rely on emoji for tone. All subscription CTAs go to **Whop** (switched back from Sharpduel in 2026-11). The brand account is `@slam_dunk_bets` on X; `@jimtheflash` is the founder/support handle. Instagram is `slam_dunk_bets_` (trailing underscore) and the LinkedIn company page is `linkedin.com/company/slam-dunk-bets`. All profiles are listed in the navbar tools, the footer, the About page, `llms.txt`, and the `sameAs` list in `_filters/seo-schema.lua`; add any new profile to all five.
 
 ## Do not render
 

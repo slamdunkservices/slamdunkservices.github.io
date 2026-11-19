@@ -331,7 +331,7 @@ class Hoops:
                         "No. This page is history. The picks come from our models, which combine this history with tonight's starting "
                         "lineup, the opponent, pace and the price at each book, and post to Discord when a price is better than the "
                         "projection. See [%s first basket picks](%s)." % (L, self.market_link()[1])))
-        body.append("\n[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
+        body.append("\n[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
         body.append("Source: %s play-by-play and box scores, %s. Updated %s. Back to [all stats](index.qmd)." % (L, cur, TODAY.strftime("%B %-d, %Y")))
         write(OUT / ("%s-first-basket-leaders.qmd" % self.league), "\n".join(body) + "\n")
         card_rows.append(("stats-%s-first-basket-leaders" % self.league, "%s First Basket Stats %s" % (L, cur),
@@ -431,7 +431,7 @@ class Hoops:
                         "That depends on the price. A player who scores first for their team in %s of starts is worth a bet only when a book "
                         "prices them below that, after adjusting for tonight's lineup and opponent. Our models make that comparison every "
                         "30 minutes for every %s game; see [%s first basket picks](%s)." % (pct(top.first_team, top.starts), L, L, self.market_link()[0])))
-        body.append("\n[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
+        body.append("\n[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
         body.append("Source: %s play-by-play and box scores, %s. Updated %s. See the [%s first basket leaders](../%s-first-basket-leaders.qmd) "
                     "for every team, or [all stats](../index.qmd)." % (L, cur, TODAY.strftime("%B %-d, %Y"), L, self.league))
         write(OUT / self.league / ("%s.qmd" % slug), "\n".join(body) + "\n")
@@ -592,7 +592,7 @@ class Baseball:
                         "record is the starting point, not the edge. Our model simulates every game 20,000 times with that day's starters, lineups "
                         "and weather and compares the result to the posted price; see [MLB NRFI and YRFI picks](../mlb/nrfi-yrfi-picks.qmd) and "
                         "the [NRFI guide](../guides/what-is-nrfi-yrfi.qmd)."))
-        body.append("\n[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
+        body.append("\n[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
         body.append("Source: MLB Stats API line scores and probable starters, %d regular season. Updated %s. Back to [all stats](index.qmd)." % (cur, TODAY.strftime("%B %-d, %Y")))
         write(OUT / "mlb-nrfi-rates.qmd", "\n".join(body) + "\n")
         card_rows.append(("stats-mlb-nrfi-rates", "MLB NRFI Stats %d" % cur, "NRFI in %s of games" % league_rate,
@@ -659,7 +659,7 @@ class Baseball:
                         "Only when the price is better than the real chance of a scoreless first, which depends on that day's starters, lineups, park and "
                         "weather far more than on the season record. Our model simulates every game 20,000 times and posts a play when a book's price "
                         "clears the projection; see [MLB NRFI and YRFI picks](../../mlb/nrfi-yrfi-picks.qmd)."))
-        body.append("\n[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
+        body.append("\n[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role=\"button\"}\n")
         body.append("Source: MLB Stats API line scores and probable starters, %d regular season. Updated %s. See [NRFI stats for every team](../mlb-nrfi-rates.qmd) "
                     "or [all stats](../index.qmd)." % (cur, TODAY.strftime("%B %-d, %Y")))
         write(OUT / "mlb" / ("%s.qmd" % slug), "\n".join(body) + "\n")

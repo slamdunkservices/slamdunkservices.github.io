@@ -65,6 +65,6 @@ Full Kelly assumes the probabilities are exactly right. Ours are calibrated but 
 Their prices appear in the tables, and they are sometimes the best number on the board, but they are not counted as official plays. Exchange prices move fast and the resting liquidity is often too thin to guarantee the posted price is actually available. Our tracked record uses sportsbook prices only.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 Part of our [MLB picks](index.qmd), alongside [NRFI and YRFI picks](nrfi-yrfi-picks.qmd). You must be 21 or older. Past results do not guarantee future results.

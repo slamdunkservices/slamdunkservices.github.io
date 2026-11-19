@@ -47,7 +47,7 @@ The last pieces to the modeling puzzle are the exact methods for first team to s
 
 And there it is! We might do some more technical writeups on modeling tools and techniques later down the line, as well as some pieces about how we predict other first events in basketball games (like rebounds or steals). But the next post, [Part 4](predict-first-baskets-4.qmd), is about how we find and quantify our edges to make play recommendations.
 
-Thanks for reading all this, and if you haven't yet, please [subscribe](https://sharpduel.com/slam_dunk_bets) to get the picks in our Discord server!
+Thanks for reading all this, and if you haven't yet, please [subscribe](https://whop.com/slam-dunk-bets) to get the picks in our Discord server!
 
 The tipoff and team models drive our [team to score first and win tipoff picks](../../nba/team-to-score-first-picks.qmd), and the exact-method models drive the method markets in our [NBA first basket picks](../../nba/first-basket-picks.qmd); [First basket exact method, explained](../../guides/first-basket-exact-method.qmd) covers how those are graded.
 

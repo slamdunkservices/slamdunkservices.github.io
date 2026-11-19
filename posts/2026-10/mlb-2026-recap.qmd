@@ -129,4 +129,4 @@ Our projections were too high by about 3.6% of plays, a larger overestimate than
 
 These are tracked results, not a guarantee. Your results depend on which sportsbooks you can use, how quickly you place a wager after an alert, and any betting limits on your account. Past results do not predict future results.
 
-The live record for every market is in the [Slam Dunk Dashboard](../../apps.qmd), results for every season are in the [FAQ](../../faq.qmd), and the market-by-market record is on our [MLB picks](../../mlb/index.qmd) pages. How the models work is covered in our four-part series, starting with [Part 1: Pitch Data](../2026-08/predict-home-runs-1.qmd). To get the alerts as they post, [subscribe](https://sharpduel.com/slam_dunk_bets).
+The live record for every market is in the [Slam Dunk Dashboard](../../apps.qmd), results for every season are in the [FAQ](../../faq.qmd), and the market-by-market record is on our [MLB picks](../../mlb/index.qmd) pages. How the models work is covered in our four-part series, starting with [Part 1: Pitch Data](../2026-08/predict-home-runs-1.qmd). To get the alerts as they post, [subscribe](https://whop.com/slam-dunk-bets).

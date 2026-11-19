@@ -95,6 +95,6 @@ That depends on the price. A player who scores first for their team in 26% of st
 :::
 
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 Source: NBA play-by-play and box scores, 2025-26. Updated October 13, 2026. See the [NBA first basket leaders](../nba-first-basket-leaders.qmd) for every team, or [all stats](../index.qmd).

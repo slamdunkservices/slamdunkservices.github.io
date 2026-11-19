@@ -66,6 +66,6 @@ Yes, if the bet stands. At most books a bet on a player who starts on the bench 
 Any price longer than the batter's real chance that day. A 15% hitter is fair at about +567, so +700 is a bet and +450 is not, and the same batter's price differs by book. That is what our alerts check 30 times a day.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 More guides: [what do NRFI and YRFI mean](what-is-nrfi-yrfi.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).

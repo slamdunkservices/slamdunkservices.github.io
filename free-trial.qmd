@@ -26,7 +26,7 @@ include-in-header:
 Slam Dunk Bets is a subscription picks service. Our models estimate first baskets, touchdown scorers and goal scorers for every NBA, NFL and NHL game, check them against the books every 30 minutes, and post the edges to Discord with unit sizes.
 :::
 
-[Start your free month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Start your free month](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 ::: lp-fineprint
 30 days free, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime.
@@ -104,7 +104,7 @@ Past results don't guarantee future results.
 | Annual | $499.99 / year | 30 days |
 :::
 
-Sharpduel runs a $1 card check at signup. Cancel anytime from your Sharpduel account.
+Cancel anytime from your Whop account.
 :::
 
 ::: lp-faq
@@ -117,7 +117,7 @@ No. We're a picks and data service, not a sportsbook. You place your own bets wh
 ::: {.faq-item}
 ### What happens after the free month?
 
-Your plan renews at the price you picked unless you cancel before the 30 days are up. Cancel from Sharpduel in a couple of taps.
+Your plan renews at the price you picked unless you cancel before the 30 days are up. Cancel from Whop in a couple of taps.
 :::
 
 ::: {.faq-item}
@@ -130,7 +130,7 @@ Every pick is logged and graded, wins and losses, with daily receipts in Discord
 ::: final-cta
 ## Try it free for 30 days
 
-[Start your free month](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Start your free month](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 30 days free, then \$19.99/week, \$49.99/month or \$499.99/year. Cancel anytime.
 
@@ -139,7 +139,7 @@ Past results don't guarantee future results. 21+ only. If you or someone you kno
 
 ```{=html}
 <div class="sticky-cta" aria-hidden="true">
-  <a class="btn btn-primary" href="https://sharpduel.com/slam_dunk_bets" tabindex="-1">Start your free month</a>
+  <a class="btn btn-primary" href="https://whop.com/slam-dunk-bets" tabindex="-1">Start your free month</a>
 </div>
 <script>
   // Show the bottom bar only while neither in-page CTA is on screen.

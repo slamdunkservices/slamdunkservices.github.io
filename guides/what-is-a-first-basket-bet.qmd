@@ -68,6 +68,6 @@ About +300 to +500 for a team's most likely first scorer, +600 to +1200 for the 
 It changes every season, and it is as much about who takes the first shot as who makes it. The [NBA leaders](../stats/nba-first-basket-leaders.qmd) and [WNBA leaders](../stats/wnba-first-basket-leaders.qmd) pages list the top players and every team's most frequent first scorer.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 More guides: [first basket exact method](first-basket-exact-method.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).

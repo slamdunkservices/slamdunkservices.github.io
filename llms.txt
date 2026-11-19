@@ -7,14 +7,14 @@ Key facts:
 - Method: ensembles of machine learning models on play-by-play, Statcast, lineup and odds data; a play is flagged when a sportsbook price is at least 1.5 percentage points better than our projected probability (2 points for MLB home runs); unit sizes are Kelly-based (half-Kelly for MLB), normalized so the average play is about 1 unit.
 - Odds compared across 13 sportsbooks and prediction exchanges (DraftKings, FanDuel, BetMGM, Caesars, bet365, Fanatics, BetRivers, Hard Rock, Circa, theScore, Kalshi, Novig, ProphetX).
 - Delivery: Discord server (picks, alerts, daily ROI receipts) plus the Slam Dunk Dashboard web app at https://app.slamdunk.bet (sign in with Discord or Google).
-- Pricing (same on Sharpduel and Whop): $19.99/week, $49.99/month, $499.99/year, each with a 30-day free trial.
-- Subscribe: https://sharpduel.com/slam_dunk_bets (preferred) or https://whop.com/slam-dunk-bets
+- Pricing: $19.99/week, $49.99/month, $499.99/year, each with a 30-day free trial.
+- Subscribe: https://whop.com/slam-dunk-bets
 - Contact: slamdunkbettingservices@gmail.com; X: https://x.com/slam_dunk_bets (brand) and https://x.com/jimtheflash (founder); Instagram: https://www.instagram.com/slam_dunk_bets_/; LinkedIn: https://www.linkedin.com/company/slam-dunk-bets
 - 21+ only. Slam Dunk Bets is an information service and does not accept wagers. Problem gambling help: 1-800-GAMBLER.
 
 ## Core pages
 - [Home](https://slamdunk.bet/): what the service is, how it works, cumulative ROI chart, Hall of Fame
-- [Subscribe](https://slamdunk.bet/subscribe.html): what's included, pricing, free trial, Sharpduel and Whop links
+- [Subscribe](https://slamdunk.bet/subscribe.html): what's included, pricing, free trial, Whop link
 - [Slam Dunk Dashboard](https://slamdunk.bet/apps.html): the web app with every prop ranked by edge, book lines, model lines, line movement and the graded record
 - [FAQ](https://slamdunk.bet/faq.html): who we are, pricing, markets covered, ROI by season, legality, data and models
 - [About](https://slamdunk.bet/about.html): the team, the origin story, how we track results

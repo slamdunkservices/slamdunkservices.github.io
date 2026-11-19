@@ -64,6 +64,6 @@ A few percent on sides and totals over the long run. Prop markets allow more, wi
 Because the edges differ. A Kelly-based formula stakes more on larger edges and shorter prices and less on long shots, scaled so the average play is about one unit.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 More guides: [what is a first basket bet](what-is-a-first-basket-bet.qmd) · [what do NRFI and YRFI mean](what-is-nrfi-yrfi.qmd) · [all guides](index.qmd).

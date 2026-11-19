@@ -64,6 +64,6 @@ Roughly +600 to +1500 for a likely first scorer's most likely method, and +2000 
 Only at the right price. It wins rarely, so it needs an edge that the model can quantify, small stakes, and a long enough sample to let the math work. Our record in the market, season by season, is on the [NBA first basket picks](../nba/first-basket-picks.qmd) page.
 :::
 
-[Subscribe — first month free](https://sharpduel.com/slam_dunk_bets){.btn .btn-primary .btn-lg role="button"}
+[Subscribe — first month free](https://whop.com/slam-dunk-bets){.btn .btn-primary .btn-lg role="button"}
 
 More guides: [what is a first basket bet](what-is-a-first-basket-bet.qmd) · [what is a unit](what-is-a-unit-in-sports-betting.qmd) · [all guides](index.qmd).
