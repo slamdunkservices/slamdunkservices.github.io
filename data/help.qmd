@@ -1,0 +1,103 @@
+---
+title: "How the data store works"
+pagetitle: "Data Store Help: Formats, Delivery, Updates and License"
+description: "How Slam Dunk data files are formatted, delivered and updated, what the license lets you do with them, and what happens if a file is wrong. Plain CSV, one file per season, a data dictionary for every column."
+date-modified: 2026-11-25
+---
+
+Every product in the store is a flat file: one CSV per league, season and dataset, with a header row, one row per thing, and a published description of every column. No login to a dashboard, no API key, no rate limit. You download the file and it is yours to work with.
+
+## What you get
+
+```{=html}
+<div class="store-tree">nba/2025-26/
+├── player-logs/   <span class="hl">nba_2025-26_player-logs.csv</span>        one row per player per game
+├── team-logs/     <span class="hl">nba_2025-26_team-logs.csv</span>          one row per team per game
+├── play-by-play/  <span class="hl">nba_2025-26_play-by-play.csv.zip</span>   one row per event, whole season
+├── schedule/      <span class="hl">nba_2025-26_schedule.csv</span>           one row per game
+└── first-events/  <span class="hl">nba_2025-26_first-events.csv</span>       one row per game
+    README.txt in every folder: the column dictionary for that file</div>
+```
+
+- **Plain CSV, UTF-8, comma-delimited**, with a header row. Opens in Excel, Google Sheets, R, pandas, DuckDB, or anything else.
+- **Play-by-play ships zipped** because a season runs to hundreds of thousands of rows. It is one CSV inside a standard `.zip`; pandas and R read it without unzipping.
+- **One schema per dataset.** The 2014-15 file has the same columns as this season's. A column the source did not record back then is blank, and the dictionary says from when it is filled.
+- **IDs are stable strings.** Game, team and player IDs keep their leading zeros and join across every file for that league.
+- **Regular season and postseason are in the same file**, told apart by a `season_type` column. Preseason and All-Star games are left out.
+- **No betting lines, no fantasy salaries, no projections** in these files. They are the record of what happened on the field.
+
+## Season passes and completed seasons
+
+A **completed season** is finished and final: buy it once, download it whenever you like.
+
+A **season pass** covers the season in progress. The file is season-to-date, so you get every game played so far on day one, and it is rebuilt every morning after the previous night's games. Same file name, more rows. When the season ends the final file stays in your library; a pass does not expire into nothing.
+
+The **complete set** is every dataset for one league and season. The **complete archive** is every dataset for every completed season we hold for that league.
+
+## Delivery
+
+1. Add files to the cart and pay once by card through Stripe. No account to create.
+2. Stripe sends you back to a page with your **library link**. Keep it: it is how you get to your files, on any device.
+3. The library lists everything you own. Each download link is made on the spot and expires after a few minutes.
+
+Lost the link? [Recover your library](library.qmd) with the email you paid with and the receipt number on your Stripe receipt.
+
+Want to script it? The library link is all a script needs: fetch the file list, follow each download link. Season-pass files keep the same path all season, so a daily job stays one line long.
+
+## License {#license}
+
+The short version: **use the data, don't resell the files.**
+
+You may:
+
+- Analyze it, model it, chart it, teach with it, and build tools on it, for yourself or for the company you work for.
+- Publish what you make from it: findings, charts, tables of results, articles, videos, model output. A credit to Slam Dunk Data is appreciated and not required.
+
+You may not:
+
+- Redistribute, resell or publicly post the files themselves, or a substantial part of their rows, in any format.
+- Share your library link, or use one purchase to supply a team that should each have their own.
+
+Need to hand the raw files to a class, a research group or a client? [Email us](mailto:slamdunkbettingservices@gmail.com); we say yes to most of these.
+
+The files are compilations of factual game statistics, organized, cleaned and documented by Slam Dunk Betting Services LLC. We are not affiliated with or endorsed by the NBA, WNBA, NFL, MLB or any team. Team and league names are used only to identify the games the data describes.
+
+## If a file is wrong
+
+Sports data has errors in it at the source: a stat correction the league issues a week later, a play logged to the wrong player. We rebuild from source every morning, so most corrections flow through on their own.
+
+If you find something wrong, [tell us](mailto:slamdunkbettingservices@gmail.com) which file, which row and what you expected. We fix what we can verify and repost the file, for everyone who owns it.
+
+**Refunds.** Every dataset has a free sample and a full column dictionary so you can check the fit before you buy. Because a data file cannot be returned, sales are final, with one exception: if a file is broken, materially incomplete, or not as described on its page, tell us within 14 days and we will fix it or refund it, your choice.
+
+::: {.faq-item}
+### Do I need to know how to code?
+
+No. Player logs, team logs, results and first-events files open directly in Excel or Google Sheets. Play-by-play is too many rows for a spreadsheet to be comfortable; it is built for R, Python, SQL or DuckDB.
+:::
+
+::: {.faq-item}
+### When are in-season files updated?
+
+Every morning, after the previous night's games are final. Each league page lists its build time. A game that finishes very late, or a source that is slow to post, can push a game into the following morning's build.
+:::
+
+::: {.faq-item}
+### Can I buy just one team or one month?
+
+Not separately. Files are per season, and a filter in any tool gets you one team or one month in a line.
+:::
+
+::: {.faq-item}
+### Do you sell odds history or your model projections?
+
+Not in the store yet. We hold the price at every book every 30 minutes for the markets we project, and a projection for every player and game; both are being packaged. [Email us](mailto:slamdunkbettingservices@gmail.com) if you want to know when they land, or if you need a custom pull now.
+:::
+
+::: {.faq-item}
+### Is there a discount for students or researchers?
+
+Usually. Write to us from your school address and say what you are working on.
+:::
+
+[Browse the data](index.qmd){.btn .btn-primary role="button"}

@@ -1,0 +1,47 @@
+---
+title: "Thanks. Your files are ready."
+pagetitle: "Order Complete: Slam Dunk Data Store"
+description: "Your data store order is complete. Open your library to download the files, and keep the link: it is how you get back to them."
+include-in-header:
+  - text: |
+      <meta name="robots" content="noindex, follow">
+---
+
+:::: {data-store-view="thanks"}
+::: {.store-status data-store-status=""}
+Confirming your purchase…
+:::
+
+::: {data-store-claimed="" hidden="hidden"}
+Payment received. Everything you bought is in your library now.
+
+::: {.store-cta}
+[Open my library](library.qmd){.btn .btn-primary .btn-lg role="button" data-store-library-link=""}
+:::
+
+## Keep this link
+
+This is your library. Bookmark it or paste it somewhere you will find it; it works on any device, and season-pass files refresh behind it every morning.
+
+```{=html}
+<input class="store-keep" data-store-keep type="text" readonly aria-label="Your library link" onclick="this.select()">
+```
+
+Treat it like a password: anyone with the link can download your files. Stripe has also emailed you a receipt; the receipt number on it gets your library back if you ever lose the link.
+:::
+::::
+
+## Lost the page before it loaded?
+
+Enter the email you paid with and the receipt number from your Stripe receipt.
+
+```{=html}
+<form class="store-recover" data-store-recover>
+  <label>Email <input type="email" name="email" autocomplete="email" required></label>
+  <label>Receipt number <input type="text" name="receipt" placeholder="1234-5678" pattern="#?[0-9]{4}-[0-9]{4}" required></label>
+  <button type="submit" class="btn store-add">Find my library</button>
+  <span class="store-note" data-store-recover-status role="status"></span>
+</form>
+```
+
+Questions about a file? The [data dictionary](index.qmd) for each dataset explains every column, and [help](help.qmd) covers formats, updates and the license. Anything else: [slamdunkbettingservices@gmail.com](mailto:slamdunkbettingservices@gmail.com).

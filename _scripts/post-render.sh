@@ -3,7 +3,8 @@
 #
 # 1. Makes the sitemap advertise index pages by their folder (https://slamdunk.bet/, /nba/, ...) to match the
 #    canonical tags, instead of .../index.html.
-# 2. Drops the paid-traffic landing page (free-trial.html, noindex) from the sitemap.
+# 2. Drops the noindex pages from the sitemap: the paid-traffic landing page (free-trial.html) and the
+#    data store's cart, thank-you and library pages.
 # 3. Replaces every <lastmod> with the date of the last git commit that touched the page's source .qmd.
 #    Quarto writes the render time, which marks every page as modified on every publish and teaches search
 #    engines to ignore the field. A source with uncommitted changes keeps the render time.
@@ -12,6 +13,8 @@ sitemap="${QUARTO_PROJECT_OUTPUT_DIR:-_site}/sitemap.xml"
 [ -f "$sitemap" ] || exit 0
 sed -i '' 's#/index\.html</loc>#/</loc>#' "$sitemap"
 sed -i '' '/<url>/{N;/free-trial\.html/{N;N;d;};}' "$sitemap"
+# The data store's cart, thank-you and library pages are per-buyer and noindex.
+sed -i '' -E '/<url>/{N;/data\/(cart|thanks|library)\.html/{N;N;d;};}' "$sitemap"
 
 git rev-parse --is-inside-work-tree >/dev/null 2>&1 || exit 0
 site_url="https://slamdunk.bet"

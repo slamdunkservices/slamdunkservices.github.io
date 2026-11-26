@@ -1,0 +1,100 @@
+season,season_type,game_id,game_date,home_team,away_team,event_seq,event_num,period,clock,seconds_remaining,seconds_elapsed,event_type,event_subtype,team,player1_id,player1_name,player1_role,player2_id,player2_name,player2_role,player3_id,player3_name,player3_role,home_score,away_score,shot_made,shot_value,shot_distance,shot_x,shot_y,description
+2026,regular_season,1022600001,2026-05-08,NYL,CON,1,2,1,10:00,600,0,period_start,,,,,,,,,,,,0,0,,,,,,Start of 1st Period (7:34 PM EST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,2,4,1,10:00,600,0,jump_ball,,NYL,1627673,Jonquel Jones,jumper,203398,Brittney Griner,jumper,1642800,Aneesah Morrow,tip_recipient,0,0,,,,,,Jump Ball Jones vs. Griner: Tip to Morrow
+2026,regular_season,1022600001,2026-05-08,NYL,CON,3,7,1,9:44,584,16,missed_shot,jump_shot,CON,1642800,Aneesah Morrow,shooter,,,,,,,0,0,False,3,27,121,240,MISS Morrow 27' 3PT Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,4,8,1,9:39,579,21,rebound,defensive,NYL,1629546,Marine Johannes,rebound,,,,,,,0,0,,,,,,Johannes REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,5,9,1,9:25,565,35,made_shot,jump_shot,NYL,1627668,Breanna Stewart,shooter,1629546,Marine Johannes,assist,,,,2,0,True,2,7,21,63,Stewart 7' Turnaround Jump Shot (2 PTS) (Johannes 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,6,11,1,9:17,557,43,made_shot,layup,CON,1641649,Diamond Miller,shooter,1642809,Saniya Rivers,assist,,,,2,2,True,2,2,17,0,Miller 2' Driving Reverse Layup (2 PTS) (Rivers 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,7,13,1,9:06,546,54,turnover,traveling,NYL,1627668,Breanna Stewart,turnover,,,,,,,2,2,,,,,,Stewart Traveling Turnover (P1.T1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,8,15,1,8:50,530,70,turnover,violation,CON,203398,Brittney Griner,turnover,,,,,,,2,2,,,,,,Griner 3 Second Violation Turnover (P1.T1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,9,16,1,8:50,530,70,violation,delay_of_game,CON,,,,,,,,,,2,2,,,,,,Sun Violation: Delay of game Violation
+2026,regular_season,1022600001,2026-05-08,NYL,CON,10,17,1,8:34,514,86,made_shot,jump_shot,NYL,1629546,Marine Johannes,shooter,,,,,,,5,2,True,3,26,115,229,Johannes 26' 3PT Step Back Jump Shot (3 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,11,18,1,8:21,501,99,missed_shot,jump_shot,CON,203398,Brittney Griner,shooter,,,,,,,5,2,False,2,19,-24,184,MISS Griner 19' Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,12,19,1,8:19,499,101,rebound,defensive,NYL,1631136,Pauline Astier,rebound,,,,,,,5,2,,,,,,Astier REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,13,20,1,8:15,495,105,made_shot,layup,NYL,1631136,Pauline Astier,shooter,,,,,,,7,2,True,2,2,-15,12,Astier 2' Running Layup (2 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,14,21,1,8:15,495,105,foul,shooting,CON,1642809,Saniya Rivers,foul,,,,,,,7,2,,,,,,Rivers S.FOUL (P1.T1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,15,23,1,8:15,495,105,free_throw,1_of_1,NYL,1631136,Pauline Astier,shooter,,,,,,,8,2,True,1,,,,Astier Free Throw 1 of 1 (3 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,16,24,1,8:00,480,120,turnover,bad_pass,CON,1642800,Aneesah Morrow,turnover,1627668,Breanna Stewart,steal,,,,8,2,,,,,,Morrow Bad Pass Turnover (P1.T2) | Stewart STEAL (1 STL)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,17,26,1,7:56,476,124,made_shot,layup,NYL,1631136,Pauline Astier,shooter,204335,Betnijah Laney-Hamilton,assist,,,,10,2,True,2,3,-15,24,Astier 3' Running Finger Roll Layup (5 PTS) (Laney-Hamilton 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,18,28,1,7:55,475,125,timeout,regular,CON,,,,,,,,,,10,2,,,,,,Sun Timeout: Regular (Reg.1 Short 0)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,19,29,1,7:36,456,144,made_shot,jump_shot,CON,203398,Brittney Griner,shooter,1642809,Saniya Rivers,assist,,,,10,4,True,2,11,-106,2,Griner 11' Turnaround Fadeaway (2 PTS) (Rivers 2 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,20,31,1,7:20,440,160,missed_shot,jump_shot,NYL,1629546,Marine Johannes,shooter,,,,,,,10,4,False,2,11,95,47,MISS Johannes 11' Step Back Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,21,32,1,7:18,438,162,rebound,defensive,CON,203398,Brittney Griner,rebound,,,,,,,10,4,,,,,,Griner REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,22,33,1,7:12,432,168,turnover,bad_pass,CON,1642800,Aneesah Morrow,turnover,1627673,Jonquel Jones,steal,,,,10,4,,,,,,Morrow Bad Pass Turnover (P2.T3) | Jones STEAL (1 STL)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,23,35,1,7:06,426,174,missed_shot,jump_shot,NYL,204335,Betnijah Laney-Hamilton,shooter,,,,,,,10,4,False,3,27,-215,160,MISS Laney-Hamilton 27' 3PT Running Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,24,36,1,7:00,420,180,rebound,defensive,CON,1642800,Aneesah Morrow,rebound,,,,,,,10,4,,,,,,Morrow REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,25,37,1,6:54,414,186,foul,personal,NYL,1631136,Pauline Astier,foul,,,,,,,10,4,,,,,,Astier P.FOUL (P1.T1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,26,39,1,6:49,409,191,missed_shot,jump_shot,CON,1642809,Saniya Rivers,shooter,,,,,,,10,4,False,2,15,-140,60,MISS Rivers 15' Pullup Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,27,40,1,6:46,406,194,rebound,offensive,CON,203398,Brittney Griner,rebound,,,,,,,10,4,,,,,,Griner REBOUND (Off:1 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,28,41,1,6:44,404,196,missed_shot,jump_shot,CON,1641649,Diamond Miller,shooter,,,,,,,10,4,False,3,30,162,247,MISS Miller 30' 3PT Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,29,42,1,6:41,401,199,rebound,defensive,NYL,1627668,Breanna Stewart,rebound,,,,,,,10,4,,,,,,Stewart REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,30,43,1,6:37,397,203,missed_shot,layup,NYL,1631136,Pauline Astier,shooter,,,,1629568,Kennedy Burke,block,10,4,False,2,7,-46,49,MISS Astier 7' Running Layup | Burke BLOCK (1 BLK)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,31,48,1,6:37,397,203,rebound,offensive,NYL,,,,,,,,,,10,4,,,,,,LIBERTY Rebound
+2026,regular_season,1022600001,2026-05-08,NYL,CON,32,45,1,6:34,394,206,jump_ball,,NYL,1631136,Pauline Astier,jumper,,,,,,,10,4,,,,,,
+2026,regular_season,1022600001,2026-05-08,NYL,CON,33,50,1,6:25,385,215,made_shot,jump_shot,NYL,1629546,Marine Johannes,shooter,,,,,,,13,4,True,3,26,190,178,Johannes 26' 3PT Pullup Jump Shot (6 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,34,51,1,6:06,366,234,turnover,bad_pass,CON,1641649,Diamond Miller,turnover,1629546,Marine Johannes,steal,,,,13,4,,,,,,Miller Bad Pass Turnover (P1.T4) | Johannes STEAL (1 STL)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,35,53,1,6:02,362,238,made_shot,jump_shot,NYL,1627673,Jonquel Jones,shooter,1627668,Breanna Stewart,assist,,,,16,4,True,3,24,216,101,Jones 24' 3PT Running Jump Shot (3 PTS) (Stewart 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,36,54,1,5:49,349,251,made_shot,jump_shot,CON,1629568,Kennedy Burke,shooter,,,,,,,16,6,True,2,18,-127,126,Burke 18' Pullup Jump Shot (2 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,37,55,1,5:34,334,266,missed_shot,jump_shot,NYL,1627673,Jonquel Jones,shooter,,,,,,,16,6,False,3,24,205,131,MISS Jones 24' 3PT Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,38,56,1,5:32,332,268,rebound,defensive,CON,,,,,,,,,,16,6,,,,,,Sun Rebound
+2026,regular_season,1022600001,2026-05-08,NYL,CON,39,58,1,5:32,332,268,substitution,,NYL,204335,Betnijah Laney-Hamilton,sub_out,1629566,Han Xu,sub_in,,,,16,6,,,,,,SUB: Xu FOR Laney-Hamilton
+2026,regular_season,1022600001,2026-05-08,NYL,CON,40,59,1,5:32,332,268,substitution,,NYL,1627673,Jonquel Jones,sub_out,203822,Rebekah Gardner,sub_in,,,,16,6,,,,,,SUB: Gardner FOR Jones
+2026,regular_season,1022600001,2026-05-08,NYL,CON,41,60,1,5:32,332,268,substitution,,CON,1641649,Diamond Miller,sub_out,1643449,Charlisse Leger-Walker,sub_in,,,,16,6,,,,,,SUB: Leger-Walker FOR Miller
+2026,regular_season,1022600001,2026-05-08,NYL,CON,42,65,1,5:23,323,277,foul,personal,NYL,203822,Rebekah Gardner,foul,,,,,,,16,6,,,,,,Gardner P.FOUL (P1.T2)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,43,67,1,5:17,317,283,missed_shot,jump_shot,CON,1643449,Charlisse Leger-Walker,shooter,,,,,,,16,6,False,2,17,99,141,MISS Leger-Walker 17' Pullup Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,44,68,1,5:14,314,286,rebound,defensive,NYL,203822,Rebekah Gardner,rebound,,,,,,,16,6,,,,,,Gardner REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,45,69,1,5:12,312,288,foul,personal,CON,1643449,Charlisse Leger-Walker,foul,,,,,,,16,6,,,,,,Leger-Walker P.FOUL (P1.T2)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,46,71,1,5:12,312,288,substitution,,NYL,1629546,Marine Johannes,sub_out,1642210,Julie Vanloo,sub_in,,,,16,6,,,,,,SUB: Vanloo FOR Johannes
+2026,regular_season,1022600001,2026-05-08,NYL,CON,47,73,1,5:08,308,292,made_shot,hook,NYL,1627668,Breanna Stewart,shooter,1631136,Pauline Astier,assist,,,,18,6,True,2,4,18,40,Stewart 4' Driving Hook Shot (4 PTS) (Astier 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,48,75,1,4:59,299,301,missed_shot,jump_shot,CON,1642809,Saniya Rivers,shooter,,,,,,,18,6,False,2,13,-133,-3,MISS Rivers 13' Pullup Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,49,76,1,4:56,296,304,rebound,defensive,NYL,1642210,Julie Vanloo,rebound,,,,,,,18,6,,,,,,Vanloo REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,50,77,1,4:54,294,306,made_shot,layup,NYL,1627668,Breanna Stewart,shooter,1642210,Julie Vanloo,assist,,,,20,6,True,2,3,12,30,Stewart 3' Running Layup (6 PTS) (Vanloo 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,51,79,1,4:43,283,317,made_shot,jump_shot,CON,1642800,Aneesah Morrow,shooter,1643449,Charlisse Leger-Walker,assist,,,,20,8,True,2,17,6,168,Morrow 17' Pullup Jump Shot (2 PTS) (Leger-Walker 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,52,80,1,4:23,263,337,made_shot,jump_shot,NYL,1642210,Julie Vanloo,shooter,1631136,Pauline Astier,assist,,,,23,8,True,3,26,5,259,Vanloo 26' 3PT Jump Shot (3 PTS) (Astier 2 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,53,82,1,4:12,252,348,turnover,traveling,CON,1642800,Aneesah Morrow,turnover,,,,,,,23,8,,,,,,Morrow Traveling Turnover (P3.T5)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,54,83,1,4:12,252,348,substitution,,CON,1642800,Aneesah Morrow,sub_out,1631135,Olivia Nelson-Ododa,sub_in,,,,23,8,,,,,,SUB: Nelson-Ododa FOR Morrow
+2026,regular_season,1022600001,2026-05-08,NYL,CON,55,85,1,3:55,235,365,made_shot,layup,NYL,1642210,Julie Vanloo,shooter,,,,,,,25,8,True,2,4,21,31,Vanloo 4' Driving Finger Roll Layup (5 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,56,86,1,3:44,224,376,made_shot,layup,CON,1643449,Charlisse Leger-Walker,shooter,1631135,Olivia Nelson-Ododa,assist,,,,25,10,True,2,3,23,18,Leger-Walker 3' Cutting Layup Shot (2 PTS) (Nelson-Ododa 1 AST)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,57,88,1,3:44,224,376,foul,shooting,NYL,1642210,Julie Vanloo,foul,,,,,,,25,10,,,,,,Vanloo S.FOUL (P1.T3)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,58,90,1,3:44,224,376,substitution,,NYL,1631136,Pauline Astier,sub_out,1629546,Marine Johannes,sub_in,,,,25,10,,,,,,SUB: Johannes FOR Astier
+2026,regular_season,1022600001,2026-05-08,NYL,CON,59,92,1,3:44,224,376,free_throw,1_of_1,CON,1643449,Charlisse Leger-Walker,shooter,,,,,,,25,10,False,1,,,,MISS Leger-Walker Free Throw 1 of 1
+2026,regular_season,1022600001,2026-05-08,NYL,CON,60,93,1,3:41,221,379,rebound,defensive,NYL,1627668,Breanna Stewart,rebound,,,,,,,25,10,,,,,,Stewart REBOUND (Off:0 Def:2)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,61,94,1,3:28,208,392,missed_shot,jump_shot,NYL,1629546,Marine Johannes,shooter,,,,,,,25,10,False,3,24,-238,20,MISS Johannes 24' 3PT Step Back Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,62,95,1,3:25,205,395,rebound,defensive,CON,1642809,Saniya Rivers,rebound,,,,,,,25,10,,,,,,Rivers REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,63,96,1,3:18,198,402,missed_shot,jump_shot,CON,1629568,Kennedy Burke,shooter,,,,,,,25,10,False,3,27,170,213,MISS Burke 27' 3PT Running Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,64,97,1,3:15,195,405,rebound,defensive,NYL,1627668,Breanna Stewart,rebound,,,,,,,25,10,,,,,,Stewart REBOUND (Off:0 Def:3)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,65,98,1,3:13,193,407,foul,shooting,CON,1631135,Olivia Nelson-Ododa,foul,,,,,,,25,10,,,,,,Nelson-Ododa S.FOUL (P1.T3)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,66,100,1,3:13,193,407,free_throw,1_of_2,NYL,1627668,Breanna Stewart,shooter,,,,,,,26,10,True,1,,,,Stewart Free Throw 1 of 2 (7 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,67,101,1,3:13,193,407,free_throw,2_of_2,NYL,1627668,Breanna Stewart,shooter,,,,,,,27,10,True,1,,,,Stewart Free Throw 2 of 2 (8 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,68,102,1,2:56,176,424,missed_shot,jump_shot,CON,203398,Brittney Griner,shooter,,,,,,,27,10,False,2,14,-74,119,MISS Griner 14' Turnaround Fadeaway Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,69,103,1,2:53,173,427,rebound,defensive,NYL,1642210,Julie Vanloo,rebound,,,,,,,27,10,,,,,,Vanloo REBOUND (Off:0 Def:2)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,70,104,1,2:44,164,436,missed_shot,jump_shot,NYL,1629566,Han Xu,shooter,,,,,,,27,10,False,3,,228,35,MISS Xu 3PT Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,71,105,1,2:41,161,439,rebound,offensive,NYL,1629546,Marine Johannes,rebound,,,,,,,27,10,,,,,,Johannes REBOUND (Off:1 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,72,106,1,2:32,152,448,made_shot,layup,NYL,1627668,Breanna Stewart,shooter,,,,,,,29,10,True,2,3,-23,23,Stewart 3' Driving Finger Roll Layup (10 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,73,107,1,2:23,143,457,foul,personal,NYL,1642210,Julie Vanloo,foul,,,,,,,29,10,,,,,,Vanloo P.FOUL (P2.T4)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,74,109,1,2:23,143,457,substitution,,NYL,1627668,Breanna Stewart,sub_out,1627673,Jonquel Jones,sub_in,,,,29,10,,,,,,SUB: Jones FOR Stewart
+2026,regular_season,1022600001,2026-05-08,NYL,CON,75,110,1,2:23,143,457,substitution,,CON,1642809,Saniya Rivers,sub_out,1643429,Gianna Kneepkens,sub_in,,,,29,10,,,,,,SUB: Kneepkens FOR Rivers
+2026,regular_season,1022600001,2026-05-08,NYL,CON,76,114,1,2:12,132,468,missed_shot,layup,CON,1631135,Olivia Nelson-Ododa,shooter,,,,,,,29,10,False,2,4,35,22,MISS Nelson-Ododa 4' Layup
+2026,regular_season,1022600001,2026-05-08,NYL,CON,77,115,1,2:09,129,471,rebound,defensive,NYL,203822,Rebekah Gardner,rebound,,,,,,,29,10,,,,,,Gardner REBOUND (Off:0 Def:2)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,78,116,1,2:02,122,478,foul,shooting,CON,1629568,Kennedy Burke,foul,,,,,,,29,10,,,,,,Burke S.FOUL (P1.T4)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,79,118,1,2:02,122,478,free_throw,1_of_2,NYL,203822,Rebekah Gardner,shooter,,,,,,,30,10,True,1,,,,Gardner Free Throw 1 of 2 (1 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,80,119,1,2:02,122,478,substitution,,CON,203398,Brittney Griner,sub_out,1643441,Raegan Beers,sub_in,,,,30,10,,,,,,SUB: Beers FOR Griner
+2026,regular_season,1022600001,2026-05-08,NYL,CON,81,121,1,2:02,122,478,free_throw,2_of_2,NYL,203822,Rebekah Gardner,shooter,,,,,,,30,10,False,1,,,,MISS Gardner Free Throw 2 of 2
+2026,regular_season,1022600001,2026-05-08,NYL,CON,82,122,1,1:59,119,481,rebound,defensive,CON,1631135,Olivia Nelson-Ododa,rebound,,,,,,,30,10,,,,,,Nelson-Ododa REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,83,123,1,1:53,113,487,foul,personal,NYL,1629566,Han Xu,foul,,,,,,,30,10,,,,,,Xu P.FOUL (P1.PN)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,84,126,1,1:53,113,487,timeout,regular,NYL,,,,,,,,,,30,10,,,,,,LIBERTY Timeout: Regular (Full 1 Short 0)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,85,125,1,1:53,113,487,free_throw,1_of_2,CON,1631135,Olivia Nelson-Ododa,shooter,,,,,,,30,11,True,1,,,,Nelson-Ododa Free Throw 1 of 2 (1 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,86,128,1,1:53,113,487,free_throw,2_of_2,CON,1631135,Olivia Nelson-Ododa,shooter,,,,,,,30,11,False,1,,,,MISS Nelson-Ododa Free Throw 2 of 2
+2026,regular_season,1022600001,2026-05-08,NYL,CON,87,130,1,1:50,110,490,rebound,offensive,CON,,,,,,,,,,30,11,,,,,,Sun Rebound
+2026,regular_season,1022600001,2026-05-08,NYL,CON,88,129,1,1:50,110,490,violation,jump_ball,NYL,1642210,Julie Vanloo,violation,,,,,,,30,11,,,,,,Vanloo Violation:Jump Ball
+2026,regular_season,1022600001,2026-05-08,NYL,CON,89,131,1,1:43,103,497,missed_shot,layup,CON,1643449,Charlisse Leger-Walker,shooter,,,,1627673,Jonquel Jones,block,30,11,False,2,5,-51,12,MISS Leger-Walker 5' Driving Layup | Jones BLOCK (1 BLK)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,90,133,1,1:40,100,500,rebound,offensive,CON,1631135,Olivia Nelson-Ododa,rebound,,,,,,,30,11,,,,,,Nelson-Ododa REBOUND (Off:1 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,91,134,1,1:39,99,501,missed_shot,hook,CON,1629568,Kennedy Burke,shooter,,,,,,,30,11,False,2,5,29,42,MISS Burke 5' Driving Hook Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,92,135,1,1:38,98,502,rebound,defensive,NYL,,,,,,,,,,30,11,,,,,,LIBERTY Rebound
+2026,regular_season,1022600001,2026-05-08,NYL,CON,93,137,1,1:21,81,519,missed_shot,jump_shot,NYL,1629566,Han Xu,shooter,,,,,,,30,11,False,3,24,-238,36,MISS Xu 24' 3PT Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,94,138,1,1:18,78,522,rebound,defensive,CON,1643441,Raegan Beers,rebound,,,,,,,30,11,,,,,,Beers REBOUND (Off:0 Def:1)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,95,139,1,1:14,74,526,missed_shot,jump_shot,CON,1643449,Charlisse Leger-Walker,shooter,,,,,,,30,11,False,3,,-194,129,MISS Leger-Walker 3PT Running Jump Shot
+2026,regular_season,1022600001,2026-05-08,NYL,CON,96,140,1,1:14,74,526,rebound,defensive,NYL,,,,,,,,,,30,11,,,,,,LIBERTY Rebound
+2026,regular_season,1022600001,2026-05-08,NYL,CON,97,141,1,1:14,74,526,foul,loose_ball,CON,1629568,Kennedy Burke,foul,,,,,,,30,11,,,,,,Burke L.B.FOUL (P2.PN)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,98,143,1,1:14,74,526,free_throw,1_of_2,NYL,1642210,Julie Vanloo,shooter,,,,,,,31,11,True,1,,,,Vanloo Free Throw 1 of 2 (6 PTS)
+2026,regular_season,1022600001,2026-05-08,NYL,CON,99,144,1,1:14,74,526,substitution,,CON,1629568,Kennedy Burke,sub_out,1642817,Hailey Van Lith,sub_in,,,,31,11,,,,,,SUB: Van Lith FOR Burke

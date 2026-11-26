@@ -4,6 +4,8 @@ project:
     - images/hof-carousel/**
     - scripts/hof-carousel.js
     - scripts/site-analytics.js
+    - scripts/data-store.js
+    - data/samples/**
     - llms.txt
     - images/brand/logo-square.png
     - images/brand/apple-touch-icon.png
@@ -18,6 +20,7 @@ project:
     - "stats/*.qmd"
     - "stats/*/*.qmd"
     - "guides/*.qmd"
+    - "data/*.qmd"
   post-render:
     - _scripts/post-render.sh
 
@@ -88,7 +91,22 @@ website:
       - text: "Apps"
         href: apps.qmd
       - text: "Data"
-        href: data.qmd
+        menu:
+          - text: "Data store"
+            href: data/index.qmd
+          - text: "NBA data"
+            href: data/nba.qmd
+          - text: "WNBA data"
+            href: data/wnba.qmd
+          - text: "NFL data"
+            href: data/nfl.qmd
+          - text: "MLB data"
+            href: data/mlb.qmd
+          - text: "---"
+          - text: "How it works"
+            href: data/help.qmd
+          - text: "My library"
+            href: data/library.qmd
       - text: "Articles"
         href: articles.qmd
       - text: "FAQ"

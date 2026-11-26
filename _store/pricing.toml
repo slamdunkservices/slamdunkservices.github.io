@@ -1,0 +1,92 @@
+# Data store: what is for sale and for how much. The one hand-edited file of the store.
+#
+#   _store/stripe_sync.py          makes Stripe match this file (products, prices, lookup keys)
+#   _scripts/store/build.py        writes the /data/ pages from this file + _store/datasets.json
+#   _store/fulfillment/main.py     reads prices back from Stripe at checkout, never from the page
+#
+# Prices are whole US dollars, one-time payments.
+#   pass     the season in progress: every file for that dataset, rebuilt each morning, yours to keep
+#   season   one completed season
+#   all      every dataset for the league (one season, or the pass)
+#   archive  every dataset for every completed season we hold
+# `current` is the season a pass covers. Leave it "" between seasons: the pass comes off sale and the
+# season that just ended sells as a completed season. Season rollover = edit `current`, run the sync.
+
+[store]
+# URL printed by `_store/fulfillment/deploy.sh deploy`. Empty = buy buttons show "opening soon".
+api = ""
+support_email = "slamdunkbettingservices@gmail.com"
+
+[datasets.player-logs]
+name = "Player Game Logs"
+blurb = "One row per player per game: the full stat line and the game context around it."
+
+[datasets.team-logs]
+name = "Team Game Logs"
+blurb = "One row per team per game: team totals, the result and the game context around them."
+
+[datasets.play-by-play]
+name = "Play-by-Play"
+blurb = "Every play of every game, one file per season, in one schema across seasons."
+
+[datasets.schedule]
+name = "Games and Results"
+blurb = "One row per game: teams, date, final score and the game-level facts that go with it."
+
+[datasets.first-events]
+name = "First Events"
+blurb = "One row per game: who won the opening tip, who scored first and how, and the first of everything else."
+
+[leagues.nba]
+name = "NBA"
+current = "2026-27"
+cadence = "Rebuilt every morning by 8 AM ET"
+
+[leagues.nba.prices]
+player-logs  = { pass = 49, season = 12 }
+team-logs    = { pass = 49, season = 12 }
+play-by-play = { pass = 59, season = 15 }
+schedule     = { pass = 9,  season = 4 }
+first-events = { pass = 39, season = 12 }
+all          = { pass = 129, season = 39 }
+archive      = 249
+
+[leagues.wnba]
+name = "WNBA"
+current = ""
+cadence = "Rebuilt every morning by 8 AM ET in season (May to October)"
+
+[leagues.wnba.prices]
+player-logs  = { pass = 39, season = 10 }
+team-logs    = { pass = 39, season = 10 }
+play-by-play = { pass = 49, season = 12 }
+schedule     = { pass = 9,  season = 4 }
+first-events = { pass = 29, season = 10 }
+all          = { pass = 99, season = 29 }
+archive      = 149
+
+[leagues.nfl]
+name = "NFL"
+current = "2026"
+cadence = "Rebuilt every morning by 10 AM ET; a week's games are complete by Tuesday"
+
+[leagues.nfl.prices]
+player-logs  = { pass = 49, season = 12 }
+team-logs    = { pass = 49, season = 12 }
+play-by-play = { pass = 59, season = 15 }
+schedule     = { pass = 9,  season = 4 }
+all          = { pass = 119, season = 35 }
+archive      = 249
+
+[leagues.mlb]
+name = "MLB"
+current = ""
+cadence = "Rebuilt every morning by 11 AM ET in season (March to October)"
+
+[leagues.mlb.prices]
+player-logs  = { pass = 49, season = 12 }
+team-logs    = { pass = 49, season = 12 }
+play-by-play = { pass = 59, season = 15 }
+schedule     = { pass = 9,  season = 4 }
+all          = { pass = 119, season = 35 }
+archive      = 199

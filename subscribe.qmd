@@ -49,7 +49,7 @@ Free for 30 days, then \$19.99/week, \$49.99/month or \$499.99/year, depending o
 
 ## Data access
 
-Looking for projections, market data, or tools instead of daily picks? Data subscriptions and data tools are coming soon. See the [Data page](data.qmd) for what we're building.
+Looking for the data instead of the picks? Season files of NBA, WNBA, NFL and MLB game logs, play-by-play and first-basket history are in the [data store](data/index.qmd), sold separately from the subscription.
 
 ---
 

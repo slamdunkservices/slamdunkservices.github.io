@@ -1,0 +1,5 @@
+# Applies to every page in data/ (the data store). _store-head.html is written by _scripts/store/build.py:
+# the store API URL, the price list the cart reads, and the store script.
+body-classes: data-store
+include-in-header:
+  - file: _store-head.html

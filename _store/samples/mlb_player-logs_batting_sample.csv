@@ -1,0 +1,61 @@
+game_pk,game_date,season,season_type,game_type,player_id,player_name,team_id,team,team_name,opponent_id,opponent,opponent_name,home_away,batting_order,batting_order_entry,starter,plate_appearances,at_bats,runs,hits,singles,doubles,triples,home_runs,total_bases,rbi,walks,intentional_walks,strikeouts,hit_by_pitch,sac_flies,sac_bunts,gidp,stolen_bases,caught_stealing,balls_in_play,avg_exit_velocity,max_exit_velocity,hard_hit,barrels
+823244,2026-03-25,2026,regular,R,663757,Trent Grisham,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,1,0,True,5,5,0,1,0,0,1,0,3,2,0,0,1,0,0,0,0,0,0,4,89.1,105.7,2,2
+823244,2026-03-25,2026,regular,R,592450,Aaron Judge,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,2,0,True,5,5,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,96.6,96.6,1,0
+823244,2026-03-25,2026,regular,R,641355,Cody Bellinger,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,3,0,True,5,5,1,1,1,0,0,0,1,0,0,0,2,0,0,0,0,0,0,3,89.4,95.9,1,0
+823244,2026-03-25,2026,regular,R,700250,Ben Rice,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,4,0,True,5,4,1,1,1,0,0,0,1,0,1,0,2,0,0,0,0,0,0,2,92.4,100.6,1,0
+823244,2026-03-25,2026,regular,R,519317,Giancarlo Stanton,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,5,0,True,4,4,1,2,2,0,0,0,2,1,0,0,1,0,0,0,0,0,0,3,95.9,114.4,1,1
+823244,2026-03-25,2026,regular,R,665862,Jazz Chisholm Jr.,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,6,0,True,4,3,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0,3,93.6,101.4,1,0
+823244,2026-03-25,2026,regular,R,676609,José Caballero,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,7,0,True,4,4,1,1,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,4,81.4,102.4,1,0
+823244,2026-03-25,2026,regular,R,641857,Ryan McMahon,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,8,0,True,4,3,1,1,1,0,0,0,1,2,1,0,2,0,0,0,0,0,0,1,95.8,95.8,1,0
+823244,2026-03-25,2026,regular,R,669224,Austin Wells,147,NYY,New York Yankees,137,SF,San Francisco Giants,away,9,0,True,4,3,1,2,2,0,0,0,2,0,1,0,0,0,0,0,0,0,0,3,94.2,100.8,1,0
+823244,2026-03-25,2026,regular,R,650333,Luis Arraez,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,1,0,True,4,3,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,3,91.7,95.4,1,0
+823244,2026-03-25,2026,regular,R,656305,Matt Chapman,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,2,0,True,4,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,97.5,106.7,1,0
+823244,2026-03-25,2026,regular,R,646240,Rafael Devers,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,3,0,True,4,4,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,91,107.4,2,0
+823244,2026-03-25,2026,regular,R,642715,Willy Adames,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,4,0,True,4,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3,85.4,100.8,1,0
+823244,2026-03-25,2026,regular,R,808982,Jung Hoo Lee,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,5,0,True,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,91.9,103.2,1,0
+823244,2026-03-25,2026,regular,R,671218,Heliot Ramos,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,6,0,True,4,4,0,1,1,0,0,0,1,0,0,0,2,0,0,0,0,0,0,2,72.8,79.8,0,0
+823244,2026-03-25,2026,regular,R,669477,Casey Schmitt,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,7,0,True,4,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,3,92.7,100.1,2,0
+823244,2026-03-25,2026,regular,R,672275,Patrick Bailey,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,8,0,True,3,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,97.4,100.9,1,1
+823244,2026-03-25,2026,regular,R,664056,Harrison Bader,137,SF,San Francisco Giants,147,NYY,New York Yankees,home,9,0,True,3,3,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,70,70,0,0
+823081,2026-03-26,2026,regular,R,650490,Yandy Díaz,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,1,0,True,6,5,1,3,3,0,0,0,3,0,1,0,0,0,0,0,0,0,0,5,91.8,105.8,3,0
+823081,2026-03-26,2026,regular,R,668723,Ryan Vilade,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,2,0,True,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,84.3,92.6,0,0
+823081,2026-03-26,2026,regular,R,802415,Chandler Simpson,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,2,1,False,3,3,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,3,92.2,96.8,1,0
+823081,2026-03-26,2026,regular,R,666018,Jonathan Aranda,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,3,0,True,6,4,1,2,1,0,0,1,5,2,1,0,1,0,1,0,0,0,0,4,102.7,106.7,4,1
+823081,2026-03-26,2026,regular,R,691406,Junior Caminero,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,4,0,True,6,2,1,1,1,0,0,0,1,0,4,0,1,0,0,0,0,0,0,1,102.3,102.3,1,0
+823081,2026-03-26,2026,regular,R,810938,Ben Williamson,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,5,0,True,4,4,1,3,3,0,0,0,3,1,0,0,0,0,0,0,0,0,0,4,83.4,105.8,1,0
+823081,2026-03-26,2026,regular,R,680700,Richie Palacios,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,5,1,False,2,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,88.9,88.9,0,0
+823081,2026-03-26,2026,regular,R,676356,Jonny DeLuca,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,6,0,True,4,4,0,2,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,4,92.2,108.1,2,0
+823081,2026-03-26,2026,regular,R,641584,Jake Fraley,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,6,1,False,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,57.5,57.5,0,0
+823081,2026-03-26,2026,regular,R,663743,Nick Fortes,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,7,0,True,4,4,1,3,3,0,0,0,3,1,0,0,0,0,0,0,0,0,0,4,71.8,92.9,0,0
+823081,2026-03-26,2026,regular,R,676439,Hunter Feduccia,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,7,1,False,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,,,0,0
+823081,2026-03-26,2026,regular,R,656775,Cedric Mullins,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,8,0,True,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,90,97.5,1,0
+823081,2026-03-26,2026,regular,R,700246,Carson Williams,139,TB,Tampa Bay Rays,138,STL,St. Louis Cardinals,away,9,0,True,5,5,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,4,81.2,110.1,1,0
+823081,2026-03-26,2026,regular,R,802139,JJ Wetherholt,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,1,0,True,5,4,1,1,0,0,0,1,4,2,0,0,1,0,1,0,0,0,0,4,90.8,101.7,2,2
+823081,2026-03-26,2026,regular,R,671056,Iván Herrera,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,2,0,True,5,4,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,5,81.2,105.1,2,0
+823081,2026-03-26,2026,regular,R,676475,Alec Burleson,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,3,0,True,5,4,2,3,2,0,0,1,6,2,1,1,0,0,0,0,0,0,0,4,96.9,109,3,1
+823081,2026-03-26,2026,regular,R,691026,Masyn Winn,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,4,0,True,5,5,1,1,0,1,0,0,2,0,0,0,1,0,0,0,0,0,0,4,93.4,104.2,1,0
+823081,2026-03-26,2026,regular,R,669357,Nolan Gorman,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,5,0,True,4,4,1,1,1,0,0,0,1,2,0,0,1,0,0,0,0,0,0,3,96.4,103,1,0
+823081,2026-03-26,2026,regular,R,691023,Jordan Walker,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,6,0,True,4,4,1,1,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,4,94.2,100.4,3,0
+823081,2026-03-26,2026,regular,R,701675,Nathan Church,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,7,0,True,4,4,1,3,3,0,0,0,3,2,0,0,0,0,0,0,0,0,0,4,85.2,98.9,1,0
+823081,2026-03-26,2026,regular,R,686780,Pedro Pagés,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,8,0,True,4,4,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,4,84.2,105,1,0
+823081,2026-03-26,2026,regular,R,687363,Victor Scott II,138,STL,St. Louis Cardinals,139,TB,Tampa Bay Rays,home,9,0,True,4,4,1,3,3,0,0,0,3,0,0,0,0,0,0,0,0,2,0,4,74.4,97.7,1,0
+823163,2026-03-26,2026,regular,R,680757,Steven Kwan,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,1,0,True,5,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,3,63.5,72.7,0,0
+823163,2026-03-26,2026,regular,R,800050,Chase DeLauter,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,2,0,True,5,5,3,3,1,0,0,2,9,2,0,0,1,0,0,0,0,0,0,4,95.9,111.1,2,2
+823163,2026-03-26,2026,regular,R,608070,José Ramírez,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,3,0,True,5,5,0,1,0,1,0,0,2,2,0,0,2,0,0,0,0,1,0,3,92.9,110.8,1,1
+823163,2026-03-26,2026,regular,R,700932,Kyle Manzardo,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,4,0,True,5,4,0,1,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0,3,96.1,103.6,2,0
+823163,2026-03-26,2026,regular,R,666310,Bo Naylor,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,5,0,True,5,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,4,86.2,98.9,1,1
+823163,2026-03-26,2026,regular,R,656555,Rhys Hoskins,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,6,0,True,4,3,1,3,2,1,0,0,4,0,1,0,0,0,0,0,0,0,0,3,86.8,112.3,1,1
+823163,2026-03-26,2026,regular,R,682177,Daniel Schneemann,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,7,0,True,2,2,1,1,0,1,0,0,2,0,0,0,1,0,0,0,0,0,0,1,102.3,102.3,1,0
+823163,2026-03-26,2026,regular,R,682657,Angel Martínez,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,7,1,False,2,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,86.6,86.6,0,0
+823163,2026-03-26,2026,regular,R,672356,Gabriel Arias,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,8,0,True,4,4,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,3,94.5,102.5,2,0
+823163,2026-03-26,2026,regular,R,677587,Brayan Rocchio,114,CLE,Cleveland Guardians,136,SEA,Seattle Mariners,away,9,0,True,4,3,1,2,1,1,0,0,3,2,0,0,1,1,0,0,0,0,0,2,90.4,107.9,1,0
+823163,2026-03-26,2026,regular,R,680977,Brendan Donovan,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,1,0,True,4,4,1,2,0,1,0,1,6,1,0,0,1,0,0,0,0,0,0,3,96.7,103.9,2,1
+823163,2026-03-26,2026,regular,R,663728,Cal Raleigh,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,2,0,True,4,3,0,0,0,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,,,0,0
+823163,2026-03-26,2026,regular,R,677594,Julio Rodríguez,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,3,0,True,4,4,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,81.3,81.3,0,0
+823163,2026-03-26,2026,regular,R,647304,Josh Naylor,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,4,0,True,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,4,88.2,95.7,1,0
+823163,2026-03-26,2026,regular,R,668227,Randy Arozarena,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,5,0,True,4,4,0,1,0,1,0,0,2,0,0,0,1,0,0,0,0,0,0,3,99,106.4,2,0
+823163,2026-03-26,2026,regular,R,670042,Luke Raley,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,6,0,True,4,4,1,1,0,0,0,1,4,1,0,0,2,0,0,0,0,0,0,2,90.4,113.8,1,1
+823163,2026-03-26,2026,regular,R,686527,Dominic Canzone,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,7,0,True,4,4,2,2,0,0,0,2,8,2,0,0,0,0,0,0,0,0,0,4,105,109.3,4,2
+823163,2026-03-26,2026,regular,R,702284,Cole Young,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,8,0,True,3,3,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,,,0,0
+823163,2026-03-26,2026,regular,R,660844,Leo Rivas,136,SEA,Seattle Mariners,114,CLE,Cleveland Guardians,home,9,0,True,3,2,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,87.1,87.1,0,0
+823325,2026-03-26,2026,regular,R,681481,Kerry Carpenter,116,DET,Detroit Tigers,135,SD,San Diego Padres,away,1,0,True,5,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,3,91.2,97.3,2,0

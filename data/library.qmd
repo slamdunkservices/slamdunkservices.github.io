@@ -1,0 +1,36 @@
+---
+title: "My library"
+pagetitle: "My Library: Slam Dunk Data Store"
+description: "Download the data files you have bought. Season-pass files are rebuilt every morning; completed seasons are yours to re-download any time."
+include-in-header:
+  - text: |
+      <meta name="robots" content="noindex, follow">
+---
+
+:::: {data-store-view="library"}
+::: {.store-status data-store-status=""}
+Loading your files…
+:::
+
+::: {data-store-files=""}
+:::
+::::
+
+Each download link is made fresh when you click it and expires after a few minutes, so open files from this page rather than saving the download address. Season-pass files are replaced in place every morning: same name, more rows.
+
+## Recover your library
+
+On a new device, or lost the link? Enter the email you paid with and the receipt number from your Stripe receipt.
+
+```{=html}
+<form class="store-recover" data-store-recover>
+  <label>Email <input type="email" name="email" autocomplete="email" required></label>
+  <label>Receipt number <input type="text" name="receipt" placeholder="1234-5678" pattern="#?[0-9]{4}-[0-9]{4}" required></label>
+  <button type="submit" class="btn store-add">Find my library</button>
+  <span class="store-note" data-store-recover-status role="status"></span>
+</form>
+```
+
+Bought more than once with different emails? Each email has its own library. [Email us](mailto:slamdunkbettingservices@gmail.com) and we will merge them.
+
+[Browse the store](index.qmd) · [Help](help.qmd)

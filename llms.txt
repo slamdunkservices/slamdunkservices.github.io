@@ -18,7 +18,7 @@ Key facts:
 - [Slam Dunk Dashboard](https://slamdunk.bet/apps.html): the web app with every prop ranked by edge, book lines, model lines, line movement and the graded record
 - [FAQ](https://slamdunk.bet/faq.html): who we are, pricing, markets covered, ROI by season, legality, data and models
 - [About](https://slamdunk.bet/about.html): the team, the origin story, how we track results
-- [Data](https://slamdunk.bet/data.html): upcoming data subscriptions and tools
+- [Data store](https://slamdunk.bet/data/): NBA, WNBA, NFL and MLB data sold as plain CSV files, one file per season per dataset (see "Data store" below)
 - [Contact](https://slamdunk.bet/contact.html)
 
 ## Picks by sport and market (what we project, how, and the tracked record by season)
@@ -33,6 +33,16 @@ Key facts:
   - [MLB NRFI and YRFI picks](https://slamdunk.bet/mlb/nrfi-yrfi-picks.html): +19 units in 2026 (2.9%)
 - [NFL picks](https://slamdunk.bet/nfl/): anytime touchdown scorer and first touchdown scorer, new for the 2026 season; the season record is being graded and posts after the season
 - [NHL picks](https://slamdunk.bet/nhl/): first goal scorer and anytime goal scorer, new for the 2026-27 season; the season record is being graded and posts after the season
+
+## Data store (flat files for analysts; separate from the picks subscription)
+- [Data store](https://slamdunk.bet/data/): what is sold, how files are formatted, how buying works. One-time purchases through Stripe; no betting lines, fantasy salaries or projections in the files
+- [NBA data](https://slamdunk.bet/data/nba.html): player game logs, team game logs, play-by-play, games and results, first events; 2012-13 to the season in progress
+- [WNBA data](https://slamdunk.bet/data/wnba.html): the same five datasets, 2015 to 2026
+- [NFL data](https://slamdunk.bet/data/nfl.html): player game logs, team game logs, play-by-play, games and results; 2010 to the season in progress, built from nflverse (CC BY 4.0)
+- [MLB data](https://slamdunk.bet/data/mlb.html): batting and pitching game logs, team game logs, plate-appearance play-by-play, games and results; 2017 to 2026
+- Each dataset has its own page with the grain, coverage, a free sample CSV and the full column dictionary, at https://slamdunk.bet/data/<league>-<dataset>.html (datasets: player-logs, team-logs, play-by-play, schedule, first-events), e.g. [NBA first events](https://slamdunk.bet/data/nba-first-events.html): one row per game with the opening tip, first scorer and shot type, and the first rebound, assist, steal, block, three and turnover
+- [How the data store works](https://slamdunk.bet/data/help.html): formats, season passes vs completed seasons, delivery, license (use the data, do not redistribute the files), corrections and refunds
+- Pricing: a completed season is $4 to $15 per dataset; a season pass for the season in progress (rebuilt every morning) is $9 to $59 per dataset; every dataset for a league is $29 to $39 a season or $119 to $129 for the pass; a league's complete archive is $149 to $249
 
 ## Stats (public history behind the picks, rebuilt from play-by-play and line scores)
 - [Stats hub](https://slamdunk.bet/stats/): what is covered and where it comes from
