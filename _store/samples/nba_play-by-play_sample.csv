@@ -1,0 +1,100 @@
+season,season_type,game_id,game_date,home_team,away_team,event_seq,event_num,period,clock,seconds_remaining,seconds_elapsed,event_type,event_subtype,team,player1_id,player1_name,player1_role,player2_id,player2_name,player2_role,player3_id,player3_name,player3_role,home_score,away_score,shot_made,shot_value,shot_distance,shot_x,shot_y,description
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,1,2,1,12:00,720,0,period_start,,,,,,,,,,,,0,0,,,,,,Start of 1st Period (7:44 PM EST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,2,4,1,12:00,720,0,jump_ball,,OKC,1631096,Chet Holmgren,jumper,203500,Steven Adams,jumper,1641708,Amen Thompson,tip_recipient,0,0,,,,,,Jump Ball Holmgren vs. Adams: Tip to Thompson
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,3,8,1,11:36,696,24,missed_shot,jump_shot,HOU,1630578,Alperen Sengun,shooter,,,,,,,0,0,False,3,25,-179,179,MISS Sengun 25' 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,4,9,1,11:31,691,29,rebound,defensive,OKC,1641717,Cason Wallace,rebound,,,,,,,0,0,,,,,,Wallace REBOUND (Off:0 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,5,10,1,11:26,686,34,made_shot,layup,OKC,1631096,Chet Holmgren,shooter,1629652,Luguentz Dort,assist,,,,2,0,True,2,1,0,13,Holmgren 1' Cutting Layup Shot (2 PTS) (Dort 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,6,12,1,11:26,686,34,foul,shooting,HOU,1631095,Jabari Smith Jr.,foul,,,,,,,2,0,,,,,,Smith Jr. S.FOUL (P1.T1) (E.Dalen)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,7,14,1,11:26,686,34,free_throw,1_of_1,OKC,1631096,Chet Holmgren,shooter,,,,,,,3,0,True,1,,,,Holmgren Free Throw 1 of 1 (3 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,8,15,1,11:08,668,52,missed_shot,jump_shot,HOU,1641708,Amen Thompson,shooter,,,,,,,3,0,False,3,,233,0,MISS Thompson 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,9,16,1,11:04,664,56,rebound,offensive,HOU,1631095,Jabari Smith Jr.,rebound,,,,,,,3,0,,,,,,Smith Jr. REBOUND (Off:1 Def:0)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,10,17,1,11:02,662,58,made_shot,layup,HOU,1631095,Jabari Smith Jr.,shooter,,,,,,,3,2,True,2,1,-7,-5,Smith Jr. 1' Putback Layup (2 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,11,18,1,10:50,650,70,made_shot,jump_shot,OKC,1631096,Chet Holmgren,shooter,1641717,Cason Wallace,assist,,,,5,2,True,2,7,64,39,Holmgren 7' Floating Jump Shot (5 PTS) (Wallace 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,12,20,1,10:40,640,80,violation,kicked_ball,OKC,1631096,Chet Holmgren,violation,,,,,,,5,2,,,,,,Holmgren Violation:Kicked Ball (Z.Zarba)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,13,21,1,10:24,624,96,missed_shot,jump_shot,HOU,1630578,Alperen Sengun,shooter,,,,,,,5,2,False,2,15,72,126,MISS Sengun 15' Pullup Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,14,23,1,10:24,624,96,rebound,offensive,HOU,,,,,,,,,,5,2,,,,,,Rockets Rebound
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,15,24,1,10:24,624,96,turnover,shot_clock,HOU,,,,,,,,,,5,2,,,,,,Rockets Turnover: Shot Clock (T#1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,16,25,1,10:11,611,109,turnover,bad_pass,OKC,1628983,Shai Gilgeous-Alexander,turnover,1630578,Alperen Sengun,steal,,,,5,2,,,,,,Gilgeous-Alexander Bad Pass Turnover (P1.T1) | Sengun STEAL (1 STL)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,17,27,1,10:07,607,113,made_shot,dunk,HOU,201142,Kevin Durant,shooter,1641708,Amen Thompson,assist,,,,5,4,True,2,,0,-1,Durant Running Dunk (2 PTS) (Thompson 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,18,29,1,9:52,592,128,made_shot,jump_shot,OKC,1631096,Chet Holmgren,shooter,,,,,,,7,4,True,2,13,59,116,Holmgren 13' Turnaround Fadeaway (7 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,19,30,1,9:35,575,145,made_shot,jump_shot,HOU,1631095,Jabari Smith Jr.,shooter,1641708,Amen Thompson,assist,,,,7,7,True,3,26,164,201,Smith Jr. 26' 3PT Jump Shot (5 PTS) (Thompson 2 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,20,32,1,9:21,561,159,missed_shot,jump_shot,OKC,1641717,Cason Wallace,shooter,,,,,,,7,7,False,3,26,74,251,MISS Wallace 26' 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,21,33,1,9:17,557,163,rebound,defensive,HOU,1630578,Alperen Sengun,rebound,,,,,,,7,7,,,,,,Sengun REBOUND (Off:0 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,22,34,1,9:06,546,174,missed_shot,jump_shot,HOU,201142,Kevin Durant,shooter,,,,,,,7,7,False,2,9,85,37,MISS Durant 9' Pullup Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,23,35,1,9:04,544,176,rebound,defensive,OKC,1631096,Chet Holmgren,rebound,,,,,,,7,7,,,,,,Holmgren REBOUND (Off:0 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,24,36,1,8:57,537,183,missed_shot,jump_shot,OKC,1628983,Shai Gilgeous-Alexander,shooter,,,,,,,7,7,False,3,25,-217,132,MISS Gilgeous-Alexander 25' 3PT Step Back Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,25,37,1,8:54,534,186,rebound,offensive,OKC,1628392,Isaiah Hartenstein,rebound,,,,,,,7,7,,,,,,Hartenstein REBOUND (Off:1 Def:0)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,26,38,1,8:49,529,191,made_shot,dunk,OKC,1629652,Luguentz Dort,shooter,,,,,,,9,7,True,2,1,-10,11,Dort 1' Driving Dunk (2 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,27,39,1,8:20,500,220,missed_shot,jump_shot,HOU,1641708,Amen Thompson,shooter,,,,,,,9,7,False,3,,227,38,MISS Thompson 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,28,40,1,8:18,498,222,rebound,offensive,HOU,203500,Steven Adams,rebound,,,,,,,9,7,,,,,,Adams REBOUND (Off:1 Def:0)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,29,41,1,8:17,497,223,made_shot,jump_shot,HOU,1641708,Amen Thompson,shooter,203500,Steven Adams,assist,,,,9,9,True,2,4,5,35,Thompson 4' Pullup Jump Shot (2 PTS) (Adams 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,30,43,1,8:17,497,223,foul,shooting,OKC,1641717,Cason Wallace,foul,,,,,,,9,9,,,,,,Wallace S.FOUL (P1.T1) (Z.Zarba)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,31,45,1,8:17,497,223,free_throw,1_of_1,HOU,1641708,Amen Thompson,shooter,,,,,,,9,10,True,1,,,,Thompson Free Throw 1 of 1 (3 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,32,46,1,8:07,487,233,turnover,lost_ball,OKC,1631096,Chet Holmgren,turnover,1630578,Alperen Sengun,steal,,,,9,10,,,,,,Holmgren Lost Ball Turnover (P1.T2) | Sengun STEAL (2 STL)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,33,48,1,8:03,483,237,missed_shot,jump_shot,HOU,1631095,Jabari Smith Jr.,shooter,,,,,,,9,10,False,3,26,168,203,MISS Smith Jr. 26' 3PT Running Pull-Up Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,34,49,1,8:00,480,240,rebound,defensive,OKC,1628392,Isaiah Hartenstein,rebound,,,,,,,9,10,,,,,,Hartenstein REBOUND (Off:1 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,35,50,1,7:49,469,251,missed_shot,jump_shot,OKC,1628392,Isaiah Hartenstein,shooter,,,,,,,9,10,False,2,12,9,115,MISS Hartenstein 12' Driving Floating Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,36,51,1,7:47,467,253,rebound,offensive,OKC,1628392,Isaiah Hartenstein,rebound,,,,,,,9,10,,,,,,Hartenstein REBOUND (Off:2 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,37,52,1,7:45,465,255,missed_shot,jump_shot,OKC,1628392,Isaiah Hartenstein,shooter,,,,,,,9,10,False,2,8,-76,33,MISS Hartenstein 8' Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,38,53,1,7:44,464,256,rebound,offensive,OKC,,,,,,,,,,9,10,,,,,,THUNDER Rebound
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,39,55,1,7:42,462,258,made_shot,jump_shot,OKC,1631096,Chet Holmgren,shooter,1629652,Luguentz Dort,assist,,,,11,10,True,2,23,211,97,Holmgren 23' Jump Shot (9 PTS) (Dort 2 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,40,57,1,7:26,446,274,made_shot,jump_shot,HOU,1641708,Amen Thompson,shooter,,,,,,,11,12,True,2,23,-1,231,Thompson 23' Pullup Jump Shot (5 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,41,58,1,7:10,430,290,made_shot,jump_shot,OKC,1631096,Chet Holmgren,shooter,1628983,Shai Gilgeous-Alexander,assist,,,,13,12,True,2,14,-4,139,Holmgren 14' Jump Shot (11 PTS) (Gilgeous-Alexander 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,42,60,1,7:10,430,290,timeout,regular,HOU,,,,,,,,,,13,12,,,,,,Rockets Timeout: Regular (Reg.1 Short 0)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,43,61,1,7:10,430,290,instant_replay,,,,,,,,,,,,13,12,,,,,,Instant Replay1st Period (7:53 PM EST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,44,62,1,6:52,412,308,made_shot,layup,HOU,1630578,Alperen Sengun,shooter,,,,,,,13,14,True,2,1,-4,-10,Sengun 1' Driving Layup (2 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,45,64,1,6:40,400,320,foul,shooting,HOU,1631095,Jabari Smith Jr.,foul,,,,,,,13,14,,,,,,Smith Jr. S.FOUL (P2.T2) (J.Goldenberg)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,46,66,1,6:40,400,320,free_throw,1_of_2,OKC,1631096,Chet Holmgren,shooter,,,,,,,14,14,True,1,,,,Holmgren Free Throw 1 of 2 (12 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,47,67,1,6:40,400,320,substitution,,HOU,1631095,Jabari Smith Jr.,sub_out,1631106,Tari Eason,sub_in,,,,14,14,,,,,,SUB: Eason FOR Smith Jr.
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,48,69,1,6:40,400,320,free_throw,2_of_2,OKC,1631096,Chet Holmgren,shooter,,,,,,,15,14,True,1,,,,Holmgren Free Throw 2 of 2 (13 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,49,70,1,6:29,389,331,made_shot,jump_shot,HOU,1641708,Amen Thompson,shooter,,,,,,,15,16,True,2,13,21,130,Thompson 13' Driving Floating Jump Shot (7 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,50,71,1,6:29,389,331,foul,shooting,OKC,1628392,Isaiah Hartenstein,foul,,,,,,,15,16,,,,,,Hartenstein S.FOUL (P1.T2) (E.Dalen)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,51,73,1,6:29,389,331,free_throw,1_of_1,HOU,1641708,Amen Thompson,shooter,,,,,,,15,17,True,1,,,,Thompson Free Throw 1 of 1 (8 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,52,74,1,6:16,376,344,missed_shot,jump_shot,OKC,1629652,Luguentz Dort,shooter,,,,,,,15,17,False,3,27,99,248,MISS Dort 27' 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,53,75,1,6:15,375,345,rebound,defensive,HOU,,,,,,,,,,15,17,,,,,,Rockets Rebound
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,54,76,1,6:15,375,345,foul,loose_ball,OKC,1628392,Isaiah Hartenstein,foul,,,,,,,15,17,,,,,,Hartenstein L.B.FOUL (P2.T3) (E.Dalen)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,55,79,1,6:15,375,345,substitution,,OKC,1628392,Isaiah Hartenstein,sub_out,1631119,Jaylin Williams,sub_in,,,,15,17,,,,,,SUB: Williams FOR Hartenstein
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,56,81,1,5:56,356,364,made_shot,jump_shot,HOU,201142,Kevin Durant,shooter,,,,,,,15,19,True,2,5,7,53,Durant 5' Driving Floating Jump Shot (4 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,57,82,1,5:43,343,377,made_shot,jump_shot,OKC,1631119,Jaylin Williams,shooter,1641717,Cason Wallace,assist,,,,17,19,True,2,17,-168,8,Williams 17' Pullup Jump Shot (2 PTS) (Wallace 2 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,58,84,1,5:31,331,389,made_shot,layup,HOU,1641708,Amen Thompson,shooter,1630578,Alperen Sengun,assist,,,,17,21,True,2,1,11,-6,Thompson 1' Cutting Layup Shot (10 PTS) (Sengun 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,59,86,1,5:31,331,389,timeout,regular,OKC,,,,,,,,,,17,21,,,,,,THUNDER Timeout: Regular (Full 1 Short 0)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,60,87,1,5:31,331,389,substitution,,HOU,1630578,Alperen Sengun,sub_out,1642263,Reed Sheppard,sub_in,,,,17,21,,,,,,SUB: Sheppard FOR Sengun
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,61,89,1,5:15,315,405,foul,shooting,HOU,201142,Kevin Durant,foul,,,,,,,17,21,,,,,,Durant S.FOUL (P1.T3) (J.Goldenberg)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,62,91,1,5:15,315,405,free_throw,1_of_2,OKC,1629652,Luguentz Dort,shooter,,,,,,,18,21,True,1,,,,Dort Free Throw 1 of 2 (3 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,63,92,1,5:15,315,405,free_throw,2_of_2,OKC,1629652,Luguentz Dort,shooter,,,,,,,19,21,True,1,,,,Dort Free Throw 2 of 2 (4 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,64,93,1,4:53,293,427,missed_shot,jump_shot,HOU,201142,Kevin Durant,shooter,,,,,,,19,21,False,3,25,-195,157,MISS Durant 25' 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,65,94,1,4:47,287,433,rebound,defensive,OKC,1641717,Cason Wallace,rebound,,,,,,,19,21,,,,,,Wallace REBOUND (Off:0 Def:2)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,66,95,1,4:39,279,441,made_shot,layup,OKC,1628983,Shai Gilgeous-Alexander,shooter,1631119,Jaylin Williams,assist,,,,21,21,True,2,2,16,13,Gilgeous-Alexander 2' Driving Finger Roll Layup (2 PTS) (Williams 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,67,97,1,4:25,265,455,missed_shot,jump_shot,HOU,201142,Kevin Durant,shooter,,,,,,,21,21,False,2,11,82,78,MISS Durant 11' Fadeaway Jumper
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,68,98,1,4:23,263,457,rebound,defensive,OKC,1629652,Luguentz Dort,rebound,,,,,,,21,21,,,,,,Dort REBOUND (Off:0 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,69,99,1,4:17,257,463,made_shot,layup,OKC,1629652,Luguentz Dort,shooter,,,,,,,23,21,True,2,1,11,8,Dort 1' Driving Layup (6 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,70,100,1,4:08,248,472,foul,personal,OKC,1631119,Jaylin Williams,foul,,,,,,,23,21,,,,,,Williams P.FOUL (P1.T4) (E.Dalen)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,71,102,1,4:08,248,472,substitution,,HOU,203500,Steven Adams,sub_out,203991,Clint Capela,sub_in,,,,23,21,,,,,,SUB: Capela FOR Adams
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,72,104,1,4:03,243,477,foul,personal,OKC,1629652,Luguentz Dort,foul,,,,,,,23,21,,,,,,Dort P.FOUL (P1.PN) (E.Dalen)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,73,106,1,4:03,243,477,free_throw,1_of_2,HOU,201142,Kevin Durant,shooter,,,,,,,23,22,True,1,,,,Durant Free Throw 1 of 2 (5 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,74,107,1,4:03,243,477,substitution,,OKC,1641717,Cason Wallace,sub_out,1630598,Aaron Wiggins,sub_in,,,,23,22,,,,,,SUB: Wiggins FOR Wallace
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,75,109,1,4:03,243,477,free_throw,2_of_2,HOU,201142,Kevin Durant,shooter,,,,,,,23,23,True,1,,,,Durant Free Throw 2 of 2 (6 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,76,110,1,3:43,223,497,missed_shot,jump_shot,OKC,1630598,Aaron Wiggins,shooter,,,,,,,23,23,False,3,,223,2,MISS Wiggins 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,77,111,1,3:39,219,501,rebound,defensive,HOU,201142,Kevin Durant,rebound,,,,,,,23,23,,,,,,Durant REBOUND (Off:0 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,78,112,1,3:33,213,507,turnover,bad_pass,HOU,1641708,Amen Thompson,turnover,,,,,,,23,23,,,,,,Thompson Out of Bounds - Bad Pass Turnover Turnover (P1.T2)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,79,123,1,3:26,206,514,foul,shooting,HOU,1642263,Reed Sheppard,foul,,,,,,,23,23,,,,,,Sheppard S.FOUL (P1.T4) (Z.Zarba)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,80,121,1,3:26,206,514,timeout,challenge,OKC,,,,,,,,,,23,23,,,,,,THUNDER Timeout: Coach Challenge (Full 1 Short 0)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,81,122,1,3:26,206,514,instant_replay,,,,,,,,,,,,23,23,,,,,,Instant Replay1st Period (8:07 PM EST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,82,125,1,3:26,206,514,free_throw,1_of_2,OKC,1628983,Shai Gilgeous-Alexander,shooter,,,,,,,24,23,True,1,,,,Gilgeous-Alexander Free Throw 1 of 2 (3 PTS)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,83,156,1,3:26,206,514,substitution,,OKC,1631096,Chet Holmgren,sub_out,1627936,Alex Caruso,sub_in,,,,24,23,,,,,,SUB: Caruso FOR Holmgren
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,84,157,1,3:26,206,514,substitution,,HOU,1641708,Amen Thompson,sub_out,1630578,Alperen Sengun,sub_in,,,,24,23,,,,,,SUB: Sengun FOR Thompson
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,85,126,1,3:26,206,514,free_throw,2_of_2,OKC,1628983,Shai Gilgeous-Alexander,shooter,,,,,,,24,23,False,1,,,,MISS Gilgeous-Alexander Free Throw 2 of 2
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,86,127,1,3:24,204,516,rebound,defensive,HOU,1631106,Tari Eason,rebound,,,,,,,24,23,,,,,,Eason REBOUND (Off:0 Def:1)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,87,128,1,3:00,180,540,made_shot,jump_shot,HOU,201142,Kevin Durant,shooter,1630578,Alperen Sengun,assist,,,,24,25,True,2,16,-49,155,Durant 16' Pullup Jump Shot (8 PTS) (Sengun 2 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,88,130,1,2:47,167,553,missed_shot,jump_shot,OKC,1631119,Jaylin Williams,shooter,,,,,,,24,25,False,3,26,116,237,MISS Williams 26' 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,89,131,1,2:43,163,557,rebound,defensive,HOU,1631106,Tari Eason,rebound,,,,,,,24,25,,,,,,Eason REBOUND (Off:0 Def:2)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,90,133,1,2:21,141,579,turnover,shot_clock,HOU,,,,,,,,,,24,25,,,,,,Rockets Turnover: Shot Clock (T#3)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,91,134,1,2:21,141,579,substitution,,OKC,1629652,Luguentz Dort,sub_out,1642964,Brooks Barnhizer,sub_in,,,,24,25,,,,,,SUB: Barnhizer FOR Dort
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,92,136,1,2:10,130,590,missed_shot,jump_shot,OKC,1628983,Shai Gilgeous-Alexander,shooter,,,,,,,24,25,False,2,15,-26,148,MISS Gilgeous-Alexander 15' Step Back Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,93,137,1,2:07,127,593,rebound,defensive,HOU,1630578,Alperen Sengun,rebound,,,,,,,24,25,,,,,,Sengun REBOUND (Off:0 Def:2)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,94,180,1,2:00,120,600,turnover,lost_ball,HOU,201142,Kevin Durant,turnover,1631119,Jaylin Williams,steal,,,,24,25,,,,,,Durant Lost Ball Turnover (P1.T4) | Williams STEAL (1 STL)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,95,141,1,1:54,114,606,made_shot,jump_shot,OKC,1630598,Aaron Wiggins,shooter,1627936,Alex Caruso,assist,,,,27,25,True,3,26,-230,116,Wiggins 26' 3PT Running Jump Shot (3 PTS) (Caruso 1 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,96,143,1,1:37,97,623,made_shot,jump_shot,HOU,1642263,Reed Sheppard,shooter,1630578,Alperen Sengun,assist,,,,27,28,True,3,29,135,255,Sheppard 29' 3PT Jump Shot (3 PTS) (Sengun 3 AST)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,97,145,1,1:23,83,637,missed_shot,jump_shot,OKC,1627936,Alex Caruso,shooter,,,,,,,27,28,False,3,25,183,172,MISS Caruso 25' 3PT Jump Shot
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,98,146,1,1:21,81,639,rebound,defensive,HOU,1631106,Tari Eason,rebound,,,,,,,27,28,,,,,,Eason REBOUND (Off:0 Def:3)
+2025-26,regular_season,0022500001,2025-10-21,OKC,HOU,99,148,1,1:02,62,658,made_shot,hook,HOU,203991,Clint Capela,shooter,1630578,Alperen Sengun,assist,,,,27,30,True,2,3,-4,25,Capela 3' Hook Shot (2 PTS) (Sengun 4 AST)

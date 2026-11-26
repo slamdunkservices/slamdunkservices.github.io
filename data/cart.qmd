@@ -1,0 +1,23 @@
+---
+title: "Cart"
+pagetitle: "Your Cart: Slam Dunk Data Store"
+description: "Review the season files in your cart and check out. One-time payment by card through Stripe; files are in your library the moment the payment clears."
+include-in-header:
+  - text: |
+      <meta name="robots" content="noindex, follow">
+---
+
+::: {data-store-view="cart"}
+::: {data-store-cart=""}
+:::
+
+::: {.store-status data-store-status="" hidden="hidden"}
+:::
+
+::: {data-store-cart-foot=""}
+:::
+:::
+
+Payment is one-time, by card, through Stripe. The files land in [your library](library.qmd) as soon as the payment clears, and a season pass keeps updating there every morning until the season ends.
+
+[Keep browsing](index.qmd) · [How delivery works](help.qmd) · [What the license allows](help.qmd#license)

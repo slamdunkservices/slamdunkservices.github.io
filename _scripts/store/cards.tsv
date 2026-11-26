@@ -1,0 +1,6 @@
+# slug	title	stat	sub	foot  (written by _scripts/store/build.py)
+data	Sports Data, as Flat Files	253 files · NBA · WNBA · NFL · MLB	Player logs, team logs, play-by-play, results, first events	Plain CSV · One file per season · Every column documented
+data-nba	NBA Data	15 seasons · 5 datasets	Player Game Logs, Team Game Logs, Play-by-Play, Games and Results, First Events	Plain CSV · One file per season · Every column documented
+data-wnba	WNBA Data	12 seasons · 5 datasets	Player Game Logs, Team Game Logs, Play-by-Play, Games and Results, First Events	Plain CSV · One file per season · Every column documented
+data-nfl	NFL Data	17 seasons · 4 datasets	Player Game Logs, Team Game Logs, Play-by-Play, Games and Results	Plain CSV · One file per season · Every column documented
+data-mlb	MLB Data	10 seasons · 4 datasets	Player Game Logs, Team Game Logs, Play-by-Play, Games and Results	Plain CSV · One file per season · Every column documented
