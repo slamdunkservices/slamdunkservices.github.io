@@ -1317,3 +1317,7 @@ body.ad-landing #quarto-header { display: none; }
 .store-table td { white-space: nowrap; }
 .store-table td:first-child { white-space: normal; }
 .store-matrix td:first-child { white-space: nowrap; }
+
+/* Data store pages are for analysts, not bettors: drop the responsible-gambling line
+   from the footer there (the span is set in _quarto.yml page-footer). */
+body.data-store .footer-rg { display: none; }
